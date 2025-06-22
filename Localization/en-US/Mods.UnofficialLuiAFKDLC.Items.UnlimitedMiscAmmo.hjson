@@ -6,16 +6,6 @@ CalamityMod: {
 
 	UnlimitedWulfrumMetalScrap: {
 		DisplayName: Eternal Wulfrum Core
-		Tooltip: Endless source of Wulfrum Metal Scrub
-	}
-
-	UnlimitedMortarRound: {
-		Tooltip: ""
-		DisplayName: Unlimited Mortar Round
-	}
-
-	UnlimitedRubberMortarRound: {
-		DisplayName: Unlimited Rubber Mortar Round
-		Tooltip: ""
+		Tooltip: Endless source of Wulfrum Metal Scrap
 	}
 }

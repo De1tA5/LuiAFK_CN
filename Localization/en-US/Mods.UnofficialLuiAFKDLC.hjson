@@ -63,10 +63,9 @@ Configs: {
 	}
 }
 
-"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": LuiAFK Reborn DLC Potion Enabling
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": Menu Toggler
 
 Projectiles: {
-	BalancedDualityProj.DisplayName: Balanced Duality Proj
 	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: Unlimited Excavation Drill Form Projectile
 	Misc.MarniteRepulsionHitboxClone.DisplayName: Marnite Repulsion Hitbox Clone
 }

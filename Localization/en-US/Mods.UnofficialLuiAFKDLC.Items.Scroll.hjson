@@ -3,15 +3,29 @@ CalamityMod: {
 		DisplayName: Scroll Of Effigies
 		Tooltip:
 			'''
-			When in your inventory, nearby players will get Crimson, Corruption, and Decay Effigies Buffs.
-			'Is this real paper?!'
+			When in your inventory, nearby players will get Crimson, Corruption, 
+			and Decay Effigies Buffs.
+			[c/FF6347:'Is this real paper?!']
+			[c/8B0000:Empower your allies with the forces of decay and darkness,]
+			[c/8B0000:channeling the essence of corrupted lands.]
 			'''
-		CalRemixTooltip: When in your inventory, nearby players will get Crimson, Corruption, Astral, Hallow and Decay Effigies Buffs.
+		CalRemixTooltip:
+			'''
+			When in your inventory, nearby players will get Crimson, Corruption, 
+			Astral, Hallow, and Decay Effigies Buffs.
+			[c/FFD700:Now a true guardian of the effigies, your presence inspires]
+			[c/FFD700:others with the boundless powers of the cosmos.]
+			'''
 	}
 
 	ScrollOfDepths: {
 		DisplayName: Scroll of the Depths
-		Tooltip: Now you can explore the abyss more comfortably
+		Tooltip:
+			'''
+			Now you can explore the abyss more comfortably.
+			[c/1E90FF:Feel the comforting embrace of this scroll as it]
+			[c/1E90FF:protects you from the crushing pressures below.]
+			'''
 	}
 
 	AlcoholicsCodex: {
@@ -19,7 +33,7 @@ CalamityMod: {
 		Tooltip:
 			'''
 			{$Mods.UnofficialLuiAFKDLC.Items.Scroll.CalamityMod.AlcoholicsCodexResilient.Tooltip}
-			Currect sprite is placeholder
+			[c/FF4500:Current sprite is placeholder—drink responsibly!]
 			'''
 	}
 
@@ -27,9 +41,10 @@ CalamityMod: {
 		DisplayName: Alcoholic's Codex (Resilient)
 		Tooltip:
 			'''
-			Defense now block 10% more damage
+			Defense now blocks 10% more damage.
 			(60% in Classic, 85% in Expert, and 110% in Master)
-			Right Click to change candle buff
+			[c/4682B4:Right Click to change candle buff.]
+			[c/00CED1:Stand your ground with the resilience of tempered resolve.]
 			'''
 	}
 
@@ -37,9 +52,10 @@ CalamityMod: {
 		DisplayName: Alcoholic's Codex (Spiteful)
 		Tooltip:
 			'''
-			You deal now 1.04x damage to enemies
-			The extra 0.04x damage bypasses enemy defence and damage reduction
-			Right Click to change candle buff
+			You now deal 1.04x damage to enemies.
+			The extra 0.04x damage bypasses enemy defense and damage reduction.
+			[c/4682B4:Right Click to change candle buff.]
+			[c/8B0000:Unleash a spiteful power that cuts through all resistance.]
 			'''
 	}
 
@@ -47,9 +63,11 @@ CalamityMod: {
 		DisplayName: Alcoholic's Codex (Vigorous)
 		Tooltip:
 			'''
-			You regenerate 0.4% of your maximum heapth per second
-			This regeneration is at full power even while moving and bypasses Revengeance Mode caps
-			Right Click to change candle buff
+			You regenerate 0.4% of your maximum health per second.
+			This regeneration is at full power even while moving 
+			and bypasses Revengeance Mode caps.
+			[c/4682B4:Right Click to change candle buff.]
+			[c/32CD32:Embrace the vitality of ceaseless recovery.]
 			'''
 	}
 
@@ -57,8 +75,9 @@ CalamityMod: {
 		DisplayName: Alcoholic's Codex (Weightless)
 		Tooltip:
 			'''
-			You gain 10% increased movement speed, wing time and acceleration
-			Right Click to change candle buff
+			You gain 10% increased movement speed, wing time, and acceleration.
+			[c/4682B4:Right Click to change candle buff.]
+			[c/ADD8E6:Soar effortlessly, defying the burdens of gravity.]
 			'''
 	}
 
@@ -67,13 +86,21 @@ CalamityMod: {
 		Tooltip:
 			'''
 			Boosts flight time, jump speed, and grants immunity to fall damage.
-			'Fly higher, jump farther, and fall safely—perfect for those who dare to touch the skies.'
+			[c/FFD700:'Fly higher, jump farther, and fall safely—]
+			[c/FFD700:perfect for those who dare to touch the skies.']
+			[c/87CEEB:Ascend to new heights with celestial ease.]
 			'''
 	}
 
 	ScrollOfCalamity: {
 		DisplayName: Scroll Of Calamity
-		Tooltip: You gain power of Calamity which can allow being in abyss, increase mobility and other
+		Tooltip:
+			'''
+			You gain the power of Calamity, allowing you to traverse the abyss, 
+			increase mobility, and more.
+			[c/B22222:Unleash the destructive potential of the calamity,]
+			[c/B22222:harnessing chaos to reshape your destiny.]
+			'''
 	}
 
 	ScrollOfAstral: {
@@ -109,47 +136,74 @@ AlchemistNPCLite: {
 		Tooltip:
 			'''
 			{0}
-			[c/FFC300:Shift-Left click to change mode]
+			Left Click to switch per modes.
+			[c/00CED1:A versatile tool to bend space and time.]
 			'''
-		None: "[c/FFC300:Use Item to change to first mode]"
+		None:
+			'''
+			Use Item to change to the first mode.
+			[c/87CEEB:A blank slate, awaiting your command.]
+			'''
 		Beach:
 			'''
-			[c/FFC300:Left Click Teleports you to the Left Beach]
-			[c/FFC300:Right Click Teleports you to the Right Beach]
-			'''
-		Dungeon: "[c/FFC300:Left/Right Click Teleports you to the Dungeon Entrance]"
-		Jungle:
-			'''
-			[c/FFC300:Left Click Teleports you to the Jungle]
-			[c/FFC300:Right Click to teleport to the closest Mahogany Tree]
-			'''
-		Ocean:
-			'''
-			[c/FFC300:Left Click Teleports you to the Left Latest Block]
-			[c/FFC300:Right Click Teleports you to the Right Latest Block]
-			'''
-		Temple: "[c/FFC300:Left/Right Click Teleports you to the Lihzahrd Altar]"
-		Underworld:
-			'''
-			[c/FFC300:Left Click Teleports you to the Left Side]
-			[c/FFC300:Right Click Teleports you to the Right Side]
+			Left Click Teleports you to the Left Beach.
+			Right Click Teleports you to the Right Beach.
+			[c/1E90FF:Feel the ocean breeze as you warp to the coast.]
 			'''
 		BeachName: Beach
+		Dungeon:
+			'''
+			Left/Right Click Teleports you to the Dungeon Entrance
+			[c/8B0000:Confront the mysteries of forgotten corridors.]
+			'''
 		DungeonName: Dungeon
+		Jungle:
+			'''
+			Left Click Teleports you to the Jungle.
+			Right Click to teleport to the closest Mahogany Tree.
+			[c/228B22:Embrace the lush wilderness and its secrets.]
+			'''
 		JungleName: Jungle
+		Ocean:
+			'''
+			Left Click Teleports you to the Left Latest Block.
+			Right Click Teleports you to the Right Latest Block.
+			[c/4682B4:Explore the vast depths of the ocean's edges.]
+			'''
 		OceanName: Ocean
+		Temple:
+			'''
+			Left/Right Click Teleports you to the Lihzahrd Altar.
+			[c/DAA520:Unveil the ancient powers hidden within the temple.]
+			'''
 		TempleName: Temple
+		Underworld:
+			'''
+			Left Click Teleports you to the Left Side.
+			Right Click Teleports you to the Right Side.
+			[c/FF4500:Dive into the fiery depths and claim your destiny.]
+			'''
 		UnderworldName: Underworld
 	}
 
 	ScrollOfMinerAlchemist: {
 		DisplayName: Scroll of the Luminous Excavator
-		Tooltip: Boosts mining speed, evades traps, and illuminates your path—explore safely and swiftly..
+		Tooltip:
+			'''
+			Boosts mining speed, empowers traps, and illuminates your path.
+			[c/FFD700:Explore safely and swiftly with this shining scroll.]
+			[c/32CD32:A miner's best companion in the depths.]
+			'''
 	}
 
 	ScrollOfWarriorAlchemist: {
 		DisplayName: Scroll of Fortitude and Shadows
-		Tooltip: Increase ability to dodge and defence
+		Tooltip:
+			'''
+			Increases your ability to dodge and enhances defense.
+			[c/8B0000:Harness the strength of a warrior and the cunning of shadows.]
+			[c/4682B4:Stand unyielding in the face of your foes.]
+			'''
 	}
 
 	WorldWarperBeach: {

@@ -2,8 +2,8 @@ UnlimitedBeachTeleporter: {
 	DisplayName: Beach Warper
 	Tooltip:
 		'''
-		[c/FFC300:Left Click Teleports you to the Left Beach]
-		[c/FFC300:Right Click Teleports you to the Right Beach]
+		Left Click Teleports you to the Left Beach
+		Right Click Teleports you to the Right Beach
 		[c/FFC300:'Sugar, Oh, honey, honey']
 		[c/B00BA5:This device harnesses the power of the ocean's pull,] 
 		[c/B00BA5:allowing you to warp between beaches with ease. Legends say it was] 
@@ -15,7 +15,7 @@ UnlimitedDungeonTeleporter: {
 	DisplayName: Dungeon Portal
 	Tooltip:
 		'''
-		[c/FFC300:Teleports you to the Dungeon Entrance]
+		Teleports you to the Dungeon Entrance
 		[c/FFC300:'Shrieking skulls will shock your soul!']
 		[c/B00BA5:Forged in the depths of the dungeon itself, this teleporter holds] 
 		[c/B00BA5:the essence of the undead, allowing you to traverse directly to the] 
@@ -27,8 +27,8 @@ UnlimitedJungleTeleporter: {
 	DisplayName: Jungle Walker
 	Tooltip:
 		'''
-		[c/FFC300:Teleports you to the Jungle]
-		[c/FFC300:Right Click to teleport to the closest Mahogany Tree]
+		Teleports you to the Jungle
+		Right Click to teleport to the closest Mahogany Tree
 		[c/FFC300:'Mahogany Sticks? What is that?']
 		[c/B00BA5:Infused with the spirit of the jungle, this teleporter connects] 
 		[c/B00BA5:to the heart of the wild, guiding you to its dense, verdant core] 
@@ -40,8 +40,8 @@ UnlimitedOceanTeleporter: {
 	DisplayName: Ocean Navigator
 	Tooltip:
 		'''
-		[c/FFC300:Left Click Teleports you to the Left Latest Block]
-		[c/FFC300:Right Click Teleports you to the Right Latest Block]
+		Left Click Teleports you to the Left Latest Block
+		Right Click Teleports you to the Right Latest Block
 		[c/FFC300:'Ocean man, take me by the hand, Lead me to the land that you understand']
 		[c/B00BA5:This ancient artifact taps into the ocean's currents, letting] 
 		[c/B00BA5:you navigate to its furthest reaches with a simple click.] 
@@ -53,7 +53,7 @@ UnlimitedTempleTeleporter: {
 	DisplayName: Temple Warper
 	Tooltip:
 		'''
-		[c/FFC300:Teleports you to the Lihzahrd Altar]
+		Teleports you to the Lihzahrd Altar
 		[c/FFC300:'It's like I have the temple in my hands!']
 		[c/B00BA5:Created by the Lihzahrd priests, this teleporter brings you] 
 		[c/B00BA5:straight to the heart of their sacred temple. Only those] 
@@ -65,8 +65,8 @@ UnlimitedUnderworldTeleporter: {
 	DisplayName: Underworld Warper
 	Tooltip:
 		'''
-		[c/FFC300:Left Click Teleports you to the Left Side]
-		[c/FFC300:Right Click Teleports you to the Right Side]
+		Left Click Teleports you to the Left Side
+		Right Click Teleports you to the Right Side
 		[c/FFC300:'The Only Thing They Fear... Is You!']
 		[c/B00BA5:This device channels the fiery energy of the underworld,] 
 		[c/B00BA5:allowing its bearer to traverse the hellish landscape with ease.] 
@@ -78,7 +78,7 @@ UnlimitedSunshine: {
 	DisplayName: Sunshine Aura
 	Tooltip:
 		'''
-		[c/FFC300:Increases light radius greatly]
+		Increases light radius greatly
 		[c/FFC300:'Hyperlight']
 		[c/B00BA5:An artifact that radiates a blinding light, said to have been] 
 		[c/B00BA5:created by the sun god himself. It turns night into day for] 
@@ -90,7 +90,7 @@ UnlimitedFortitude: {
 	DisplayName: Fortitude Shield
 	Tooltip:
 		'''
-		[c/FFC300:Grants immunity to knockback]
+		Grants immunity to knockback
 		[c/FFC300:'You won't pass!']
 		[c/B00BA5:A shield imbued with the essence of resilience, granting its] 
 		[c/B00BA5:wielder unyielding strength against any force. Used by the] 
@@ -102,9 +102,9 @@ UnlimitedExcavation: {
 	DisplayName: Excavation Tool
 	Tooltip:
 		'''
-		[c/FFC300:Expands your mining area from a single block to 3x3]
-		[c/FFC300:Right click on item to convert to drill]
-		[c/FFC300:Right click on buff to change radius (1x1 <-> 3x3)]
+		Expands your mining area from a single block to 3x3
+		Right click on item to convert to drill
+		Right click on buff to change radius between single tile and 3x3 area
 		[c/FFC300:'Gravedigger's Shovel on steroids']
 		[c/B00BA5:This enchanted tool, once wielded by legendary miners, allows] 
 		[c/B00BA5:the user to dig with unparalleled efficiency. Perfect for] 
@@ -116,8 +116,8 @@ UnlimitedBlurring: {
 	DisplayName: Blurring Cloak
 	Tooltip:
 		'''
-		[c/FFC300:Grants a buff that activates Shadow Dodge] 
-		[c/FFC300:for 10 seconds after a 30-second cooldown]
+		Grants a buff that activates Shadow Dodge]
+		for 10 seconds after a 30-second cooldown
 		[c/FFC300:'Titanium power']
 		[c/B00BA5:A cloak woven from the shadows, granting its wearer the ability] 
 		[c/B00BA5:to dodge attacks like a phantom. Used by the most elusive assassins.]
@@ -128,8 +128,8 @@ WilliamsBirthdayCake: {
 	DisplayName: Magic Birthday Cake
 	Tooltip:
 		'''
-		[c/FFC300:Grants special effects of almost all stations simultaneously]
-		[c/FFC300:This includes Campfires, Lamps, Bast's Statue, Sharpening Station, Ammo Box, Crystal Ball, Slice of Cake, and Bewitching Table.]
+		Grants special effects of almost all stations simultaneously
+		This includes Campfires, Lamps, Bast's Statue, Sharpening Station, Ammo Box, Crystal Ball, Slice of Cake, and Bewitching Table.
 		[c/FFC300:By some unimaginable magic, it will never be consumed]
 		[c/B00BA5:Crafted using the magic of multiple stations, this cake provides the combined] 
 		[c/B00BA5:benefits of each. A celebratory gift from the wizard] 
@@ -141,7 +141,7 @@ UnlimitedTrapper: {
 	DisplayName: Trapper's Delight
 	Tooltip:
 		'''
-		[c/FFC300:Expoweres all traps] 
+		Expoweres all traps
 		[c/B00BA5:This charm boosts the potency of all traps, making them] 
 		[c/B00BA5:unleash their full potential. Crafted by a master trapper] 
 		[c/B00BA5:who sought to defend his homeland.]
@@ -152,8 +152,8 @@ UnlimitedNinja: {
 	DisplayName: Ninja's Grace
 	Tooltip:
 		'''
-		[c/FFC300:Increases damage and critical chance by 5%]
-		[c/FFC300:Gives a chance to dodge attacks and allow the ability to climb walls]
+		Increases damage and critical chance by 5%
+		Gives a chance to dodge attacks and allow the ability to climb walls
 		[c/B00BA5:An elixir brewed by ancient ninjas, granting agility and stealth.] 
 		[c/B00BA5:Its secrets have been passed down through generations of warriors.]
 		[c/B00BA5:NON CALAMITY BUFF POTION]
@@ -164,7 +164,7 @@ UnlimitedInvincibility: {
 	DisplayName: Shielding Elixir
 	Tooltip:
 		'''
-		[c/FFC300:Increase lenght of invincibility after taking damage]
+		Increase lenght of invincibility after taking damage
 		[c/B00BA5:This powerful elixir enhances your natural invincibility after] 
 		[c/B00BA5:taking a hit, allowing you to withstand the fiercest of battles.] 
 		[c/B00BA5:Used by legendary heroes.]

@@ -12,10 +12,9 @@ Tools: {
 
 BossSummon: {
 	OldDukeSummon: {
-		DisplayName: Ancient Relic of the Deep
+		DisplayName: Relic of the Abyssal Leviathan
 		Tooltip:
 			'''
-			[c/00FF00:-Ancient Relic of the Deep-]
 			[c/00FF00:Right-click to call forth the beast]
 			[c/00FF00:'No fishing rod required']
 			'''
