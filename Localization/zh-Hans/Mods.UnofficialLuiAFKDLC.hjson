@@ -54,19 +54,18 @@ Configs: {
 	}
 
 	UnofficialLuiAFKDLCClientConfig: {
-		// DisplayName: Unofficial Lui A F K D L C Client Config
+		DisplayName: 客户端设置
 
 		ItemDisabledTooltip: {
-			// Label: Item Disabled Tooltip
-			// Tooltip: ""
+			Label: 禁用物品提示栏
+			Tooltip: ""
 		}
 	}
 }
 
-"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 启用LuiAFK Reborn DLC的药水
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 切换菜单
 
 Projectiles: {
-	BalancedDualityProj.DisplayName: Balanced Duality Proj
 	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: 来自无限挖掘钻头的弹幕
 	Misc.MarniteRepulsionHitboxClone.DisplayName: Marnite Repulsion Hitbox Clone
 }

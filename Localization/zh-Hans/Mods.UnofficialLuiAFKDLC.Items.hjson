@@ -12,40 +12,39 @@ Tools: {
 
 BossSummon: {
 	OldDukeSummon: {
-		DisplayName: 深海古物
+		DisplayName: 深渊巨兽之遗物
 		Tooltip:
 			'''
-			[c/00FF00:-深海古物-]
-			[c/00FF00:右键点击召唤“猛兽”]
+			[c/00FF00:召唤“硫海遗爵”]
 			[c/00FF00:“不需要钓鱼竿”]
 			'''
 	}
 
 	NuclearTerrorSummon: {
-		// DisplayName: Core of Nuclear Devastation
-		/* Tooltip:
+		DisplayName: 核灾变核心
+		Tooltip:
 			'''
-			[c/FF4500:Right-click to unleash destruction]
-			[c/FF4500:'A relic of irradiated nightmares']
-			''' */
+			[c/FF4500:召唤“辐核骇兽”]
+			[c/FF4500:“存有辐射噩梦的遗物”]
+			'''
 	}
 
 	MaulerSummon: {
-		// DisplayName: Totem of the Oceanic Predator
-		/* Tooltip:
+		DisplayName: 海洋掠食者图腾
+		Tooltip:
 			'''
-			[c/4682B4:Right-click to awaken the predator]
-			[c/4682B4:'Forged from the heart of a radioactive storm']
-			''' */
+			[c/4682B4:召唤“渊海狂鲨”]
+			[c/4682B4:“于放射性风暴的中心锻造而成”]
+			'''
 	}
 
 	CragmawMireSummon: {
-		// DisplayName: Idol of the Swamp Colossus
-		/* Tooltip:
+		DisplayName: 沼泽巨人圣像
+		Tooltip:
 			'''
-			[c/2E8B57:Right-click to summon the swamp beast]
-			[c/2E8B57:'The bog trembles as it awakens']
-			''' */
+			[c/2E8B57:召唤“峭咽潭”]
+			[c/2E8B57:“在它苏醒时沼泽将颤抖”]
+			'''
 	}
 }
 
@@ -82,13 +81,13 @@ RogueScarf: {
 Potion: {
 	"": {
 		DebugPower: {
-			// Tooltip: ""
-			// DisplayName: Debug Power
+			Tooltip: 那你不应该拿到的
+			DisplayName: Debug 之力
 		}
 	}
 }
 
 DebugPotion: {
-	// DisplayName: Debug Potion
-	// Tooltip: ""
+	DisplayName: Debug 药水
+	Tooltip: 你不应该拿到的
 }

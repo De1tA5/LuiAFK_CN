@@ -8,14 +8,4 @@ CalamityMod: {
 		DisplayName: 永恒钨钢核心
 		Tooltip: 永远用不完的钨钢金属废料
 	}
-
-	UnlimitedMortarRound: {
-		Tooltip: ""
-		DisplayName: Unlimited Mortar Round
-	}
-
-	UnlimitedRubberMortarRound: {
-		DisplayName: Unlimited Rubber Mortar Round
-		Tooltip: ""
-	}
 }

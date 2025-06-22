@@ -344,6 +344,16 @@ WhiteWinePower: {
 		[c/B00BA5:曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了]
 		'''
 }
+		
+PurpleHazePower: {
+	DisplayName: 紫色阴霾
+	Tooltip:
+		'''
+		增加8%伤害，但降低5%防御
+		延长受伤后无敌时间
+		饮用三种以上的酒或许对你的肝脏不太好
+		'''
+}
 
 UnlimitedCeaselessHunger: {
 	DisplayName: 万物吞噬
@@ -495,7 +505,7 @@ UnlimitedAstralInjection: {
 	DisplayName: 星幻过量剂
 	Tooltip:
 		'''
-		对你造成伤害并使你获得魔力疾病减益（实际上不会）
+		使你获得魔力疾病减益
 		即使在移动或施法时，你也能快速恢复魔力值
 		[c/FFD700:驾驭宇宙的无尽能量]
 		[c/FFD700:但要做好承受这种秘法力量带来强烈反噬的准备]
@@ -506,109 +516,96 @@ UnlimitedAstralInjection: {
 		'''
 }
 
-PurpleHazePower: {
-	// DisplayName: Purple Haze Power
-	/* Tooltip:
-		'''
-		8% increased damage, but lowers defense by 5%
-		Increases immune time after being struck
-		Drinking more than 3 different alcohols might not end well with your liver
-		''' */
-}
-
 UnlimitedGravityNormalizer: {
-	// DisplayName: Moonwalker's Grace
-	/* Tooltip:
+	DisplayName: 月之行者的风度
+	Tooltip:
 		'''
-		Disables the low gravity of space and grants immunity 
-		to the distorted debuff, allowing perfect cosmic balance.
-		[c/ADD8E6:Feel the tranquility of lunar grace as you]
-		[c/ADD8E6:navigate the heavens with stability and ease.]
-		''' */
+		使你不受太空低重力环境的影响并免疫扭曲减益
+		允许你宇宙中保持完美平衡
+		[c/ADD8E6:感受月亮那优雅的宁静]
+		[c/ADD8E6:在天空中平稳轻松地航行]
+		'''
 }
 
 DecayStand: {
-	// DisplayName: Decay Stand
-	/* Tooltip:
+	DisplayName: 溃烂腐朽遗物
+	Tooltip:
 		'''
-		Grants underwater breathing
-		Does not function in the Abyss
-
-		An ancient relic once used by deep-sea pilgrims to explore drowned ruins
-		''' */
+		玩家可以在水下呼吸，免疫硫磺剧毒
+		此效果在深渊中不起作用
+		一件古代遗迹，曾被深海朝圣者用来探索淹没的废墟
+		'''
 }
 
 CrimsonStand: {
-	// DisplayName: Crimson Stand
-	/* Tooltip:
+	DisplayName: 猩红血石神像
+	Tooltip:
 		'''
-		Increases damage by 15% and defense by 10
-		Reduces maximum health by 10%
-
-		Said to pulse with the lifeblood of a forgotten god of war
-		''' */
+		增加10点防御力和15%伤害
+		减少10%最大生命值
+		据说，它所流的是被遗忘战神的鲜血
+		'''
 }
 
 CorruptionStand: {
-	// DisplayName: Corruption Stand
-	/* Tooltip:
+	DisplayName: 诡异腐化图腾
+	Tooltip:
 		'''
-		Increases movement speed and critical strike chance by 10%
-		Reduces damage reduction by 5%
-
-		Whispers of madness echo from within its rotted core
-		''' */
+		增加10%移动速度和暴击率
+		降低5%伤害减免
+		癫狂的低语在腐化的核心中回荡
+		'''
 }
 
 UnlimitedAlcoholicsCodexResilient: {
-	// DisplayName: Codex of Unwavering Flame
-	/* Tooltip:
+	DisplayName: 不灭火焰法典
+	Tooltip:
 		'''
-		Defense now blocks 10% more damage
-		(60% in Classic, 85% in Expert, and 110% in Master)
+		防御能够额外抵挡10%伤害
+		（即经典模式下防御能抵挡60%伤害，专家模式下85%，大师模式下110%）
 
-		[c/4AA6E5:'Neither rain nor wind can snuff its undying flame']
-		''' */
+		[c/4AA6E5:“狂风骤雨也无法熄灭这倔强的火苗”]
+		'''
 }
 
 UnlimitedAlcoholicsCodexSpiteful: {
-	// DisplayName: Codex of Smoldering Spite
-	/* Tooltip:
+	DisplayName: 阴燃恶意法典
+	Tooltip:
 		'''
-		Player deals 1.07x more damage to all enemies
-		The extra 0.07x bypasses enemy defense and damage reduction
+		对附近的敌人造成1.07倍伤害
+		这额外的0.07倍伤害无视敌人的防御和伤害减免效果
 
-		[c/E04D2A:'Its hateful glow flickers with ire']
-		''' */
+		[c/E04D2A:“它闪耀着充满怒火的可憎光芒”]
+		'''
 }
 
 UnlimitedAlcoholicsCodexVigorous: {
-	// DisplayName: Codex of Radiant Vitality
-	/* Tooltip:
+	DisplayName: 活力焕发法典
+	Tooltip:
 		'''
-		Regenerates 0.4% of your max health per second
-		Regeneration remains at full power while moving
-		Bypasses Revengeance Mode caps
+		每秒恢复最大生命值0.4%的生命值
+		即便是在移动时亦是如此
+		并且不受复仇模式的生命再生上限影响
 
-		[c/E86DF8:'Its brilliant light suffuses those nearby with hope']
-		''' */
+		[c/E86DF8:“它明亮的光使周围的人充满希望”]
+		'''
 }
 
 UnlimitedAlcoholicsCodexWeightless: {
-	// DisplayName: Codex of the Lifting Winds
-	/* Tooltip:
+	DisplayName: 腾飞之风法典
+	Tooltip:
 		'''
-		10% increased movement speed, wing time, and acceleration
+		获得10%移动速度、飞行时间和加速度加成
 
-		[c/5EF1F2:'The floating flame seems to uplift your very spirit']
-		''' */
+		[c/5EF1F2:“跃动的火焰似乎使你的精神获得升华”]
+		'''
 }
 
 UnlimitedBaguettePower: {
-	// DisplayName: Le Baguette
-	/* Tooltip:
+	DisplayName: 法式面包
+	Tooltip:
 		'''
-		Red Wine heals 250 HP, but reduces life regen by 2 HP/s
-		Doesn't grants Minor improvements to all stats.
-		''' */
+		红葡萄酒会回复250生命值，但降低2HP/s生命再生
+		不再能小幅提升所有属性
+		'''
 }

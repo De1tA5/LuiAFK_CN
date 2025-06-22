@@ -4,14 +4,27 @@ CalamityMod: {
 		Tooltip:
 			'''
 			处于物品栏中，周围的玩家获得血腥雕像、腐化雕像和腐朽雕像的增益
-			“这真的是纸吗？”
+			[c/FF6347:“这真的是纸吗？”]
+			[c/8B0000:用腐朽与黑暗的力量强化盟友]
+			[c/8B0000:引导那被污染大地的精华]
+			''' 
+		CalRemixTooltip:
 			'''
-		CalRemixTooltip: 处于物品栏中，周围的玩家获得血腥雕像、腐化雕像、星幻雕像、神圣雕像和腐朽雕像的增益
+			处于物品栏中，周围的玩家获得血腥雕像、腐化雕像
+			星幻雕像、神圣雕像和腐朽雕像的增益
+			[c/FFD700:现在作为神像的真正守护者]
+			[c/FFD700:你的存在以无限宇宙之力激励着他人]
+			'''
 	}
 
 	ScrollOfDepths: {
 		DisplayName: 深渊卷轴
-		Tooltip: 现在你可以随心所欲地在深渊里遨游
+		Tooltip:
+			'''
+			现在你可以随心所欲地在深渊里遨游
+			[c/1E90FF:感受卷轴带来的慰藉]
+			[c/1E90FF:保护你免受来自深渊的重压]
+			''' 
 	}
 
 	AlcoholicsCodex: {
@@ -19,7 +32,7 @@ CalamityMod: {
 		Tooltip:
 			'''
 			{$Mods.UnofficialLuiAFKDLC.Items.Scroll.CalamityMod.AlcoholicsCodexResilient.Tooltip}
-			当前贴图只是占位符
+			[c/FF4500:当前贴图只是占位符]
 			'''
 	}
 
@@ -29,7 +42,8 @@ CalamityMod: {
 			'''
 			防御能够额外抵挡10%伤害
 			（即经典模式下防御能抵挡60%伤害，专家模式下85%，大师模式下110%）
-			右键点击改变蜡烛增益
+			[c/4682B4:右键点击改变蜡烛增益]
+			[c/00CED1:以坚定的决心坚守阵地]
 			'''
 	}
 
@@ -39,7 +53,8 @@ CalamityMod: {
 			'''
 			对附近的敌人造成1.07倍伤害
 			这额外的0.07倍伤害无视敌人的防御和伤害减免效果
-			右键点击改变蜡烛增益
+			[c/4682B4:右键点击改变蜡烛增益]
+			[c/8B0000:释放恶念之力突破一切抵抗]
 			'''
 	}
 
@@ -49,7 +64,8 @@ CalamityMod: {
 			'''
 			每秒恢复最大生命值0.4%的生命值
 			即使在移动时亦是如此，并且不受复仇模式的生命再生上限影响
-			右键点击改变蜡烛增益
+			[c/4682B4:右键点击改变蜡烛增益]
+			[c/32CD32:拥抱永不停息复苏的生命力]
 			'''
 	}
 
@@ -58,7 +74,8 @@ CalamityMod: {
 		Tooltip:
 			'''
 			获得10%移动速度、飞行时间和加速度加成
-			右键点击改变蜡烛增益
+			[c/4682B4:右键点击改变蜡烛增益]
+			[c/ADD8E6:翱翔于天际，突破重力的束缚]
 			'''
 	}
 
@@ -67,39 +84,45 @@ CalamityMod: {
 		Tooltip:
 			'''
 			增加飞行时间、跳跃速度并免疫摔落伤害
-			“飞得更高，跳得更远，安全坠落——非常适合那些敢于触摸天空的人”
+			[c/FFD700:“飞得更高，跳得更远，安全坠落——非常适合那些敢于触摸天空的人”]
+			[c/87CEEB:超凡之力登临新高]
 			'''
 	}
 
 	ScrollOfCalamity: {
-		DisplayName: Scroll Of Calamity
-		Tooltip: You gain power of Calamity which can allow being in abyss, increase mobility and other
+		DisplayName: 灾厄卷轴
+		Tooltip:
+			'''
+			获得灾厄之力，能够穿越深渊，提高机动性等等
+			[c/B22222:释放灾厄中的破坏潜能]
+			[c/B22222:驾驭混沌之力重塑命运]
+			'''
 	}
 
 	ScrollOfAstral: {
-		// DisplayName: Scroll Of The Astral
-		/* Tooltip:
+		DisplayName: 星幻卷轴
+		Tooltip:
 			'''
-			Empowers mana regeneration and stabilizes gravity.
-			[c/9400D3:Feel the equilibrium of astral forces as they]
-			[c/9400D3:align your energies and lighten your steps.]
-			''' */
+			强化魔力恢复速度并稳定重力
+			[c/9400D3:感受星界力量的平衡]
+			[c/9400D3:协调你的内在能量，使步伐更为轻盈]
+			'''
 	}
 
 	FermentedBook: {
-		// DisplayName: Fermented Book
-		/* Tooltip:
+		DisplayName: 酒酿之书
+		Tooltip:
 			'''
-			Grants the effects of all alcoholic brews.
-			[c/FF9900:Embrace the fermented path—boost your stats,]
-			[c/FF9900:but beware the creeping haze of intoxication.]
+			获得所有酒类的效果
+			[c/FF9900:拥抱发酵之路————能提升你的属性]
+			[c/FF9900:但小心醉意迷雾的侵蚀]
 
-			Only 3 alcohol effects can be active at a time
+			只允许3种酒类被同时启用
 
-			Did you know? Ancient civilizations like the Sumerians
-			documented beer recipes over 5,000 years ago.
+			你知道吗？ 像苏美尔人这样的古代文明
+			在 5000 多年前就记录了啤酒配方
 
-			''' */
+			'''
 	}
 }
 
@@ -109,71 +132,98 @@ AlchemistNPCLite: {
 		Tooltip:
 			'''
 			{0}
-			[c/FFC300:右键点击卷轴以更改模式]
+			右键点击卷轴以更改模式
+			[c/00CED1:一种弯曲空间和时间的多功能工具]
 			'''
-		None: "[c/FFC300:使用卷轴更改为第一种模式]"
+		None:
+			'''
+			使用卷轴更改为第一种模式
+			[c/87CEEB:一张白纸，等待你的命令]
+			'''
 		Beach:
 			'''
-			[c/FFC300:左键使用传送至左边的沙滩]
-			[c/FFC300:右键使用传送至右边的沙滩]
+			左键使用传送至左边的沙滩
+			右键使用传送至右边的沙滩
+			[c/1E90FF:在瞬间传送到海岸时，感受那海风拂面]
 			'''
-		Dungeon: "[c/FFC300:左/右键使用传送至地牢入口]"
+		BeachName: 沙滩
+		Dungeon: 
+			'''
+			左/右键使用传送至地牢入口
+			[c/8B0000:走向那被遗忘的神秘走廊]
+			'''
+		DungeonName: 地牢
 		Jungle:
 			'''
-			[c/FFC300:左键使用传送至丛林]
-			[c/FFC300:右键使用传送至最近的红木]
+			左键使用传送至丛林
+			右键使用传送至最近的红木
+			[c/228B22:拥抱葱郁的荒野和它的秘密]
 			'''
+		JungleName: 丛林
 		Ocean:
 			'''
-			[c/FFC300:左键使用传送至左边最近的珊瑚块]
-			[c/FFC300:右键使用传送至右边最近的珊瑚块]
+			左键使用传送至左边最近的珊瑚块
+			右键使用传送至右边最近的珊瑚块
+			[c/4682B4:探索海洋边缘深处的宽广]
 			'''
-		Temple: "[c/FFC300:左/右键使用传送至神庙祭坛]"
+		OceanName: 海洋
+		Temple: 
+			'''
+			左/右键使用传送至神庙祭坛
+			[c/DAA520:揭开那藏于神庙中的古老力量]
+			'''
+		TempleName: 丛林神庙
 		Underworld:
 			'''
-			[c/FFC300:左键使用传送至左边最近的废墟]
-			[c/FFC300:右键使用传送至右边最近的废墟]
+			左键使用传送至左边最近的地狱废墟
+			右键使用传送至右边最近的地狱废墟
+			[c/FF4500:跃入火焰深处并掌握命运之章]
 			'''
-		// BeachName: Beach
-		// DungeonName: Dungeon
-		// JungleName: Jungle
-		// OceanName: Ocean
-		// TempleName: Temple
-		// UnderworldName: Underworld
+		UnderworldName: 地狱
 	}
 
 	ScrollOfMinerAlchemist: {
 		DisplayName: 流光挖掘卷轴
-		Tooltip: 提高挖掘速度，避开陷阱，照亮你的道路——安全且快速地探索……
+		Tooltip: 
+			'''
+			提高挖掘速度，避开陷阱，照亮你的道路
+			[c/FFD700:用这闪亮的卷轴安全快速地探索]
+			[c/32CD32:矿工在深处最好的伙伴]
+			'''
 	}
 
 	ScrollOfWarriorAlchemist: {
 		DisplayName: 刚毅阴影卷轴
-		Tooltip: 提高闪避和防御能力
+		Tooltip: 
+			'''
+			提高闪避和防御能力
+			[c/8B0000:驾驭战士之力，兼具暗影之灵巧]
+			[c/4682B4:坚定不移地面对你的敌人]
+			'''
 	}
 
 	WorldWarperBeach: {
-		// DisplayName: World Warper Beach
-		// Tooltip: ""
+		DisplayName: World Warper Beach
+		Tooltip: ""
 	}
 
 	WorldWarperDungeon: {
-		// DisplayName: World Warper Dungeon
-		// Tooltip: ""
+		DisplayName: World Warper Dungeon
+		Tooltip: ""
 	}
 
 	WorldWarperJungle: {
-		// DisplayName: World Warper Jungle
-		// Tooltip: ""
+		DisplayName: World Warper Jungle
+		Tooltip: ""
 	}
 
 	WorldWarperTemple: {
-		// DisplayName: World Warper Temple
-		// Tooltip: ""
+		DisplayName: World Warper Temple
+		Tooltip: ""
 	}
 
 	WorldWarperUnderworld: {
-		// DisplayName: World Warper Underworld
-		// Tooltip: ""
+		DisplayName: World Warper Underworld
+		Tooltip: ""
 	}
 }
