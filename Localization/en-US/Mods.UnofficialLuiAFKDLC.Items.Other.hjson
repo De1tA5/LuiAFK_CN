@@ -1,0 +1,54 @@
+CalamityMod: {
+	UnlimitedSkynamite: {
+		DisplayName: Graviton Annihilation Device
+		Tooltip:
+			'''
+			Launches an infinite supply of gravity-defying explosives into the fray.
+			[c/FFD700:Harness the power of gravitational anomalies to obliterate your foes with unstoppable force.]
+			[c/00FF7F:'Mastery of physics defied, chaos unleashed at your command.']
+			'''
+	}
+
+	UnlimitedStarStruckWater: {
+		DisplayName: Starfall Aquifer
+		Tooltip:
+			'''
+			Imbues water with the limitless essence of the stars, transforming all it touches.
+			[c/1E90FF:Unleash the celestial tides, where each drop contains the boundless energy of the cosmos.]
+			[c/ADD8E6:'Does infinity truly manifest through every drop, or is it merely a reflection of the void?']
+			'''
+	}
+
+	UnlimitedWulfrumDiggingTurtles: {
+		DisplayName: Wulfrum Demolition Engine
+		Tooltip:
+			'''
+			Unleashes an unending stream of Wulfrum Demolition Engines, tirelessly tearing through terrain.
+			Right Click to instantly detonate all engines in emergencies.
+			[c/FF4500:Engage an endless wave of destruction, turning the earth itself into dust.]
+			[c/FF6347:'Deploying infinite demolition, with the power to reshape the world in your image.']
+			'''
+	}
+
+	XerocWish: {
+		DisplayName: Spatial Xeroc's Essence
+		Tooltip:
+			'''
+			A mysterious orb infused with the essence of Xeroc, the celestial wanderer.
+			Grants limitless teleportation without cooldown, bending spacetime to every explorer's whim.
+			Uses same Keybind as Normality Relocator.
+			[c/9370DB:Master the art of spatial manipulation, moving freely through the fabric of reality.]
+			[c/BA55D3:'Wield the cosmic essence of Xeroc, transcending the boundaries of time and space.']
+			'''
+	}
+
+	BucketOfCausticTears: {
+		DisplayName: Bucket of Caustic Tears
+		Tooltip:
+			'''
+			Toggle the Acid Rain.
+			[c/228B22:Unleash a relentless downpour of acidic torment upon your foes.]
+			[c/32CD32:'Though it is not a bottomless acid bucket, it holds enough to drown the world in suffering.']
+			'''
+	}
+}

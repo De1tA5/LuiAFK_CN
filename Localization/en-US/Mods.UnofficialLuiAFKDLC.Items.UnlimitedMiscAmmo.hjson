@@ -1,0 +1,21 @@
+CalamityMod: {
+	UnlimitedBloodRune: {
+		DisplayName: Unlimited Blood Rune
+		Tooltip: Unlimited Used with Ice Barrage
+	}
+
+	UnlimitedWulfrumMetalScrap: {
+		DisplayName: Eternal Wulfrum Core
+		Tooltip: Endless source of Wulfrum Metal Scrub
+	}
+
+	UnlimitedMortarRound: {
+		Tooltip: ""
+		DisplayName: Unlimited Mortar Round
+	}
+
+	UnlimitedRubberMortarRound: {
+		DisplayName: Unlimited Rubber Mortar Round
+		Tooltip: ""
+	}
+}

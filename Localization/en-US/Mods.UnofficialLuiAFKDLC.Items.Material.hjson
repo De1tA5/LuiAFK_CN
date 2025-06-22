@@ -1,0 +1,39 @@
+AerialiteStand: {
+	DisplayName: Celestial Aegis
+	Tooltip:
+		'''
+		Crafted from rare Aerialite ore, enhancing the power of Calamity items.
+		[c/00CED1:This ancient relic shimmers with celestial energy, tingling with untapped potential.]
+		[c/87CEEB:A testament to the power of the skies, awaiting the hands of a true warrior.]
+		'''
+}
+
+AncientScroll: {
+	DisplayName: Arcane Codex
+	Tooltip:
+		'''
+		This ancient scroll holds the arcane writings once used by Calamitas herself.
+		[c/8B4513:Its ancient glyphs pulse faintly, whispering forgotten incantations to those who dare listen.]
+		[c/6B4226:A relic of immense power, holding secrets that could change the very fabric of reality.]
+		'''
+}
+
+ColossalInk: {
+	DisplayName: Colossal Inkwell
+	Tooltip:
+		'''
+		Harvested from the ink sacs of the mighty Colossal Squid, imbued with dark power.
+		[c/2F4F4F:Its foul odor hints at the abyssal depths from which it was extracted, reeking of forgotten horrors.]
+		[c/4B0082:A potent substance that holds the essence of the deep, ready to be unleashed.]
+		'''
+}
+
+WizardEssence: {
+	DisplayName: Putrid Essence
+	Tooltip:
+		'''
+		Imbued with magical power.
+		[c/556B2F:Its rancid smell is only overshadowed by the sheer potency of the magic it contains.]
+		[c/6B8E23:A foul mixture of ancient sorcery and decay, not for the faint of heart.]
+		'''
+}

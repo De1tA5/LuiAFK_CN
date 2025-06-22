@@ -1,0 +1,109 @@
+UnlimitedElysianArrow: {
+	DisplayName: 无限极乐箭袋
+	Tooltip:
+		'''
+		[c/FFD700:Arrows carrying profaned energy]
+		[c/FFD700:Summons purifying light from above and below on impact]
+		[c/FFD700:'Dissolving from holy light']
+		'''
+}
+
+UnlimitedCinderArrow: {
+	DisplayName: 无限余烬箭袋
+	Tooltip:
+		'''
+		[c/FF4500:Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames]
+		[c/FF4500:'Created with the dark flames of Havoc']
+		'''
+}
+
+UnlimitedVanquisherQuiver: {
+	DisplayName: 无限征戮箭袋
+	Tooltip:
+		'''
+		[c/FF6347:Powerful arrows forged with cosmic steel]
+		[c/FF6347:Pierces through tiles and homes in on enemies]
+		[c/FF6347:'Your flesh is burning off']
+		'''
+}
+
+UnlimitedArcticArrow: {
+	DisplayName: Unlimited Arctic Quiver
+	Tooltip:
+		'''
+		[c/00CED1:Freezes enemies for a short time]
+		[c/00CED1:'Cannot move']
+		'''
+}
+
+EndlessBloodfireQuiver: {
+	DisplayName: 无限血炎箭袋
+	Tooltip:
+		'''
+		[c/DC143C:尖端浸透鲜血的高速箭矢]
+		[c/DC143C:射出这些箭矢会消耗你的生命值]
+		[c/DC143C:命中时加快自然生命再生并为你回复生命值]
+		[c/DC143C:“燃烧着永恒火焰的箭矢, 未曾停下对敌人宣泄地狱般的怒火”]
+		'''
+}
+
+EndlessCinderQuiver: {
+	DisplayName: 无限余烬箭袋
+	Tooltip:
+		'''
+		[c/FF4500:爆裂出燃烧碎片的爆炸性箭矢]
+		[c/FF4500:燃烧碎片会施加硫磺火减益]
+		[c/FF4500:“被永恒之火点燃的箭矢，不断释放出猛烈的破环力”]
+		'''
+}
+
+EndlessElysianQuiver: {
+	DisplayName: 无限极乐箭袋
+	Tooltip:
+		'''
+		[c/FFD700:携带亵渎能量的箭矢]
+		[c/FFD700:撞击时从上方和下方召唤净化之光]
+		[c/FFD700:“天光之箭，闪耀着星光无休止地穿透黑暗”]
+		'''
+}
+
+EndlessIcicleQuiver: {
+	DisplayName: 无限冰锥箭袋
+	Tooltip:
+		'''
+		[c/00BFFF:拥有附魔箭头的冰箭]
+		[c/00BFFF:这些箭会迅速冻结转化为坠落的冰锥，造成更高伤害]
+		[c/00BFFF:在箭矢冻结前击中敌怪或物块会使其向上飞行]
+		[c/00BFFF:“蕴含冰冷决心之箭，以寒疮般的精确永远冻结目标”]
+		'''
+}
+
+EndlessSproutingQuiver: {
+	DisplayName: 无限春芽箭袋
+	Tooltip:
+		'''
+		[c/228B22:射出一支迅速一分为二的能量箭矢]
+		[c/228B22:这些箭矢无视8点防御]
+		[c/228B22:“永恒的自然精华编织而成，无误地引向既定的目标”]
+		'''
+}
+
+EndlessVanquisherQuiver: {
+	DisplayName: 无限征戮箭袋
+	Tooltip:
+		'''
+		[c/FF6347:由寰宇之钢打造的强力箭矢]
+		[c/FF6347:可以穿过物块并能追踪敌怪]
+		[c/FF6347:“蕴含着无尽的神秘能量，能够征服最强大的敌人”]
+		'''
+}
+
+EndlessVeriumQuiver: {
+	DisplayName: 无限钫箭袋
+	Tooltip:
+		'''
+		[c/9370DB:命中时标记敌人，短时间后造成额外伤害]
+		[c/9370DB:此伤害随命中箭矢数量增加而逐步叠加]
+		[c/9370DB:“它们被注入无限的神力，以坚定无误的精确打击，能够击败风暴编织者”]
+		'''
+}

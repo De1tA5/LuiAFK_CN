@@ -1,0 +1,45 @@
+CorruptionStand: {
+	DisplayName: Eldritch Corruption Totem
+	Tooltip:
+		'''
+		[c/8A2BE2:When in your inventory, nearby players have their movement speed and crit chance increased by 10%]
+		[c/6A1F9C:Nearby players also suffer a 5% decrease to their damage reduction]
+		[c/4B0082:'Those fleshy eyes, eww!']
+		'''
+}
+
+CrimsonStand: {
+	DisplayName: Crimson Bloodstone Idol
+	Tooltip:
+		'''
+		[c/B22222:When in your inventory, nearby players have their damage increased by 15% and defense by 10]
+		[c/FF6347:Nearby players also suffer a 10% decrease to their maximum health]
+		[c/FF4500:'That ichor coming out of it! Ewwww!!']
+		'''
+}
+
+DecayStand: {
+	DisplayName: Putrid Decay Relic
+	Tooltip:
+		'''
+		[c/2E8B57:When in your inventory, nearby players can breathe underwater]
+		[c/3CB371:This effect does not work in the abyss]
+		[c/228B22:Nearby players are also immune to the sulphuric poisoning]
+		[c/006400:'This sulphurous water smells so bad...']
+		'''
+}
+
+AstralStand: {
+	DisplayName: Celestial Stellar Totem
+	Tooltip: "[c/00BFFF:When in your inventory, nearby players gain immunity to space's low gravity]"
+}
+
+HallowStand: {
+	DisplayName: Radiant Seraphic Idol
+	Tooltip:
+		'''
+		[c/FFD700:When in your inventory, nearby players have their damage, crit, and movement speed increased by 25%]
+		[c/FFFF00:Their defense by 20, their DR by 8%, and their health by 20%]
+		[c/FFD700:Nearby players also suffer a permanent chaos state]
+		'''
+}

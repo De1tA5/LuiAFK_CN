@@ -1,0 +1,94 @@
+Tools: {
+	UnlimitedExcavationDrillForm: {
+		DisplayName: 挖掘力
+		Tooltip:
+			'''
+			[c/FFC300:-挖掘力-]
+			[c/FFC300:右键点击变回力的形态]
+			[c/FFC300:“一个执着挖掘者的梦想”]
+			'''
+	}
+}
+
+BossSummon: {
+	OldDukeSummon: {
+		DisplayName: 深海古物
+		Tooltip:
+			'''
+			[c/00FF00:-深海古物-]
+			[c/00FF00:右键点击召唤“猛兽”]
+			[c/00FF00:“不需要钓鱼竿”]
+			'''
+	}
+
+	NuclearTerrorSummon: {
+		// DisplayName: Core of Nuclear Devastation
+		/* Tooltip:
+			'''
+			[c/FF4500:Right-click to unleash destruction]
+			[c/FF4500:'A relic of irradiated nightmares']
+			''' */
+	}
+
+	MaulerSummon: {
+		// DisplayName: Totem of the Oceanic Predator
+		/* Tooltip:
+			'''
+			[c/4682B4:Right-click to awaken the predator]
+			[c/4682B4:'Forged from the heart of a radioactive storm']
+			''' */
+	}
+
+	CragmawMireSummon: {
+		// DisplayName: Idol of the Swamp Colossus
+		/* Tooltip:
+			'''
+			[c/2E8B57:Right-click to summon the swamp beast]
+			[c/2E8B57:'The bog trembles as it awakens']
+			''' */
+	}
+}
+
+DrillStorm: {
+	DisplayName: Storm of Drills
+	Tooltip:
+		'''
+		[c/ADD8E6:-Storm of Drills-]
+		[c/ADD8E6:Unleash the fury of countless drills]
+		[c/ADD8E6:'Tearing through the earth with ease']
+		'''
+}
+
+CityKeys: {
+	DisplayName: Urban Keys
+	Tooltip:
+		'''
+		[c/FFA500:-Urban Keys-]
+		[c/FFA500:Unlocks the secrets of the city]
+		[c/FFA500:'The key to every hidden door']
+		'''
+}
+
+RogueScarf: {
+	DisplayName: 强盗的斗篷
+	Tooltip:
+		'''
+		[c/800080:-强盗的斗篷-]
+		[c/800080:遁于阴影之下]
+		[c/800080:'“一个真正盗贼的伙伴”]
+		'''
+}
+
+Potion: {
+	"": {
+		DebugPower: {
+			// Tooltip: ""
+			// DisplayName: Debug Power
+		}
+	}
+}
+
+DebugPotion: {
+	// DisplayName: Debug Potion
+	// Tooltip: ""
+}

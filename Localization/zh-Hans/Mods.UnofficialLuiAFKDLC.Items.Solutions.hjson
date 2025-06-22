@@ -1,0 +1,13 @@
+UnlimitedAstralSolution: {
+	DisplayName: 天界基源
+	Tooltip:
+		'''
+		天界的无限源头，将星辉瘟疫不停地传播到世界的每个角落
+		“见证它所展现的无垠的宇宙……”
+		'''
+}
+
+UnlimitedCyanSolution: {
+	DisplayName: Unlimited Cyan Solution
+	Tooltip: Never run out of Cyan Solution
+}

@@ -1,0 +1,79 @@
+Endless: 无限
+
+Buffs: {
+	CorruptionEffigyBuff: {
+		Description: 腐化之地的力量灌注双拳
+		DisplayName: 腐化雕像（增益）
+	}
+
+	DecayStandBuff: {
+		Description: 硫海之水给予你力量
+		DisplayName: 腐朽雕像（增益）
+	}
+
+	CrimsonEffigyBuff: {
+		Description: 猩红之地的力量充盈于身
+		DisplayName: 血腥雕像（增益）
+	}
+
+	EffigyBuff: {
+		DisplayName: 雕像
+		Description: 处于物品栏中时，周围的玩家获得血腥雕像、腐化雕像和腐朽雕像的增益
+	}
+
+	AstralEffigyBuff: {
+		DisplayName: 星幻雕像（增益）
+		Description: 星幻疫病感染着你
+	}
+
+	HallowEffigyBuff: {
+		DisplayName: 神圣雕像（增益）
+		Description: 神圣之地的力量萦绕于身
+	}
+
+	DrillStormMountBuff: {
+		Description: Mods.UnofficialLuiAFKDLC.Buffs.DrillStormMountBuff.Description
+		DisplayName: Drill Storm Mount Buff
+	}
+
+	DebugPowerBuff: {
+		// Description: Mods.UnofficialLuiAFKDLC.Buffs.DebugPowerBuff.Description
+		// DisplayName: Debug Power Buff
+	}
+}
+
+Configs: {
+	SettingsConfigServer: {
+		DisplayName: 服务器设置
+		Headers.Unlimited_Items: 无限物品
+
+		worksInPlayerBanks: {
+			Label: 无限物品会在猪猪存钱罐中生效
+			Tooltip: ""
+		}
+	}
+
+	UnofficialLuiAFKDLCClientConfig: {
+		// DisplayName: Unofficial Lui A F K D L C Client Config
+
+		ItemDisabledTooltip: {
+			// Label: Item Disabled Tooltip
+			// Tooltip: ""
+		}
+	}
+}
+
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 启用LuiAFK Reborn DLC的药水
+
+Projectiles: {
+	BalancedDualityProj.DisplayName: Balanced Duality Proj
+	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: 来自无限挖掘钻头的弹幕
+	Misc.MarniteRepulsionHitboxClone.DisplayName: Marnite Repulsion Hitbox Clone
+}
+
+FishingRod: {
+	RequireBait: 需要鱼饵
+	Bait: 鱼饵
+	Power: 渔力
+	Quests1: 每完成 {0} 次钓鱼任务 {^0:quest;quests} ,就会抛出一条额外的鱼线
+}

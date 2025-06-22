@@ -1,0 +1,4034 @@
+Mods: {
+	miningcracks_take_on_luiafk: {
+		Conditions: {
+			Master: Luiafk: 仅供大师
+			Expert: Luiafk: 仅供专家及以上
+		}
+
+		NPCs: {
+			Deeps: {
+				DisplayName: Deeps
+
+				TownNPCMood: {
+					// Content: ...
+					// NoHome: ...
+					// FarFromHome: ...
+					// LoveSpace: ...
+					// DislikeCrowded: ...
+					// HateCrowded: ...
+					// LikeNPC_Princess: ...
+					// Princess_LovesNPC: ...
+				}
+			}
+
+			MobileMerchant: {
+				DisplayName: 风铃商人
+
+				TownNPCMood: {
+					Content: 嘿,很高兴和你聊天 ^^
+					NoHome: 我不理解这种想要有家安定的冲动,我只是漂泊无定、四海为家的商客...
+					FarFromHome: 蛤? 不, 我不需要一个家.
+					LoveSpace: 有这么多的空间给我和一些朋友,谢谢你的好意 ^^
+					DislikeCrowded: 这里是在举行派对吗？人太多了.
+					HateCrowded: 这里人太多了,请让他们走开.
+					LikeNPC_Princess: 我喜欢 {NPCName}.
+					Princess_LovesNPC: 我喜欢 {NPCName}.
+				}
+
+				Chat: 搞快点, 我不能待太久...
+			}
+
+			SkeletonMerchant: {
+				DisplayName: 骷髅商人
+
+				TownNPCMood: {
+					Content: 谢谢你还没杀我,非常感谢 ^^
+					NoHome: 我也想要有一个家,你应该懂我意思 :(
+					LoveSpace: 周围这么大的空间非常适合我来练习悠悠球和扔骨头... 当然,我不会打到别人的眼睛.
+					FarFromHome: 你愿意帮我找到回家的路吗? 你懂的, 作为一具骷髅,我看不清自己要去的路...
+					DislikeCrowded: 这有一个大型派对? 有太多人狂欢了...
+					HateCrowded: 哇, 我周围的人太多了... 我讨厌那样
+					LikeBiome: 另外,我喜欢森林,它和地下不一样. 我可以呼吸一次新鲜空气!
+					LoveBiome: 此外,我真的很喜欢地下.让我有宾至如归的感觉!
+					DislikeBiome: 还有一个问题 : 我为什么会在这??????!
+					HateBiome: 在被 {BiomeName}的怪物攻击时,会很难去保持时尚.
+					LikeNPC: 我和 {NPCName}聊过, 他是一个很酷的人!
+					LoveNPC: 跟{NPCName}说... 他喜欢吹东西,我也喜欢, 我们注定要在一起!
+					HateNPC: 额嗯......, 我的冒险家同伴, 那有个叫{NPCName}的女孩想要净化我... 我不喜欢这样, 她想在我身上做实验... 救命!
+					LikeNPC_Princess: 我喜欢 {NPCName}.
+					Princess_LovesNPC: 我喜欢 {NPCName}.
+				}
+
+				Census.SpawnCondition: 击败任意50个骷髅
+			}
+
+			TravellingMerchant: {
+				DisplayName: 旅行商人
+
+				TownNPCMood: {
+					Content: 嘿! 你今天在找什么新奇货物吗?
+					NoHome: 我也想要有一个家,你应该懂我意思 :(
+					LoveSpace: 啊哈, 有这么大的空间! 此刻, 我可以考虑一下我的生意了!
+					FarFromHome: 求助! 我找不到回家的路了. 拜托, 带我回去.
+					DislikeCrowded: 这里的顾客似乎有点太多了,嗯?
+					HateCrowded: 好吧, 我的存货有限... 我不能给予你们所有人, 给我一些空间...
+					LikeBiome: 当然, 沙漠酷. 我喜欢这里的风景... 哦, 一位顾客!
+					LoveBiome: 啊哈, 森林... 放松和宁静的居住场所,还有很多顾客!
+					HateBiome: 此外, 我有个问题... 你想让我在这里做什么... 说真的,这里太危险了,没人会买我的东西. 我就是讨厌这个地方.
+					LikeNPC: "{NPCName} 有一个极好的商人之魂. 我喜欢那样!"
+					LoveNPC: 哦, 那里站立着 {NPCName}... 哦不,我又脸红了吗?
+					HateNPC: 求你了, 能让我不跟{NPCName}住在同一地方吗? 他正在偷我的毕生积蓄...
+					LikeNPC_Princess: 我喜欢 {NPCName}.
+					Princess_LovesNPC: 我喜欢 {NPCName}.
+				}
+
+				Census.SpawnCondition: 身上有50个金币
+			}
+
+			TargetDummy: {
+				// DisplayName: Target Dummy
+
+				TownNPCMood: {
+					// Content: I am content.
+					// NoHome: I hate not having a home.
+					// FarFromHome: I am too far from home.
+					// LoveSpace: I love having so much space.
+					// DislikeCrowded: I dislike how crowded I am.
+					// HateCrowded: I hate how crowded I am.
+					// LikeNPC_Princess: I like {NPCName}.
+					// Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+		}
+
+		Buffs: {
+			DrillMountBuff: {
+				DisplayName: 激光钻头升级版
+				Description: 小心点,不要把一切都毁了.
+			}
+
+			DrillMount: {
+				// DisplayName: Drill Mount
+				// Description: Mods.miningcracks_take_on_luiafk.Buffs.DrillMount.Description
+			}
+		}
+
+		Items: {
+			FasterMining: {
+				DisplayName: 挖掘加速
+				Tooltip: 挖掘速度提高35%.
+			}
+
+			SuperToolTime: {
+				DisplayName: 家园改造
+				Tooltip:
+					'''
+					使用工具、涂漆、放置方块和墙壁速度大幅提高.
+					自动涂漆.
+					放置距离大大增加.
+					'''
+			}
+
+			ToolTime: {
+				DisplayName: 工具时间
+				Tooltip:
+					'''
+					使用工具、涂漆、放置方块和墙壁速度提高.
+					放置距离大大增加.
+					'''
+			}
+
+			UnlimitedManaAccessory: {
+				DisplayName: 微型无限法力
+				Tooltip:
+					'''
+					无限的法力.
+					魔法伤害降低30%.
+					'''
+			}
+
+			UnlimitedManaAccessory1: {
+				DisplayName: 小型无限法力
+				Tooltip:
+					'''
+					无限的法力.
+					魔法伤害降低20%.
+					'''
+			}
+
+			UnlimitedManaAccessory2: {
+				DisplayName: 中型无限法力
+				Tooltip:
+					'''
+					无限的法力.
+					魔法伤害减少10%.
+					'''
+			}
+
+			UnlimitedManaAccessory3: {
+				DisplayName: 大型无限法力
+				Tooltip: 无限的法力.
+			}
+
+			UnlimitedManaAccessory4: {
+				DisplayName: 超级无限法力
+				Tooltip:
+					'''
+					无限的法力.
+					魔法伤害提高5%.
+					魔法暴击增加5%.
+					'''
+			}
+
+			UnlimitedManaAccessory5: {
+				DisplayName: 终极无限法力
+				Tooltip:
+					'''
+					无限的法力.
+					魔法伤害提高10%.
+					魔法暴击增加10%.
+					'''
+			}
+
+			UnlimitedBoneArrows: {
+				DisplayName: 骨箭袋
+				Tooltip: 永远用不完骨头标枪.
+			}
+
+			UnlimitedChlorophyteArrows: {
+				DisplayName: 叶绿箭袋
+				Tooltip: 永远用不完叶绿箭.
+			}
+
+			UnlimitedCursedArrows: {
+				DisplayName: 诅咒箭袋
+				Tooltip: 永远用不完诅咒箭.
+			}
+
+			UnlimitedFlamingArrows: {
+				DisplayName: 烈焰箭袋
+				Tooltip: 永远用不完烈焰箭.
+			}
+
+			UnlimitedFrostburnArrows: {
+				DisplayName: 霜冻箭袋
+				Tooltip: 永远用不完霜冻箭.
+			}
+
+			UnlimitedHellfireArrows: {
+				DisplayName: 狱炎箭袋
+				Tooltip: 永远用不完狱炎箭.
+			}
+
+			UnlimitedHolyArrows: {
+				DisplayName: 圣箭袋
+				Tooltip: 永远用不完圣箭.
+			}
+
+			UnlimitedIchorArrows: {
+				DisplayName: 灵液箭袋
+				Tooltip: 永远用不完灵液箭.
+			}
+
+			UnlimitedJesterArrows: {
+				DisplayName: 小丑之箭袋
+				Tooltip: 永远用不完小丑之箭.
+			}
+
+			UnlimitedLuminiteArrows: {
+				DisplayName: 夜明箭袋
+				Tooltip: 永远用不完夜明箭.
+			}
+
+			UnlimitedUnholyArrows: {
+				DisplayName: 邪箭袋
+				Tooltip: 永远用不完邪箭.
+			}
+
+			UnlimitedVenomArrows: {
+				DisplayName: 毒箭袋
+				Tooltip: 永远用不完毒箭.
+			}
+
+			UnlimitedWoodenArrows: {
+				DisplayName: 木箭袋
+				Tooltip: 永远用不完木箭.
+			}
+
+			UnlimitedShimmerArrows: {
+				DisplayName: 无限微光箭
+				Tooltip: 永远用不完的微光箭.
+			}
+
+			ArenaBuilder: {
+				DisplayName: 战斗平台构筑
+				Tooltip:
+					'''
+					搭建一个约200个方块宽的平台.
+					拿在手上右键可在设置界面选择种类
+					如果您的库存中有沥青平台,将自动使用沥青平台.
+					选择篝火会放置篝火.
+					还将放置气泡块.
+					选择光源将使平台始终亮起.
+					不会破坏沿路方块.
+					单击希望为平台右侧末端的位置(将向左延伸200格).
+					'''
+			}
+
+			Arena: {
+				// DisplayName: Arena
+				// Tooltip: ""
+			}
+
+			FishingBiomeBuilder: {
+				DisplayName: 钓鱼环境构筑
+				Tooltip:
+					'''
+					建造一个用于钓鱼的环境区间.
+					拿在手上右键可在设置界面选择环境区块的种类.
+					点亮黑曜石图表可在方块背后铺上丛林墙或蘑菇墙.
+					选择木材/石块作为区块边缘的材质.
+					光源开/关决定了方块是否点亮.
+					珍珠石块/神圣雪块无法在肉前建造.
+					区块会强制替换22 × 18面积的格子,
+					你点击的地方会作为区块的右下角.
+					'''
+			}
+
+			FishingBuilder: {
+				DisplayName: 钓鱼池构筑
+				Tooltip:
+					'''
+					用于建造鱼池或放置/移除液体.
+					拿在手上右键可在设置界面选择环境区块的种类.
+					当“钓鱼池构筑”处于关闭状态时,其工作方式类似于终极液体操纵器.
+					使用钓鱼池构筑时,它将使用您选择的液体创建一个钓鱼池.
+					如果你选择海绵（没有平台或外部方块）,水池将是空的.
+					选择黑曜石后, 将放置后墙 (包括海绵).
+					水池占用22 x 18格方块的空间,
+					点击空间最右上角来建造.
+					'''
+			}
+
+			GroundFiller: {
+				DisplayName: 泥土魔杖 2.0
+				Tooltip:
+					'''
+					右键单击可更改模式.
+					模式 1: 平整并填充你下面的地面,300宽,50深.
+					模式 2: 还清除了50格方块.
+					模式 3: 也适用于地牢、神庙和地下沙漠,留下背景墙.
+					改造后的方块将被原版方块取代.
+					'''
+			}
+
+			Hellevator: {
+				DisplayName: 地狱直通车
+				Tooltip:
+					'''
+					建造地狱直通车.
+					拿在手上右键可在设置界面选择种类.
+					如果你启动光源,它沿路就会被点亮.
+					只有当你的库存中有一个无限制绳索物品时,才会放置绳索.
+					点击你想要放置地方的右上角.
+					如果穿过神殿,它就会停止生成
+					地狱直通车宽7格 (内部5格宽).
+					'''
+			}
+
+			PrisonBuilder: {
+				DisplayName: NPC监狱构筑
+				Tooltip:
+					'''
+					建造NPC监狱.
+					拿在手上右键可在设置界面选择种类.
+					如果启动光源,就会亮起来（无论是否点亮,都算作一间完整的屋子）.
+					单击要放置位置的右下角.
+					监狱宽5格,高12格.
+					'''
+			}
+
+			SkyPlatformBuilder: {
+				DisplayName: 世界平台构筑
+				Tooltip:
+					'''
+					建立一个地图长度的平台.
+					拿在手上右键可在设置界面选择种类.
+					光源开启时建立的平台会提供照明.
+					不会摧毁图格.
+					如果您的库存中有沥青平台,将自动使用沥青平台.
+					你点击的地方会作为平台的水平位置.
+					'''
+			}
+
+			SubAndSky: {
+				DisplayName: 世界通道构筑
+				Tooltip:
+					'''
+					在设置界面选择建造平台或铁轨.
+					光源开启时建立的铁轨或平台会提供照明.
+					平台的材质可以是黑曜石（黑曜石会优先）或者木头.
+					如果物品栏里面有无限制沥青平台,则铺设的平台为沥青.
+					黑曜石图标点亮时建立的铁轨不会带有隧道和墙.
+					铁轨和平台的建立会摧毁物块.
+					你点击的地方会作为平台/铁轨的水平位置.
+					击败石巨人后铁轨/平台的建立可以穿过神庙.
+					摧毁铁轨/平台下方1格上方5格的物块（总高7格）.
+					'''
+			}
+
+			SubwayBuilder: {
+				DisplayName: 世界轨道构筑
+				Tooltip:
+					'''
+					建造世界轨道.
+					拿在手上右键可在设置界面选择种类.
+					光源开启时建立的铁轨会提供照明.
+					你点击的地方会作为铁轨的水平位置.
+					击败石巨人后铁轨/平台的建立可以穿过神庙.
+					摧毁铁轨下方1格上方5格的物块（总高7格）.
+					'''
+			}
+
+			InstantMoonLord: {
+				DisplayName: 月亮领主符咒
+				Tooltip: 跳过末日来临前的等待时间.
+			}
+
+			NoAltarGolem: {
+				DisplayName: 超导电池
+				Tooltip:
+					'''
+					在祭坛外生成石巨人.
+					只有当石巨人已被击败才可使用.
+					'''
+			}
+
+			NoFishDuke: {
+				DisplayName: 顶级松露虫
+				Tooltip: 生成猪鲨公爵,不需要去钓鱼
+			}
+
+			WallSummon: {
+				DisplayName: 血腥向导巫毒娃娃
+				Tooltip:
+					'''
+					不需要向导,就可以召唤的血肉之墙.
+					只有在肉山被杀死后才能使用.
+					'''
+			}
+
+			MultiPurposeSponge: {
+				DisplayName: 多功能海绵
+				Tooltip:
+					'''
+					把那里所有的液体都移除.
+					适用于水、岩浆和蜂蜜.
+					'''
+			}
+
+			UltimateBucket: {
+				DisplayName: 终极液体操纵器
+				Tooltip:
+					'''
+					永远用不完液体.
+					除非你自己想.
+					右键单击可更改模式.
+					'''
+			}
+
+			UnlimitedChumBucket: {
+				DisplayName: 无底鱼饵桶
+				Tooltip: 浮游生物梦想着这种奢华.
+			}
+
+			UnlimitedHoney: {
+				DisplayName: 无底蜂蜜桶
+				Tooltip: 永远倒不完蜂蜜.
+			}
+
+			UnlimitedLava: {
+				DisplayName: 无底岩浆桶
+				Tooltip: 永远倒不完岩浆.
+			}
+
+			UnlimitedWater: {
+				DisplayName: 无底水桶
+				Tooltip: 永远倒不完水.
+			}
+
+			UnlimitedChlorophyteBullets: {
+				DisplayName: 叶绿子弹袋
+				Tooltip: 永远用不完叶绿弹.
+			}
+
+			UnlimitedCrystalBullets: {
+				DisplayName: 水晶子弹袋
+				Tooltip: 永远用不完水晶子弹.
+			}
+
+			UnlimitedCursedBullets: {
+				DisplayName: 诅咒子弹袋
+				Tooltip: 永远用不完诅咒弹.
+			}
+
+			UnlimitedExplodingBullets: {
+				DisplayName: 爆破子弹袋
+				Tooltip: 永远用不完爆破弹.
+			}
+
+			UnlimitedGoldenBullets: {
+				DisplayName: 金子弹袋
+				Tooltip: 永远用不完金子弹.
+			}
+
+			UnlimitedHighVelocityBullets: {
+				DisplayName: 高射速子弹袋
+				Tooltip: 永远用不完高射速子弹.
+			}
+
+			UnlimitedIchorBullets: {
+				DisplayName: 灵液子弹袋
+				Tooltip: 永远用不完灵液弹.
+			}
+
+			UnlimitedLuminiteBullets: {
+				DisplayName: 夜明子弹袋
+				Tooltip: 永远用不完夜明弹.
+			}
+
+			UnlimitedMeteoriteBullets: {
+				DisplayName: 流星子弹袋
+				Tooltip: 永远用不完流星弹.
+			}
+
+			UnlimitedMusketBalls: {
+				DisplayName: 火枪子弹袋
+				Tooltip: 永远用不完火枪子弹.
+			}
+
+			UnlimitedNanoBullets: {
+				DisplayName: 纳米子弹袋
+				Tooltip: 永远用不完纳米弹.
+			}
+
+			UnlimitedPartyBullets: {
+				DisplayName: 派对子弹袋
+				Tooltip: 永远用不完派对弹.
+			}
+
+			UnlimitedSilverBullets: {
+				DisplayName: 银子弹袋
+				Tooltip: 永远用不完银子弹.
+			}
+
+			UnlimitedTungstenBullets: {
+				DisplayName: 钨子弹袋
+				Tooltip: 永远用不完钨子弹.
+			}
+
+			UnlimitedVenomBullets: {
+				DisplayName: 毒液子弹袋
+				Tooltip: 永远用不完毒液弹.
+			}
+
+			UnlimitedCrystalDarts: {
+				DisplayName: 水晶镖袋
+				Tooltip: 永远用不完水晶镖.
+			}
+
+			UnlimitedCursedDarts: {
+				DisplayName: 诅咒镖袋
+				Tooltip: 永远用不完诅咒镖.
+			}
+
+			UnlimitedIchorDarts: {
+				DisplayName: 灵液镖袋
+				Tooltip: 永远用不完灵液镖.
+			}
+
+			UnlimitedPoisonDarts: {
+				DisplayName: 毒镖袋
+				Tooltip: 永远用不完毒镖.
+			}
+
+			LootMagnet: {
+				DisplayName: 战利品磁铁
+				Tooltip:
+					'''
+					吸附一切物品
+					有时,有些物品无法生效;这是Terraria本身的问题,LuiAFK不背锅 !
+					'''
+			}
+
+			MagicEssence: {
+				DisplayName: 魔法精粹
+				Tooltip:
+					'''
+					充满魔力.
+					闻起来有点像奶酪.
+					'''
+			}
+
+			Magic: {
+				// DisplayName: Magic
+				// Tooltip: ""
+			}
+
+			ManaEssence: {
+				DisplayName: 魔力精粹
+				Tooltip:
+					'''
+					充满魔力.
+					闻起来有点像鱼.
+					'''
+			}
+
+			EventsEnabler: {
+				DisplayName: 天象启动器
+				Tooltip:
+					'''
+					拿在手上右键单击使用
+					用于切换各个事件
+					'''
+			}
+
+			HalloweenEnable: {
+				DisplayName: 万圣节快乐
+				Tooltip:
+					'''
+					当该物品在你背包中时,当天为万圣节
+					将其从背包中移除时,需要直到早上才能恢复正常.
+					'''
+			}
+
+			HalloweenXmasEnable: {
+				DisplayName: 节日快乐
+				Tooltip:
+					'''
+					当该物品在你背包中时,当天为圣诞节
+					当该物品在你背包中时,当天为万圣节
+					将其从背包中移除时,需要直到早上才能恢复正常.
+					'''
+			}
+
+			RainEnable: {
+				DisplayName: 甘霖魔咒
+				Tooltip: 开始或结束降雨.
+			}
+
+			SandstormEnable: {
+				DisplayName: 沙暴魔咒
+				Tooltip: 开始或结束沙尘暴.
+			}
+
+			Sand: {
+				// DisplayName: Sand
+				// Tooltip: ""
+			}
+
+			XMasEnable: {
+				DisplayName: 圣诞节快乐
+				Tooltip:
+					'''
+					当该物品在你背包中时,当天为圣诞节
+					将其从背包中移除时,需要直到早上才能恢复正常.
+					'''
+			}
+
+			UnlimitedBomb: {
+				DisplayName: 炸弹袋
+				Tooltip: 永远用不完炸弹.
+			}
+
+			UnlimitedBombFish: {
+				DisplayName: 炸弹鱼袋
+				Tooltip: 永远用不完炸弹鱼.
+			}
+
+			UnlimitedBouncyBomb: {
+				DisplayName: 弹力炸弹袋
+				Tooltip: 永远用不完弹力炸弹.
+			}
+
+			UnlimitedBouncyDynamite: {
+				DisplayName: 弹力雷管袋
+				Tooltip: 永远用不完弹力雷管.
+			}
+
+			UnlimitedDynamite: {
+				DisplayName: 雷管袋
+				Tooltip: 永远用不完雷管.
+			}
+
+			UnlimitedStickyBomb: {
+				DisplayName: 粘性炸弹袋
+				Tooltip: 永远用不完粘性炸弹.
+			}
+
+			UnlimitedStickyDynamite: {
+				DisplayName: 粘性雷管袋
+				Tooltip: 永远用不完粘性雷管.
+			}
+
+			UnlimitedChumCaster: {
+				DisplayName: 超级鱼饵投掷者
+				Tooltip:
+					'''
+					不需要诱饵.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedFiberglassFishingPole: {
+				DisplayName: 超级玻璃钢钓杆
+				Tooltip:
+					'''
+					不需要诱饵.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedFisherofSouls: {
+				DisplayName: 超级灵魂钓手
+				Tooltip: 不需要诱饵.
+			}
+
+			UnlimitedFleshCatcher: {
+				DisplayName: 超级捕肉手
+				Tooltip: 不需要诱饵.
+			}
+
+			UnlimitedGoldenFishingRod: {
+				DisplayName: 超级金钓竿
+				Tooltip:
+					'''
+					不需要诱饵.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedHotlineFishingHook: {
+				DisplayName: 超级熔线钓钩
+				Tooltip:
+					'''
+					不需要诱饵.
+					可以在岩浆中捕鱼.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedMechanicsRod: {
+				DisplayName: 超级机械师钓竿
+				Tooltip:
+					'''
+					不需要诱饵.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedReinforcedFishingPole: {
+				DisplayName: 超级强化钓竿
+				Tooltip: 不需要诱饵.
+			}
+
+			UnlimitedScarabFishingRod: {
+				DisplayName: 超级圣甲虫钓竿
+				Tooltip:
+					'''
+					不需要诱饵.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedSittingDucksFishingPole: {
+				DisplayName: 超级冤大头钓竿
+				Tooltip:
+					'''
+					不需要诱饵.
+					你的鱼线永远不会断.
+					'''
+			}
+
+			UnlimitedWoodFishingPole: {
+				DisplayName: 超级木钓竿
+				Tooltip: 不需要诱饵.
+			}
+
+			UnlimitedBouncyGlowstick: {
+				DisplayName: 弹力荧光棒组
+				Tooltip: 永远用不完弹力荧光棒.
+			}
+
+			UnlimitedGlowstick: {
+				DisplayName: 荧光棒组
+				Tooltip: 永远用不完荧光棒.
+			}
+
+			UnlimitedSpelunkerGlowstick: {
+				DisplayName: 洞穴探险荧光棒组
+				Tooltip: 永远用不完洞穴探险荧光棒.
+			}
+
+			UnlimitedStickyGlowstick: {
+				DisplayName: 粘性荧光棒组
+				Tooltip: 永远用不完粘性荧光棒.
+			}
+
+			BloodMoonEnable: {
+				DisplayName: 血月人偶
+				Tooltip: 切换血月.
+			}
+
+			FrostLegionEnable: {
+				DisplayName: 雪人符咒
+				Tooltip:
+					'''
+					开始雪人军团的入侵.
+					雪人军团立即到来.
+					'''
+			}
+
+			FrostMoonEnable: {
+				DisplayName: 霜月符咒
+				Tooltip: 开始霜月.
+			}
+
+			GoblinArmyEnable: {
+				DisplayName: 哥布林符咒
+				Tooltip:
+					'''
+					开始哥布林军队的入侵.
+					哥布林军团立即抵达.
+					'''
+			}
+
+			MartianMadnessEnable: {
+				DisplayName: 火星符咒
+				Tooltip:
+					'''
+					开始火星人入侵.
+					要求石巨人被击败.
+					'''
+			}
+
+			PirateEnable: {
+				DisplayName: 海盗符咒
+				Tooltip:
+					'''
+					开始海盗入侵.
+					海盗立即到达.
+					'''
+			}
+
+			PumpkinMoonEnable: {
+				DisplayName: 南瓜月符咒
+				Tooltip: 开始南瓜月.
+			}
+
+			SolarEclipseEnable: {
+				DisplayName: 日食符咒
+				Tooltip: 开始日食.
+			}
+
+			UnlimitedBloodyTear: {
+				DisplayName: 纯粹血泪
+				Tooltip: 开始血月 “被诅咒的夜晚是多么的可怕啊”.
+			}
+
+			PlanteraLocator: {
+				DisplayName: 花苞定位器
+				Tooltip:
+					'''
+					定位一个丛林花苞.
+					在你的下方搜索.
+					'''
+			}
+
+			TempleLocator: {
+				DisplayName: 神庙定位器
+				Tooltip:
+					'''
+					定位丛林神庙.
+					在你的下方搜索.
+					'''
+			}
+
+			DeepsSummon: {
+				DisplayName: 改进型傀儡
+				Tooltip:
+					'''
+					召唤一个目标傀儡来测试你的DPS.
+					再次使用他会将已生成的傀儡移除.
+					可以作为瞄准目标,你的召唤物会攻击他.
+					生成boss时被移除.
+					右键单击可切换正常的不死状态.
+					碰撞箱大小不变.
+					使用 /luiafk dummy 切换碰撞箱显示.
+					使用 /luiafk dummy + 数字 ,来改变傀儡的防御.
+					'''
+			}
+
+			FastFall: {
+				DisplayName: 超重壶铃
+				Tooltip:
+					'''
+					它太重了,让你摔得比平时快.
+					收藏它来使它生效.
+					'''
+			}
+
+			LightSwitch: {
+				DisplayName: 光闸
+				Tooltip:
+					'''
+					关闭所有“房屋牌照”的光源.
+					“房屋牌照（无光源）”不受影响.
+					'''
+			}
+
+			TimeChanger: {
+				DisplayName: 时间转换器
+				Tooltip: 不用再等待喽.
+			}
+
+			UnlimitedAle: {
+				DisplayName: 麦芽酒袋
+				Tooltip: 麦芽酒永远不会喝完.
+			}
+
+			UnlimitedBlueFlares: {
+				DisplayName: 蓝照明弹袋
+				Tooltip: 永远用不完蓝照明弹.
+			}
+
+			UnlimitedBones: {
+				DisplayName: 骨头袋
+				Tooltip: 永远用不完骨头.
+			}
+
+			UnlimitedCandyCorn: {
+				DisplayName: 玉米糖袋
+				Tooltip: 永远用不完玉米糖.
+			}
+
+			UnlimitedCopperCoin: {
+				DisplayName: 铜币袋
+				Tooltip:
+					'''
+					永远用不完的铜币.
+					算弹药,不算钱!
+					可以被放在弹药格.
+					'''
+			}
+
+			UnlimitedExplosiveJackOLantern: {
+				DisplayName: 爆炸杰克南瓜灯袋
+				Tooltip: 永远用不完爆炸杰克南瓜灯.
+			}
+
+			UnlimitedFallenStars: {
+				DisplayName: 坠落之星袋
+				Tooltip: 永远用不完坠落之星.
+			}
+
+			UnlimitedFlares: {
+				DisplayName: 照明弹袋
+				Tooltip: 永远用不完照明弹.
+			}
+
+			UnlimitedGel: {
+				DisplayName: 凝胶袋
+				Tooltip: 永远用不完凝胶.
+			}
+
+			UnlimitedGoldCoin: {
+				DisplayName: 金币袋
+				Tooltip:
+					'''
+					永远用不完金币.
+					算弹药,不算钱!
+					可以被放在弹药格.
+					'''
+			}
+
+			UnlimitedNails: {
+				DisplayName: 钉子袋
+				Tooltip: 永远用不完钉子.
+			}
+
+			UnlimitedPlatinumCoin: {
+				DisplayName: 铂金币袋
+				Tooltip:
+					'''
+					永远用不完铂金币.
+					算弹药,不算钱!
+					可以被放在弹药格.
+					'''
+			}
+
+			UnlimitedSand: {
+				DisplayName: 沙块袋
+				Tooltip:
+					'''
+					永远用不完沙块.
+					这是弹药,不是方块
+					'''
+			}
+
+			UnlimitedSeeds: {
+				DisplayName: 种子袋
+				Tooltip: 永远用不完种子.
+			}
+
+			UnlimitedSilverCoin: {
+				DisplayName: 银币袋
+				Tooltip:
+					'''
+					永远用不完银币.
+					算弹药,不算钱!
+					可以被放在弹药格.
+					'''
+			}
+
+			UnlimitedSnowballs: {
+				DisplayName: 雪球袋
+				Tooltip: 永远用不完雪球.
+			}
+
+			UnlimitedStakes: {
+				DisplayName: 尖桩袋
+				Tooltip: 永远用不完尖桩.
+			}
+
+			UnlimitedStyngerBolts: {
+				DisplayName: 毒刺矢袋
+				Tooltip: 永远用不完毒刺矢.
+			}
+
+			AllInOneChest: {
+				DisplayName: 移动一体箱
+				Tooltip:
+					'''
+					召唤一个漂浮的猪猪存钱罐、保险箱、虚空保险库和护卫熔炉.
+					召唤一个会买卖商品的仙灵.
+					使用库时禁用智能光标.
+					'''
+			}
+
+			DefendersForge: {
+				DisplayName: 便携式护卫熔炉
+				Tooltip:
+					'''
+					生成一个漂浮的护卫熔炉.
+					使用库时禁用智能光标.
+					'''
+			}
+
+			MobileMerchant: {
+				DisplayName: 仙灵商人
+				Tooltip: 生成一个会买卖商品的仙灵.
+			}
+
+			MoneyCollector: {
+				DisplayName: 钱币收集者
+				Tooltip:
+					'''
+					自动将捡到的硬币放入你的猪猪存钱罐中.
+					如果你的猪猪存钱罐空间是满的,它将不生效.
+					可以放在钱币格.
+					'''
+			}
+
+			PiggyBank: {
+				DisplayName: 便携式猪猪存钱罐
+				Tooltip:
+					'''
+					生成一个漂浮的猪猪存钱罐.
+					使用库时禁用智能光标.
+					'''
+			}
+
+			PiggySafe: {
+				DisplayName: 移动存贮机
+				Tooltip:
+					'''
+					生成一个漂浮的猪猪存钱罐和保险箱.
+					生成一个会买卖商品的仙灵.
+					使用库时禁用智能光标.
+					'''
+			}
+
+			Safe: {
+				DisplayName: 便携式保险箱
+				Tooltip:
+					'''
+					生成一个漂浮的保险箱.
+					使用库时禁用智能光标.
+					'''
+			}
+
+			AsphaltPlatform: {
+				DisplayName: 无限制沥青平台
+				Tooltip: 让你跑得超级快,这下不用沉淀了.
+			}
+
+			BambooHarvester: {
+				DisplayName: 竹子收割机
+				Tooltip:
+					'''
+					放置时将收集附件的竹子.
+					将收集50格方块以内的竹子.
+					'''
+			}
+
+			CactusHarvester: {
+				DisplayName: 仙人掌收割机
+				Tooltip:
+					'''
+					放置时会收集附件的仙人掌.
+					将收集50格方块内的仙人掌.
+					'''
+			}
+
+			CrystalHarvester: {
+				DisplayName: 水晶收割机
+				Tooltip:
+					'''
+					放置时将收集附近的水晶碎块和明胶水晶.
+					将收集50格方块内的水晶.
+					'''
+			}
+
+			EnemyHarvester: {
+				DisplayName: 敌怪收割机
+				Tooltip:
+					'''
+					放置时将收集怪物掉落物,收集物取决于其生态群落.
+					将考虑下方方块的生态群落, 所以如果
+					你在两块珍珠石块上放置它,它将把生态群落
+					视为神圣之地.
+					不会收集钱和掉落的食物.
+					目前不能收集模组怪物的掉落物.
+					'''
+			}
+
+			FishHarvester: {
+				DisplayName: 鱼儿收割机
+				Tooltip:
+					'''
+					放置时将在附近水域捕鱼.
+					需要超级钓竿或普通钓竿+诱饵.
+					某些物品可以放在箱子里,以获得更高质量的鱼.
+					捕获量将基于箱子位置（生态群落）.
+					最多离水面高10格方块.
+					生态群落识别范围为沿每个方向30块.
+					'''
+			}
+
+			GemCornHarvester: {
+				DisplayName: 宝石树收割机
+				Tooltip:
+					'''
+					放置时将收集附近的宝石树.
+					将在50格方块内收集宝石树.
+					不会收集宝石树树苗.
+					'''
+			}
+
+			FishingNet: {
+				DisplayName: 渔网
+				Tooltip: ""
+			}
+
+			HarvesterParts: {
+				DisplayName: 收割机零件
+				Tooltip: ""
+			}
+
+			Piping: {
+				DisplayName: 管子
+				Tooltip: ""
+			}
+
+			PlantHarvester: {
+				DisplayName: 药材收割机
+				Tooltip:
+					'''
+					放置时将收集并重新种植附近的盆栽.
+					将收集50格方块以内开花的盆栽.
+					会重新种植任何收获的东西.
+					不会收集种子.
+					'''
+			}
+
+			TreeHarvester: {
+				DisplayName: 木材收割机
+				Tooltip:
+					'''
+					放置时将收集并重新种植附近的树木.
+					将收集50格方块以内的木材.
+					会重新种植任何收获的东西.
+					不会收集橡子..
+					石头/宝石树不会被收割.
+					'''
+			}
+
+			CorruptionAltar: {
+				DisplayName: 腐化祭坛
+				Tooltip:
+					'''
+					放置腐化祭坛进行制作.
+					非消耗品
+					'''
+			}
+
+			Corrupt: {
+				// DisplayName: Corrupt
+				// Tooltip: ""
+			}
+
+			CrimsonAltar: {
+				DisplayName: 猩红祭坛
+				Tooltip:
+					'''
+					放置猩红祭坛进行制作.
+					非消耗品
+					'''
+			}
+
+			Crimson: {
+				// DisplayName: Crimson
+				// Tooltip: ""
+			}
+
+			HouseTile: {
+				DisplayName: 房屋牌照
+				Tooltip:
+					'''
+					不可见的方块.
+					同时算作门、椅子、桌子和光源.
+					右键单击以选择是否有光源（无论哪种方式都将被视为房屋）.
+					'''
+			}
+
+			UnlimitedBlueStreamer: {
+				DisplayName: 无限制蓝饰带
+				Tooltip: 永远用不完蓝饰带.
+			}
+
+			UnlimitedChain: {
+				DisplayName: 无限制链条
+				Tooltip: 永远用不完链条.
+			}
+
+			UnlimitedGreenStreamer: {
+				DisplayName: 无限制绿饰带
+				Tooltip: 永远用不完绿饰带.
+			}
+
+			UnlimitedPinkStreamer: {
+				DisplayName: 无限制粉饰带
+				Tooltip: 永远用不完粉饰带.
+			}
+
+			UnlimitedRope: {
+				DisplayName: 无限制绳索
+				Tooltip: 永远用不完绳索.
+			}
+
+			UnlimitedRopeCoil: {
+				DisplayName: 无限制绳圈
+				Tooltip: 永远用不完绳圈.
+			}
+
+			UnlimitedSilkRope: {
+				DisplayName: 无限制丝绸绳
+				Tooltip: 永远用不完丝绸绳.
+			}
+
+			UnlimitedSilkRopeCoil: {
+				DisplayName: 无限制丝绸绳圈
+				Tooltip: 永远用不完丝绸绳圈.
+			}
+
+			UnlimitedVineRope: {
+				DisplayName: 无限制藤蔓绳
+				Tooltip: 永远用不完藤蔓绳.
+			}
+
+			UnlimitedVineRopeCoil: {
+				DisplayName: 无限制藤蔓绳圈
+				Tooltip: 永远用不完藤蔓绳圈.
+			}
+
+			UnlimitedWebRope: {
+				DisplayName: 无限制蛛丝绳
+				Tooltip: 永远用不完蛛丝绳.
+			}
+
+			UnlimitedWebRopeCoil: {
+				DisplayName: 无限制蛛丝绳圈
+				Tooltip: 永远用不完蛛丝绳圈.
+			}
+
+			UnlimitedBastStatue: {
+				DisplayName: 黄金巴斯特雕像
+				Tooltip: 防御力提高5
+			}
+
+			UnlimitedCampfire: {
+				DisplayName: 黄金篝火
+				Tooltip: 生命回复增加.
+			}
+
+			UnlimitedHeartLantern: {
+				DisplayName: 黄金心灯
+				Tooltip: 生命回复增加.
+			}
+
+			UnlimitedHoneyBuff: {
+				DisplayName: 黄金蜂蜜
+				Tooltip: 生命回复增加.
+			}
+
+			UnlimitedStarinaBottle: {
+				DisplayName: 黄金星星瓶
+				Tooltip: 法力回复增加.
+			}
+
+			UnlimitedPeaceCandle: {
+				DisplayName: 和平之魂
+				Tooltip: 美好且安静.
+			}
+
+			UnlimitedWaterCandle: {
+				DisplayName: 战争之魂
+				Tooltip: 提高生成速率.
+			}
+
+			UnlimitedAmmoReservation: {
+				DisplayName: 储弹力量
+				Tooltip: 节省一些弹药.
+			}
+
+			UnlimitedArchery: {
+				DisplayName: 射箭力量
+				Tooltip: 快速而有力地射箭.
+			}
+
+			UnlimitedBattle: {
+				DisplayName: 交锋力量
+				Tooltip: 提高生物生成速度
+			}
+
+			UnlimitedBuilder: {
+				DisplayName: 建造力量
+				Tooltip: 必须更快地建造那些NPC监狱.
+			}
+
+			UnlimitedCalming: {
+				DisplayName: 冷静力量
+				Tooltip: 美好且安静.
+			}
+
+			UnlimitedCrates: {
+				DisplayName: 板条箱力量
+				Tooltip:
+					'''
+					把你需要的所有板条箱都捞上来.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedDangersense: {
+				DisplayName: 危险力量
+				Tooltip:
+					'''
+					不要感到惊奇.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedEndurance: {
+				DisplayName: 忍耐力量
+				Tooltip: 减少受到的伤害.
+			}
+
+			UnlimitedFeatherfall: {
+				DisplayName: 羽化力量
+				Tooltip:
+					'''
+					永远不会再摔死.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedFishingPotion: {
+				DisplayName: 钓鱼力量
+				Tooltip: 提高捕鱼技能.
+			}
+
+			UnlimitedFlipper: {
+				DisplayName: 脚蹼力量
+				Tooltip: 允许你在水中畅游.
+			}
+
+			UnlimitedGenderChange: {
+				DisplayName: 变性力量
+				Tooltip:
+					'''
+					使用设置的热键切换性别.
+					老兄,现在是2023年,去做你想做的吧.
+					大伙不会介意的.（？
+					'''
+			}
+
+			UnlimitedGills: {
+				DisplayName: 鱼鳃力量
+				Tooltip: 不再被淹死.
+			}
+
+			UnlimitedGnome: {
+				DisplayName: 黄金花园侏儒
+				Tooltip: 你被加护了.
+			}
+
+			UnlimitedGravitation: {
+				DisplayName: 重力力量
+				Tooltip:
+					'''
+					去找那些漂浮的岛屿吧.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedHeartreach: {
+				DisplayName: 拾心力量
+				Tooltip: 拾心范围增加.
+			}
+
+			UnlimitedHunter: {
+				DisplayName: 猎人力量
+				Tooltip:
+					'''
+					在敌人发现你之前先发现他们.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedIchor: {
+				DisplayName: 灵液力量
+				Tooltip: 你的攻击给予灵液减益.
+			}
+
+			UnlimitedInferno: {
+				DisplayName: 狱火力量
+				Tooltip:
+					'''
+					点燃附近的敌人.
+					使用设置的热键切换视觉效果.
+					'''
+			}
+
+			UnlimitedInvisibility: {
+				DisplayName: 隐形力量
+				Tooltip:
+					'''
+					很明显,使用它对松露虫养殖很有用.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedIronskin: {
+				DisplayName: 铁皮力量
+				Tooltip: 这么多的护甲值.
+			}
+
+			UnlimitedLadybug: {
+				DisplayName: 瓢虫力量
+				Tooltip:
+					'''
+					你感觉到幸运在你手中嗡嗡作响.
+					但那没有生物!
+					'''
+			}
+
+			UnlimitedLifeforce: {
+				DisplayName: 生命力量
+				Tooltip: 更多生命值.
+			}
+
+			UnlimitedLove: {
+				DisplayName: 爱情力量
+				Tooltip: 扔一些让他们坠入爱河.
+			}
+
+			UnlimitedLuck: {
+				DisplayName: 四叶草力量
+				Tooltip: 因为是你拥有,所有值得幸运
+			}
+
+			UnlimitedMagicPower: {
+				DisplayName: 魔攻力量
+				Tooltip: 魔法伤害提升.
+			}
+
+			UnlimitedManaRegeneration: {
+				DisplayName: 魔复力量
+				Tooltip: 增加法力回复.
+			}
+
+			UnlimitedMining: {
+				DisplayName: 挖掘力量
+				Tooltip: 提高了挖掘速度.
+			}
+
+			UnlimitedNightOwl: {
+				DisplayName: 夜视力量
+				Tooltip: 黑夜给了我黑色的眼睛,我却拿它来寻找光明.
+			}
+
+			UnlimitedObsidianSkin: {
+				DisplayName: 火抗力量
+				Tooltip: 去采集那些狱石吧.
+			}
+
+			UnlimitedRage: {
+				DisplayName: 暴怒力量
+				Tooltip: 暴击几率增加.
+			}
+
+			UnlimitedRecall: {
+				DisplayName: 回忆力量
+				Tooltip:
+					'''
+					传送回家.
+					在控件中设置要使用的热键.
+					回忆传送你到你的重生点.
+					'''
+			}
+
+			UnlimitedRegeneration: {
+				DisplayName: 再生力量
+				Tooltip: 如此快的回复.
+			}
+
+			UnlimitedShine: {
+				DisplayName: 闪耀力量
+				Tooltip: 你会发光.
+			}
+
+			UnlimitedSonar: {
+				DisplayName: 声呐力量
+				Tooltip: 你不知怎的感觉到了自己即将陷入的困境.
+			}
+
+			UnlimitedSpelunker: {
+				DisplayName: 探险力量
+				Tooltip:
+					'''
+					看到你周围的宝藏.
+					使用设置的热键切换效果.
+					“是金子总会发光”
+					'''
+			}
+
+			UnlimitedStink: {
+				DisplayName: 恶臭力量
+				Tooltip:
+					'''
+					朝向某人扔,让他们闻起来很难闻.
+					“乱扔答辩的屑”
+					'''
+			}
+
+			UnlimitedSummoning: {
+				DisplayName: 召唤力量
+				Tooltip: 多一个召唤格.
+			}
+
+			UnlimitedSwiftness: {
+				DisplayName: 迅捷力量
+				Tooltip: 太快了,哇.
+			}
+
+			UnlimitedTeleportation: {
+				DisplayName: 传送力量
+				Tooltip: 将你随机传送到一个位置.
+			}
+
+			UnlimitedThorns: {
+				DisplayName: 荆棘力量
+				Tooltip: 我将反弹一切伤害.
+			}
+
+			UnlimitedTipsy: {
+				DisplayName: 醉意力量
+				Tooltip: 增伤减防,纯粹的战意.
+			}
+
+			UnlimitedTitan: {
+				DisplayName: 泰坦力量
+				Tooltip: 增加击退距离.
+			}
+
+			UnlimitedWarmth: {
+				DisplayName: 温暖力量
+				Tooltip: 减少寒冷造成的伤害.
+			}
+
+			UnlimitedWaterWalking: {
+				DisplayName: 踏水力量
+				Tooltip: 现在你不需要为肉山建造那个平台了.
+			}
+
+			UnlimitedWellFed: {
+				DisplayName: 至高饱和力量
+				Tooltip:
+					'''
+					这么多的食物.
+					酒足饭饱.
+					'''
+			}
+
+			UnlimitedWellFed2: {
+				DisplayName: 中等饱和力量
+				Tooltip:
+					'''
+					这么多的食物.
+					很满意.
+					'''
+			}
+
+			UnlimitedWellFed3: {
+				DisplayName: 微小饱和力量
+				Tooltip:
+					'''
+					这么多的食物.
+					吃得好.
+					'''
+			}
+
+			UnlimitedWormhole: {
+				DisplayName: 虫洞力量
+				Tooltip: 永远不再迷失你的朋友.
+			}
+
+			UnlimitedWrath: {
+				DisplayName: 怒气力量
+				Tooltip: 伤害增加,让怪物尝尝你的怒火
+			}
+
+			UnlimitedAmmoBox: {
+				DisplayName: 改进型弹药箱
+				Tooltip: 减少弹药消耗.
+			}
+
+			UnlimitedBewitchingTable: {
+				DisplayName: 改进型施法桌
+				Tooltip: 在附近多一个召唤格.
+			}
+
+			UnlimitedCrystalBall: {
+				DisplayName: 改进型水晶球
+				Tooltip: 给予一些与魔力有关的增益.
+			}
+
+			UnlimitedSharpeningStation: {
+				DisplayName: 改进型利器站
+				Tooltip: 近战武器增加护甲穿透,给予最真实的伤害.
+			}
+
+			UnlimitedSliceCake: {
+				DisplayName: 改进型蛋糕块
+				Tooltip: 涂自己的脸,塞别人的脸,别管其他的.
+			}
+
+			UltimateBattler: {
+				DisplayName: 战争卷轴
+				Tooltip:
+					'''
+					你确定你能应付得了这个吗?
+					大幅度提升生物生成速度.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UltimatePeaceful: {
+				DisplayName: 和平卷轴
+				Tooltip: 太安静了. 大幅度降低生成速度.
+			}
+
+			UnlimitedArena: {
+				DisplayName: 竞技卷轴
+				Tooltip: 生命回复、魔力回复和防御力增加.
+			}
+
+			UnlimitedBasics: {
+				DisplayName: 基础卷轴
+				Tooltip: 食物、再生、铁皮和速度.
+			}
+
+			UnlimitedBattler: {
+				DisplayName: 交锋卷轴
+				Tooltip: 大幅度提升生成速度.
+			}
+
+			UnlimitedCombat: {
+				DisplayName: 战斗卷轴
+				Tooltip:
+					'''
+					给予所有的战斗增益.
+					只有持有近战武器时,醉酒的护甲减少才会生效.
+					使用“设置”热键切换“狱火”的视觉效果.
+					'''
+			}
+
+			UnlimitedDamage: {
+				DisplayName: 伤害卷轴
+				Tooltip:
+					'''
+					怒气,暴怒,召唤,泰坦和荆棘.
+					使用“设置”热键可以切换“狱炎”的视觉效果.
+					'''
+			}
+
+			UnlimitedDanger: {
+				DisplayName: 危险卷轴
+				Tooltip:
+					'''
+					不要再猝不及防了.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedDefense: {
+				DisplayName: 防御卷轴
+				Tooltip: 更多生命值,减少伤害和扩大拾心范围.
+			}
+
+			UnlimitedEverything: {
+				DisplayName: 全知全能之书
+				Tooltip:
+					'''
+					掌握世间所有奥秘.
+					只有持有近战武器时,醉酒的护甲减少才会生效.
+					使用可以来传送到随机位置.
+					点击地图上的朋友头像来前往他们身边.
+					设置热键以使用“回忆”.
+					回忆传送你到你的重生点.
+					回忆返回将你传送到你使用回忆的最后一个位置.
+					使用“设置”热键切换某些增益和效果.
+					'''
+			}
+
+			UnlimitedExplorer: {
+				DisplayName: 探索卷轴
+				Tooltip:
+					'''
+					让你更容易在四处走动.
+					使用设置的热键切换效果.
+					'''
+			}
+
+			UnlimitedFishing: {
+				DisplayName: 渔人卷轴
+				Tooltip: 抓住所有你需要的鱼.
+			}
+
+			UnlimitedFlight: {
+				DisplayName: 飞翔卷轴
+				Tooltip:
+					'''
+					去找那些空岛.
+					不用担心摔死.
+					使用设置热键切换“羽落”和“重力控制”.
+					'''
+			}
+
+			UnlimitedGathering: {
+				DisplayName: 采集卷轴
+				Tooltip:
+					'''
+					去采集所有的矿石.
+					使用设置的热键切换洞穴探险效果.
+					'''
+			}
+
+			UnlimitedLucky: {
+				DisplayName: 幸运卷轴
+				Tooltip:
+					'''
+					你很幸运.
+					火炬们不会注意到你的存在
+					'''
+			}
+
+			UnlimitedMagic: {
+				DisplayName: 魔法卷轴
+				Tooltip: 魔能增益和魔力再生.
+			}
+
+			UnlimitedMelee: {
+				DisplayName: 近战卷轴
+				Tooltip: 灵液和醉酒.
+			}
+
+			UnlimitedPeaceful: {
+				DisplayName: 宁静卷轴
+				Tooltip: 如此平静.
+			}
+
+			UnlimitedRange: {
+				DisplayName: 弓箭卷轴
+				Tooltip: 弹药储备和箭术.
+			}
+
+			UnlimitedStation: {
+				DisplayName: 站台卷轴
+				Tooltip: 给予五种站台的所有增益.
+			}
+
+			UnlimitedSwimming: {
+				DisplayName: 游水卷轴
+				Tooltip: 看来你喜欢水.
+			}
+
+			UnlimitedTravel: {
+				DisplayName: 旅者卷轴
+				Tooltip:
+					'''
+					永远不再迷失你的朋友.
+					设置热键以使用“回忆”.
+					回忆传送你到你的重生点.
+					回忆返回将你传送到你使用回忆的最后一个位置.
+					'''
+			}
+
+			UnlimitedRocketIIIs: {
+				DisplayName: 三级火箭箱
+				Tooltip: 永远用不完三级火箭.
+			}
+
+			UnlimitedRocketIIs: {
+				DisplayName: 二级火箭箱
+				Tooltip: 永远用不完二级火箭.
+			}
+
+			UnlimitedRocketIs: {
+				DisplayName: 初级火箭箱
+				Tooltip: 永远用不完初级火箭.
+			}
+
+			UnlimitedRocketIVs: {
+				DisplayName: 四级火箭箱
+				Tooltip: 永远用不完四级火箭.
+			}
+
+			UnlimitedClusterRocketIIs: {
+				DisplayName: 二级集束火箭箱
+				Tooltip: 永远用不完二级集束火箭.
+			}
+
+			UnlimitedClusterRocketIs: {
+				DisplayName: 初级集束火箭箱
+				Tooltip: 永远用不完初级集束火箭箱.
+			}
+
+			UnlimitedDryRockets: {
+				DisplayName: 干火箭箱
+				Tooltip: 永远用不完干火箭.
+			}
+
+			UnlimitedHoneyRockets: {
+				DisplayName: 蜂蜜火箭箱
+				Tooltip: 永远用不完蜂蜜火箭.
+			}
+
+			UnlimitedLavaRockets: {
+				DisplayName: 熔岩火箭箱
+				Tooltip: 永远用不完熔岩火箭.
+			}
+
+			UnlimitedMiniNukeIIs: {
+				DisplayName: 二级迷你核弹盒
+				Tooltip: 永远用不完二级迷你核弹.
+			}
+
+			UnlimitedMiniNukeIs: {
+				DisplayName: 初级迷你核弹盒
+				Tooltip: 永远用不完初级迷你核弹.
+			}
+
+			UnlimitedWetRockets: {
+				DisplayName: 湿火箭箱
+				Tooltip: 永远用不完湿火箭.
+			}
+
+			DarkGreenSolution: {
+				DisplayName: 深绿溶液
+				Tooltip:
+					'''
+					用于环境改造枪.
+					蔓延丛林.
+					丛林中的蒸汽朋克出售
+					'''
+			}
+
+			UnlimitedBlueSolution: {
+				DisplayName: 浓缩蓝溶液
+				Tooltip: 永远用不完蓝溶液.
+			}
+
+			UnlimitedDarkBlueSolution: {
+				DisplayName: 浓缩深蓝溶液
+				Tooltip: 永远用不完深蓝溶液.
+			}
+
+			UnlimitedDarkGreenSolution: {
+				DisplayName: 浓缩深绿溶液
+				Tooltip:
+					'''
+					永远用不完深绿溶液.
+					蔓延丛林.
+					'''
+			}
+
+			UnlimitedGreenSolution: {
+				DisplayName: 浓缩绿溶液
+				Tooltip: 永远用不完绿溶液.
+			}
+
+			UnlimitedMultiSolution: {
+				DisplayName: 彩虹溶液
+				Tooltip:
+					'''
+					随意改变生物群落.
+					右键单击选择生物群落.
+					如果与环境改造枪一起使用,效果与正常溶液类似.
+					如果选择地狱/空岛/雪地,将使用绿溶液.
+					也可以用作物品.
+					单击平铺以将其选为矩形的边角.
+					选择2个点后,右键单击并单击转换按钮.
+					然后,这两个点内的区域将被转换.
+					蘑菇生物群落和新的生物群落将转换成与丛林相同的方块.
+					所有生物群落将转变为丛林/蘑菇/天空/地狱/雪地.
+					'''
+			}
+
+			UnlimitedPurpleSolution: {
+				DisplayName: 浓缩紫溶液
+				Tooltip: 永远用不完紫溶液.
+			}
+
+			UnlimitedRedSolution: {
+				DisplayName: 浓缩红溶液
+				Tooltip: 永远用不完红溶液.
+			}
+
+			UnlimitedBrownSolution: {
+				DisplayName: 浓缩棕溶液
+				Tooltip: 永远用不完棕溶液
+			}
+
+			UnlimitedWhiteSolution: {
+				DisplayName: 浓缩白溶液
+				Tooltip: 永远用不完白溶液
+			}
+
+			UnlimitedYellowSolution: {
+				DisplayName: 浓缩黄溶液
+				Tooltip: 永远用不完黄溶液
+			}
+
+			UnlimitedBeenade: {
+				DisplayName: 蜜蜂手榴弹袋
+				Tooltip: 永远用不完蜜蜂手榴弹.
+			}
+
+			UnlimitedBoneJavelin: {
+				DisplayName: 骨头标枪袋
+				Tooltip: 永远用不完骨头标枪.
+			}
+
+			UnlimitedBoneThrowingKnife: {
+				DisplayName: 骨飞刀袋
+				Tooltip: 永远用不完骨飞刀.
+			}
+
+			UnlimitedBouncyGrenade: {
+				DisplayName: 弹力手榴弹袋
+				Tooltip: 永远用不完弹力手榴弹.
+			}
+
+			UnlimitedFrostDaggerfish: {
+				DisplayName: 寒霜飞鱼袋
+				Tooltip: 永远用不完寒霜飞鱼.
+			}
+
+			UnlimitedGrenade: {
+				DisplayName: 手榴弹袋
+				Tooltip: 永远用不完手榴弹.
+			}
+
+			UnlimitedHappyGrenade: {
+				DisplayName: 快乐手榴弹袋
+				Tooltip: 永远用不完快乐手榴弹.
+			}
+
+			UnlimitedJavelin: {
+				DisplayName: 标枪袋
+				Tooltip: 永远用不完标枪.
+			}
+
+			UnlimitedMerchantKiller: {
+				DisplayName: NPC杀手
+				Tooltip: "'因为他们从来没有问过我是否可以搬进来"
+			}
+
+			UnlimitedMolotovCocktail: {
+				DisplayName: 莫洛托夫鸡尾酒袋
+				Tooltip: 永远用不完莫洛托夫鸡尾酒.
+			}
+
+			UnlimitedPoisonKnife: {
+				DisplayName: 毒刀袋
+				Tooltip: 永远用不完毒刀.
+			}
+
+			UnlimitedRottenEgg: {
+				DisplayName: 臭蛋袋
+				Tooltip: 永远用不完臭蛋.
+			}
+
+			UnlimitedShuriken: {
+				DisplayName: 手里剑袋
+				Tooltip: 永远用不完手里剑.
+			}
+
+			UnlimitedSpikyBall: {
+				DisplayName: 尖球袋
+				Tooltip: 永远用不完尖球.
+			}
+
+			UnlimitedStarAnise: {
+				DisplayName: 星形茴香袋
+				Tooltip: 永远用不完星形茴香.
+			}
+
+			UnlimitedStickyGrenade: {
+				DisplayName: 粘性手榴弹袋
+				Tooltip: 永远用不完粘性手榴弹.
+			}
+
+			UnlimitedThrowingKnife: {
+				DisplayName: 飞刀袋
+				Tooltip: 永远用不完飞刀.
+			}
+
+			ActuationRod: {
+				DisplayName: 改进型操作魔杖
+				Tooltip:
+					'''
+					破坏目标方块.
+					不需要开关即可生效.
+					像 精密线控仪 一样点击和拖动.
+					'''
+			}
+
+			BuildingRod: {
+				DisplayName: 转换魔杖
+				Tooltip:
+					'''
+					拿在手上右键可在设置界面选择种类.
+					选择方块样式和状态, 反向优先级高于启动/禁用.
+					选择间隔以便构建.
+					如果在没有方块的地方使用,则将块放置在右下角的库存槽中.
+					任何已经存在或从库存中放置的方块都将根据所选设置进行更改.
+					像 精密线控仪 一样点击和拖动.
+					'''
+			}
+
+			ComboRod: {
+				DisplayName: 终极魔杖
+				Tooltip:
+					'''
+					具有以下物品的功能：
+					一体式绘制工具
+					转换魔杖
+					墙壁魔杖
+					完美蓝图
+					终极液体操纵器
+					上述所有物品的功能现在无限范围.
+					当智能光标被禁用时,挖掘模式应用方框放置
+					平铺模式可以放置草（在土块/泥块上）,
+					苔藓（在石头上）,
+					蜂巢（需要蜂巢）,
+					骨块（需要骨头/骨头袋）,
+					生命木/树叶叶（需要木材）,红木/叶（需要红木）.
+					'''
+			}
+
+			DrillMount: {
+				DisplayName: 筋斗云
+				Tooltip:
+					'''
+					改进型挖掘机,并且能让你垂直与水平移动飞快
+					表情：^耸肩^
+					'''
+			}
+
+			PaintTool: {
+				DisplayName: 一体式绘制工具
+				Tooltip:
+					'''
+					右键单击以选择绘画颜色和模式.
+					禁用智能光标后,您可以通过选择框进行绘制.
+					不消耗油漆.
+					速度极快.
+					'''
+			}
+
+			UnlimitedGrandDesign: {
+				DisplayName: 完美蓝图
+				Tooltip: 永远用不完电线和促动器.
+			}
+
+			WallRod: {
+				DisplayName: 墙壁魔杖
+				Tooltip:
+					'''
+					放置库存中的墙.
+					将从您库存的最后一个位置开始,
+					并逐渐向上移动,
+					直到您库存的第一个位置.
+					禁用智能光标来使用.
+					类似一体式绘制工具的方框放置
+					'''
+			}
+
+			UnlimitedBlueTorches: {
+				DisplayName: 无限制蓝火把
+				Tooltip: 永远用不完蓝火把.
+			}
+
+			UnlimitedBoneTorches: {
+				DisplayName: 无限制骨头火把
+				Tooltip: 永远用不完骨头火把.
+			}
+
+			UnlimitedCoralTorches: {
+				DisplayName: 无限制珊瑚火把
+				Tooltip: 永远用不完珊瑚火把.
+			}
+
+			UnlimitedCorruptTorches: {
+				DisplayName: 无限制腐化火把
+				Tooltip: 永远用不完腐化火把.
+			}
+
+			UnlimitedCrimsonTorches: {
+				DisplayName: 无限制猩红火把
+				Tooltip: 永远用不完猩红火把.
+			}
+
+			UnlimitedCursedTorches: {
+				DisplayName: 无限制诅咒火把
+				Tooltip: 永远用不完诅咒火把.
+			}
+
+			UnlimitedDemonTorches: {
+				DisplayName: 无限制恶魔火把
+				Tooltip: 永远用不完恶魔火把.
+			}
+
+			UnlimitedDesertTorches: {
+				DisplayName: 无限制沙漠火把
+				Tooltip: 永远用不完沙漠火把.
+			}
+
+			UnlimitedGreenTorches: {
+				DisplayName: 无限制绿火把
+				Tooltip: 永远用不完绿火把.
+			}
+
+			UnlimitedHallowedTorches: {
+				DisplayName: 无限制神圣火把
+				Tooltip: 永远用不完神圣火把.
+			}
+
+			UnlimitedIceTorches: {
+				DisplayName: 无限制冰雪火把
+				Tooltip: 永远用不完冰雪火把.
+			}
+
+			UnlimitedIchorTorches: {
+				DisplayName: 无限制灵液火把
+				Tooltip: 永远用不完灵液火把.
+			}
+
+			UnlimitedJungleTorches: {
+				DisplayName: 无限制丛林火把
+				Tooltip: 永远用不完丛林火把.
+			}
+
+			UnlimitedOrangeTorches: {
+				DisplayName: 无限制橙火把
+				Tooltip: 永远用不完橙火把.
+			}
+
+			UnlimitedPinkTorches: {
+				DisplayName: 无限制粉火把
+				Tooltip: 永远用不完粉火把.
+			}
+
+			UnlimitedPurpleTorches: {
+				DisplayName: 无限制紫火把
+				Tooltip: 永远用不完紫火把.
+			}
+
+			UnlimitedRainbowTorches: {
+				DisplayName: 无限制彩色火把
+				Tooltip: 永远用不完彩色火把.
+			}
+
+			UnlimitedRedTorches: {
+				DisplayName: 无限制红火把
+				Tooltip: 永远用不完红火把.
+			}
+
+			UnlimitedTorches: {
+				DisplayName: 无限制普通火把
+				Tooltip: 永远用不完普通火把.
+			}
+
+			UnlimitedUltrabrightTorches: {
+				DisplayName: 无限制超亮火把
+				Tooltip: 永远用不完超亮火把.
+			}
+
+			UnlimitedWhiteTorches: {
+				DisplayName: 无限制白火把
+				Tooltip: 永远用不完白火把.
+			}
+
+			UnlimitedYellowTorches: {
+				DisplayName: 无限制黄火把
+				Tooltip: 永远用不完黄火把.
+			}
+
+			TestItem: {
+				DisplayName: 测试项目
+				Tooltip:
+					'''
+					用于测试东西的物品.
+					可能不生效.
+					可能做出一些很酷的东西.
+					可能会破坏你的游戏.
+					可能会损坏你的电脑.
+					如果我是你,我就不会用这个.
+					'''
+			}
+
+			UnlimitedDirtBombs: {
+				DisplayName: 土炸弹袋
+				Tooltip: 永远用不完土炸弹.
+			}
+
+			UnlimitedDryBombs: {
+				DisplayName: 干炸弹袋
+				Tooltip: 永远用不完干炸弹.
+			}
+
+			UnlimitedHoneyBombs: {
+				DisplayName: 蜂蜜炸弹袋
+				Tooltip: 永远用不完蜂蜜炸弹.
+			}
+
+			UnlimitedLavaBombs: {
+				DisplayName: 熔岩炸弹袋
+				Tooltip: 永远用不完熔岩炸弹.
+			}
+
+			UnlimitedScarabBombs: {
+				DisplayName: 甲虫炸弹袋
+				Tooltip: 永远用不完甲虫炸弹
+			}
+
+			UnlimitedStickyDirtBombs: {
+				DisplayName: 粘性土炸弹袋
+				Tooltip: 永远用不完粘性土炸弹.
+			}
+
+			UnlimitedWetBombs: {
+				DisplayName: 水炸弹袋
+				Tooltip: 永远用不完水炸弹.
+			}
+
+			UnlimitedFairyGlowsticks: {
+				DisplayName: 仙灵荧光棒组
+				Tooltip: 永远用不完仙灵荧光棒.
+			}
+
+			GoldenStand: {
+				DisplayName: 金尘
+				Tooltip: 用于使普通物品更加POWAAAAHFUL!
+			}
+
+			Paper: {
+				DisplayName: 纸张
+				Tooltip: 一个全新版本的纸,更加的厚实！
+			}
+
+			ScrollCrafter: {
+				DisplayName: 卷轴制作站
+				Tooltip: 一个合成强力卷轴的工作台.
+			}
+
+			UnlimitedReturn: {
+				DisplayName: 回归力量
+				Tooltip: 回忆返回,将你传送到你使用回忆的最后一个位置.
+			}
+
+			Windy: {
+				DisplayName: 狂风魔咒
+				Tooltip: 这可能会帮助你找到幸运的生物. *眨眼*
+			}
+
+			UnlimitedWarTable: {
+				DisplayName: 改进型战争桌
+				Tooltip: 多一个召唤格.
+			}
+
+			UnlimitedAetherTorches: {
+				DisplayName: 无限制以太火把
+				Tooltip: 永远用不完以太火把.
+			}
+
+			UnlimitedMushroomTorches: {
+				DisplayName: 无限制蘑菇火把
+				Tooltip: 永远用不完蘑菇火把.
+			}
+
+			UnlimitedSunflower: {
+				DisplayName: 向日葵力量
+				Tooltip: 你很开心 !
+			}
+
+			UnlimitedCursedFlares: {
+				DisplayName: 诅咒照明弹袋
+				Tooltip: 永远用不完诅咒照明弹.
+			}
+
+			UnlimitedRainbowFlares: {
+				DisplayName: 彩虹照明弹袋
+				Tooltip: 永远用不完彩虹照明弹.
+			}
+
+			UnlimitedShimmerFlares: {
+				DisplayName: 微光照明弹袋
+				Tooltip: 永远用不完微光照明弹.
+			}
+
+			UnlimitedSpelunkerFlares: {
+				DisplayName: 洞穴探险照明弹袋
+				Tooltip: 永远用不完洞穴探险照明弹.
+			}
+
+			UnlimitedBiomeSight: {
+				DisplayName: 生态力量
+				Tooltip: 你现在可以看到所有被感染的方块了.
+			}
+
+			ChestsKeyring: {
+				DisplayName: 箱子钥匙圈
+				Tooltip: ""
+			}
+
+			LiquidManipulator: {
+				DisplayName: 微光液金
+				Tooltip: 使用以解锁终极液体操纵器右键的微光液体
+			}
+
+			BlankLiquidPower: {
+				DisplayName: 空白液金
+				Tooltip:
+					'''
+					你不太确定这是干啥的.
+					也许可以放某种奇怪的液体进去?
+					'''
+			}
+
+			PeaceCandle: {
+				// DisplayName: Peace Candle
+				// Tooltip: ""
+			}
+
+			WaterCandle: {
+				// DisplayName: Water Candle
+				// Tooltip: ""
+			}
+
+			Basics: {
+				// DisplayName: Basics
+				// Tooltip: ""
+			}
+
+			Battler: {
+				// DisplayName: Battler
+				// Tooltip: ""
+			}
+
+			Battle: {
+				// DisplayName: Battle
+				// Tooltip: ""
+			}
+
+			Combat: {
+				// DisplayName: Combat
+				// Tooltip: ""
+			}
+
+			Damage: {
+				// DisplayName: Damage
+				// Tooltip: ""
+			}
+
+			Danger: {
+				// DisplayName: Danger
+				// Tooltip: ""
+			}
+
+			Defense: {
+				// DisplayName: Defense
+				// Tooltip: ""
+			}
+
+			Everything: {
+				// DisplayName: Everything
+				// Tooltip: ""
+			}
+
+			Explorer: {
+				// DisplayName: Explorer
+				// Tooltip: ""
+			}
+
+			FishingCombination: {
+				// DisplayName: Fishing Combination
+				// Tooltip: ""
+			}
+
+			Fishing: {
+				// DisplayName: Fishing
+				// Tooltip: ""
+			}
+
+			Flight: {
+				// DisplayName: Flight
+				// Tooltip: ""
+			}
+
+			Gathering: {
+				// DisplayName: Gathering
+				// Tooltip: ""
+			}
+
+			Lucky: {
+				// DisplayName: Lucky
+				// Tooltip: ""
+			}
+
+			Luck: {
+				// DisplayName: Luck
+				// Tooltip: ""
+			}
+
+			Melee: {
+				// DisplayName: Melee
+				// Tooltip: ""
+			}
+
+			Peaceful: {
+				// DisplayName: Peaceful
+				// Tooltip: ""
+			}
+
+			Range: {
+				// DisplayName: Range
+				// Tooltip: ""
+			}
+
+			Station: {
+				// DisplayName: Station
+				// Tooltip: ""
+			}
+
+			Swimming: {
+				// DisplayName: Swimming
+				// Tooltip: ""
+			}
+
+			Travel: {
+				// DisplayName: Travel
+				// Tooltip: ""
+			}
+
+			AmmoReservation: {
+				// DisplayName: Ammo Reservation
+				// Tooltip: ""
+			}
+
+			Archery: {
+				// DisplayName: Archery
+				// Tooltip: ""
+			}
+
+			BiomeSight: {
+				// DisplayName: Biome Sight
+				// Tooltip: ""
+			}
+
+			Builder: {
+				// DisplayName: Builder
+				// Tooltip: ""
+			}
+
+			Calming: {
+				// DisplayName: Calming
+				// Tooltip: ""
+			}
+
+			Crates: {
+				// DisplayName: Crates
+				// Tooltip: ""
+			}
+
+			Dangersense: {
+				// DisplayName: Dangersense
+				// Tooltip: ""
+			}
+
+			Endurance: {
+				// DisplayName: Endurance
+				// Tooltip: ""
+			}
+
+			Featherfall: {
+				// DisplayName: Featherfall
+				// Tooltip: ""
+			}
+
+			Flipper: {
+				// DisplayName: Flipper
+				// Tooltip: ""
+			}
+
+			GenderChange: {
+				// DisplayName: Gender Change
+				// Tooltip: ""
+			}
+
+			Gills: {
+				// DisplayName: Gills
+				// Tooltip: ""
+			}
+
+			Gravitation: {
+				// DisplayName: Gravitation
+				// Tooltip: ""
+			}
+
+			Heartreach: {
+				// DisplayName: Heartreach
+				// Tooltip: ""
+			}
+
+			Hunter: {
+				// DisplayName: Hunter
+				// Tooltip: ""
+			}
+
+			IchorFlask: {
+				// DisplayName: Ichor Flask
+				// Tooltip: ""
+			}
+
+			Ichor: {
+				// DisplayName: Ichor
+				// Tooltip: ""
+			}
+
+			Inferno: {
+				// DisplayName: Inferno
+				// Tooltip: ""
+			}
+
+			Invisibility: {
+				// DisplayName: Invisibility
+				// Tooltip: ""
+			}
+
+			Ironskin: {
+				// DisplayName: Ironskin
+				// Tooltip: ""
+			}
+
+			Ladybug: {
+				// DisplayName: Ladybug
+				// Tooltip: ""
+			}
+
+			Lifeforce: {
+				// DisplayName: Lifeforce
+				// Tooltip: ""
+			}
+
+			Love: {
+				// DisplayName: Love
+				// Tooltip: ""
+			}
+
+			MagicPower: {
+				// DisplayName: Magic Power
+				// Tooltip: ""
+			}
+
+			MajorWellFed: {
+				// DisplayName: Major Well Fed
+				// Tooltip: ""
+			}
+
+			ManaRegeneration: {
+				// DisplayName: Mana Regeneration
+				// Tooltip: ""
+			}
+
+			Mining: {
+				// DisplayName: Mining
+				// Tooltip: ""
+			}
+
+			MinorWellFed: {
+				// DisplayName: Minor Well Fed
+				// Tooltip: ""
+			}
+
+			NightOwl: {
+				// DisplayName: Night Owl
+				// Tooltip: ""
+			}
+
+			ObsidianSkin: {
+				// DisplayName: Obsidian Skin
+				// Tooltip: ""
+			}
+
+			Rage: {
+				// DisplayName: Rage
+				// Tooltip: ""
+			}
+
+			Recall: {
+				// DisplayName: Recall
+				// Tooltip: ""
+			}
+
+			Regeneration: {
+				// DisplayName: Regeneration
+				// Tooltip: ""
+			}
+
+			Return: {
+				// DisplayName: Return
+				// Tooltip: ""
+			}
+
+			Shine: {
+				// DisplayName: Shine
+				// Tooltip: ""
+			}
+
+			Sonar: {
+				// DisplayName: Sonar
+				// Tooltip: ""
+			}
+
+			Spelunker: {
+				// DisplayName: Spelunker
+				// Tooltip: ""
+			}
+
+			Stink: {
+				// DisplayName: Stink
+				// Tooltip: ""
+			}
+
+			Summoning: {
+				// DisplayName: Summoning
+				// Tooltip: ""
+			}
+
+			Sunflower: {
+				// DisplayName: Sunflower
+				// Tooltip: ""
+			}
+
+			Swiftness: {
+				// DisplayName: Swiftness
+				// Tooltip: ""
+			}
+
+			Teleportation: {
+				// DisplayName: Teleportation
+				// Tooltip: ""
+			}
+
+			Thorns: {
+				// DisplayName: Thorns
+				// Tooltip: ""
+			}
+
+			Tipsy: {
+				// DisplayName: Tipsy
+				// Tooltip: ""
+			}
+
+			Titan: {
+				// DisplayName: Titan
+				// Tooltip: ""
+			}
+
+			Warmth: {
+				// DisplayName: Warmth
+				// Tooltip: ""
+			}
+
+			WaterWalking: {
+				// DisplayName: Water Walking
+				// Tooltip: ""
+			}
+
+			WellFed: {
+				// DisplayName: Well Fed
+				// Tooltip: ""
+			}
+
+			Wormhole: {
+				// DisplayName: Wormhole
+				// Tooltip: ""
+			}
+
+			Wrath: {
+				// DisplayName: Wrath
+				// Tooltip: ""
+			}
+
+			BastStatue: {
+				// DisplayName: Bast Statue
+				// Tooltip: ""
+			}
+
+			Campfire: {
+				// DisplayName: Campfire
+				// Tooltip: ""
+			}
+
+			Gnome: {
+				// DisplayName: Gnome
+				// Tooltip: ""
+			}
+
+			HeartLantern: {
+				// DisplayName: Heart Lantern
+				// Tooltip: ""
+			}
+
+			HoneyBuff: {
+				// DisplayName: Honey Buff
+				// Tooltip: ""
+			}
+
+			StarInABottle: {
+				// DisplayName: Star In A Bottle
+				// Tooltip: ""
+			}
+
+			AmmoBox: {
+				// DisplayName: Ammo Box
+				// Tooltip: ""
+			}
+
+			BewitchingTable: {
+				// DisplayName: Bewitching Table
+				// Tooltip: ""
+			}
+
+			CrystalBall: {
+				// DisplayName: Crystal Ball
+				// Tooltip: ""
+			}
+
+			SharpeningStation: {
+				// DisplayName: Sharpening Station
+				// Tooltip: ""
+			}
+
+			SliceCake: {
+				// DisplayName: Slice Cake
+				// Tooltip: ""
+			}
+
+			WarTable: {
+				// DisplayName: War Table
+				// Tooltip: ""
+			}
+
+			Aether: {
+				// DisplayName: Aether
+				// Tooltip: ""
+			}
+
+			Blue: {
+				// DisplayName: Blue
+				// Tooltip: ""
+			}
+
+			Bone: {
+				// DisplayName: Bone
+				// Tooltip: ""
+			}
+
+			Coral: {
+				// DisplayName: Coral
+				// Tooltip: ""
+			}
+
+			Cursed: {
+				// DisplayName: Cursed
+				// Tooltip: ""
+			}
+
+			Demon: {
+				// DisplayName: Demon
+				// Tooltip: ""
+			}
+
+			Desert: {
+				// DisplayName: Desert
+				// Tooltip: ""
+			}
+
+			Green: {
+				// DisplayName: Green
+				// Tooltip: ""
+			}
+
+			Hallowed: {
+				// DisplayName: Hallowed
+				// Tooltip: ""
+			}
+
+			Ice: {
+				// DisplayName: Ice
+				// Tooltip: ""
+			}
+
+			Jungle: {
+				// DisplayName: Jungle
+				// Tooltip: ""
+			}
+
+			Mushroom: {
+				// DisplayName: Mushroom
+				// Tooltip: ""
+			}
+
+			Normal: {
+				// DisplayName: Normal
+				// Tooltip: ""
+			}
+
+			Orange: {
+				// DisplayName: Orange
+				// Tooltip: ""
+			}
+
+			Pink: {
+				// DisplayName: Pink
+				// Tooltip: ""
+			}
+
+			Purple: {
+				// DisplayName: Purple
+				// Tooltip: ""
+			}
+
+			Rainbow: {
+				// DisplayName: Rainbow
+				// Tooltip: ""
+			}
+
+			Red: {
+				// DisplayName: Red
+				// Tooltip: ""
+			}
+
+			Ultrabright: {
+				// DisplayName: Ultrabright
+				// Tooltip: ""
+			}
+
+			White: {
+				// DisplayName: White
+				// Tooltip: ""
+			}
+
+			Yellow: {
+				// DisplayName: Yellow
+				// Tooltip: ""
+			}
+
+			BoneArrow: {
+				// DisplayName: Bone Arrow
+				// Tooltip: ""
+			}
+
+			ChlorophyteArrow: {
+				// DisplayName: Chlorophyte Arrow
+				// Tooltip: ""
+			}
+
+			CursedArrow: {
+				// DisplayName: Cursed Arrow
+				// Tooltip: ""
+			}
+
+			FlamingArrow: {
+				// DisplayName: Flaming Arrow
+				// Tooltip: ""
+			}
+
+			FrostburnArrow: {
+				// DisplayName: Frostburn Arrow
+				// Tooltip: ""
+			}
+
+			HellfireArrow: {
+				// DisplayName: Hellfire Arrow
+				// Tooltip: ""
+			}
+
+			HolyArrow: {
+				// DisplayName: Holy Arrow
+				// Tooltip: ""
+			}
+
+			IchorArrow: {
+				// DisplayName: Ichor Arrow
+				// Tooltip: ""
+			}
+
+			JestersArrow: {
+				// DisplayName: Jesters Arrow
+				// Tooltip: ""
+			}
+
+			LuminiteArrow: {
+				// DisplayName: Luminite Arrow
+				// Tooltip: ""
+			}
+
+			ShimmerArrow: {
+				// DisplayName: Shimmer Arrow
+				// Tooltip: ""
+			}
+
+			UnholyArrow: {
+				// DisplayName: Unholy Arrow
+				// Tooltip: ""
+			}
+
+			VenomArrow: {
+				// DisplayName: Venom Arrow
+				// Tooltip: ""
+			}
+
+			ChlorophyteBullet: {
+				// DisplayName: Chlorophyte Bullet
+				// Tooltip: ""
+			}
+
+			MusketBall: {
+				// DisplayName: Musket Ball
+				// Tooltip: ""
+			}
+
+			CrystalDart: {
+				// DisplayName: Crystal Dart
+				// Tooltip: ""
+			}
+
+			CursedDart: {
+				// DisplayName: Cursed Dart
+				// Tooltip: ""
+			}
+
+			IchorDart: {
+				// DisplayName: Ichor Dart
+				// Tooltip: ""
+			}
+
+			PoisonDart: {
+				// DisplayName: Poison Dart
+				// Tooltip: ""
+			}
+
+			AetherTorch: {
+				// DisplayName: Aether Torch
+				// Tooltip: ""
+			}
+
+			BlueTorch: {
+				// DisplayName: Blue Torch
+				// Tooltip: ""
+			}
+
+			BoneTorch: {
+				// DisplayName: Bone Torch
+				// Tooltip: ""
+			}
+
+			CoralTorch: {
+				// DisplayName: Coral Torch
+				// Tooltip: ""
+			}
+
+			CorruptTorch: {
+				// DisplayName: Corrupt Torch
+				// Tooltip: ""
+			}
+
+			CrimsonTorch: {
+				// DisplayName: Crimson Torch
+				// Tooltip: ""
+			}
+
+			CursedTorch: {
+				// DisplayName: Cursed Torch
+				// Tooltip: ""
+			}
+
+			DemonTorch: {
+				// DisplayName: Demon Torch
+				// Tooltip: ""
+			}
+
+			DesertTorch: {
+				// DisplayName: Desert Torch
+				// Tooltip: ""
+			}
+
+			GreenTorch: {
+				// DisplayName: Green Torch
+				// Tooltip: ""
+			}
+
+			HallowedTorch: {
+				// DisplayName: Hallowed Torch
+				// Tooltip: ""
+			}
+
+			IceTorch: {
+				// DisplayName: Ice Torch
+				// Tooltip: ""
+			}
+
+			IchorTorch: {
+				// DisplayName: Ichor Torch
+				// Tooltip: ""
+			}
+
+			JungleTorch: {
+				// DisplayName: Jungle Torch
+				// Tooltip: ""
+			}
+
+			MushroomTorch: {
+				// DisplayName: Mushroom Torch
+				// Tooltip: ""
+			}
+
+			OrangeTorch: {
+				// DisplayName: Orange Torch
+				// Tooltip: ""
+			}
+
+			PinkTorch: {
+				// DisplayName: Pink Torch
+				// Tooltip: ""
+			}
+
+			PurpleTorch: {
+				// DisplayName: Purple Torch
+				// Tooltip: ""
+			}
+
+			RainbowTorch: {
+				// DisplayName: Rainbow Torch
+				// Tooltip: ""
+			}
+
+			RedTorch: {
+				// DisplayName: Red Torch
+				// Tooltip: ""
+			}
+
+			UltrabrightTorch: {
+				// DisplayName: Ultrabright Torch
+				// Tooltip: ""
+			}
+
+			WhiteTorch: {
+				// DisplayName: White Torch
+				// Tooltip: ""
+			}
+
+			YellowTorch: {
+				// DisplayName: Yellow Torch
+				// Tooltip: ""
+			}
+
+			CrystalBullet: {
+				// DisplayName: Crystal Bullet
+				// Tooltip: ""
+			}
+
+			CursedBullet: {
+				// DisplayName: Cursed Bullet
+				// Tooltip: ""
+			}
+
+			ExplodingBullet: {
+				// DisplayName: Exploding Bullet
+				// Tooltip: ""
+			}
+
+			GoldenBullet: {
+				// DisplayName: Golden Bullet
+				// Tooltip: ""
+			}
+
+			HighVelocityBullet: {
+				// DisplayName: High Velocity Bullet
+				// Tooltip: ""
+			}
+
+			IchorBullet: {
+				// DisplayName: Ichor Bullet
+				// Tooltip: ""
+			}
+
+			LuminiteBullet: {
+				// DisplayName: Luminite Bullet
+				// Tooltip: ""
+			}
+
+			MeteoriteBullet: {
+				// DisplayName: Meteorite Bullet
+				// Tooltip: ""
+			}
+
+			NanoBullet: {
+				// DisplayName: Nano Bullet
+				// Tooltip: ""
+			}
+
+			PartyBullet: {
+				// DisplayName: Party Bullet
+				// Tooltip: ""
+			}
+
+			SilverBullet: {
+				// DisplayName: Silver Bullet
+				// Tooltip: ""
+			}
+
+			TungstenBullet: {
+				// DisplayName: Tungsten Bullet
+				// Tooltip: ""
+			}
+
+			VenomBullet: {
+				// DisplayName: Venom Bullet
+				// Tooltip: ""
+			}
+
+			Bomb: {
+				// DisplayName: Bomb
+				// Tooltip: ""
+			}
+
+			Bombfish: {
+				// DisplayName: Bombfish
+				// Tooltip: ""
+			}
+
+			BouncyBomb: {
+				// DisplayName: Bouncy Bomb
+				// Tooltip: ""
+			}
+
+			BouncyDynamite: {
+				// DisplayName: Bouncy Dynamite
+				// Tooltip: ""
+			}
+
+			DirtBomb: {
+				// DisplayName: Dirt Bomb
+				// Tooltip: ""
+			}
+
+			DryBomb: {
+				// DisplayName: Dry Bomb
+				// Tooltip: ""
+			}
+
+			Dynamite: {
+				// DisplayName: Dynamite
+				// Tooltip: ""
+			}
+
+			HoneyBomb: {
+				// DisplayName: Honey Bomb
+				// Tooltip: ""
+			}
+
+			LavaBomb: {
+				// DisplayName: Lava Bomb
+				// Tooltip: ""
+			}
+
+			ScarabBomb: {
+				// DisplayName: Scarab Bomb
+				// Tooltip: ""
+			}
+
+			StickyBomb: {
+				// DisplayName: Sticky Bomb
+				// Tooltip: ""
+			}
+
+			StickyDirtBomb: {
+				// DisplayName: Sticky Dirt Bomb
+				// Tooltip: ""
+			}
+
+			StickyDynamite: {
+				// DisplayName: Sticky Dynamite
+				// Tooltip: ""
+			}
+
+			WetBomb: {
+				// DisplayName: Wet Bomb
+				// Tooltip: ""
+			}
+
+			BouncyGlowstick: {
+				// DisplayName: Bouncy Glowstick
+				// Tooltip: ""
+			}
+
+			FairyGlowstick: {
+				// DisplayName: Fairy Glowstick
+				// Tooltip: ""
+			}
+
+			SpelunkerGlowstick: {
+				// DisplayName: Spelunker Glowstick
+				// Tooltip: ""
+			}
+
+			StickyGlowstick: {
+				// DisplayName: Sticky Glowstick
+				// Tooltip: ""
+			}
+
+			Ale: {
+				// DisplayName: Ale
+				// Tooltip: ""
+			}
+
+			BlueFlare: {
+				// DisplayName: Blue Flare
+				// Tooltip: ""
+			}
+
+			CandyCorn: {
+				// DisplayName: Candy Corn
+				// Tooltip: ""
+			}
+
+			CopperCoin: {
+				// DisplayName: Copper Coin
+				// Tooltip: ""
+			}
+
+			CursedFlare: {
+				// DisplayName: Cursed Flare
+				// Tooltip: ""
+			}
+
+			ExplosiveJackOLantern: {
+				// DisplayName: Explosive Jack O Lantern
+				// Tooltip: ""
+			}
+
+			FallenStar: {
+				// DisplayName: Fallen Star
+				// Tooltip: ""
+			}
+
+			Flare: {
+				// DisplayName: Flare
+				// Tooltip: ""
+			}
+
+			Gel: {
+				// DisplayName: Gel
+				// Tooltip: ""
+			}
+
+			GoldCoin: {
+				// DisplayName: Gold Coin
+				// Tooltip: ""
+			}
+
+			Nail: {
+				// DisplayName: Nail
+				// Tooltip: ""
+			}
+
+			PlatinumCoin: {
+				// DisplayName: Platinum Coin
+				// Tooltip: ""
+			}
+
+			RainbowFlare: {
+				// DisplayName: Rainbow Flare
+				// Tooltip: ""
+			}
+
+			Seed: {
+				// DisplayName: Seed
+				// Tooltip: ""
+			}
+
+			ShimmerFlare: {
+				// DisplayName: Shimmer Flare
+				// Tooltip: ""
+			}
+
+			SilverCoin: {
+				// DisplayName: Silver Coin
+				// Tooltip: ""
+			}
+
+			Snowball: {
+				// DisplayName: Snowball
+				// Tooltip: ""
+			}
+
+			SpelunkerFlare: {
+				// DisplayName: Spelunker Flare
+				// Tooltip: ""
+			}
+
+			Stake: {
+				// DisplayName: Stake
+				// Tooltip: ""
+			}
+
+			StyngerBolt: {
+				// DisplayName: Stynger Bolt
+				// Tooltip: ""
+			}
+
+			ClusterRocketI: {
+				// DisplayName: Cluster Rocket I
+				// Tooltip: ""
+			}
+
+			ClusterRocketII: {
+				// DisplayName: Cluster Rocket I I
+				// Tooltip: ""
+			}
+
+			DryRocket: {
+				// DisplayName: Dry Rocket
+				// Tooltip: ""
+			}
+
+			HoneyRocket: {
+				// DisplayName: Honey Rocket
+				// Tooltip: ""
+			}
+
+			LavaRocket: {
+				// DisplayName: Lava Rocket
+				// Tooltip: ""
+			}
+
+			MiniNukeI: {
+				// DisplayName: Mini Nuke I
+				// Tooltip: ""
+			}
+
+			MiniNukeII: {
+				// DisplayName: Mini Nuke I I
+				// Tooltip: ""
+			}
+
+			RocketI: {
+				// DisplayName: Rocket I
+				// Tooltip: ""
+			}
+
+			RocketII: {
+				// DisplayName: Rocket I I
+				// Tooltip: ""
+			}
+
+			RocketIII: {
+				// DisplayName: Rocket I I I
+				// Tooltip: ""
+			}
+
+			RocketIV: {
+				// DisplayName: Rocket I V
+				// Tooltip: ""
+			}
+
+			WetRocket: {
+				// DisplayName: Wet Rocket
+				// Tooltip: ""
+			}
+
+			BlueStreamer: {
+				// DisplayName: Blue Streamer
+				// Tooltip: ""
+			}
+
+			Chain: {
+				// DisplayName: Chain
+				// Tooltip: ""
+			}
+
+			GreenStreamer: {
+				// DisplayName: Green Streamer
+				// Tooltip: ""
+			}
+
+			PinkStreamer: {
+				// DisplayName: Pink Streamer
+				// Tooltip: ""
+			}
+
+			Rope: {
+				// DisplayName: Rope
+				// Tooltip: ""
+			}
+
+			RopeCoil: {
+				// DisplayName: Rope Coil
+				// Tooltip: ""
+			}
+
+			SilkRope: {
+				// DisplayName: Silk Rope
+				// Tooltip: ""
+			}
+
+			SilkRopeCoil: {
+				// DisplayName: Silk Rope Coil
+				// Tooltip: ""
+			}
+
+			VineRope: {
+				// DisplayName: Vine Rope
+				// Tooltip: ""
+			}
+
+			VineRopeCoil: {
+				// DisplayName: Vine Rope Coil
+				// Tooltip: ""
+			}
+
+			WebRope: {
+				// DisplayName: Web Rope
+				// Tooltip: ""
+			}
+
+			WebRopeCoil: {
+				// DisplayName: Web Rope Coil
+				// Tooltip: ""
+			}
+
+			BlueSolution: {
+				// DisplayName: Blue Solution
+				// Tooltip: ""
+			}
+
+			BrownSolution: {
+				// DisplayName: Brown Solution
+				// Tooltip: ""
+			}
+
+			DarkBlueSolution: {
+				// DisplayName: Dark Blue Solution
+				// Tooltip: ""
+			}
+
+			GreenSolution: {
+				// DisplayName: Green Solution
+				// Tooltip: ""
+			}
+
+			MultiSolution: {
+				// DisplayName: Multi Solution
+				// Tooltip: ""
+			}
+
+			PurpleSolution: {
+				// DisplayName: Purple Solution
+				// Tooltip: ""
+			}
+
+			RedSolution: {
+				// DisplayName: Red Solution
+				// Tooltip: ""
+			}
+
+			WhiteSolution: {
+				// DisplayName: White Solution
+				// Tooltip: ""
+			}
+
+			YellowSolution: {
+				// DisplayName: Yellow Solution
+				// Tooltip: ""
+			}
+
+			Beenade: {
+				// DisplayName: Beenade
+				// Tooltip: ""
+			}
+
+			BoneJavelin: {
+				// DisplayName: Bone Javelin
+				// Tooltip: ""
+			}
+
+			BoneThrowingKnife: {
+				// DisplayName: Bone Throwing Knife
+				// Tooltip: ""
+			}
+
+			BouncyGrenade: {
+				// DisplayName: Bouncy Grenade
+				// Tooltip: ""
+			}
+
+			FrostDaggerfish: {
+				// DisplayName: Frost Daggerfish
+				// Tooltip: ""
+			}
+
+			Grenade: {
+				// DisplayName: Grenade
+				// Tooltip: ""
+			}
+
+			HappyGrenade: {
+				// DisplayName: Happy Grenade
+				// Tooltip: ""
+			}
+
+			Javelin: {
+				// DisplayName: Javelin
+				// Tooltip: ""
+			}
+
+			MerchantKiller: {
+				// DisplayName: Merchant Killer
+				// Tooltip: ""
+			}
+
+			MolotovCocktail: {
+				// DisplayName: Molotov Cocktail
+				// Tooltip: ""
+			}
+
+			PoisonKnife: {
+				// DisplayName: Poison Knife
+				// Tooltip: ""
+			}
+
+			RottenEgg: {
+				// DisplayName: Rotten Egg
+				// Tooltip: ""
+			}
+
+			Shuriken: {
+				// DisplayName: Shuriken
+				// Tooltip: ""
+			}
+
+			SpikyBall: {
+				// DisplayName: Spiky Ball
+				// Tooltip: ""
+			}
+
+			StarAnise: {
+				// DisplayName: Star Anise
+				// Tooltip: ""
+			}
+
+			StickyGrenade: {
+				// DisplayName: Sticky Grenade
+				// Tooltip: ""
+			}
+
+			ThrowingKnife: {
+				// DisplayName: Throwing Knife
+				// Tooltip: ""
+			}
+		}
+
+		Projectiles: {
+			ActuatorProjectile.DisplayName: 促动器
+			DefendersForgeProjectile.DisplayName: 漂浮的护卫熔炉
+			PiggyBankProjectile.DisplayName: 漂浮的猪猪存钱罐
+			SafeProjectile.DisplayName: 漂浮的保险箱
+			UnlimitedGrandDesignProjectile.DisplayName: 电线
+			UnlimitedMerchantKillerProjectile.DisplayName: 煮熟的蛾怪蛋
+			TestProjectile.DisplayName: 测试弹幕
+			DarkGreenSolutionProjectile.DisplayName: 深绿溶液弹幕
+			BuildingProjectile.DisplayName: 建造弹幕
+		}
+
+		Tiles: {
+			BambooHarvesterTile: {
+				ContainerName: 竹子收割机
+				MapEntry: 竹子收割机
+			}
+
+			CactusHarvesterTile: {
+				ContainerName: 仙人掌收割机
+				MapEntry: 仙人掌收割机
+			}
+
+			CrystalHarvesterTile: {
+				ContainerName: 水晶收割机
+				MapEntry: 水晶收割机
+			}
+
+			EnemyHarvesterTile: {
+				ContainerName: 敌怪收割机
+				MapEntry: 敌怪收割机
+			}
+
+			FishHarvesterTile: {
+				ContainerName: 鱼儿收割机
+				MapEntry: 鱼儿收割机
+			}
+
+			GemCornHarvesterTile: {
+				ContainerName: 宝石树收割机
+				MapEntry: 宝石树收割机
+			}
+
+			PlantHarvesterTile: {
+				ContainerName: 药材收割机
+				MapEntry: 药材收割机
+			}
+
+			TreeHarvesterTile: {
+				ContainerName: 木材收割机
+				MapEntry: 木材收割机
+			}
+
+			TestTile.MapEntry: 测试方块
+			CorruptionAltar.MapEntry: 恶魔祭坛
+			CrimsonAltar.MapEntry: 猩红祭坛
+			HouseEnabler.MapEntry: 房屋牌照
+			HouseEnablerDark.MapEntry: 房屋牌照 (无光源)
+			AsphaltPlatform.MapEntry: 沥青平台
+			ScrollCrafter.MapEntry: 卷轴制作站
+		}
+
+		Keybinds: {
+			"Luiafk Recall.DisplayName": 回家
+			"Luiafk Recall Back.DisplayName": 回归
+			"Luiafk Buffs.DisplayName": 增益
+			"Luiafk Buff Settings.DisplayName": 药水切换
+		}
+
+		Configs: {
+			LuiAFKConfig: {
+				DisplayName: LuiAFK 客户端配置
+
+				Headers: {
+					Harvester: 收割机配置
+					Potions: 药水和增益配置
+					Accessories: 配饰选项
+					NPC: NPC选项
+					Tools: 工具和杂项选项
+					Fishing: 钓鱼线数
+					Ammo: 弹药选项
+				}
+
+				harvesterAvailability: {
+					Label: 收割机
+					Tooltip:
+						'''
+						在何种难度模式下可使用收割机
+						选项有 : 禁用, 普通+, 专家+ 和 大师+
+						默认为专家
+						'''
+				}
+
+				potionsEnable: {
+					Label: 无限药水
+					Tooltip:
+						'''
+						是否启用无限药水.
+						            当物品在库存中时将不会给予增益.
+						            当物品（药水）大于等于30时将不会直接给予永久增益.
+						默认开启
+						'''
+				}
+
+				vanillaPotionsEnable: {
+					Label: 自动使用原版药水
+					Tooltip:
+						'''
+						是否当原版药水大于等于30时自动使用.
+						选项有 : 禁用, 总是 和 1 无限药水存在.
+						默认为1 无限药水存在
+						'''
+				}
+
+				PaperAmountForScrollCrafting: {
+					Label: 手工用纸量
+					Tooltip:
+						'''
+						制作卷轴所需的纸张数量。
+						0 禁用工艺所需的纸张。
+						默认值为 5。
+						'''
+				}
+
+				ultimateBattlerTimer: {
+					Label: 极限战争倒计时
+					Tooltip:
+						'''
+						是否使极限战争增益(刷怪)在激活前、禁用前有5秒的时间倒数.
+						选项有 : 禁用, 启用前和启用后
+						默认为启用前
+						'''
+				}
+
+				manaEnable: {
+					Label: 无限魔力 [i:{0}] [i:{1}] [i:{2}] [i:{3}] [i:{4}] [i:{5}]
+					Tooltip:
+						'''
+						是否允许使用无限魔力.
+						当物品在库存中时将不会给予相关增益.
+						默认开启
+						'''
+				}
+
+				superTools: {
+					Label: 超级工具 [i:{0}] [i:{1}] [i:{2}]
+					Tooltip:
+						'''
+						是否能够获得和使用挖掘加速,工具时间,家园改造.
+						当物品在库存中时将不会给予相关增益.
+						默认开启
+						'''
+				}
+
+				boneEnable: {
+					Label: 生成骷髅商人城镇NPC
+					Tooltip:
+						'''
+						是否允许生成骷髅商人城镇NPC.
+						不会移除已经生成的骷髅商人NPC.
+						默认开启
+						'''
+				}
+
+				merchantEnable: {
+					Label: 生成旅商城镇NPC
+					Tooltip:
+						'''
+						是否允许生成旅商城镇NPC
+						不会移除已经生成的旅商NPC.
+						默认开启
+						'''
+				}
+
+				builderEnable: {
+					Label: 自动建造者 [i:{0}]
+					Tooltip:
+						'''
+						是否能够获得并使用任何建造者物品/工具.
+						默认开启
+						'''
+				}
+
+				worldRemoverEnable: {
+					Label: 筋斗云 [i:{0}]
+					Tooltip:
+						'''
+						是否能够获得并使用改进型钻机坐骑（筋斗云）.
+						默认开启
+						'''
+				}
+
+				moneyEnable: {
+					Label: 钱币收集者 [i:{0}]
+					Tooltip:
+						'''
+						是否能够获得和使用钱币收集者.
+						默认开启
+						'''
+				}
+
+				killerEnable: {
+					Label: NPC杀手 [i:{0}]
+					Tooltip:
+						'''
+						是否能够获得和使用NPC杀手.
+						默认开启
+						'''
+				}
+
+				magnetEnable: {
+					Label: 战利品磁铁 [i:{0}]
+					Tooltip:
+						'''
+						是否能够获得和使用战利品磁铁.
+						默认开启
+						'''
+				}
+
+				neededQuests: {
+					Label: 额外的钓鱼线
+					Tooltip:
+						'''
+						每个额外的钓鱼线需要完成多少钓鱼任务.
+						0 即禁用
+						值介于0到100之间.
+						默认为5
+						'''
+				}
+
+				rangerAmmo: {
+					Label: 无限弹药数目
+					Tooltip:
+						'''
+						需要多少远程弹药来使弹药无限.
+						0 即禁用
+						值介于0到10000之间.
+						默认为3996
+						'''
+				}
+
+				thrownAmmo: {
+					Label: 无限投掷物数目
+					Tooltip:
+						'''
+						需要多少投掷物使投掷物无限.
+						0 即禁用
+						值介于0到10000之间.
+						默认为999
+						'''
+				}
+			}
+
+			SettingsConfigClient: {
+				DisplayName: LuiAFK 客户端配置
+				Headers.Different_Enabling/Disabling_Options: 不同的启用/禁用选项
+
+				certainPotionsEnable: {
+					Label: 某些无限药水
+					Tooltip:
+						'''
+						是否禁用某些无限药水.
+						当物品在库存中时将不会给予相关增益.
+						目前完全没有效果!!!!
+						'''
+				}
+
+				certainPotionsEnabled: {
+					// Label: certain Potions Enabled
+					// Tooltip: ""
+				}
+			}
+
+			LuiAfkConfig: {
+				// DisplayName: Lui Afk Config
+
+				Headers: {
+					// Harvester: Harvester Header
+					// Potions: Potions Header
+				}
+
+				harvesterAvailability: {
+					// Label: harvester Availability
+					// Tooltip: ""
+				}
+
+				potionsEnabled: {
+					// Label: potions Enabled
+					// Tooltip: ""
+				}
+
+				vanillaPotionsEnabled: {
+					// Label: vanilla Potions Enabled
+					// Tooltip: ""
+				}
+
+				PaperAmountForScrollCrafting: {
+					// Label: Paper Amount For Scroll Crafting
+					// Tooltip: ""
+				}
+
+				ultimateBattlerTimer: {
+					// Label: ultimate Battler Timer
+					// Tooltip: ""
+				}
+			}
+		}
+
+		LuiafkRecipes: {
+			WellFed1: 任意初级食物
+			WellFed2: 任意中级食物
+			WellFed3: 任意高级食物
+			AnyBait: 任意诱饵
+			TwentyBait: 任意鱼饵力为20%或以上的诱饵
+			ThirtyBait: 任意鱼饵力为30%或以上的诱饵
+			FiftyBait: 任意鱼饵力为50%的诱饵
+			Chairs: 任意椅子
+			Doors: 任意门
+			Tables: 任意桌子
+			LightSource: 任意光源
+			ChestsLocalized: 任意箱子
+			Axes: 任意斧力55%+的斧子
+			Gems: 任意宝石
+			Buckets:
+				'''
+				终极液体操纵器或钓鱼池构筑
+				在制作时不消耗
+				'''
+			UltimateBuckets:
+				'''
+				终极液体操纵器
+				在制作时不消耗
+				'''
+			Regrowth:
+				'''
+				再生长物品或药材收割机
+				在制作时不消耗
+				'''
+			AdamTitanBar: 精金锭或铂金锭
+			CopperTinBar: 铜锭或锡锭
+			PlatGoldBar: 铜锭或锡锭
+			IceSnowBlock: 冰或雪块
+			LifeCrystal: 生命水晶或心灯
+			FallenStar: 坠落之星或星星瓶
+			Torches: 任意火把
+			Streamer: 任意饰带
+			WebSilkRope: 蛛丝绳或丝绸绳
+			RopeVine: 绳索或藤蔓
+			Tipsy: 麦芽酒或清酒
+			EvilFlask: 灵液瓶或诅咒焰瓶
+			Extractinator: 泥沙块,雪泥块或沙漠化石
+			EvilMushroom: 魔菇或毒蘑菇
+			EvilPowder: 魔粉或毒粉
+			GoldWatch: 金表或铂金表
+			SandBlock: 任意沙块
+			EvilBar: 猩红矿锭或魔矿锭
+			EvilOre: 猩红矿或魔矿
+			EvilOreMat: 暗影鳞片或组织样板
+			EvilStoneBlock: 猩红石块或黑檀石块
+			DungeonBrick: 任意地牢砖块
+			LunarPick: 任意夜明镐
+			LunarHamaxe: 任意夜明锤斧
+		}
+
+		FishingRod: {
+			RequireBait: 需要鱼饵
+			Bait: 鱼饵
+			Power: 能力
+			Quests1: 每完成 {0} 次钓鱼任务 {^0:quest;quests} ,就会抛出一条额外的鱼线
+		}
+
+		UnlimitedLucky: {
+			NoTorchLuck: 火炬们不把你放在眼中
+			TorchLuck: 火炬们为你献上祝福
+		}
+
+		Lucky: {
+			// NoTorchLuck: Mods.miningcracks_take_on_luiafk.Lucky.NoTorchLuck
+			// TorchLuck: Mods.miningcracks_take_on_luiafk.Lucky.TorchLuck
+		}
+
+		LuiAfkRecipes: {
+			// WellFed1: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed1
+			// WellFed2: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed2
+			// WellFed3: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed3
+			// AnyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.AnyBait
+			// TwentyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.TwentyBait
+			// ThirtyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.ThirtyBait
+			// FiftyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.FiftyBait
+			// Chairs: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Chairs
+			// Doors: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Doors
+			// Tables: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Tables
+			// LightSource: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LightSource
+			// ChestsLocalized: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.ChestsLocalized
+			// Axes: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Axes
+			// Gems: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Gems
+			// Buckets: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Buckets
+			// UltimateBuckets: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.UltimateBuckets
+			// Regrowth: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Regrowth
+			// AdamTitanBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.AdamTitanBar
+			// CopperTinBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.CopperTinBar
+			// PlatGoldBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.PlatGoldBar
+			// IceSnowBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.IceSnowBlock
+			// LifeCrystal: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LifeCrystal
+			// FallenStar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.FallenStar
+			// Torches: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Torches
+			// Streamer: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Streamer
+			// WebSilkRope: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WebSilkRope
+			// RopeVine: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.RopeVine
+			// Tipsy: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Tipsy
+			// EvilFlask: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilFlask
+			// Extractinator: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Extractinator
+			// EvilMushroom: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilMushroom
+			// EvilPowder: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilPowder
+			// GoldWatch: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.GoldWatch
+			// SandBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.SandBlock
+			// EvilBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilBar
+			// EvilOre: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilOre
+			// EvilOreMat: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilOreMat
+			// EvilStoneBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilStoneBlock
+			// DungeonBrick: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.DungeonBrick
+			// LunarPick: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LunarPick
+			// LunarHamaxe: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LunarHamaxe
+		}
+	}
+}

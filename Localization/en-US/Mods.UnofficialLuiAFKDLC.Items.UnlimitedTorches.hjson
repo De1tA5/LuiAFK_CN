@@ -1,0 +1,17 @@
+BaseTooltip: Never run out of {0}.
+
+CalamityMod: {
+	EndlessAbyssTorch.DisplayName: Endless Abyss Torch
+	EndlessAlgalPrismTorch.DisplayName: Endless Algal Prism Torch
+	EndlessAstralTorch.DisplayName: Endless Astral Torch
+	EndlessGloomTorch.DisplayName: Endless Gloom Torch
+	EndlessNavyPrismTorch.DisplayName: Endless Navy Prism Torch
+	EndlessRefractivePrismTorch.DisplayName: Endless Refractive Prism Torch
+	EndlessSulphurousTorch.DisplayName: Endless Sulphurous Torch
+}
+
+ThoriumMod: {
+	EndlessBlackTorch.DisplayName: Endless Black Torch
+	EndlessDeeplightTorch.DisplayName: Endless Deeplight Torch
+	EndlessMagentaTorch.DisplayName: Endless Magenta Torch
+}

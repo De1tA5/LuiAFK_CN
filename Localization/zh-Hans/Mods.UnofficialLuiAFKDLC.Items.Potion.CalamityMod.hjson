@@ -1,0 +1,614 @@
+UnlimitedAnechoicCoating: {
+	DisplayName: 深渊低语
+	Tooltip:
+		'''
+		削弱深渊生物的探测能力
+		“这也太安静了……”
+		于深渊低语声中打造而成，此涂层可吸收声音
+		使穿戴者笼罩在诡异的寂静之中
+		'''
+}
+
+UnlimitedBloodfin: {
+	DisplayName: 血鳍灵药
+	Tooltip:
+		'''
+		获得提供生命再生的增益
+		如果生命值低于75%生命再生能力增强
+		“你觉得我可以吃它吗？”
+		从贪婪的海洋生物精华中提取出来
+		血鳍灵药赋予饮用者加速治愈的能力，在危急时刻至关重要
+		'''
+}
+
+UnlimitedBounding: {
+	DisplayName: 腾跃精华
+	Tooltip:
+		'''
+		增加5%跳跃速度、25格摔落伤害抗性和跳跃高度
+		“助跑，然后小跳”
+		精华提取自敏捷的森林居民的灵魂，增强了敏捷性
+		能让持有者毫不费力地穿过任何地形
+		'''
+}
+
+UnlimitedCalcium: {
+	DisplayName: 骸骨防护
+	Tooltip:
+		'''
+		使你免疫摔落伤害
+		“批准人：骷髅李”
+		由罕见的钙化沉积物制成，骸骨防护能够保护佩戴者免受重力危害
+		且得到了传奇人物骷髅李的亲自认可
+		'''
+}
+
+UnlimitedOddMushroom: {
+	DisplayName: 闪烁幻景
+	Tooltip:
+		'''
+		使你看到周围造物栩栩如生的幻像
+		[c/C4232C:这些视觉效果可能会令人恶心或对某些人有其他不良影响]
+		“迷幻且怪异”
+		从魔法森林中难以形容的真菌中提取的闪烁幻景
+		能引发令人着迷的幻觉，使敌友双方都陷入困惑
+		'''
+}
+
+UnlimitedOmniscience: {
+	DisplayName: 全知凝视
+	Tooltip:
+		'''
+		高亮标记附近的生物、敌人弹幕、
+		危险源和宝藏
+		“我总感觉有人盯着我”
+		由秘术先知制作的全知凝视，能赋予持有者无与伦比的意识
+		揭示隐藏的危险和不为人知的宝藏
+		'''
+}
+
+UnlimitedPhotosynthesis: {
+	DisplayName: 光浴之呼
+	Tooltip:
+		'''
+		站定不动时大幅增加自然生命再生，这一效果会在白天加强为5倍
+		掉落的红心会回复更多生命值
+		“你找到我了！”
+		蕴含着太阳花精华的光浴之呼，在阳光下为持有者恢复活力
+		治愈伤口，补充精力
+		'''
+}
+
+UnlimitedShadow: {
+	DisplayName: 暗影面纱
+	Tooltip:
+		'''
+		将你转化为一个眼睛发光的暗影
+		盗贼武器在击中敌人时会生成弹幕
+		增加8%潜行值恢复速度
+		可通过配置“潜行不可见性”来禁用视觉效果
+		“就像《魔兽世界》中的“消失”按钮！”
+		身披暗影面纱，佩戴者与阴影融为一体，
+		于无形中发起攻击，利用黑暗的力量增强潜行者的技艺
+		'''
+}
+
+BloodyMaryPower: {
+	DisplayName: 猩红炼金术师的血腥玛丽
+	Tooltip:
+		'''
+		在血月期间增加10%伤害和移动速度
+		降低2HP/s生命再生和4%防御
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款灵药由猩红炼金术士在血月期间制作，以高昂的代价赋予力量]
+		[c/B00BA5:辣而血腥！]
+		'''
+}
+
+CaribbeanRumPower: {
+	DisplayName: 海盗的加勒比朗姆酒
+	Tooltip:
+		'''
+		增加1HP/s生命再生和10%移动速度
+		令你变得飘飘若仙并降低10%防御
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这种朗姆酒曾被海盗珍视，其强效混合物可以促进再生和敏捷性，但会让你变得脆弱]
+		[c/B00BA5:咦？酒怎么突然没了？]
+		'''
+}
+
+CinnamonRollPower: {
+	DisplayName: 法师的肉桂威士忌
+	Tooltip:
+		'''
+		魔力再生速率和所有火系减益的伤害倍率乘以1.5
+		降低10%防御
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款威士忌在法师中很受欢迎，其独特的混合配方能增强魔力和火系魔法，但会降低你防御能力]
+		[c/B00BA5:肉桂威士忌，品起来就如奶油苏打一样，啊，绝赞美味]
+		'''
+}
+
+EverclearPower: {
+	DisplayName: 勇士的谷酒
+	Tooltip:
+		'''
+		增加25%伤害
+		降低5HP/s生命再生和30%防御
+		在酒精中毒效果中被视为两种酒
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:已知最烈的酒，被追求无与伦比力量的勇士所饮用，但伴随巨大风险]
+		[c/B00BA5:这是我这里最劲爆的好酒了，小心点儿！]
+		'''
+}
+
+EvergreenGinPower: {
+	DisplayName: 森林精华杜松子酒
+	Tooltip:
+		'''
+		所有疫病和水系减益的伤害倍率乘以1.25
+		降低0.5HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:以森林精华蒸馏而成，这款杜松子酒能增强自然之怒，但会削弱饮用者的活力]
+		[c/B00BA5:圣诞树的味道~，如果你能想象到的话]
+		'''
+}
+
+FabsolVodkaPower: {
+	DisplayName: 精酿Fabsol伏特加
+	Tooltip:
+		'''
+		增加8%伤害，但降低5%防御
+		延长受伤后无敌时间
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:备受品味高雅之人的青睐，这款伏特加增强伤害和韧性，专为有鉴赏力的冒险者打造]
+		[c/B00BA5:这种神奇的酒深受口味高雅人士的喜爱]
+		'''
+}
+
+FireballPower: {
+	DisplayName: 焰术士的火龙酒
+	Tooltip:
+		'''
+		所有火系减益的伤害倍率乘以1.25
+		降低0.5HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款肉桂威士忌备受火术士喜爱，能增强火系魔法，但会消耗你的体力]
+		[c/B00BA5:清爽可口的肉桂威士忌酒]
+		'''
+}
+
+GrapeBeerPower: {
+	DisplayName: 被诅咒的葡萄啤酒
+	Tooltip:
+		'''
+		降低3%防御，持续15秒
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:一种臭名昭著、口感极差的酒，只有最勇敢的人敢尝试，然而他们常常会为此后悔]
+		[c/B00BA5:这鬼玩意真恶心，不过你或许会喜欢]
+		'''
+}
+
+MargaritaPower: {
+	DisplayName: 清爽的玛格丽特酒
+	Tooltip:
+		'''
+		减半大多数减益的持续时间
+		降低6%防御和0.5HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款酒以清爽的口感著称，能将有害的负面效果减半，但会显著降低你的防御力]
+		[c/B00BA5:有史以来最可口的饮品，在它还有时细细品尝吧]
+		'''
+}
+
+MoonshinePower: {
+	DisplayName: 坚韧的摩闪酒
+	Tooltip:
+		'''
+		增加10点防御和3%伤害减免
+		降低0.5HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款烈酒以提升防御力和伤害减免而闻名，深受坚韧之人的喜爱]
+		[c/B00BA5:这酒很烈，但我相信你没问题的]
+		'''
+}
+
+MoscowMulePower: {
+	DisplayName: 胆大的莫斯科骡子
+	Tooltip:
+		'''
+		增加9%伤害、50%击退和3%暴击率
+		降低2HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款酒专为大胆之人打造，能提升攻击能力，但会显著降低生命恢复速度]
+		[c/B00BA5:我曾听说铜马克杯有毒，然后我就跟他们说：“嘿，蠢货，那么我早就毒翻自己啦”]
+		'''
+}
+
+OldFashionedPower: {
+	DisplayName: 古老的古典酒
+	Tooltip:
+		'''
+		所有饰品与套装奖励的伤害增加至1.5倍
+		所有伤害降低25%
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:一种古老的饮品，通过增强饰品和套装的额外伤害来提升战斗力，但会以降低整体强度为代价]
+		[c/B00BA5:我的旧爱]
+		'''
+}
+
+RedWinePower: {
+	DisplayName: 干红葡萄酒
+	Tooltip:
+		'''
+		降低0.5HP/s生命再生，持续15秒
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款酒对许多人来说过于寡淡，虽带有轻微负面效果，但其实效用强大常被低估]
+		[c/B00BA5:对我来说太干了]
+		'''
+}
+
+RumPower: {
+	DisplayName: 甘甜朗姆酒
+	Tooltip:
+		'''
+		增加1HP/s生命再生和10%移动速度
+		降低5%防御
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款朗姆酒甜美且强劲，因其生命恢复和速度提升而备受喜爱，尽管存在一些缺点]
+		[c/B00BA5:甜美劲爆，爱它不需要别的理由]
+		'''
+}
+
+ScrewdriverPower: {
+	DisplayName: 锋利的螺丝起子
+	Tooltip:
+		'''
+		穿透类弹幕的伤害倍率乘以1.05
+		降低0.5HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款备受青睐的鸡尾酒能增强穿刺伤害，不过会消耗饮用者的活力]
+		[c/B00BA5:你……耍酒疯吗？]
+		'''
+}
+
+StarBeamRyePower: {
+	DisplayName: 宇宙星界黑麦威士忌
+	Tooltip:
+		'''
+		增加50点最大魔力值和8%魔法伤害
+		降低10%魔力消耗
+		降低6%防御和1HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:由神秘成分酿造而成，这种黑麦酒提升魔法能力，据传含有宇宙能量]
+		[c/B00BA5:我在星辉陨石坑附近找到了些材料，调制成了这酒，哈哈别担心，它很安全，相信我……]
+		'''
+}
+
+TequilaPower: {
+	DisplayName: 日光龙舌兰
+	Tooltip:
+		'''
+		在白天时增加10%击退、4%暴击率和5点防御
+		降低0.5HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款龙舌兰酒非常适合白天的冒险活动，在白天能提升防御力和攻击力]
+		[c/B00BA5:在白天畅饮的绝佳鸡尾酒]
+		'''
+}
+
+TequilaSunrisePower: {
+	DisplayName: 日出龙舌兰
+	Tooltip:
+		'''
+		在白天时增加20%击退、8%暴击率和10点防御
+		降低1HP/s生命再生
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款终极白天饮品，在提升多种属性的同时，却需要以高额生命恢复为代价]
+		[c/B00BA5:我尝过的最棒的日间饮品]
+		'''
+}
+
+VodkaPower: {
+	DisplayName: 万能伏特加
+	Tooltip:
+		'''
+		增加6%伤害和2%暴击率
+		降低0.5HP/s生命再生和5%防御
+		饮用三种以上的酒或许对你的肝脏不太好	
+		[c/FFD700:这款伏特加用途广泛，是调制强力鸡尾酒和提升战斗能力的必备之选]
+		[c/B00BA5:调制美味鸡尾酒的不二选择]
+		'''
+}
+
+WhiskeyPower: {
+	DisplayName: 战士的威士忌
+	Tooltip:
+		'''
+		增加4%伤害、20%击退和2%暴击率
+		降低5%防御
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款威士忌以其温暖的灼热感著称，能增强伤害和击退效果，受到许多战士的喜爱]
+		[c/B00BA5:那种燃烧的错觉让其美味更甚！]
+		'''
+}
+
+WhiteWinePower: {
+	DisplayName: 神秘的白葡萄酒
+	Tooltip:
+		'''
+		增加8%魔法伤害
+		降低0.5HP/s生命再生和6%防御
+		饮用三种以上的酒或许对你的肝脏不太好
+		[c/FFD700:这款酒是许多法师的首选，能提升魔法伤害，但会导致防御力显著下降]
+		[c/B00BA5:曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了]
+		'''
+}
+
+UnlimitedCeaselessHunger: {
+	DisplayName: 万物吞噬
+	Tooltip:
+		'''
+		[c/800080:吞噬一切的黑暗力量，受深渊中古老饥饿驱使] 
+		[c/4B0082:传说中有一个存在，曾用这股力量抹去世界]
+		[c/9400D3:其不停贪婪地吞噬光明]
+		[c/9400D3:只留下无尽的虚空]
+		'''
+}
+
+UnlimitedSoaring: {
+	DisplayName: 以太飞升
+	Tooltip:
+		'''
+		[c/87CEEB:御风飞行]
+		[c/87CEEB:增加10%飞行时间和水平飞行速度]
+		[c/4682B4:传说中，掌握此艺者能触及星辰] 
+		[c/1E90FF:许多人曾追求这份天赐之物]
+		[c/1E90FF:但唯有心灵纯净、心智清澈者方能真正升华]
+		'''
+}
+
+UnlimitedSulphuric: {
+	DisplayName: 耐蚀之盾
+	Tooltip:
+		'''
+		[c/32CD32:引导有毒潮汐]
+		[c/32CD32:削弱硫磺海水的影响] 
+		[c/228B22:曾经被炼金术士用来承受最致命的毒药]
+		[c/006400:这种保护是有代价的，长时间的暴露可能会腐蚀灵魂]
+		'''
+}
+
+UnlimitedTesla: {
+	DisplayName: 风暴呼唤者领域
+	Tooltip:
+		'''
+		[c/FFD700:释放出特斯拉能量光环，以风暴之怒攻击敌人]
+		[c/FFA500:其创造者据传窃取了闪电本身地力量] 
+		[c/FF8C00:使用时需谨慎，因为这种力量据说会有不可预测的效果]
+
+		'''
+}
+
+UnlimitedZen: {
+	DisplayName: 安宁谐波
+	Tooltip:
+		'''
+		[c/ADD8E6:大幅降低敌怪生成率，平息战场]
+		[c/5F9EA0:古代僧侣相信这种和谐能够平息最激烈的战争]
+		[c/4682B4:但需小心，彻底宁静之下可能会与现实脱节]
+
+		'''
+}
+
+UnlimitedZerg: {
+	DisplayName: 虫群本能
+	Tooltip:
+		'''
+		[c/FF4500:召唤无尽地虫潮，大幅提高敌怪生成率]
+		[c/B22222:受野性原始本能激发，数量即生存之道]
+		[c/8B0000:驾驭此能力之人，常常会被其反噬]
+		'''
+}
+
+BaguettePower: {
+	DisplayName: 法棍之力
+	Tooltip:
+		'''
+		[c/FFE4B5:红葡萄酒会回复250生命值但降低2HP/s生命再生]
+		[c/FCE391:“我骑上去了！”]
+		[c/DAA520:这种古老的法国疗法能赋予人力量，但会以消耗人的活力为代价]
+		'''
+}
+
+Candle: {
+	UnlimitedChaosCandle: {
+		DisplayName: 混沌之魂
+		Tooltip:
+			'''
+			[c/FF4500:极大幅降提高怪生成率] 
+			[c/B22222:一旦被点燃，这根蜡烛就会引出混沌本身]
+			[c/B22222:动荡和混乱将笼罩这个世界]
+			'''
+	}
+
+	UnlimitedTranquilityCandle: {
+		DisplayName: 安宁之魂
+		Tooltip:
+			'''
+			[c/87CEEB:不在生成敌怪]
+			[c/4682B4:这根蜡烛曾被古代智者用于带来平静与安宁]
+			[c/4682B4:营造出一种不可打破的宁静氛围]
+			'''
+	}
+}
+
+Clamity: {
+	UnlimitedUnknownWellFed: {
+		DisplayName: Unknown Well Fed Power
+		Tooltip:
+			'''
+			[c/FFD700:So much food?] [c/32CD32:Varying improvements inbound.]
+			[c/8B4513:The source of this bounty is a mystery, but its effects]
+			[c/8B4513:are undeniable, though not always predictable.]
+			'''
+	}
+}
+
+UnlimitedHolyFlames: {
+	DisplayName: 神圣炼狱
+	Tooltip:
+		'''
+		近战、鞭子和盗贼攻击会造成神圣之火减益
+		[c/FFD700:用神圣之火净化敌人，留下灰烬和冒烟的残骸]
+		[c/FFA07A:让神圣之火净化邪恶，烧尽敌人灵魂中的黑暗面]
+		[c/FF4500:于天堂之火中锻造，用来惩击那些反抗神圣天堂之光的人]
+
+		'''
+}
+
+UnlimitedCrumbling: {
+	DisplayName: 粉碎打击
+	Tooltip:
+		'''
+		近战、鞭子和盗贼攻击会造成粉碎减益
+		[c/A52A2A:每一击都能削弱敌人，使其无力反抗化为尘埃和瓦砾] 
+		[c/808080:他们的力量如同被无情岁月所侵蚀的古老遗迹崩塌掉] 
+		[c/8B4513:据说这股力量源于古老之力的触碰] 
+		[c/8B4513:能轻易瓦解最坚固的防御]
+		'''
+}
+
+UnlimitedBrimstone: {
+	DisplayName: 硫火百合
+	Tooltip:
+		'''
+		近战、鞭子和盗贼攻击会造成硫磺火减益
+		[c/FF4500:拥抱熔岩百合的灼热绽放，让熔火般地花瓣点燃空气]
+		[c/8B0000:敌人在无情烈焰的炙烤下凋零，而他们的艳丽掩盖着心灵中的威胁]
+		[c/FF6347:熔岩百合诞生于火海深处]
+		[c/FF6347:其火焰承载着一个永远被岩浆淹没的世界]
+		'''
+}
+
+UnlimitedAstralInjection: {
+	DisplayName: 星幻过量剂
+	Tooltip:
+		'''
+		对你造成伤害并使你获得魔力疾病减益（实际上不会）
+		即使在移动或施法时，你也能快速恢复魔力值
+		[c/FFD700:驾驭宇宙的无尽能量]
+		[c/FFD700:但要做好承受这种秘法力量带来强烈反噬的准备]
+		[c/B00BA5:体验一股巨大的魔力涌动]
+		[c/B00BA5:来自星海的强大礼物会向你的本质索取代价]
+		[c/9400D3:将自己与宇宙能量融合是有代价的]
+		[c/9400D3:会使你陷入天界混乱和不适的状态]
+		'''
+}
+
+PurpleHazePower: {
+	// DisplayName: Purple Haze Power
+	/* Tooltip:
+		'''
+		8% increased damage, but lowers defense by 5%
+		Increases immune time after being struck
+		Drinking more than 3 different alcohols might not end well with your liver
+		''' */
+}
+
+UnlimitedGravityNormalizer: {
+	// DisplayName: Moonwalker's Grace
+	/* Tooltip:
+		'''
+		Disables the low gravity of space and grants immunity 
+		to the distorted debuff, allowing perfect cosmic balance.
+		[c/ADD8E6:Feel the tranquility of lunar grace as you]
+		[c/ADD8E6:navigate the heavens with stability and ease.]
+		''' */
+}
+
+DecayStand: {
+	// DisplayName: Decay Stand
+	/* Tooltip:
+		'''
+		Grants underwater breathing
+		Does not function in the Abyss
+
+		An ancient relic once used by deep-sea pilgrims to explore drowned ruins
+		''' */
+}
+
+CrimsonStand: {
+	// DisplayName: Crimson Stand
+	/* Tooltip:
+		'''
+		Increases damage by 15% and defense by 10
+		Reduces maximum health by 10%
+
+		Said to pulse with the lifeblood of a forgotten god of war
+		''' */
+}
+
+CorruptionStand: {
+	// DisplayName: Corruption Stand
+	/* Tooltip:
+		'''
+		Increases movement speed and critical strike chance by 10%
+		Reduces damage reduction by 5%
+
+		Whispers of madness echo from within its rotted core
+		''' */
+}
+
+UnlimitedAlcoholicsCodexResilient: {
+	// DisplayName: Codex of Unwavering Flame
+	/* Tooltip:
+		'''
+		Defense now blocks 10% more damage
+		(60% in Classic, 85% in Expert, and 110% in Master)
+
+		[c/4AA6E5:'Neither rain nor wind can snuff its undying flame']
+		''' */
+}
+
+UnlimitedAlcoholicsCodexSpiteful: {
+	// DisplayName: Codex of Smoldering Spite
+	/* Tooltip:
+		'''
+		Player deals 1.07x more damage to all enemies
+		The extra 0.07x bypasses enemy defense and damage reduction
+
+		[c/E04D2A:'Its hateful glow flickers with ire']
+		''' */
+}
+
+UnlimitedAlcoholicsCodexVigorous: {
+	// DisplayName: Codex of Radiant Vitality
+	/* Tooltip:
+		'''
+		Regenerates 0.4% of your max health per second
+		Regeneration remains at full power while moving
+		Bypasses Revengeance Mode caps
+
+		[c/E86DF8:'Its brilliant light suffuses those nearby with hope']
+		''' */
+}
+
+UnlimitedAlcoholicsCodexWeightless: {
+	// DisplayName: Codex of the Lifting Winds
+	/* Tooltip:
+		'''
+		10% increased movement speed, wing time, and acceleration
+
+		[c/5EF1F2:'The floating flame seems to uplift your very spirit']
+		''' */
+}
+
+UnlimitedBaguettePower: {
+	// DisplayName: Le Baguette
+	/* Tooltip:
+		'''
+		Red Wine heals 250 HP, but reduces life regen by 2 HP/s
+		Doesn't grants Minor improvements to all stats.
+		''' */
+}

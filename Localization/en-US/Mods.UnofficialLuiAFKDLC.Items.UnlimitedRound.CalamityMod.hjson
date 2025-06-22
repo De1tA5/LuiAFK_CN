@@ -1,0 +1,284 @@
+UnlimitedAccelerationRound: {
+	DisplayName: Endless Pouch of Acceleration Rounds
+	Tooltip:
+		'''
+		Gains speed over time.
+		[c/FFD700:Each shot begins slow but quickly accelerates, reaching deadly velocities in no time.]
+		[c/00FF7F:'Where is it located? Nobody knows, but it's always catching up.']
+		'''
+}
+
+UnlimitedBloodfireBullet: {
+	DisplayName: Endless Pouch of Bloodfire Bullets
+	Tooltip:
+		'''
+		Passes through tiles and accelerates your natural life regen on hit.
+		Deals bonus damage based on your current life regen and natural life regen.
+		This damage caps at 25.
+		[c/FF4500:The blood ignites, fueling both your power and your life force.]
+		[c/8B0000:'Your blood is on fire, and so is theirs.']
+		'''
+}
+
+UnlimitedBubonicBullet: {
+	DisplayName: Endless Pouch of Bubonic Bullets
+	Tooltip:
+		'''
+		Spreads the plague on hit.
+		Ignores 10% of enemy defense.
+		[c/6B8E23:Infect your enemies with a virulent plague, breaking down their defenses from within.]
+		[c/556B2F:'Rotting from the inside, there is no escape from the decay.']
+		'''
+}
+
+UnlimitedFlashRound: {
+	DisplayName: Endless Pouch of Flash Rounds
+	Tooltip:
+		'''
+		Gives off a concussive blast that confuses enemies in a large area for a short time.
+		[c/FFD700:Disorient your foes with a blinding flash, leaving them vulnerable and confused.]
+		[c/ADFF2F:'Confuses Enemies! Haha, they never see it coming.']
+		'''
+}
+
+UnlimitedHyperiusBullet: {
+	DisplayName: Endless Pouch of Hyperius Bullets
+	Tooltip:
+		'''
+		Powerful multicolor bullets.
+		Bullets split into swirling lights on impact.
+		[c/00CED1:Unleash a kaleidoscope of destruction, with each shot creating a brilliant display of lethal light.]
+		[c/48D1CC:'x2! Twice the power, twice the spectacle.']
+		'''
+}
+
+UnlimitedMarksmanRound: {
+	DisplayName: Endless Pouch of Marksman Rounds
+	Tooltip:
+		'''
+		A carefully crafted round which can be ricocheted off of midair coins.
+		This allows other guns to utilize the coins tossed by Crackshot Colt and Midas Prime.
+		[c/DAA520:Turn every coin into a deadly projectile, bouncing with precision and deadly intent.]
+		[c/CD853F:'Not Midas touch included! But you'll make every shot count.']
+		'''
+}
+
+UnlimitedSuperballBullet: {
+	DisplayName: Endless Pouch of Superball Bullets
+	Tooltip:
+		'''
+		Bounces at extreme speeds.
+		[c/FF6347:Ricochets unpredictably, gaining momentum with each bounce.]
+		[c/FF4500:'Jump pogo, pogo, pogo. Just try to keep up.']
+		'''
+}
+
+UnlimitedDryadsTear: {
+	DisplayName: Endless Pouch of Dryad's Tear
+	Tooltip:
+		'''
+		Explodes and splits into homing nature shards on impact.
+		[c/32CD32:Unleash the fury of nature, with shards that seek out and destroy.]
+		[c/228B22:'Plantera's favorite food, now your deadliest weapon.']
+		'''
+}
+
+UnlimitedVeriumBullet: {
+	DisplayName: Endless Pouch of Verium Bullets
+	Tooltip:
+		'''
+		There is no escape!
+		Homes in after striking an enemy.
+		[c/FF4500:Relentlessly pursues its target, even after the first hit.]
+		[c/DC143C:'Can't run from me! The chase is on, and you're always in the lead.']
+		'''
+}
+
+UnlimitedEnhancedNanoRound: {
+	DisplayName: Endless Pouch of Enhanced Nano Rounds
+	Tooltip:
+		'''
+		Confuses enemies and releases a cloud of nanites when enemies die.
+		[c/7FFF00:Unleash a swarm of nanites upon your enemies' demise, ensuring confusion and chaos.]
+		[c/32CD32:'Don’t confuse with nano bullets, these pack a punch.']
+		'''
+}
+
+UnlimitedGodSlayerSlug: {
+	DisplayName: Endless Pouch of God Slayer Slugs
+	Tooltip:
+		'''
+		Heavy ammunition with unlimited piercing that tears through spacetime.
+		After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
+		it warps backwards through space and supercharges, exploding on impact.
+		[c/8A2BE2:Tear through reality itself, with each shot bending the laws of physics to your will.]
+		[c/4B0082:'It's over yet! The final blow is only the beginning.']
+		'''
+}
+
+UnlimitedHolyFireBullet: {
+	DisplayName: Endless Pouch of Holy Fire Bullets
+	Tooltip:
+		'''
+		Explosive holy bullets.
+		Explosions are larger right when the bullets are fired.
+		[c/FFD700:Blessed fire burns with righteous fury, expanding upon impact for maximum devastation.]
+		[c/FFA500:'Holy fire, holy might. The light burns bright and fierce.']
+		'''
+}
+
+UnlimitedHailstormBullet: {
+	DisplayName: Endless Pouch of Hailstorm Bullets
+	Tooltip:
+		'''
+		Bullets imbued with potent ice magic.
+		These bullets rapidly decelerate after being fired.
+		Critical hits cause a flash freeze, dealing additional damage.
+		[c/00BFFF:Harness the chilling power of winter, freezing enemies in their tracks.]
+		[c/4682B4:'Permafrost is gunning for you, with a chill that never thaws.']
+		'''
+}
+
+EndlessBloodfirePouch: {
+	DisplayName: Inferno Bullet Pouch
+	Tooltip:
+		'''
+		Passes through tiles and accelerates your natural life regen on hit.
+		Deals bonus damage based on your current life regen and natural life regen.
+		This damage caps at 25.
+		[c/FF4500:Feel the burning power of the inferno coursing through your veins.]
+		[c/8B0000:'Ignite your blood, ignite your enemies.']
+		'''
+}
+
+EndlessBubonicPouch: {
+	DisplayName: Plague Bearer Pouch
+	Tooltip:
+		'''
+		Spreads the plague on hit.
+		Ignores 10% of enemy defense.
+		[c/6B8E23:Unleash the plague upon your foes, leaving them weakened and decaying.]
+		[c/556B2F:'They’ll never see it coming, but they’ll feel the rot.']
+		'''
+}
+
+EndlessDryadPouch: {
+	DisplayName: Nature's Wrath Pouch
+	Tooltip:
+		'''
+		Splits into homing nature shards on impact which ignore enemy defense.
+		[c/32CD32:Let nature take its course, with shards that seek and destroy.]
+		[c/228B22:'The wrath of the wild, in every shard.']
+		'''
+}
+
+EndlessFlashPouch: {
+	DisplayName: Endless Flash Pouch
+	Tooltip:
+		'''
+		Gives off a concussive blast that confuses enemies in a large area for a short time.
+		[c/FFD700:Blind and bewilder your foes, leaving them dazed and vulnerable.]
+		[c/ADFF2F:'Confusion reigns as the light fades.']
+		'''
+}
+
+EndlessGodSlayerPouch: {
+	DisplayName: Endless God Slayer Pouch
+	Tooltip:
+		'''
+		Heavy ammunition with unlimited piercing that tears through spacetime.
+		After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
+		it warps backwards through space and supercharges, exploding on impact.
+		[c/8A2BE2:Tear through the fabric of reality with god-slaying force.]
+		[c/4B0082:'The end is just the beginning when space and time bend to your will.']
+		'''
+}
+
+EndlessHailstormPouch: {
+	DisplayName: Endless Hailstorm Pouch
+	Tooltip:
+		'''
+		Bullets imbued with potent ice magic.
+		These bullets rapidly decelerate after being fired.
+		Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies.
+		[c/00BFFF:Unleash a storm of ice, freezing your foes solid.]
+		[c/4682B4:'Chill them to the bone, and then some.']
+		'''
+}
+
+EndlessHallowPointPouch: {
+	DisplayName: Endless Hallow Point Pouch
+	Tooltip:
+		'''
+		Gallant light deals 6 bonus damage on hit.
+		This effect does not occur if the bullets are converted by special guns.
+		[c/FFD700:Light up the darkness with bullets that shine with gallant power.]
+		[c/FF6347:'A touch of light in every shot, guiding your aim.']
+		'''
+}
+
+EndlessHolyPouch: {
+	DisplayName: Endless Holy Fire Bullet
+	Tooltip:
+		'''
+		Holy explosive rounds dealing 25 damage.
+		Larger explosions upon firing.
+		[c/FFB6C1:Cleanse the darkness with divine fire.]
+		[c/FFA07A:'Purifying blasts for the righteous!']
+		'''
+}
+
+EndlessHyperiusPouch: {
+	DisplayName: Endless Hyperius Bullet
+	Tooltip:
+		'''
+		Colorful bullets dealing 15 damage.
+		Splits into swirling lights on impact.
+		[c/9370DB:Illuminate your foes with vibrant firepower.]
+		[c/FF1493:'A spectacle of colors and destruction!']
+		'''
+}
+
+EndlessMarksmanPouch: {
+	DisplayName: Endless Marksman Round
+	Tooltip:
+		'''
+		Crafted for precision, dealing 15 damage.
+		Ricochets off midair coins for clever tactics.
+		[c/32CD32:Strike true with every carefully aimed shot.]
+		[c/FF69B4:'Utilize the coins to enhance your firepower!']
+		'''
+}
+
+EndlessMortarRound: {
+	DisplayName: Endless Standard Mortar Round
+	Tooltip:
+		'''
+		High-explosive rounds causing 25 damage.
+		Destroy tiles with every blast.
+		[c/FF8C00:Demolish your surroundings with force.]
+		[c/FF4500:'Prepare for explosive consequences!']
+		'''
+}
+
+EndlessRubberMortarPouch: {
+	DisplayName: Endless Rubber Mortar Round
+	Tooltip:
+		'''
+		Specialized high-explosive rounds that deal 25 damage.
+		Large blast radius with tile destruction on bounce.
+		[c/FFD700:Unleash chaos with every bounce.]
+		[c/FF6347:'Bouncing rounds that pack a punch!']
+		'''
+}
+
+EndlessMortarPouch: {
+	DisplayName: Endless Mortar Round
+	Tooltip:
+		'''
+		High-explosive rounds causing 25 damage.
+		Destroy tiles with every blast.
+		[c/FF8C00:Demolish your surroundings with force.]
+		[c/FF4500:'Prepare for explosive consequences!']
+		'''
+}

@@ -1,0 +1,179 @@
+CalamityMod: {
+	ScrollOfEffigies: {
+		DisplayName: Scroll Of Effigies
+		Tooltip:
+			'''
+			When in your inventory, nearby players will get Crimson, Corruption, and Decay Effigies Buffs.
+			'Is this real paper?!'
+			'''
+		CalRemixTooltip: When in your inventory, nearby players will get Crimson, Corruption, Astral, Hallow and Decay Effigies Buffs.
+	}
+
+	ScrollOfDepths: {
+		DisplayName: Scroll of the Depths
+		Tooltip: Now you can explore the abyss more comfortably
+	}
+
+	AlcoholicsCodex: {
+		DisplayName: Alcoholic's Codex
+		Tooltip:
+			'''
+			{$Mods.UnofficialLuiAFKDLC.Items.Scroll.CalamityMod.AlcoholicsCodexResilient.Tooltip}
+			Currect sprite is placeholder
+			'''
+	}
+
+	AlcoholicsCodexResilient: {
+		DisplayName: Alcoholic's Codex (Resilient)
+		Tooltip:
+			'''
+			Defense now block 10% more damage
+			(60% in Classic, 85% in Expert, and 110% in Master)
+			Right Click to change candle buff
+			'''
+	}
+
+	AlcoholicsCodexSpiteful: {
+		DisplayName: Alcoholic's Codex (Spiteful)
+		Tooltip:
+			'''
+			You deal now 1.04x damage to enemies
+			The extra 0.04x damage bypasses enemy defence and damage reduction
+			Right Click to change candle buff
+			'''
+	}
+
+	AlcoholicsCodexVigorous: {
+		DisplayName: Alcoholic's Codex (Vigorous)
+		Tooltip:
+			'''
+			You regenerate 0.4% of your maximum heapth per second
+			This regeneration is at full power even while moving and bypasses Revengeance Mode caps
+			Right Click to change candle buff
+			'''
+	}
+
+	AlcoholicsCodexWeightless: {
+		DisplayName: Alcoholic's Codex (Weightless)
+		Tooltip:
+			'''
+			You gain 10% increased movement speed, wing time and acceleration
+			Right Click to change candle buff
+			'''
+	}
+
+	ScrollOfInfiniteAscent: {
+		DisplayName: Scroll of Celestial Ascent
+		Tooltip:
+			'''
+			Boosts flight time, jump speed, and grants immunity to fall damage.
+			'Fly higher, jump farther, and fall safely—perfect for those who dare to touch the skies.'
+			'''
+	}
+
+	ScrollOfCalamity: {
+		DisplayName: Scroll Of Calamity
+		Tooltip: You gain power of Calamity which can allow being in abyss, increase mobility and other
+	}
+
+	ScrollOfAstral: {
+		DisplayName: Scroll Of The Astral
+		Tooltip:
+			'''
+			Empowers mana regeneration and stabilizes gravity.
+			[c/9400D3:Feel the equilibrium of astral forces as they]
+			[c/9400D3:align your energies and lighten your steps.]
+			'''
+	}
+
+	FermentedBook: {
+		DisplayName: Fermented Book
+		Tooltip:
+			'''
+			Grants the effects of all alcoholic brews.
+			[c/FF9900:Embrace the fermented path—boost your stats,]
+			[c/FF9900:but beware the creeping haze of intoxication.]
+
+			Only 3 alcohol effects can be active at a time
+
+			Did you know? Ancient civilizations like the Sumerians
+			documented beer recipes over 5,000 years ago.
+
+			'''
+	}
+}
+
+AlchemistNPCLite: {
+	WorldWarperScroll: {
+		DisplayName: World Warper Scroll {0}
+		Tooltip:
+			'''
+			{0}
+			[c/FFC300:Shift-Left click to change mode]
+			'''
+		None: "[c/FFC300:Use Item to change to first mode]"
+		Beach:
+			'''
+			[c/FFC300:Left Click Teleports you to the Left Beach]
+			[c/FFC300:Right Click Teleports you to the Right Beach]
+			'''
+		Dungeon: "[c/FFC300:Left/Right Click Teleports you to the Dungeon Entrance]"
+		Jungle:
+			'''
+			[c/FFC300:Left Click Teleports you to the Jungle]
+			[c/FFC300:Right Click to teleport to the closest Mahogany Tree]
+			'''
+		Ocean:
+			'''
+			[c/FFC300:Left Click Teleports you to the Left Latest Block]
+			[c/FFC300:Right Click Teleports you to the Right Latest Block]
+			'''
+		Temple: "[c/FFC300:Left/Right Click Teleports you to the Lihzahrd Altar]"
+		Underworld:
+			'''
+			[c/FFC300:Left Click Teleports you to the Left Side]
+			[c/FFC300:Right Click Teleports you to the Right Side]
+			'''
+		BeachName: Beach
+		DungeonName: Dungeon
+		JungleName: Jungle
+		OceanName: Ocean
+		TempleName: Temple
+		UnderworldName: Underworld
+	}
+
+	ScrollOfMinerAlchemist: {
+		DisplayName: Scroll of the Luminous Excavator
+		Tooltip: Boosts mining speed, evades traps, and illuminates your path—explore safely and swiftly..
+	}
+
+	ScrollOfWarriorAlchemist: {
+		DisplayName: Scroll of Fortitude and Shadows
+		Tooltip: Increase ability to dodge and defence
+	}
+
+	WorldWarperBeach: {
+		DisplayName: World Warper Beach
+		Tooltip: ""
+	}
+
+	WorldWarperDungeon: {
+		DisplayName: World Warper Dungeon
+		Tooltip: ""
+	}
+
+	WorldWarperJungle: {
+		DisplayName: World Warper Jungle
+		Tooltip: ""
+	}
+
+	WorldWarperTemple: {
+		DisplayName: World Warper Temple
+		Tooltip: ""
+	}
+
+	WorldWarperUnderworld: {
+		DisplayName: World Warper Underworld
+		Tooltip: ""
+	}
+}

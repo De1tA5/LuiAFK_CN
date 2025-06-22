@@ -1,0 +1,13 @@
+UnlimitedAstralSolution: {
+	DisplayName: Celestial Nexus Prime
+	Tooltip:
+		'''
+		An infinite reservoir for the Celestial Nexus, endlessly spreading the Astral Infection across realms.
+		'Witness the boundless cosmos it unveils...'
+		'''
+}
+
+UnlimitedCyanSolution: {
+	DisplayName: Unlimited Cyan Solution
+	Tooltip: Never run out of Cyan Solution
+}

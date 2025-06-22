@@ -1,0 +1,286 @@
+UnlimitedAccelerationRound: {
+	DisplayName: 无限Pouch of Acceleration Rounds
+	Tooltip:
+		'''
+		Gains speed over time.
+		[c/FFD700:Each shot begins slow but quickly accelerates, reaching deadly velocities in no time.]
+		[c/00FF7F:'Where is it located? Nobody knows, but it's always catching up.']
+		'''
+}
+
+UnlimitedBloodfireBullet: {
+	DisplayName: 无限Pouch of Bloodfire Bullets
+	Tooltip:
+		'''
+		Passes through tiles and accelerates your natural life regen on hit.
+		Deals bonus damage based on your current life regen and natural life regen.
+		This damage caps at 25.
+		[c/FF4500:The blood ignites, fueling both your power and your life force.]
+		[c/8B0000:'Your blood is on fire, and so is theirs.']
+		'''
+}
+
+UnlimitedBubonicBullet: {
+	DisplayName: 无限Pouch of Bubonic Bullets
+	Tooltip:
+		'''
+		Spreads the plague on hit.
+		Ignores 10% of enemy defense.
+		[c/6B8E23:Infect your enemies with a virulent plague, breaking down their defenses from within.]
+		[c/556B2F:'Rotting from the inside, there is no escape from the decay.']
+		'''
+}
+
+UnlimitedFlashRound: {
+	DisplayName: 无限Pouch of Flash Rounds
+	Tooltip:
+		'''
+		Gives off a concussive blast that confuses enemies in a large area for a short time.
+		[c/FFD700:Disorient your foes with a blinding flash, leaving them vulnerable and confused.]
+		[c/ADFF2F:'Confuses Enemies! Haha, they never see it coming.']
+		'''
+}
+
+UnlimitedHyperiusBullet: {
+	DisplayName: 无限Pouch of Hyperius Bullets
+	Tooltip:
+		'''
+		Powerful multicolor bullets.
+		Bullets split into swirling lights on impact.
+		[c/00CED1:Unleash a kaleidoscope of destruction, with each shot creating a brilliant display of lethal light.]
+		[c/48D1CC:'x2! Twice the power, twice the spectacle.']
+		'''
+}
+
+UnlimitedMarksmanRound: {
+	DisplayName: 无限Pouch of Marksman Rounds
+	Tooltip:
+		'''
+		A carefully crafted round which can be ricocheted off of midair coins.
+		This allows other guns to utilize the coins tossed by Crackshot Colt and Midas Prime.
+		[c/DAA520:Turn every coin into a deadly projectile, bouncing with precision and deadly intent.]
+		[c/CD853F:'Not Midas touch included! But you'll make every shot count.']
+		'''
+}
+
+UnlimitedSuperballBullet: {
+	DisplayName: 无限Pouch of Superball Bullets
+	Tooltip:
+		'''
+		Bounces at extreme speeds.
+		[c/FF6347:Ricochets unpredictably, gaining momentum with each bounce.]
+		[c/FF4500:'Jump pogo, pogo, pogo. Just try to keep up.']
+		'''
+}
+
+UnlimitedDryadsTear: {
+	DisplayName: 无限Pouch of Dryad's Tear
+	Tooltip:
+		'''
+		Explodes and splits into homing nature shards on impact.
+		[c/32CD32:Unleash the fury of nature, with shards that seek out and destroy.]
+		[c/228B22:'Plantera's favorite food, now your deadliest weapon.']
+		'''
+}
+
+UnlimitedVeriumBullet: {
+	DisplayName: 无限Pouch of Verium Bullets
+	Tooltip:
+		'''
+		There is no escape!
+		Homes in after striking an enemy.
+		[c/FF4500:Relentlessly pursues its target, even after the first hit.]
+		[c/DC143C:'Can't run from me! The chase is on, and you're always in the lead.']
+		'''
+}
+
+UnlimitedEnhancedNanoRound: {
+	DisplayName: 无限Pouch of Enhanced Nano Rounds
+	Tooltip:
+		'''
+		Confuses enemies and releases a cloud of nanites when enemies die.
+		[c/7FFF00:Unleash a swarm of nanites upon your enemies' demise, ensuring confusion and chaos.]
+		[c/32CD32:'Don’t confuse with nano bullets, these pack a punch.']
+		'''
+}
+
+UnlimitedGodSlayerSlug: {
+	DisplayName: 无限Pouch of God Slayer Slugs
+	Tooltip:
+		'''
+		Heavy ammunition with unlimited piercing that tears through spacetime.
+		After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
+		it warps backwards through space and supercharges, exploding on impact.
+		[c/8A2BE2:Tear through reality itself, with each shot bending the laws of physics to your will.]
+		[c/4B0082:'It's over yet! The final blow is only the beginning.']
+		'''
+}
+
+UnlimitedHolyFireBullet: {
+	DisplayName: 无限Pouch of Holy Fire Bullets
+	Tooltip:
+		'''
+		Explosive holy bullets.
+		Explosions are larger right when the bullets are fired.
+		[c/FFD700:Blessed fire burns with righteous fury, expanding upon impact for maximum devastation.]
+		[c/FFA500:'Holy fire, holy might. The light burns bright and fierce.']
+		'''
+}
+
+UnlimitedHailstormBullet: {
+	DisplayName: 无限Pouch of Hailstorm Bullets
+	Tooltip:
+		'''
+		Bullets imbued with potent ice magic.
+		These bullets rapidly decelerate after being fired.
+		Critical hits cause a flash freeze, dealing additional damage.
+		[c/00BFFF:Harness the chilling power of winter, freezing enemies in their tracks.]
+		[c/4682B4:'Permafrost is gunning for you, with a chill that never thaws.']
+		'''
+}
+
+EndlessBloodfirePouch: {
+	DisplayName: 地狱子弹袋
+	Tooltip:
+		'''
+		可以穿过物块，并在命中时加快你的自然生命再生
+		基于你当前的生命再生与自然生命再生造成额外伤害
+		此伤害上限为35
+		[c/FF4500:感受那燃烧着的地狱之力流过你的血管]
+		[c/8B0000:“燃汝之血，焚汝之敌”]
+		'''
+}
+
+EndlessBubonicPouch: {
+	DisplayName: 瘟疫携带者弹袋
+	Tooltip:
+		'''
+		命中时散播瘟疫
+		无视敌人10%防御
+		[c/6B8E23:瘟疫降临于你的敌人，使他们腐烂溃败]
+		[c/556B2F:“未见其来，身却已腐”]
+		'''
+}
+
+EndlessDryadPouch: {
+	DisplayName: 自然之怒弹袋
+	Tooltip:
+		'''
+		撞击时分裂出无视敌怪防御的追踪自然碎片
+		[c/32CD32:顺其自然，让那碎片寻觅并毁灭]
+		[c/228B22:“自然之怒，隐于众片”]
+		'''
+}
+
+EndlessFlashPouch: {
+	DisplayName: 无限眩晕弹袋
+	Tooltip:
+		'''
+		发射大范围震荡冲击，击中敌人时会造成短暂的困惑减益
+		[c/FFD700:让你的敌人失明和困惑，让他们感到茫然和脆弱]
+		[c/ADFF2F:“光影渐逝，一片狼藉”]
+		'''
+}
+
+EndlessGodSlayerPouch: {
+	DisplayName: 无限弑神弹袋
+	Tooltip:
+		'''
+		具有无限穿透能力的重型弹药，其威力足以撕裂时空
+		在击中一名敌人后，如果击中墙壁或在飞行一段时间后，
+		会扭曲时空并从玩家后方加速射出，在命中时产生爆炸
+		[c/8A2BE2:以弑神之力撕裂现实的结构]
+		[c/4B0082:“时空屈首，始既为终”]
+		'''
+}
+
+EndlessHailstormPouch: {
+	DisplayName: 无限冰雹风暴弹袋
+	Tooltip:
+		'''
+		灌注了强力冰魔法的子弹
+		这些子弹发射后速度会快速衰减
+		暴击会引发霜爆，造成额外伤害并冻结普通敌怪
+		[c/00BFFF:释放一场冰风暴，冻结你的敌人]
+		[c/4682B4:“寒冷刺骨，更渗其髓”]
+		'''
+}
+
+EndlessHallowPointPouch: {
+	DisplayName: 无限神圣空尖弹袋
+	Tooltip:
+		'''
+		神圣耀光命中时造成6点额外伤害
+		如果弹药被特殊枪械转化，则此效果不生效。
+		[c/FFD700:闪耀着英勇之力的子弹照亮黑暗]
+		[c/FF6347:“光引其射，耀其准心”]
+		'''
+}
+
+EndlessHolyPouch: {
+	DisplayName: 无限圣火弹袋
+	Tooltip:
+		'''
+		会爆炸的神圣子弹
+		子弹出膛之时爆炸尤为猛烈
+		[c/FFB6C1:用神圣之火净化黑暗。]
+		[c/FFA07A:“净化爆破为正义宣言！”]
+		'''
+}
+
+EndlessHyperiusPouch: {
+	DisplayName: 无限海伯里斯弹袋
+	Tooltip:
+		'''
+		强大的彩色子弹
+		子弹撞击时分裂出闪烁的色彩漩涡
+		[c/9370DB:用充满活力的火力照亮你的敌人。]
+		[c/FF1493:“一场充满色彩与破坏的壮观景象！”]
+		'''
+}
+
+EndlessMarksmanPouch: {
+	DisplayName: 无限神射手弹袋
+	Tooltip:
+		'''
+		一种精心制作的子弹，可以在半空中的钱币上反弹
+		这允许其他枪械可以利用神枪手柯尔特或迈达斯统帅抛出的硬币
+		[c/32CD32:每一发精心瞄准的射击都准确无误]
+		[c/FF69B4:“用金币来增强你的火力！”]
+		'''
+}
+
+EndlessMortarRound: {
+	DisplayName: 无限Standard Mortar Round
+	Tooltip:
+		'''
+		High-explosive rounds causing 25 damage.
+		Destroy tiles with every blast.
+		[c/FF8C00:Demolish your surroundings with force.]
+		[c/FF4500:'Prepare for explosive consequences!']
+		'''
+}
+
+EndlessRubberMortarPouch: {
+	DisplayName: 无限橡胶迫击炮弹袋
+	Tooltip:
+		'''
+		专用高爆弹，爆炸范围大
+		每次反弹时都会摧毁物块
+		可由普通枪械使用
+		[c/FFD700:每次反弹都会引发混乱]
+		[c/FF6347:“弹跳子弹，威力十足”]
+		'''
+}
+
+EndlessMortarPouch: {
+	DisplayName: 无限迫击炮弹袋
+	Tooltip:
+		'''
+		专用高爆弹，爆炸范围大
+		会摧毁物块
+		可由普通枪械使用
+		[c/FF8C00:强行拆除周围环境]
+		[c/FF4500:“准备好迎接爆炸的结果！”]
+		'''
+}

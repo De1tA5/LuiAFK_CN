@@ -1,0 +1,21 @@
+CalamityMod: {
+	UnlimitedBloodRune: {
+		DisplayName: 无限血之符文
+		Tooltip: 寒冰弹幕能无限使用
+	}
+
+	UnlimitedWulfrumMetalScrap: {
+		DisplayName: 永恒钨钢核心
+		Tooltip: 永远用不完的钨钢金属废料
+	}
+
+	UnlimitedMortarRound: {
+		Tooltip: ""
+		DisplayName: Unlimited Mortar Round
+	}
+
+	UnlimitedRubberMortarRound: {
+		DisplayName: Unlimited Rubber Mortar Round
+		Tooltip: ""
+	}
+}

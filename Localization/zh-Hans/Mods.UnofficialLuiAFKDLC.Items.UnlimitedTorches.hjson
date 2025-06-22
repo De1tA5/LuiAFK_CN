@@ -1,0 +1,17 @@
+BaseTooltip: 永远用不完的{0}.
+
+CalamityMod: {
+	EndlessAbyssTorch.DisplayName: 无限深渊火把
+	EndlessAlgalPrismTorch.DisplayName: 无限藻类棱晶火把
+	EndlessAstralTorch.DisplayName: 无限星辉火把
+	EndlessGloomTorch.DisplayName: 无限幽匿火把
+	EndlessNavyPrismTorch.DisplayName: 无限富营养棱晶火把
+	EndlessRefractivePrismTorch.DisplayName: 无限异光棱晶火把
+	EndlessSulphurousTorch.DisplayName: 无限硫海火把
+}
+
+ThoriumMod: {
+	EndlessBlackTorch.DisplayName: 无限黑色火把
+	EndlessDeeplightTorch.DisplayName: 无限渊光火把
+	EndlessMagentaTorch.DisplayName: 无限品红色火把
+}

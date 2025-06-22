@@ -1,0 +1,79 @@
+Endless: Endless
+
+Buffs: {
+	CorruptionEffigyBuff: {
+		Description: The corruption empowers you
+		DisplayName: Corruption Effigy
+	}
+
+	DecayStandBuff: {
+		Description: The sulphuric waters empower you
+		DisplayName: Decay Stand
+	}
+
+	CrimsonEffigyBuff: {
+		Description: The crimson empowers you
+		DisplayName: Crimson Effigy
+	}
+
+	EffigyBuff: {
+		DisplayName: Effigy
+		Description: When in your inventory, nearby players will get Crimson, Corruption, and Decay Effigies Buffs.
+	}
+
+	AstralEffigyBuff: {
+		DisplayName: Astral Effigy Buff
+		Description: The astral infection empowers you
+	}
+
+	HallowEffigyBuff: {
+		DisplayName: Hallow Effigy Buff
+		Description: The hallow empowers you
+	}
+
+	DrillStormMountBuff: {
+		Description: Mods.UnofficialLuiAFKDLC.Buffs.DrillStormMountBuff.Description
+		DisplayName: Drill Storm Mount Buff
+	}
+
+	DebugPowerBuff: {
+		Description: Mods.UnofficialLuiAFKDLC.Buffs.DebugPowerBuff.Description
+		DisplayName: Debug Power Buff
+	}
+}
+
+Configs: {
+	SettingsConfigServer: {
+		DisplayName: Settings Config Server
+		Headers.Unlimited_Items: Unlimited Items
+
+		worksInPlayerBanks: {
+			Label: Unlimited Powers working inside the Piggy Bank
+			Tooltip: ""
+		}
+	}
+
+	UnofficialLuiAFKDLCClientConfig: {
+		DisplayName: Unofficial Lui A F K D L C Client Config
+
+		ItemDisabledTooltip: {
+			Label: Item Disabled Tooltip
+			Tooltip: ""
+		}
+	}
+}
+
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": LuiAFK Reborn DLC Potion Enabling
+
+Projectiles: {
+	BalancedDualityProj.DisplayName: Balanced Duality Proj
+	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: Unlimited Excavation Drill Form Projectile
+	Misc.MarniteRepulsionHitboxClone.DisplayName: Marnite Repulsion Hitbox Clone
+}
+
+FishingRod: {
+	RequireBait: Require bait
+	Bait: Bait
+	Power: Power
+	Quests1: Throws an extra line for every {0} fishing {^0:quest;quests} completed.
+}

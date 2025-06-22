@@ -1,0 +1,109 @@
+UnlimitedElysianArrow: {
+	DisplayName: Endless Elysian Quiver
+	Tooltip:
+		'''
+		[c/FFD700:Arrows carrying profaned energy]
+		[c/FFD700:Summons purifying light from above and below on impact]
+		[c/FFD700:'Dissolving from holy light']
+		'''
+}
+
+UnlimitedCinderArrow: {
+	DisplayName: Unlimited Cinder Quiver
+	Tooltip:
+		'''
+		[c/FF4500:Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames]
+		[c/FF4500:'Created with the dark flames of Havoc']
+		'''
+}
+
+UnlimitedVanquisherQuiver: {
+	DisplayName: Endless Vanquisher Quiver
+	Tooltip:
+		'''
+		[c/FF6347:Powerful arrows forged with cosmic steel]
+		[c/FF6347:Pierces through tiles and homes in on enemies]
+		[c/FF6347:'Your flesh is burning off']
+		'''
+}
+
+UnlimitedArcticArrow: {
+	DisplayName: Unlimited Arctic Quiver
+	Tooltip:
+		'''
+		[c/00CED1:Freezes enemies for a short time]
+		[c/00CED1:'Cannot move']
+		'''
+}
+
+EndlessBloodfireQuiver: {
+	DisplayName: Endless Bloodfire Quiver
+	Tooltip:
+		'''
+		[c/DC143C:High-velocity arrows with a blood-soaked tip]
+		[c/DC143C:Firing these arrows will drain your health]
+		[c/DC143C:Accelerates your natural life regen and heals you on hit]
+		[c/DC143C:'Arrows ablaze with eternal flames, unceasing in their infernal wrath upon foes']
+		'''
+}
+
+EndlessCinderQuiver: {
+	DisplayName: Endless Cinder Quiver
+	Tooltip:
+		'''
+		[c/FF4500:Explosive arrows that burst into weak]
+		[c/FF4500:flaming shards that inflict Brimstone Flames]
+		[c/FF4500:'Arrows ignited with perpetual flames, erupting in relentless bursts of fiery destruction.']
+		'''
+}
+
+EndlessElysianQuiver: {
+	DisplayName: Endless Elysian Quiver
+	Tooltip:
+		'''
+		[c/FFD700:Arrows carrying profaned energy]
+		[c/FFD700:Summons purifying light from above and below on impact]
+		[c/FFD700:'Arrows of celestial light, endlessly piercing darkness with starlit brilliance']
+		'''
+}
+
+EndlessIcicleQuiver: {
+	DisplayName: Endless Icicle Quiver
+	Tooltip:
+		'''
+		[c/00BFFF:Ice arrows with an enchanted tip]
+		[c/00BFFF:These arrows quickly freeze into falling icicles that deal increased damage]
+		[c/00BFFF:Hitting enemies or tiles before being frozen causes the arrow to fly upwards]
+		[c/00BFFF:'Arrows of icy determination, perpetually freezing targets with frostbitten precision']
+		'''
+}
+
+EndlessSproutingQuiver: {
+	DisplayName: Endless Sprouting Quiver
+	Tooltip:
+		'''
+		[c/228B22:Fires an energy arrow that quickly splits into two arrows]
+		[c/228B22:These arrows ignore 8 points of defense]
+		[c/228B22:'Woven with eternal nature's essence, guided unerringly towards their destined target']
+		'''
+}
+
+EndlessVanquisherQuiver: {
+	DisplayName: Endless Vanquisher Quiver
+	Tooltip:
+		'''
+		[c/FF6347:Powerful arrows forged with cosmic steel]
+		[c/FF6347:Pierces through tiles and homes in on enemies]
+		[c/FF6347:'Empowered by boundless arcane energy, capable of conquering even the mightiest foes.']
+		'''
+}
+
+EndlessVeriumQuiver: {
+	DisplayName: Endless Verium Quiver
+	Tooltip:
+		'''
+		[c/9370DB:Marks enemies on hit, dealing extra damage after a short time]
+		[c/9370DB:This damage stacks based on how many bolts hit the enemy]
+		[c/9370DB:'Infused with infinite celestial power, they strike with unyielding precision, capable of defeating a Storm Weaver.']
+		'''
+}
