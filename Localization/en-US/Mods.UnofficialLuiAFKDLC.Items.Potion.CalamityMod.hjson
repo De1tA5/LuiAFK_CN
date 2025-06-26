@@ -65,6 +65,7 @@ UnlimitedOmniscience: {
 		Crafted by arcane seers, the Omniscient Gaze grants its bearer unparalleled
 		awareness, revealing hidden dangers and untold treasures.
 		'''
+	BuffDescription: Highlights nearby enemy projectiles
 }
 
 UnlimitedPhotosynthesis: {

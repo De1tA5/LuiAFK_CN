@@ -78,6 +78,8 @@ RogueScarf: {
 		'''
 }
 
+UnlimitedThrownName: Endless {0}
+
 Potion: {
 	"": {
 		DebugPower: {

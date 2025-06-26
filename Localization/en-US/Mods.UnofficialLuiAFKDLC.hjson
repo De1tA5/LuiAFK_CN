@@ -40,6 +40,16 @@ Buffs: {
 		Description: Mods.UnofficialLuiAFKDLC.Buffs.DebugPowerBuff.Description
 		DisplayName: Debug Power Buff
 	}
+
+	FakeGnomeBuff: {
+		DisplayName: Gnome
+		Description: Increase your luck
+	}
+
+	FakeLadybugBuff: {
+		DisplayName: Fake Ladybug Buff
+		Description: Increase your luck
+	}
 }
 
 Configs: {
@@ -75,4 +85,26 @@ FishingRod: {
 	Bait: Bait
 	Power: Power
 	Quests1: Throws an extra line for every {0} fishing {^0:quest;quests} completed.
+}
+
+UI: {
+	/* Tab titles */
+	PowerEffect: Power Effects
+	Spawn: Spawns
+	/* Group titles */
+	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] enabled)"
+	GroupAlcohol: Alcohol
+	GroupFlask: Flask
+	GroupCandle: Candle
+	GroupModdedBuff: Modded Buff
+	GroupOffensive: Offensive
+	GroupDefensive: Defensive
+	GroupBuff: Buff
+	GroupSpawnRate: Spawn Rate
+	GroupSpawnBlock: Spawn Block
+	/* Toggle Text */
+	BuffOn: Buff enabled. Left click to toggle.
+	BuffOff: Buff disabled. Left click to toggle.
+	VisualOn: Visual enabled. Right click to toggle.
+	VisualOff: Visual disabled. Right click to toggle.
 }

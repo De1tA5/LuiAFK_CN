@@ -1,0 +1,34 @@
+UnlimitedVenom: {
+	DisplayName: Unlimited Venom
+	Tooltip: Melee, Whip, and Rogue attacks inflict Venom.
+}
+
+UnlimitedCursedFlames: {
+	DisplayName: Unlimited Cursed Flames
+	Tooltip: Melee, Whip, and Rogue attacks inflict Cursed Inferno.
+}
+
+UnlimitedFire: {
+	DisplayName: Unlimited Fire
+	Tooltip: Melee, Whip, and Rogue attacks inflict On Fire!.
+}
+
+UnlimitedGold: {
+	DisplayName: Unlimited Gold
+	Tooltip: Melee, Whip, and Rogue attacks inflict Midas.
+}
+
+UnlimitedNanites: {
+	DisplayName: Unlimited Nanites
+	Tooltip: Melee, Whip, and Rogue attacks inflict Confused.
+}
+
+UnlimitedParty: {
+	DisplayName: Unlimited Party
+	Tooltip: Melee, Whip, and Rogue attacks sometimes release confetti explosions on hit.
+}
+
+UnlimitedPoison: {
+	DisplayName: Unlimited Poison
+	Tooltip: Melee, Whip, and Rogue attacks inflict Poisoned.
+}
