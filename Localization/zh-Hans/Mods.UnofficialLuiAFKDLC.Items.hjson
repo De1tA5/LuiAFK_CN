@@ -91,3 +91,5 @@ DebugPotion: {
 	DisplayName: Debug 药水
 	Tooltip: 你不应该拿到的
 }
+
+UnlimitedThrownName: 无限{0}

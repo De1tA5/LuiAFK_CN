@@ -65,6 +65,7 @@ UnlimitedOmniscience: {
 		由秘术先知制作的全知凝视，能赋予持有者无与伦比的意识
 		揭示隐藏的危险和不为人知的宝藏
 		'''
+	BuffDescription: 高亮标记附近的敌人弹幕
 }
 
 UnlimitedPhotosynthesis: {
@@ -344,7 +345,7 @@ WhiteWinePower: {
 		[c/B00BA5:曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了]
 		'''
 }
-		
+
 PurpleHazePower: {
 	DisplayName: 紫色阴霾
 	Tooltip:

@@ -37,8 +37,18 @@ Buffs: {
 	}
 
 	DebugPowerBuff: {
-		// Description: Mods.UnofficialLuiAFKDLC.Buffs.DebugPowerBuff.Description
-		// DisplayName: Debug Power Buff
+		Description: Mods.UnofficialLuiAFKDLC.Buffs.DebugPowerBuff.Description
+		DisplayName: Debug Power Buff
+	}
+
+	FakeGnomeBuff: {
+		DisplayName: 花园地精
+		Description: 提升你的幸运值
+	}
+
+	FakeLadybugBuff: {
+		DisplayName: 金瓢虫
+		Description: 提升你的幸运值
 	}
 }
 
@@ -75,4 +85,26 @@ FishingRod: {
 	Bait: 鱼饵
 	Power: 渔力
 	Quests1: 每完成 {0} 次钓鱼任务 {^0:quest;quests} ,就会抛出一条额外的鱼线
+}
+
+UI: {
+	/* Tab titles */
+	PowerEffect: 无限之力
+	Spawn: 刷怪
+	/* Group titles */
+	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] 已启用)"
+	GroupAlcohol: 酒类
+	GroupFlask: 药剂
+	GroupCandle: 蜡烛
+	GroupModdedBuff: 模组Buff
+	GroupOffensive: 攻击类
+	GroupDefensive: 防御类
+	GroupBuff: 其他Buff
+	GroupSpawnRate: 刷怪率
+	GroupSpawnBlock: Spawn Block
+	/* Toggle Text */
+	BuffOn: 已启用增益(左键点击切换)
+	BuffOff: 已禁用增益(左键点击切换)
+	VisualOn: 已启用视觉效果(右键点击切换)
+	VisualOff: 已禁用视觉效果(右键点击切换)
 }
