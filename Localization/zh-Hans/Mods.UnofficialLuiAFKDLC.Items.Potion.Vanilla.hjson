@@ -1,34 +1,34 @@
 UnlimitedVenom: {
-	DisplayName: Unlimited Venom
-	Tooltip: Melee, Whip, and Rogue attacks inflict Venom.
+	DisplayName: 无限毒液药剂
+	Tooltip: 近战、鞭子和盗贼攻击会造成酸性毒液
 }
 
 UnlimitedCursedFlames: {
-	DisplayName: Unlimited Cursed Flames
-	Tooltip: Melee, Whip, and Rogue attacks inflict Cursed Inferno.
+	DisplayName: 无限诅咒焰药剂
+	Tooltip: 近战、鞭子和盗贼攻击会造成诅咒狱火
 }
 
 UnlimitedFire: {
-	DisplayName: Unlimited Fire
-	Tooltip: Melee, Whip, and Rogue attacks inflict On Fire!.
+	DisplayName: 无限烈火药剂
+	Tooltip: 近战、鞭子和盗贼攻击会造成着火了！
 }
 
 UnlimitedGold: {
-	DisplayName: Unlimited Gold
-	Tooltip: Melee, Whip, and Rogue attacks inflict Midas.
+	DisplayName: 无限金药剂
+	Tooltip: 近战、鞭子和盗贼攻击会造成麦达斯
 }
 
 UnlimitedNanites: {
-	DisplayName: Unlimited Nanites
-	Tooltip: Melee, Whip, and Rogue attacks inflict Confused.
+	DisplayName: 无限纳米机器人药剂
+	Tooltip: 近战、鞭子和盗贼攻击会造成困惑
 }
 
 UnlimitedParty: {
-	DisplayName: Unlimited Party
-	Tooltip: Melee, Whip, and Rogue attacks sometimes release confetti explosions on hit.
+	DisplayName: 无限派对药剂
+	Tooltip: 近战、鞭子和盗贼攻击会喷洒彩纸
 }
 
 UnlimitedPoison: {
-	DisplayName: Unlimited Poison
-	Tooltip: Melee, Whip, and Rogue attacks inflict Poisoned.
+	DisplayName: 无限毒药药剂
+	Tooltip: 近战、鞭子和盗贼攻击会造成中毒
 }
