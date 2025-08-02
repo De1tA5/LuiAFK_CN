@@ -107,4 +107,6 @@ UI: {
 	BuffOff: Buff disabled. Left click to toggle.
 	VisualOn: Visual enabled. Right click to toggle.
 	VisualOff: Visual disabled. Right click to toggle.
+	SpawnBlockOn: Currently enabled. Left click to toggle.
+	SpawnBlockOff: Currently disabled. Left click to toggle.
 }
