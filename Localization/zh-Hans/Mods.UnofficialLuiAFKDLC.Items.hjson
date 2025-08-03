@@ -93,3 +93,14 @@ DebugPotion: {
 }
 
 UnlimitedThrownName: 无限{0}
+
+SpawnBlock: {
+	CalamityMod: {
+		VoodooDemonVoodooDoll.Tooltip: 切换此物品状态，可以阻止巫毒恶魔在你附近生成
+		AntiCystOintment.Tooltip: 切换此物品状态，可以阻止血肉囊在你附近生成
+		AntiTumorOintment.Tooltip: 切换此物品状态，可以阻止腐化肿瘤在你附近生成
+		BleachBall.Tooltip: 切换此物品状态，可以使渊海灾虫不再自然生成
+		SirenproofEarMuffs.Tooltip: 切换此物品状态，可以使阿娜希塔不再生成
+		BrokenWaterFilter.Tooltip: 切换此物品状态，可以使酸雨不再自然生成
+	}
+}

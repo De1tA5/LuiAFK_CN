@@ -456,12 +456,12 @@ Candle: {
 
 Clamity: {
 	UnlimitedUnknownWellFed: {
-		DisplayName: Unknown Well Fed Power
+		DisplayName: 未知饱和力量
 		Tooltip:
 			'''
-			[c/FFD700:So much food?] [c/32CD32:Varying improvements inbound.]
-			[c/8B4513:The source of this bounty is a mystery, but its effects]
-			[c/8B4513:are undeniable, though not always predictable.]
+			[c/FFD700:这么多食物？] [c/32CD32:提供各种属性提升]
+			[c/8B4513:这份丰厚佳肴从何而来是个谜]
+			[c/8B4513:其效果是不可否认的，尽管并非总是可以预测]
 			'''
 	}
 }

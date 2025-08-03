@@ -7,7 +7,7 @@ CalamityMod: {
 			[c/FF6347:“这真的是纸吗？”]
 			[c/8B0000:用腐朽与黑暗的力量强化盟友]
 			[c/8B0000:引导那被污染大地的精华]
-			''' 
+			'''
 		CalRemixTooltip:
 			'''
 			处于物品栏中，周围的玩家获得血腥雕像、腐化雕像
@@ -24,7 +24,7 @@ CalamityMod: {
 			现在你可以随心所欲地在深渊里遨游
 			[c/1E90FF:感受卷轴带来的慰藉]
 			[c/1E90FF:保护你免受来自深渊的重压]
-			''' 
+			'''
 	}
 
 	AlcoholicsCodex: {
@@ -147,7 +147,7 @@ AlchemistNPCLite: {
 			[c/1E90FF:在瞬间传送到海岸时，感受那海风拂面]
 			'''
 		BeachName: 沙滩
-		Dungeon: 
+		Dungeon:
 			'''
 			左/右键使用传送至地牢入口
 			[c/8B0000:走向那被遗忘的神秘走廊]
@@ -167,7 +167,7 @@ AlchemistNPCLite: {
 			[c/4682B4:探索海洋边缘深处的宽广]
 			'''
 		OceanName: 海洋
-		Temple: 
+		Temple:
 			'''
 			左/右键使用传送至神庙祭坛
 			[c/DAA520:揭开那藏于神庙中的古老力量]
@@ -184,7 +184,7 @@ AlchemistNPCLite: {
 
 	ScrollOfMinerAlchemist: {
 		DisplayName: 流光挖掘卷轴
-		Tooltip: 
+		Tooltip:
 			'''
 			提高挖掘速度，避开陷阱，照亮你的道路
 			[c/FFD700:用这闪亮的卷轴安全快速地探索]
@@ -194,7 +194,7 @@ AlchemistNPCLite: {
 
 	ScrollOfWarriorAlchemist: {
 		DisplayName: 刚毅阴影卷轴
-		Tooltip: 
+		Tooltip:
 			'''
 			提高闪避和防御能力
 			[c/8B0000:驾驭战士之力，兼具暗影之灵巧]

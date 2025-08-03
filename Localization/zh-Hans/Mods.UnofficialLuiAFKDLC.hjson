@@ -90,7 +90,7 @@ FishingRod: {
 UI: {
 	/* Tab titles */
 	PowerEffect: 无限之力
-	Spawn: 刷怪
+	Spawn: 怪物生成
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] 已启用)"
 	GroupAlcohol: 酒类
@@ -101,10 +101,12 @@ UI: {
 	GroupDefensive: 防御类
 	GroupBuff: 其他Buff
 	GroupSpawnRate: 刷怪率
-	GroupSpawnBlock: Spawn Block
+	GroupSpawnBlock: 刷怪阻隔
 	/* Toggle Text */
 	BuffOn: 已启用增益(左键点击切换)
 	BuffOff: 已禁用增益(左键点击切换)
 	VisualOn: 已启用视觉效果(右键点击切换)
 	VisualOff: 已禁用视觉效果(右键点击切换)
+	SpawnBlockOn: 已启用(左键点击切换)
+	SpawnBlockOff: 已禁用(左键点击切换)
 }
