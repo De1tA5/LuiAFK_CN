@@ -11,6 +11,10 @@ This is a Chinese-translation Mod for LuiAFK Reborn Mod and LuiAFK Reborn DLC
 2.进入tml，在模组管理中同时启用LuiAFK Reborn、LuiAFK Reborn DLC和本Mod
 3.安装完成，进行游戏
 
+硬编码部分使用工具TranslatorFromAssembly
+GitHub地址：https://github.com/NanTingPer/TranslatorFromAssembly
+[b]特别感谢：南亭的技术支持 [/b]
+
 
 有想汉化的模组可以联系下，
 有空能翻就翻，没空就算力

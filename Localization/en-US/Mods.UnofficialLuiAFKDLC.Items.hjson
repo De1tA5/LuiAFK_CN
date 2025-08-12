@@ -48,17 +48,6 @@ BossSummon: {
 	}
 }
 
-SpawnBlock: {
-	CalamityMod: {
-		VoodooDemonVoodooDoll.Tooltip: Toggle this item to prevent voodoo demons from spawning near you
-		AntiCystOintment.Tooltip: Toggle this item to prevent hive cysts from spawning near you
-		AntiTumorOintment.Tooltip: Toggle this item to prevent hive tumors from spawning near you
-		BleachBall.Tooltip: Toggle this item to prevent Aquatic Scourge from spawning
-		SirenproofEarMuffs.Tooltip: Toggle this item to prevent Anahita from spawning
-		BrokenWaterFilter.Tooltip: Toggle this item to prevent Acid Rain from occurring
-	}
-}
-
 DrillStorm: {
 	DisplayName: Storm of Drills
 	Tooltip:
@@ -89,8 +78,6 @@ RogueScarf: {
 		'''
 }
 
-UnlimitedThrownName: Endless {0}
-
 Potion: {
 	"": {
 		DebugPower: {
@@ -103,4 +90,17 @@ Potion: {
 DebugPotion: {
 	DisplayName: Debug Potion
 	Tooltip: ""
+}
+
+UnlimitedThrownName: Endless {0}
+
+SpawnBlock: {
+	CalamityMod: {
+		VoodooDemonVoodooDoll.Tooltip: Toggle this item to prevent voodoo demons from spawning near you
+		AntiCystOintment.Tooltip: Toggle this item to prevent hive cysts from spawning near you
+		AntiTumorOintment.Tooltip: Toggle this item to prevent hive tumors from spawning near you
+		BleachBall.Tooltip: Toggle this item to prevent Aquatic Scourge from spawning
+		SirenproofEarMuffs.Tooltip: Toggle this item to prevent Anahita from spawning
+		BrokenWaterFilter.Tooltip: Toggle this item to prevent Acid Rain from occurring
+	}
 }

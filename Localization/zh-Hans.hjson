@@ -10,14 +10,14 @@ Mods: {
 				DisplayName: Deeps
 
 				TownNPCMood: {
-					// Content: ...
-					// NoHome: ...
-					// FarFromHome: ...
-					// LoveSpace: ...
-					// DislikeCrowded: ...
-					// HateCrowded: ...
-					// LikeNPC_Princess: ...
-					// Princess_LovesNPC: ...
+					Content: ...
+					NoHome: ...
+					FarFromHome: ...
+					LoveSpace: ...
+					DislikeCrowded: ...
+					HateCrowded: ...
+					LikeNPC_Princess: ...
+					Princess_LovesNPC: ...
 				}
 			}
 
@@ -86,17 +86,17 @@ Mods: {
 			}
 
 			TargetDummy: {
-				// DisplayName: Target Dummy
+				DisplayName: Target Dummy
 
 				TownNPCMood: {
-					// Content: I am content.
-					// NoHome: I hate not having a home.
-					// FarFromHome: I am too far from home.
-					// LoveSpace: I love having so much space.
-					// DislikeCrowded: I dislike how crowded I am.
-					// HateCrowded: I hate how crowded I am.
-					// LikeNPC_Princess: I like {NPCName}.
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
 				}
 			}
 		}
@@ -108,8 +108,8 @@ Mods: {
 			}
 
 			DrillMount: {
-				// DisplayName: Drill Mount
-				// Description: Mods.miningcracks_take_on_luiafk.Buffs.DrillMount.Description
+				DisplayName: Drill Mount
+				Description: Mods.miningcracks_take_on_luiafk.Buffs.DrillMount.Description
 			}
 		}
 
@@ -276,8 +276,8 @@ Mods: {
 			}
 
 			Arena: {
-				// DisplayName: Arena
-				// Tooltip: ""
+				DisplayName: Arena
+				Tooltip: ""
 			}
 
 			FishingBiomeBuilder: {
@@ -571,8 +571,8 @@ Mods: {
 			}
 
 			Magic: {
-				// DisplayName: Magic
-				// Tooltip: ""
+				DisplayName: Magic
+				Tooltip: ""
 			}
 
 			ManaEssence: {
@@ -623,8 +623,8 @@ Mods: {
 			}
 
 			Sand: {
-				// DisplayName: Sand
-				// Tooltip: ""
+				DisplayName: Sand
+				Tooltip: ""
 			}
 
 			XMasEnable: {
@@ -1184,8 +1184,8 @@ Mods: {
 			}
 
 			Corrupt: {
-				// DisplayName: Corrupt
-				// Tooltip: ""
+				DisplayName: Corrupt
+				Tooltip: ""
 			}
 
 			CrimsonAltar: {
@@ -1198,8 +1198,8 @@ Mods: {
 			}
 
 			Crimson: {
-				// DisplayName: Crimson
-				// Tooltip: ""
+				DisplayName: Crimson
+				Tooltip: ""
 			}
 
 			HouseTile: {
@@ -2055,11 +2055,11 @@ Mods: {
 				Tooltip:
 					'''
 					具有以下物品的功能：
-					一体式绘制工具
-					转换魔杖
-					墙壁魔杖
-					完美蓝图
-					终极液体操纵器
+					[i:miningcracks_take_on_luiafk/PaintTool] 一体式绘制工具
+					[i:miningcracks_take_on_luiafk/BuildingRod] 转换魔杖
+					[i:miningcracks_take_on_luiafk/WallRod] 墙壁魔杖
+					[i:miningcracks_take_on_luiafk/UnlimitedGrandDesign] 完美蓝图
+					[i:miningcracks_take_on_luiafk/UltimateBucket] 终极液体操纵器
 					上述所有物品的功能现在无限范围.
 					当智能光标被禁用时,挖掘模式应用方框放置
 					平铺模式可以放置草（在土块/泥块上）,
@@ -2361,1248 +2361,1248 @@ Mods: {
 			}
 
 			PeaceCandle: {
-				// DisplayName: Peace Candle
-				// Tooltip: ""
+				DisplayName: 和平蜡烛
+				Tooltip: ""
 			}
 
 			WaterCandle: {
-				// DisplayName: Water Candle
-				// Tooltip: ""
+				DisplayName: 水蜡烛
+				Tooltip: ""
 			}
 
 			Basics: {
-				// DisplayName: Basics
-				// Tooltip: ""
+				DisplayName: Basics
+				Tooltip: ""
 			}
 
 			Battler: {
-				// DisplayName: Battler
-				// Tooltip: ""
+				DisplayName: Battler
+				Tooltip: ""
 			}
 
 			Battle: {
-				// DisplayName: Battle
-				// Tooltip: ""
+				DisplayName: Battle
+				Tooltip: ""
 			}
 
 			Combat: {
-				// DisplayName: Combat
-				// Tooltip: ""
+				DisplayName: Combat
+				Tooltip: ""
 			}
 
 			Damage: {
-				// DisplayName: Damage
-				// Tooltip: ""
+				DisplayName: Damage
+				Tooltip: ""
 			}
 
 			Danger: {
-				// DisplayName: Danger
-				// Tooltip: ""
+				DisplayName: Danger
+				Tooltip: ""
 			}
 
 			Defense: {
-				// DisplayName: Defense
-				// Tooltip: ""
+				DisplayName: Defense
+				Tooltip: ""
 			}
 
 			Everything: {
-				// DisplayName: Everything
-				// Tooltip: ""
+				DisplayName: Everything
+				Tooltip: ""
 			}
 
 			Explorer: {
-				// DisplayName: Explorer
-				// Tooltip: ""
+				DisplayName: Explorer
+				Tooltip: ""
 			}
 
 			FishingCombination: {
-				// DisplayName: Fishing Combination
-				// Tooltip: ""
+				DisplayName: Fishing Combination
+				Tooltip: ""
 			}
 
 			Fishing: {
-				// DisplayName: Fishing
-				// Tooltip: ""
+				DisplayName: Fishing
+				Tooltip: ""
 			}
 
 			Flight: {
-				// DisplayName: Flight
-				// Tooltip: ""
+				DisplayName: Flight
+				Tooltip: ""
 			}
 
 			Gathering: {
-				// DisplayName: Gathering
-				// Tooltip: ""
+				DisplayName: Gathering
+				Tooltip: ""
 			}
 
 			Lucky: {
-				// DisplayName: Lucky
-				// Tooltip: ""
+				DisplayName: Lucky
+				Tooltip: ""
 			}
 
 			Luck: {
-				// DisplayName: Luck
-				// Tooltip: ""
+				DisplayName: Luck
+				Tooltip: ""
 			}
 
 			Melee: {
-				// DisplayName: Melee
-				// Tooltip: ""
+				DisplayName: Melee
+				Tooltip: ""
 			}
 
 			Peaceful: {
-				// DisplayName: Peaceful
-				// Tooltip: ""
+				DisplayName: Peaceful
+				Tooltip: ""
 			}
 
 			Range: {
-				// DisplayName: Range
-				// Tooltip: ""
+				DisplayName: Range
+				Tooltip: ""
 			}
 
 			Station: {
-				// DisplayName: Station
-				// Tooltip: ""
+				DisplayName: Station
+				Tooltip: ""
 			}
 
 			Swimming: {
-				// DisplayName: Swimming
-				// Tooltip: ""
+				DisplayName: Swimming
+				Tooltip: ""
 			}
 
 			Travel: {
-				// DisplayName: Travel
-				// Tooltip: ""
+				DisplayName: Travel
+				Tooltip: ""
 			}
 
 			AmmoReservation: {
-				// DisplayName: Ammo Reservation
-				// Tooltip: ""
+				DisplayName: Ammo Reservation
+				Tooltip: ""
 			}
 
 			Archery: {
-				// DisplayName: Archery
-				// Tooltip: ""
+				DisplayName: Archery
+				Tooltip: ""
 			}
 
 			BiomeSight: {
-				// DisplayName: Biome Sight
-				// Tooltip: ""
+				DisplayName: Biome Sight
+				Tooltip: ""
 			}
 
 			Builder: {
-				// DisplayName: Builder
-				// Tooltip: ""
+				DisplayName: Builder
+				Tooltip: ""
 			}
 
 			Calming: {
-				// DisplayName: Calming
-				// Tooltip: ""
+				DisplayName: Calming
+				Tooltip: ""
 			}
 
 			Crates: {
-				// DisplayName: Crates
-				// Tooltip: ""
+				DisplayName: Crates
+				Tooltip: ""
 			}
 
 			Dangersense: {
-				// DisplayName: Dangersense
-				// Tooltip: ""
+				DisplayName: Dangersense
+				Tooltip: ""
 			}
 
 			Endurance: {
-				// DisplayName: Endurance
-				// Tooltip: ""
+				DisplayName: Endurance
+				Tooltip: ""
 			}
 
 			Featherfall: {
-				// DisplayName: Featherfall
-				// Tooltip: ""
+				DisplayName: Featherfall
+				Tooltip: ""
 			}
 
 			Flipper: {
-				// DisplayName: Flipper
-				// Tooltip: ""
+				DisplayName: Flipper
+				Tooltip: ""
 			}
 
 			GenderChange: {
-				// DisplayName: Gender Change
-				// Tooltip: ""
+				DisplayName: Gender Change
+				Tooltip: ""
 			}
 
 			Gills: {
-				// DisplayName: Gills
-				// Tooltip: ""
+				DisplayName: Gills
+				Tooltip: ""
 			}
 
 			Gravitation: {
-				// DisplayName: Gravitation
-				// Tooltip: ""
+				DisplayName: Gravitation
+				Tooltip: ""
 			}
 
 			Heartreach: {
-				// DisplayName: Heartreach
-				// Tooltip: ""
+				DisplayName: Heartreach
+				Tooltip: ""
 			}
 
 			Hunter: {
-				// DisplayName: Hunter
-				// Tooltip: ""
+				DisplayName: Hunter
+				Tooltip: ""
 			}
 
 			IchorFlask: {
-				// DisplayName: Ichor Flask
-				// Tooltip: ""
+				DisplayName: Ichor Flask
+				Tooltip: ""
 			}
 
 			Ichor: {
-				// DisplayName: Ichor
-				// Tooltip: ""
+				DisplayName: Ichor
+				Tooltip: ""
 			}
 
 			Inferno: {
-				// DisplayName: Inferno
-				// Tooltip: ""
+				DisplayName: Inferno
+				Tooltip: ""
 			}
 
 			Invisibility: {
-				// DisplayName: Invisibility
-				// Tooltip: ""
+				DisplayName: Invisibility
+				Tooltip: ""
 			}
 
 			Ironskin: {
-				// DisplayName: Ironskin
-				// Tooltip: ""
+				DisplayName: Ironskin
+				Tooltip: ""
 			}
 
 			Ladybug: {
-				// DisplayName: Ladybug
-				// Tooltip: ""
+				DisplayName: Ladybug
+				Tooltip: ""
 			}
 
 			Lifeforce: {
-				// DisplayName: Lifeforce
-				// Tooltip: ""
+				DisplayName: Lifeforce
+				Tooltip: ""
 			}
 
 			Love: {
-				// DisplayName: Love
-				// Tooltip: ""
+				DisplayName: Love
+				Tooltip: ""
 			}
 
 			MagicPower: {
-				// DisplayName: Magic Power
-				// Tooltip: ""
+				DisplayName: Magic Power
+				Tooltip: ""
 			}
 
 			MajorWellFed: {
-				// DisplayName: Major Well Fed
-				// Tooltip: ""
+				DisplayName: Major Well Fed
+				Tooltip: ""
 			}
 
 			ManaRegeneration: {
-				// DisplayName: Mana Regeneration
-				// Tooltip: ""
+				DisplayName: Mana Regeneration
+				Tooltip: ""
 			}
 
 			Mining: {
-				// DisplayName: Mining
-				// Tooltip: ""
+				DisplayName: Mining
+				Tooltip: ""
 			}
 
 			MinorWellFed: {
-				// DisplayName: Minor Well Fed
-				// Tooltip: ""
+				DisplayName: Minor Well Fed
+				Tooltip: ""
 			}
 
 			NightOwl: {
-				// DisplayName: Night Owl
-				// Tooltip: ""
+				DisplayName: Night Owl
+				Tooltip: ""
 			}
 
 			ObsidianSkin: {
-				// DisplayName: Obsidian Skin
-				// Tooltip: ""
+				DisplayName: Obsidian Skin
+				Tooltip: ""
 			}
 
 			Rage: {
-				// DisplayName: Rage
-				// Tooltip: ""
+				DisplayName: Rage
+				Tooltip: ""
 			}
 
 			Recall: {
-				// DisplayName: Recall
-				// Tooltip: ""
+				DisplayName: Recall
+				Tooltip: ""
 			}
 
 			Regeneration: {
-				// DisplayName: Regeneration
-				// Tooltip: ""
+				DisplayName: Regeneration
+				Tooltip: ""
 			}
 
 			Return: {
-				// DisplayName: Return
-				// Tooltip: ""
+				DisplayName: Return
+				Tooltip: ""
 			}
 
 			Shine: {
-				// DisplayName: Shine
-				// Tooltip: ""
+				DisplayName: Shine
+				Tooltip: ""
 			}
 
 			Sonar: {
-				// DisplayName: Sonar
-				// Tooltip: ""
+				DisplayName: Sonar
+				Tooltip: ""
 			}
 
 			Spelunker: {
-				// DisplayName: Spelunker
-				// Tooltip: ""
+				DisplayName: Spelunker
+				Tooltip: ""
 			}
 
 			Stink: {
-				// DisplayName: Stink
-				// Tooltip: ""
+				DisplayName: Stink
+				Tooltip: ""
 			}
 
 			Summoning: {
-				// DisplayName: Summoning
-				// Tooltip: ""
+				DisplayName: Summoning
+				Tooltip: ""
 			}
 
 			Sunflower: {
-				// DisplayName: Sunflower
-				// Tooltip: ""
+				DisplayName: Sunflower
+				Tooltip: ""
 			}
 
 			Swiftness: {
-				// DisplayName: Swiftness
-				// Tooltip: ""
+				DisplayName: Swiftness
+				Tooltip: ""
 			}
 
 			Teleportation: {
-				// DisplayName: Teleportation
-				// Tooltip: ""
+				DisplayName: Teleportation
+				Tooltip: ""
 			}
 
 			Thorns: {
-				// DisplayName: Thorns
-				// Tooltip: ""
+				DisplayName: Thorns
+				Tooltip: ""
 			}
 
 			Tipsy: {
-				// DisplayName: Tipsy
-				// Tooltip: ""
+				DisplayName: Tipsy
+				Tooltip: ""
 			}
 
 			Titan: {
-				// DisplayName: Titan
-				// Tooltip: ""
+				DisplayName: Titan
+				Tooltip: ""
 			}
 
 			Warmth: {
-				// DisplayName: Warmth
-				// Tooltip: ""
+				DisplayName: Warmth
+				Tooltip: ""
 			}
 
 			WaterWalking: {
-				// DisplayName: Water Walking
-				// Tooltip: ""
+				DisplayName: Water Walking
+				Tooltip: ""
 			}
 
 			WellFed: {
-				// DisplayName: Well Fed
-				// Tooltip: ""
+				DisplayName: Well Fed
+				Tooltip: ""
 			}
 
 			Wormhole: {
-				// DisplayName: Wormhole
-				// Tooltip: ""
+				DisplayName: Wormhole
+				Tooltip: ""
 			}
 
 			Wrath: {
-				// DisplayName: Wrath
-				// Tooltip: ""
+				DisplayName: Wrath
+				Tooltip: ""
 			}
 
 			BastStatue: {
-				// DisplayName: Bast Statue
-				// Tooltip: ""
+				DisplayName: Bast Statue
+				Tooltip: ""
 			}
 
 			Campfire: {
-				// DisplayName: Campfire
-				// Tooltip: ""
+				DisplayName: Campfire
+				Tooltip: ""
 			}
 
 			Gnome: {
-				// DisplayName: Gnome
-				// Tooltip: ""
+				DisplayName: Gnome
+				Tooltip: ""
 			}
 
 			HeartLantern: {
-				// DisplayName: Heart Lantern
-				// Tooltip: ""
+				DisplayName: Heart Lantern
+				Tooltip: ""
 			}
 
 			HoneyBuff: {
-				// DisplayName: Honey Buff
-				// Tooltip: ""
+				DisplayName: Honey Buff
+				Tooltip: ""
 			}
 
 			StarInABottle: {
-				// DisplayName: Star In A Bottle
-				// Tooltip: ""
+				DisplayName: Star In A Bottle
+				Tooltip: ""
 			}
 
 			AmmoBox: {
-				// DisplayName: Ammo Box
-				// Tooltip: ""
+				DisplayName: Ammo Box
+				Tooltip: ""
 			}
 
 			BewitchingTable: {
-				// DisplayName: Bewitching Table
-				// Tooltip: ""
+				DisplayName: Bewitching Table
+				Tooltip: ""
 			}
 
 			CrystalBall: {
-				// DisplayName: Crystal Ball
-				// Tooltip: ""
+				DisplayName: Crystal Ball
+				Tooltip: ""
 			}
 
 			SharpeningStation: {
-				// DisplayName: Sharpening Station
-				// Tooltip: ""
+				DisplayName: Sharpening Station
+				Tooltip: ""
 			}
 
 			SliceCake: {
-				// DisplayName: Slice Cake
-				// Tooltip: ""
+				DisplayName: Slice Cake
+				Tooltip: ""
 			}
 
 			WarTable: {
-				// DisplayName: War Table
-				// Tooltip: ""
+				DisplayName: War Table
+				Tooltip: ""
 			}
 
 			Aether: {
-				// DisplayName: Aether
-				// Tooltip: ""
+				DisplayName: Aether
+				Tooltip: ""
 			}
 
 			Blue: {
-				// DisplayName: Blue
-				// Tooltip: ""
+				DisplayName: Blue
+				Tooltip: ""
 			}
 
 			Bone: {
-				// DisplayName: Bone
-				// Tooltip: ""
+				DisplayName: Bone
+				Tooltip: ""
 			}
 
 			Coral: {
-				// DisplayName: Coral
-				// Tooltip: ""
+				DisplayName: Coral
+				Tooltip: ""
 			}
 
 			Cursed: {
-				// DisplayName: Cursed
-				// Tooltip: ""
+				DisplayName: Cursed
+				Tooltip: ""
 			}
 
 			Demon: {
-				// DisplayName: Demon
-				// Tooltip: ""
+				DisplayName: Demon
+				Tooltip: ""
 			}
 
 			Desert: {
-				// DisplayName: Desert
-				// Tooltip: ""
+				DisplayName: Desert
+				Tooltip: ""
 			}
 
 			Green: {
-				// DisplayName: Green
-				// Tooltip: ""
+				DisplayName: Green
+				Tooltip: ""
 			}
 
 			Hallowed: {
-				// DisplayName: Hallowed
-				// Tooltip: ""
+				DisplayName: Hallowed
+				Tooltip: ""
 			}
 
 			Ice: {
-				// DisplayName: Ice
-				// Tooltip: ""
+				DisplayName: Ice
+				Tooltip: ""
 			}
 
 			Jungle: {
-				// DisplayName: Jungle
-				// Tooltip: ""
+				DisplayName: Jungle
+				Tooltip: ""
 			}
 
 			Mushroom: {
-				// DisplayName: Mushroom
-				// Tooltip: ""
+				DisplayName: Mushroom
+				Tooltip: ""
 			}
 
 			Normal: {
-				// DisplayName: Normal
-				// Tooltip: ""
+				DisplayName: Normal
+				Tooltip: ""
 			}
 
 			Orange: {
-				// DisplayName: Orange
-				// Tooltip: ""
+				DisplayName: Orange
+				Tooltip: ""
 			}
 
 			Pink: {
-				// DisplayName: Pink
-				// Tooltip: ""
+				DisplayName: Pink
+				Tooltip: ""
 			}
 
 			Purple: {
-				// DisplayName: Purple
-				// Tooltip: ""
+				DisplayName: Purple
+				Tooltip: ""
 			}
 
 			Rainbow: {
-				// DisplayName: Rainbow
-				// Tooltip: ""
+				DisplayName: Rainbow
+				Tooltip: ""
 			}
 
 			Red: {
-				// DisplayName: Red
-				// Tooltip: ""
+				DisplayName: Red
+				Tooltip: ""
 			}
 
 			Ultrabright: {
-				// DisplayName: Ultrabright
-				// Tooltip: ""
+				DisplayName: Ultrabright
+				Tooltip: ""
 			}
 
 			White: {
-				// DisplayName: White
-				// Tooltip: ""
+				DisplayName: White
+				Tooltip: ""
 			}
 
 			Yellow: {
-				// DisplayName: Yellow
-				// Tooltip: ""
+				DisplayName: Yellow
+				Tooltip: ""
 			}
 
 			BoneArrow: {
-				// DisplayName: Bone Arrow
-				// Tooltip: ""
+				DisplayName: Bone Arrow
+				Tooltip: ""
 			}
 
 			ChlorophyteArrow: {
-				// DisplayName: Chlorophyte Arrow
-				// Tooltip: ""
+				DisplayName: Chlorophyte Arrow
+				Tooltip: ""
 			}
 
 			CursedArrow: {
-				// DisplayName: Cursed Arrow
-				// Tooltip: ""
+				DisplayName: Cursed Arrow
+				Tooltip: ""
 			}
 
 			FlamingArrow: {
-				// DisplayName: Flaming Arrow
-				// Tooltip: ""
+				DisplayName: Flaming Arrow
+				Tooltip: ""
 			}
 
 			FrostburnArrow: {
-				// DisplayName: Frostburn Arrow
-				// Tooltip: ""
+				DisplayName: Frostburn Arrow
+				Tooltip: ""
 			}
 
 			HellfireArrow: {
-				// DisplayName: Hellfire Arrow
-				// Tooltip: ""
+				DisplayName: Hellfire Arrow
+				Tooltip: ""
 			}
 
 			HolyArrow: {
-				// DisplayName: Holy Arrow
-				// Tooltip: ""
+				DisplayName: Holy Arrow
+				Tooltip: ""
 			}
 
 			IchorArrow: {
-				// DisplayName: Ichor Arrow
-				// Tooltip: ""
+				DisplayName: Ichor Arrow
+				Tooltip: ""
 			}
 
 			JestersArrow: {
-				// DisplayName: Jesters Arrow
-				// Tooltip: ""
+				DisplayName: Jesters Arrow
+				Tooltip: ""
 			}
 
 			LuminiteArrow: {
-				// DisplayName: Luminite Arrow
-				// Tooltip: ""
+				DisplayName: Luminite Arrow
+				Tooltip: ""
 			}
 
 			ShimmerArrow: {
-				// DisplayName: Shimmer Arrow
-				// Tooltip: ""
+				DisplayName: Shimmer Arrow
+				Tooltip: ""
 			}
 
 			UnholyArrow: {
-				// DisplayName: Unholy Arrow
-				// Tooltip: ""
+				DisplayName: Unholy Arrow
+				Tooltip: ""
 			}
 
 			VenomArrow: {
-				// DisplayName: Venom Arrow
-				// Tooltip: ""
+				DisplayName: Venom Arrow
+				Tooltip: ""
 			}
 
 			ChlorophyteBullet: {
-				// DisplayName: Chlorophyte Bullet
-				// Tooltip: ""
+				DisplayName: Chlorophyte Bullet
+				Tooltip: ""
 			}
 
 			MusketBall: {
-				// DisplayName: Musket Ball
-				// Tooltip: ""
+				DisplayName: Musket Ball
+				Tooltip: ""
 			}
 
 			CrystalDart: {
-				// DisplayName: Crystal Dart
-				// Tooltip: ""
+				DisplayName: Crystal Dart
+				Tooltip: ""
 			}
 
 			CursedDart: {
-				// DisplayName: Cursed Dart
-				// Tooltip: ""
+				DisplayName: Cursed Dart
+				Tooltip: ""
 			}
 
 			IchorDart: {
-				// DisplayName: Ichor Dart
-				// Tooltip: ""
+				DisplayName: Ichor Dart
+				Tooltip: ""
 			}
 
 			PoisonDart: {
-				// DisplayName: Poison Dart
-				// Tooltip: ""
+				DisplayName: Poison Dart
+				Tooltip: ""
 			}
 
 			AetherTorch: {
-				// DisplayName: Aether Torch
-				// Tooltip: ""
+				DisplayName: Aether Torch
+				Tooltip: ""
 			}
 
 			BlueTorch: {
-				// DisplayName: Blue Torch
-				// Tooltip: ""
+				DisplayName: Blue Torch
+				Tooltip: ""
 			}
 
 			BoneTorch: {
-				// DisplayName: Bone Torch
-				// Tooltip: ""
+				DisplayName: Bone Torch
+				Tooltip: ""
 			}
 
 			CoralTorch: {
-				// DisplayName: Coral Torch
-				// Tooltip: ""
+				DisplayName: Coral Torch
+				Tooltip: ""
 			}
 
 			CorruptTorch: {
-				// DisplayName: Corrupt Torch
-				// Tooltip: ""
+				DisplayName: Corrupt Torch
+				Tooltip: ""
 			}
 
 			CrimsonTorch: {
-				// DisplayName: Crimson Torch
-				// Tooltip: ""
+				DisplayName: Crimson Torch
+				Tooltip: ""
 			}
 
 			CursedTorch: {
-				// DisplayName: Cursed Torch
-				// Tooltip: ""
+				DisplayName: Cursed Torch
+				Tooltip: ""
 			}
 
 			DemonTorch: {
-				// DisplayName: Demon Torch
-				// Tooltip: ""
+				DisplayName: Demon Torch
+				Tooltip: ""
 			}
 
 			DesertTorch: {
-				// DisplayName: Desert Torch
-				// Tooltip: ""
+				DisplayName: Desert Torch
+				Tooltip: ""
 			}
 
 			GreenTorch: {
-				// DisplayName: Green Torch
-				// Tooltip: ""
+				DisplayName: Green Torch
+				Tooltip: ""
 			}
 
 			HallowedTorch: {
-				// DisplayName: Hallowed Torch
-				// Tooltip: ""
+				DisplayName: Hallowed Torch
+				Tooltip: ""
 			}
 
 			IceTorch: {
-				// DisplayName: Ice Torch
-				// Tooltip: ""
+				DisplayName: Ice Torch
+				Tooltip: ""
 			}
 
 			IchorTorch: {
-				// DisplayName: Ichor Torch
-				// Tooltip: ""
+				DisplayName: Ichor Torch
+				Tooltip: ""
 			}
 
 			JungleTorch: {
-				// DisplayName: Jungle Torch
-				// Tooltip: ""
+				DisplayName: Jungle Torch
+				Tooltip: ""
 			}
 
 			MushroomTorch: {
-				// DisplayName: Mushroom Torch
-				// Tooltip: ""
+				DisplayName: Mushroom Torch
+				Tooltip: ""
 			}
 
 			OrangeTorch: {
-				// DisplayName: Orange Torch
-				// Tooltip: ""
+				DisplayName: Orange Torch
+				Tooltip: ""
 			}
 
 			PinkTorch: {
-				// DisplayName: Pink Torch
-				// Tooltip: ""
+				DisplayName: Pink Torch
+				Tooltip: ""
 			}
 
 			PurpleTorch: {
-				// DisplayName: Purple Torch
-				// Tooltip: ""
+				DisplayName: Purple Torch
+				Tooltip: ""
 			}
 
 			RainbowTorch: {
-				// DisplayName: Rainbow Torch
-				// Tooltip: ""
+				DisplayName: Rainbow Torch
+				Tooltip: ""
 			}
 
 			RedTorch: {
-				// DisplayName: Red Torch
-				// Tooltip: ""
+				DisplayName: Red Torch
+				Tooltip: ""
 			}
 
 			UltrabrightTorch: {
-				// DisplayName: Ultrabright Torch
-				// Tooltip: ""
+				DisplayName: Ultrabright Torch
+				Tooltip: ""
 			}
 
 			WhiteTorch: {
-				// DisplayName: White Torch
-				// Tooltip: ""
+				DisplayName: White Torch
+				Tooltip: ""
 			}
 
 			YellowTorch: {
-				// DisplayName: Yellow Torch
-				// Tooltip: ""
+				DisplayName: Yellow Torch
+				Tooltip: ""
 			}
 
 			CrystalBullet: {
-				// DisplayName: Crystal Bullet
-				// Tooltip: ""
+				DisplayName: Crystal Bullet
+				Tooltip: ""
 			}
 
 			CursedBullet: {
-				// DisplayName: Cursed Bullet
-				// Tooltip: ""
+				DisplayName: Cursed Bullet
+				Tooltip: ""
 			}
 
 			ExplodingBullet: {
-				// DisplayName: Exploding Bullet
-				// Tooltip: ""
+				DisplayName: Exploding Bullet
+				Tooltip: ""
 			}
 
 			GoldenBullet: {
-				// DisplayName: Golden Bullet
-				// Tooltip: ""
+				DisplayName: Golden Bullet
+				Tooltip: ""
 			}
 
 			HighVelocityBullet: {
-				// DisplayName: High Velocity Bullet
-				// Tooltip: ""
+				DisplayName: High Velocity Bullet
+				Tooltip: ""
 			}
 
 			IchorBullet: {
-				// DisplayName: Ichor Bullet
-				// Tooltip: ""
+				DisplayName: Ichor Bullet
+				Tooltip: ""
 			}
 
 			LuminiteBullet: {
-				// DisplayName: Luminite Bullet
-				// Tooltip: ""
+				DisplayName: Luminite Bullet
+				Tooltip: ""
 			}
 
 			MeteoriteBullet: {
-				// DisplayName: Meteorite Bullet
-				// Tooltip: ""
+				DisplayName: Meteorite Bullet
+				Tooltip: ""
 			}
 
 			NanoBullet: {
-				// DisplayName: Nano Bullet
-				// Tooltip: ""
+				DisplayName: Nano Bullet
+				Tooltip: ""
 			}
 
 			PartyBullet: {
-				// DisplayName: Party Bullet
-				// Tooltip: ""
+				DisplayName: Party Bullet
+				Tooltip: ""
 			}
 
 			SilverBullet: {
-				// DisplayName: Silver Bullet
-				// Tooltip: ""
+				DisplayName: Silver Bullet
+				Tooltip: ""
 			}
 
 			TungstenBullet: {
-				// DisplayName: Tungsten Bullet
-				// Tooltip: ""
+				DisplayName: Tungsten Bullet
+				Tooltip: ""
 			}
 
 			VenomBullet: {
-				// DisplayName: Venom Bullet
-				// Tooltip: ""
+				DisplayName: Venom Bullet
+				Tooltip: ""
 			}
 
 			Bomb: {
-				// DisplayName: Bomb
-				// Tooltip: ""
+				DisplayName: Bomb
+				Tooltip: ""
 			}
 
 			Bombfish: {
-				// DisplayName: Bombfish
-				// Tooltip: ""
+				DisplayName: Bombfish
+				Tooltip: ""
 			}
 
 			BouncyBomb: {
-				// DisplayName: Bouncy Bomb
-				// Tooltip: ""
+				DisplayName: Bouncy Bomb
+				Tooltip: ""
 			}
 
 			BouncyDynamite: {
-				// DisplayName: Bouncy Dynamite
-				// Tooltip: ""
+				DisplayName: Bouncy Dynamite
+				Tooltip: ""
 			}
 
 			DirtBomb: {
-				// DisplayName: Dirt Bomb
-				// Tooltip: ""
+				DisplayName: Dirt Bomb
+				Tooltip: ""
 			}
 
 			DryBomb: {
-				// DisplayName: Dry Bomb
-				// Tooltip: ""
+				DisplayName: Dry Bomb
+				Tooltip: ""
 			}
 
 			Dynamite: {
-				// DisplayName: Dynamite
-				// Tooltip: ""
+				DisplayName: Dynamite
+				Tooltip: ""
 			}
 
 			HoneyBomb: {
-				// DisplayName: Honey Bomb
-				// Tooltip: ""
+				DisplayName: Honey Bomb
+				Tooltip: ""
 			}
 
 			LavaBomb: {
-				// DisplayName: Lava Bomb
-				// Tooltip: ""
+				DisplayName: Lava Bomb
+				Tooltip: ""
 			}
 
 			ScarabBomb: {
-				// DisplayName: Scarab Bomb
-				// Tooltip: ""
+				DisplayName: Scarab Bomb
+				Tooltip: ""
 			}
 
 			StickyBomb: {
-				// DisplayName: Sticky Bomb
-				// Tooltip: ""
+				DisplayName: Sticky Bomb
+				Tooltip: ""
 			}
 
 			StickyDirtBomb: {
-				// DisplayName: Sticky Dirt Bomb
-				// Tooltip: ""
+				DisplayName: Sticky Dirt Bomb
+				Tooltip: ""
 			}
 
 			StickyDynamite: {
-				// DisplayName: Sticky Dynamite
-				// Tooltip: ""
+				DisplayName: Sticky Dynamite
+				Tooltip: ""
 			}
 
 			WetBomb: {
-				// DisplayName: Wet Bomb
-				// Tooltip: ""
+				DisplayName: Wet Bomb
+				Tooltip: ""
 			}
 
 			BouncyGlowstick: {
-				// DisplayName: Bouncy Glowstick
-				// Tooltip: ""
+				DisplayName: Bouncy Glowstick
+				Tooltip: ""
 			}
 
 			FairyGlowstick: {
-				// DisplayName: Fairy Glowstick
-				// Tooltip: ""
+				DisplayName: Fairy Glowstick
+				Tooltip: ""
 			}
 
 			SpelunkerGlowstick: {
-				// DisplayName: Spelunker Glowstick
-				// Tooltip: ""
+				DisplayName: Spelunker Glowstick
+				Tooltip: ""
 			}
 
 			StickyGlowstick: {
-				// DisplayName: Sticky Glowstick
-				// Tooltip: ""
+				DisplayName: Sticky Glowstick
+				Tooltip: ""
 			}
 
 			Ale: {
-				// DisplayName: Ale
-				// Tooltip: ""
+				DisplayName: Ale
+				Tooltip: ""
 			}
 
 			BlueFlare: {
-				// DisplayName: Blue Flare
-				// Tooltip: ""
+				DisplayName: Blue Flare
+				Tooltip: ""
 			}
 
 			CandyCorn: {
-				// DisplayName: Candy Corn
-				// Tooltip: ""
+				DisplayName: Candy Corn
+				Tooltip: ""
 			}
 
 			CopperCoin: {
-				// DisplayName: Copper Coin
-				// Tooltip: ""
+				DisplayName: Copper Coin
+				Tooltip: ""
 			}
 
 			CursedFlare: {
-				// DisplayName: Cursed Flare
-				// Tooltip: ""
+				DisplayName: Cursed Flare
+				Tooltip: ""
 			}
 
 			ExplosiveJackOLantern: {
-				// DisplayName: Explosive Jack O Lantern
-				// Tooltip: ""
+				DisplayName: Explosive Jack O Lantern
+				Tooltip: ""
 			}
 
 			FallenStar: {
-				// DisplayName: Fallen Star
-				// Tooltip: ""
+				DisplayName: Fallen Star
+				Tooltip: ""
 			}
 
 			Flare: {
-				// DisplayName: Flare
-				// Tooltip: ""
+				DisplayName: Flare
+				Tooltip: ""
 			}
 
 			Gel: {
-				// DisplayName: Gel
-				// Tooltip: ""
+				DisplayName: Gel
+				Tooltip: ""
 			}
 
 			GoldCoin: {
-				// DisplayName: Gold Coin
-				// Tooltip: ""
+				DisplayName: Gold Coin
+				Tooltip: ""
 			}
 
 			Nail: {
-				// DisplayName: Nail
-				// Tooltip: ""
+				DisplayName: Nail
+				Tooltip: ""
 			}
 
 			PlatinumCoin: {
-				// DisplayName: Platinum Coin
-				// Tooltip: ""
+				DisplayName: Platinum Coin
+				Tooltip: ""
 			}
 
 			RainbowFlare: {
-				// DisplayName: Rainbow Flare
-				// Tooltip: ""
+				DisplayName: Rainbow Flare
+				Tooltip: ""
 			}
 
 			Seed: {
-				// DisplayName: Seed
-				// Tooltip: ""
+				DisplayName: Seed
+				Tooltip: ""
 			}
 
 			ShimmerFlare: {
-				// DisplayName: Shimmer Flare
-				// Tooltip: ""
+				DisplayName: Shimmer Flare
+				Tooltip: ""
 			}
 
 			SilverCoin: {
-				// DisplayName: Silver Coin
-				// Tooltip: ""
+				DisplayName: Silver Coin
+				Tooltip: ""
 			}
 
 			Snowball: {
-				// DisplayName: Snowball
-				// Tooltip: ""
+				DisplayName: Snowball
+				Tooltip: ""
 			}
 
 			SpelunkerFlare: {
-				// DisplayName: Spelunker Flare
-				// Tooltip: ""
+				DisplayName: Spelunker Flare
+				Tooltip: ""
 			}
 
 			Stake: {
-				// DisplayName: Stake
-				// Tooltip: ""
+				DisplayName: Stake
+				Tooltip: ""
 			}
 
 			StyngerBolt: {
-				// DisplayName: Stynger Bolt
-				// Tooltip: ""
+				DisplayName: Stynger Bolt
+				Tooltip: ""
 			}
 
 			ClusterRocketI: {
-				// DisplayName: Cluster Rocket I
-				// Tooltip: ""
+				DisplayName: Cluster Rocket I
+				Tooltip: ""
 			}
 
 			ClusterRocketII: {
-				// DisplayName: Cluster Rocket I I
-				// Tooltip: ""
+				DisplayName: Cluster Rocket I I
+				Tooltip: ""
 			}
 
 			DryRocket: {
-				// DisplayName: Dry Rocket
-				// Tooltip: ""
+				DisplayName: Dry Rocket
+				Tooltip: ""
 			}
 
 			HoneyRocket: {
-				// DisplayName: Honey Rocket
-				// Tooltip: ""
+				DisplayName: Honey Rocket
+				Tooltip: ""
 			}
 
 			LavaRocket: {
-				// DisplayName: Lava Rocket
-				// Tooltip: ""
+				DisplayName: Lava Rocket
+				Tooltip: ""
 			}
 
 			MiniNukeI: {
-				// DisplayName: Mini Nuke I
-				// Tooltip: ""
+				DisplayName: Mini Nuke I
+				Tooltip: ""
 			}
 
 			MiniNukeII: {
-				// DisplayName: Mini Nuke I I
-				// Tooltip: ""
+				DisplayName: Mini Nuke I I
+				Tooltip: ""
 			}
 
 			RocketI: {
-				// DisplayName: Rocket I
-				// Tooltip: ""
+				DisplayName: Rocket I
+				Tooltip: ""
 			}
 
 			RocketII: {
-				// DisplayName: Rocket I I
-				// Tooltip: ""
+				DisplayName: Rocket I I
+				Tooltip: ""
 			}
 
 			RocketIII: {
-				// DisplayName: Rocket I I I
-				// Tooltip: ""
+				DisplayName: Rocket I I I
+				Tooltip: ""
 			}
 
 			RocketIV: {
-				// DisplayName: Rocket I V
-				// Tooltip: ""
+				DisplayName: Rocket I V
+				Tooltip: ""
 			}
 
 			WetRocket: {
-				// DisplayName: Wet Rocket
-				// Tooltip: ""
+				DisplayName: Wet Rocket
+				Tooltip: ""
 			}
 
 			BlueStreamer: {
-				// DisplayName: Blue Streamer
-				// Tooltip: ""
+				DisplayName: Blue Streamer
+				Tooltip: ""
 			}
 
 			Chain: {
-				// DisplayName: Chain
-				// Tooltip: ""
+				DisplayName: Chain
+				Tooltip: ""
 			}
 
 			GreenStreamer: {
-				// DisplayName: Green Streamer
-				// Tooltip: ""
+				DisplayName: Green Streamer
+				Tooltip: ""
 			}
 
 			PinkStreamer: {
-				// DisplayName: Pink Streamer
-				// Tooltip: ""
+				DisplayName: Pink Streamer
+				Tooltip: ""
 			}
 
 			Rope: {
-				// DisplayName: Rope
-				// Tooltip: ""
+				DisplayName: Rope
+				Tooltip: ""
 			}
 
 			RopeCoil: {
-				// DisplayName: Rope Coil
-				// Tooltip: ""
+				DisplayName: Rope Coil
+				Tooltip: ""
 			}
 
 			SilkRope: {
-				// DisplayName: Silk Rope
-				// Tooltip: ""
+				DisplayName: Silk Rope
+				Tooltip: ""
 			}
 
 			SilkRopeCoil: {
-				// DisplayName: Silk Rope Coil
-				// Tooltip: ""
+				DisplayName: Silk Rope Coil
+				Tooltip: ""
 			}
 
 			VineRope: {
-				// DisplayName: Vine Rope
-				// Tooltip: ""
+				DisplayName: Vine Rope
+				Tooltip: ""
 			}
 
 			VineRopeCoil: {
-				// DisplayName: Vine Rope Coil
-				// Tooltip: ""
+				DisplayName: Vine Rope Coil
+				Tooltip: ""
 			}
 
 			WebRope: {
-				// DisplayName: Web Rope
-				// Tooltip: ""
+				DisplayName: Web Rope
+				Tooltip: ""
 			}
 
 			WebRopeCoil: {
-				// DisplayName: Web Rope Coil
-				// Tooltip: ""
+				DisplayName: Web Rope Coil
+				Tooltip: ""
 			}
 
 			BlueSolution: {
-				// DisplayName: Blue Solution
-				// Tooltip: ""
+				DisplayName: Blue Solution
+				Tooltip: ""
 			}
 
 			BrownSolution: {
-				// DisplayName: Brown Solution
-				// Tooltip: ""
+				DisplayName: Brown Solution
+				Tooltip: ""
 			}
 
 			DarkBlueSolution: {
-				// DisplayName: Dark Blue Solution
-				// Tooltip: ""
+				DisplayName: Dark Blue Solution
+				Tooltip: ""
 			}
 
 			GreenSolution: {
-				// DisplayName: Green Solution
-				// Tooltip: ""
+				DisplayName: Green Solution
+				Tooltip: ""
 			}
 
 			MultiSolution: {
-				// DisplayName: Multi Solution
-				// Tooltip: ""
+				DisplayName: Multi Solution
+				Tooltip: ""
 			}
 
 			PurpleSolution: {
-				// DisplayName: Purple Solution
-				// Tooltip: ""
+				DisplayName: Purple Solution
+				Tooltip: ""
 			}
 
 			RedSolution: {
-				// DisplayName: Red Solution
-				// Tooltip: ""
+				DisplayName: Red Solution
+				Tooltip: ""
 			}
 
 			WhiteSolution: {
-				// DisplayName: White Solution
-				// Tooltip: ""
+				DisplayName: White Solution
+				Tooltip: ""
 			}
 
 			YellowSolution: {
-				// DisplayName: Yellow Solution
-				// Tooltip: ""
+				DisplayName: Yellow Solution
+				Tooltip: ""
 			}
 
 			Beenade: {
-				// DisplayName: Beenade
-				// Tooltip: ""
+				DisplayName: Beenade
+				Tooltip: ""
 			}
 
 			BoneJavelin: {
-				// DisplayName: Bone Javelin
-				// Tooltip: ""
+				DisplayName: Bone Javelin
+				Tooltip: ""
 			}
 
 			BoneThrowingKnife: {
-				// DisplayName: Bone Throwing Knife
-				// Tooltip: ""
+				DisplayName: Bone Throwing Knife
+				Tooltip: ""
 			}
 
 			BouncyGrenade: {
-				// DisplayName: Bouncy Grenade
-				// Tooltip: ""
+				DisplayName: Bouncy Grenade
+				Tooltip: ""
 			}
 
 			FrostDaggerfish: {
-				// DisplayName: Frost Daggerfish
-				// Tooltip: ""
+				DisplayName: Frost Daggerfish
+				Tooltip: ""
 			}
 
 			Grenade: {
-				// DisplayName: Grenade
-				// Tooltip: ""
+				DisplayName: Grenade
+				Tooltip: ""
 			}
 
 			HappyGrenade: {
-				// DisplayName: Happy Grenade
-				// Tooltip: ""
+				DisplayName: Happy Grenade
+				Tooltip: ""
 			}
 
 			Javelin: {
-				// DisplayName: Javelin
-				// Tooltip: ""
+				DisplayName: Javelin
+				Tooltip: ""
 			}
 
 			MerchantKiller: {
-				// DisplayName: Merchant Killer
-				// Tooltip: ""
+				DisplayName: Merchant Killer
+				Tooltip: ""
 			}
 
 			MolotovCocktail: {
-				// DisplayName: Molotov Cocktail
-				// Tooltip: ""
+				DisplayName: Molotov Cocktail
+				Tooltip: ""
 			}
 
 			PoisonKnife: {
-				// DisplayName: Poison Knife
-				// Tooltip: ""
+				DisplayName: Poison Knife
+				Tooltip: ""
 			}
 
 			RottenEgg: {
-				// DisplayName: Rotten Egg
-				// Tooltip: ""
+				DisplayName: Rotten Egg
+				Tooltip: ""
 			}
 
 			Shuriken: {
-				// DisplayName: Shuriken
-				// Tooltip: ""
+				DisplayName: Shuriken
+				Tooltip: ""
 			}
 
 			SpikyBall: {
-				// DisplayName: Spiky Ball
-				// Tooltip: ""
+				DisplayName: Spiky Ball
+				Tooltip: ""
 			}
 
 			StarAnise: {
-				// DisplayName: Star Anise
-				// Tooltip: ""
+				DisplayName: Star Anise
+				Tooltip: ""
 			}
 
 			StickyGrenade: {
-				// DisplayName: Sticky Grenade
-				// Tooltip: ""
+				DisplayName: Sticky Grenade
+				Tooltip: ""
 			}
 
 			ThrowingKnife: {
-				// DisplayName: Throwing Knife
-				// Tooltip: ""
+				DisplayName: Throwing Knife
+				Tooltip: ""
 			}
 		}
 
@@ -3677,7 +3677,7 @@ Mods: {
 
 		Configs: {
 			LuiAFKConfig: {
-				DisplayName: LuiAFK 客户端配置
+				DisplayName: LuiAFK 服务端配置
 
 				Headers: {
 					Harvester: 收割机配置
@@ -3874,42 +3874,42 @@ Mods: {
 				}
 
 				certainPotionsEnabled: {
-					// Label: certain Potions Enabled
-					// Tooltip: ""
+					Label: certain Potions Enabled
+					Tooltip: ""
 				}
 			}
 
 			LuiAfkConfig: {
-				// DisplayName: Lui Afk Config
+				DisplayName: Lui Afk Config
 
 				Headers: {
-					// Harvester: Harvester Header
-					// Potions: Potions Header
+					Harvester: Harvester Header
+					Potions: Potions Header
 				}
 
 				harvesterAvailability: {
-					// Label: harvester Availability
-					// Tooltip: ""
+					Label: harvester Availability
+					Tooltip: ""
 				}
 
 				potionsEnabled: {
-					// Label: potions Enabled
-					// Tooltip: ""
+					Label: potions Enabled
+					Tooltip: ""
 				}
 
 				vanillaPotionsEnabled: {
-					// Label: vanilla Potions Enabled
-					// Tooltip: ""
+					Label: vanilla Potions Enabled
+					Tooltip: ""
 				}
 
 				PaperAmountForScrollCrafting: {
-					// Label: Paper Amount For Scroll Crafting
-					// Tooltip: ""
+					Label: Paper Amount For Scroll Crafting
+					Tooltip: ""
 				}
 
 				ultimateBattlerTimer: {
-					// Label: ultimate Battler Timer
-					// Tooltip: ""
+					Label: ultimate Battler Timer
+					Tooltip: ""
 				}
 			}
 		}
@@ -3983,52 +3983,52 @@ Mods: {
 		}
 
 		Lucky: {
-			// NoTorchLuck: Mods.miningcracks_take_on_luiafk.Lucky.NoTorchLuck
-			// TorchLuck: Mods.miningcracks_take_on_luiafk.Lucky.TorchLuck
+			NoTorchLuck: Mods.miningcracks_take_on_luiafk.Lucky.NoTorchLuck
+			TorchLuck: Mods.miningcracks_take_on_luiafk.Lucky.TorchLuck
 		}
 
 		LuiAfkRecipes: {
-			// WellFed1: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed1
-			// WellFed2: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed2
-			// WellFed3: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed3
-			// AnyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.AnyBait
-			// TwentyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.TwentyBait
-			// ThirtyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.ThirtyBait
-			// FiftyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.FiftyBait
-			// Chairs: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Chairs
-			// Doors: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Doors
-			// Tables: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Tables
-			// LightSource: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LightSource
-			// ChestsLocalized: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.ChestsLocalized
-			// Axes: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Axes
-			// Gems: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Gems
-			// Buckets: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Buckets
-			// UltimateBuckets: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.UltimateBuckets
-			// Regrowth: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Regrowth
-			// AdamTitanBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.AdamTitanBar
-			// CopperTinBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.CopperTinBar
-			// PlatGoldBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.PlatGoldBar
-			// IceSnowBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.IceSnowBlock
-			// LifeCrystal: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LifeCrystal
-			// FallenStar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.FallenStar
-			// Torches: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Torches
-			// Streamer: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Streamer
-			// WebSilkRope: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WebSilkRope
-			// RopeVine: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.RopeVine
-			// Tipsy: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Tipsy
-			// EvilFlask: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilFlask
-			// Extractinator: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Extractinator
-			// EvilMushroom: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilMushroom
-			// EvilPowder: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilPowder
-			// GoldWatch: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.GoldWatch
-			// SandBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.SandBlock
-			// EvilBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilBar
-			// EvilOre: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilOre
-			// EvilOreMat: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilOreMat
-			// EvilStoneBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilStoneBlock
-			// DungeonBrick: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.DungeonBrick
-			// LunarPick: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LunarPick
-			// LunarHamaxe: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LunarHamaxe
+			WellFed1: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed1
+			WellFed2: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed2
+			WellFed3: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WellFed3
+			AnyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.AnyBait
+			TwentyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.TwentyBait
+			ThirtyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.ThirtyBait
+			FiftyBait: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.FiftyBait
+			Chairs: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Chairs
+			Doors: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Doors
+			Tables: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Tables
+			LightSource: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LightSource
+			ChestsLocalized: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.ChestsLocalized
+			Axes: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Axes
+			Gems: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Gems
+			Buckets: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Buckets
+			UltimateBuckets: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.UltimateBuckets
+			Regrowth: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Regrowth
+			AdamTitanBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.AdamTitanBar
+			CopperTinBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.CopperTinBar
+			PlatGoldBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.PlatGoldBar
+			IceSnowBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.IceSnowBlock
+			LifeCrystal: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LifeCrystal
+			FallenStar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.FallenStar
+			Torches: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Torches
+			Streamer: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Streamer
+			WebSilkRope: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.WebSilkRope
+			RopeVine: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.RopeVine
+			Tipsy: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Tipsy
+			EvilFlask: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilFlask
+			Extractinator: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.Extractinator
+			EvilMushroom: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilMushroom
+			EvilPowder: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilPowder
+			GoldWatch: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.GoldWatch
+			SandBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.SandBlock
+			EvilBar: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilBar
+			EvilOre: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilOre
+			EvilOreMat: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilOreMat
+			EvilStoneBlock: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.EvilStoneBlock
+			DungeonBrick: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.DungeonBrick
+			LunarPick: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LunarPick
+			LunarHamaxe: Mods.miningcracks_take_on_luiafk.LuiAfkRecipes.LunarHamaxe
 		}
 	}
 }
