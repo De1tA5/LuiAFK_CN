@@ -1,0 +1,48 @@
+Items: {
+	ImprovedAltar: {
+		DisplayName: Improved Altar
+		Tooltip: Increased bonus healing.
+	}
+
+	GlowingPower: {
+		DisplayName: Glowing Power
+		Tooltip: More Radiant damage.
+	}
+
+	HolyPower: {
+		DisplayName: Holy Power
+		Tooltip: Better Heals.
+	}
+
+	ScrollOfHealer: {
+		DisplayName: Scroll of Healer
+		Tooltip: Increases your Radiant damage and Empowers your heals.
+	}
+
+	SacredUnlimitedMana: {
+		DisplayName: Sacred Unlimited Mana
+		Tooltip:
+			'''
+			Unlimited mana.
+			Healing spells will heal an additional 4 life.
+			'''
+	}
+
+	DivineUnlimitedMana: {
+		DisplayName: Divine Unlimited Mana
+		Tooltip:
+			'''
+			Unlimited mana.
+			Healing spells will heal an additional 6 life.
+			'''
+	}
+
+	BlessedUnlimitedMana: {
+		DisplayName: Blessed Unlimited Mana
+		Tooltip:
+			'''
+			Unlimited mana.
+			Healing spells will heal an additional 2 life.
+			'''
+	}
+}

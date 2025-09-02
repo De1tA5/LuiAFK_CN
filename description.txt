@@ -1,4 +1,4 @@
-This is a Chinese-translation Mod for LuiAFK Reborn Mod and LuiAFK Reborn DLC
+This is a Chinese-translation Mod for LuiAFK Reborn Mod , LuiAFK Reborn DLC and LuiAFK Healer
 懒人模组和懒人附属个人汉化
 直接订阅即可使用!!!!!!
 官方1.2.1自带汉化，但是似乎是机翻，
@@ -7,8 +7,8 @@ This is a Chinese-translation Mod for LuiAFK Reborn Mod and LuiAFK Reborn DLC
 
 
 
-1.同时订阅LuiAFK Reborn、LuiAFK Reborn DLC和本Mod
-2.进入tml，在模组管理中同时启用LuiAFK Reborn、LuiAFK Reborn DLC和本Mod
+1.同时订阅LuiAFK Reborn、LuiAFK Reborn DLC、LuiAFK Healer和本Mod
+2.进入tml，在模组管理中同时启用LuiAFK Reborn、LuiAFK Reborn DLC、LuiAFK Healer和本Mod
 3.安装完成，进行游戏
 
 硬编码部分使用工具TranslatorFromAssembly

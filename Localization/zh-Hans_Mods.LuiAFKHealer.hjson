@@ -1,0 +1,48 @@
+Items: {
+	ImprovedAltar: {
+		DisplayName: 改进型祭坛
+		Tooltip: 提升治疗加成
+	}
+
+	GlowingPower: {
+		DisplayName: 光辉之力
+		Tooltip: 更强的光辉伤害
+	}
+
+	HolyPower: {
+		DisplayName: 圣洁之力
+		Tooltip: 更好的治疗
+	}
+
+	ScrollOfHealer: {
+		DisplayName: 愈疗卷轴
+		Tooltip: 增加你的光辉伤害并强化你的治疗能力
+	}
+
+	SacredUnlimitedMana: {
+		DisplayName: 圣洁无限魔力
+		Tooltip:
+			'''
+			无限的魔力
+			治疗法术将额外治疗4点生命
+			'''
+	}
+
+	DivineUnlimitedMana: {
+		DisplayName: 神圣无限魔力
+		Tooltip:
+			'''
+			无限的魔力
+			治疗法术将额外治疗6点生命
+			'''
+	}
+
+	BlessedUnlimitedMana: {
+		DisplayName: 祝福无限魔力
+		Tooltip:
+			'''
+			无限的魔力
+			治疗法术将额外治疗2点生命
+			'''
+	}
+}
