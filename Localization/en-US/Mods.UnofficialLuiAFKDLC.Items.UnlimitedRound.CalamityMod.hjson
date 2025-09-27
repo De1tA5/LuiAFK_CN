@@ -1,143 +1,133 @@
 EndlessBloodfirePouch: {
-	DisplayName: Inferno Bullet Pouch
-	Tooltip:
+	DisplayName: Bloodfire Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBloodfirePouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Passes through tiles and accelerates your natural life regen on hit.
-		Deals bonus damage based on your current life regen and natural life regen.
-		This damage caps at 25.
-		[c/FF4500:Feel the burning power of the inferno coursing through your veins.]
-		[c/8B0000:'Ignite your blood, ignite your enemies.']
+		[i:CalamityMod/BloodfireBullet] - [c/9a2a47:Passes through tiles and accelerates your natural life regen on hit.]
+		[c/9a2a47:Deals bonus damage based on your current life regen and natural life regen.]
+		[c/9a2a47:This damage caps at 25.]
+		[c/9a2a47:'Ignite your blood, ignite your enemies.']
 		'''
 }
 
 EndlessBubonicPouch: {
-	DisplayName: Plague Bearer Pouch
-	Tooltip:
+	DisplayName: Bubonic Round Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBubonicPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Spreads the plague on hit.
-		Ignores 10% of enemy defense.
-		[c/6B8E23:Unleash the plague upon your foes, leaving them weakened and decaying.]
-		[c/556B2F:'They’ll never see it coming, but they’ll feel the rot.']
+		[i:CalamityMod/BubonicRound] - [c/33634b:Unleash the plague upon your foes, leaving them weakened and decaying 10 of enemy defense.]
+		[c/33634b:'They’ll never see it coming, but they’ll feel the rot.']
 		'''
 }
 
 EndlessDryadPouch: {
-	DisplayName: Nature's Wrath Pouch
-	Tooltip:
+	DisplayName: Dryad's Tear Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessDryadPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Splits into homing nature shards on impact which ignore enemy defense.
-		[c/32CD32:Let nature take its course, with shards that seek and destroy.]
-		[c/228B22:'The wrath of the wild, in every shard.']
+		[i:CalamityMod/DryadsTear] - [c/95b121:Splits into homing nature shards on impact which ignore enemy defense.]
+		[c/95b121:Let nature take its course, with shards that seek and destroy.]
+		[c/95b121:'The wrath of the wild, in every shard.']
 		'''
 }
 
 EndlessFlashPouch: {
-	DisplayName: Endless Flash Pouch
-	Tooltip:
+	DisplayName: Flash Round Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessFlashPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Gives off a concussive blast that confuses enemies in a large area for a short time.
-		[c/FFD700:Blind and bewilder your foes, leaving them dazed and vulnerable.]
-		[c/ADFF2F:'Confusion reigns as the light fades.']
+		[i:CalamityMod/FlashRound] - [c/75818b:Gives off a concussive blast that confuses enemies in a large area for a short time.]
+		[c/75818b:Blind and bewilder your foes, leaving them dazed and vulnerable.]
+		[c/75818b:'Confusion reigns as the light fades.']
 		'''
 }
 
 EndlessGodSlayerPouch: {
-	DisplayName: Endless God Slayer Pouch
-	Tooltip:
+	DisplayName: God Slayer Slug Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessGodSlayerPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Heavy ammunition with unlimited piercing that tears through spacetime.
-		After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
-		it warps backwards through space and supercharges, exploding on impact.
-		[c/8A2BE2:Tear through the fabric of reality with god-slaying force.]
-		[c/4B0082:'The end is just the beginning when space and time bend to your will.']
+		[i:CalamityMod/GodSlayerSlug] - [c/9954b0:Heavy ammunition with unlimited piercing that tears through spacetime.]
+		[c/9954b0:After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,]
+		[c/9954b0:it warps backwards through space and supercharges, exploding on impact.]
+		[c/9954b0:'The end is just the beginning when space and time bend to your will.']
 		'''
 }
 
 EndlessHailstormPouch: {
-	DisplayName: Endless Hailstorm Pouch
-	Tooltip:
+	DisplayName: Hailstorm Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHailstormPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Bullets imbued with potent ice magic.
-		These bullets rapidly decelerate after being fired.
-		Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies.
-		[c/00BFFF:Unleash a storm of ice, freezing your foes solid.]
-		[c/4682B4:'Chill them to the bone, and then some.']
+		[i:CalamityMod/HailstormBullet] - [c/2c596c:Bullets imbued with potent ice magic.]
+		[c/2c596c:These bullets rapidly decelerate after being fired.]
+		[c/2c596c:Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies.]
+		[c/2c596c:'Chill them to the bone, and then some.']
 		'''
 }
 
 EndlessHallowPointPouch: {
-	DisplayName: Endless Hallow Point Pouch
-	Tooltip:
+	DisplayName: Hallow Point Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHallowPointPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Gallant light deals 6 bonus damage on hit.
-		This effect does not occur if the bullets are converted by special guns.
-		[c/FFD700:Light up the darkness with bullets that shine with gallant power.]
-		[c/FF6347:'A touch of light in every shot, guiding your aim.']
+		[i:CalamityMod/HallowPointRound] - [c/968564:Gallant light deals 6 bonus damage on hit.]
+		[c/968564:This effect does not occur if the bullets are converted by special guns.]
+		[c/968564:'A touch of light in every shot, guiding your aim.']
 		'''
 }
 
 EndlessHolyPouch: {
-	DisplayName: Endless Holy Fire Bullet
-	Tooltip:
+	DisplayName: Holy Fire Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHolyPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Holy explosive rounds dealing 25 damage.
-		Larger explosions upon firing.
-		[c/FFB6C1:Cleanse the darkness with divine fire.]
+		[i:CalamityMod/HolyFireBullet] - [c/FFA07A:Holy explosive rounds.]
+		[c/FFA07A:Larger explosions upon firing.]
 		[c/FFA07A:'Purifying blasts for the righteous!']
 		'''
 }
 
 EndlessHyperiusPouch: {
-	DisplayName: Endless Hyperius Bullet
-	Tooltip:
+	DisplayName: Hyperius Bullet Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHyperiusPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Colorful bullets dealing 15 damage.
-		Splits into swirling lights on impact.
-		[c/9370DB:Illuminate your foes with vibrant firepower.]
-		[c/FF1493:'A spectacle of colors and destruction!']
+		[i:CalamityMod/HyperiusBullet] - [c/da69e9:Colorful bullets.]
+		[c/da69e9:Splits into swirling lights on impact.]
+		[c/da69e9:'A spectacle of colors and destruction!']
 		'''
 }
 
 EndlessMarksmanPouch: {
-	DisplayName: Endless Marksman Round
-	Tooltip:
+	DisplayName: Marksman Round Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessMarksmanPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Crafted for precision, dealing 15 damage.
-		Ricochets off midair coins for clever tactics.
-		[c/32CD32:Strike true with every carefully aimed shot.]
-		[c/FF69B4:'Utilize the coins to enhance your firepower!']
-		'''
-}
-
-EndlessMortarRound: {
-	DisplayName: Endless Standard Mortar Round
-	Tooltip:
-		'''
-		High-explosive rounds causing 25 damage.
-		Destroy tiles with every blast.
-		[c/FF8C00:Demolish your surroundings with force.]
-		[c/FF4500:'Prepare for explosive consequences!']
+		[i:CalamityMod/MarksmanRound] - [c/8a6c2b:Crafted for precision.]
+		[c/8a6c2b:Ricochets off midair coins for clever tactics.]
+		[c/8a6c2b:'Throw away your savings and let the currency decide your damage.']
 		'''
 }
 
 EndlessRubberMortarPouch: {
-	DisplayName: Endless Rubber Mortar Round
-	Tooltip:
+	DisplayName: Rubber Mortar Round Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessRubberMortarPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		Specialized high-explosive rounds that deal 25 damage.
-		Large blast radius with tile destruction on bounce.
-		[c/FFD700:Unleash chaos with every bounce.]
-		[c/FF6347:'Bouncing rounds that pack a punch!']
+		[i:CalamityMod/RubberMortarRound] - [c/9c3f71:Specialized high-explosive rounds.]
+		[c/9c3f71:Large blast radius with tile destruction on bounce.]
+		[c/9c3f71:'Bouncing rounds that pack a punch!']
 		'''
 }
 
 EndlessMortarPouch: {
-	DisplayName: Endless Mortar Round
-	Tooltip:
+	DisplayName: Mortar Round Pouch
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessMortarPouch] - [c/b44e3c:This pouch is bottomless...]"
+	HoldShiftTooltip:
 		'''
-		High-explosive rounds causing 25 damage.
-		Destroy tiles with every blast.
-		[c/FF8C00:Demolish your surroundings with force.]
-		[c/FF4500:'Prepare for explosive consequences!']
+		[i:CalamityMod/MortarRound] - [c/6d5e80:High-explosive rounds causing 25 damage.]
+		[c/6d5e80:Destroy tiles with every blast.]
+		[c/6d5e80:'Prepare for explosive consequences!']
 		'''
 }

@@ -3,113 +3,73 @@ CalamityMod: {
 		DisplayName: Scroll Of Effigies
 		Tooltip:
 			'''
-			When in your inventory, nearby players will get Crimson, Corruption, 
-			and Decay Effigies Buffs.
+			A scroll that grants all Effigy Stand powers.
 			[c/FF6347:'Is this real paper?!']
-			[c/8B0000:Empower your allies with the forces of decay and darkness,]
-			[c/8B0000:channeling the essence of corrupted lands.]
 			'''
-		CalRemixTooltip:
+		HoldShiftTooltip:
 			'''
-			When in your inventory, nearby players will get Crimson, Corruption, 
-			Astral, Hallow, and Decay Effigies Buffs.
-			[c/FFD700:Now a true guardian of the effigies, your presence inspires]
-			[c/FFD700:others with the boundless powers of the cosmos.]
+			[i:UnofficialLuiAFKDLC/CorruptionStand] - Increases movement speed and critical strike by 10%, but reduces damage reduction.
+			[i:UnofficialLuiAFKDLC/CrimsonStand] - Increases damage by 15% and defense by 10, but reduces maximum health.
+			[i:UnofficialLuiAFKDLC/DecayStand] - Grants underwater breathing, but does not function in the Abyss.
+			'''
+		HoldShiftTooltipCalRemix:
+			'''
+			[i:UnofficialLuiAFKDLC/AstralStand] - Grants Astral Effigy Stand power.
+			[i:UnofficialLuiAFKDLC/HallowStand] - Grants Hallow Effigy Stand power.
 			'''
 	}
 
 	ScrollOfDepths: {
 		DisplayName: Scroll of the Depths
-		Tooltip:
+		Tooltip: A scroll that grants all Depth-related powers.
+		HoldShiftTooltip:
 			'''
-			Now you can explore the abyss more comfortably.
-			[c/1E90FF:Feel the comforting embrace of this scroll as it]
-			[c/1E90FF:protects you from the crushing pressures below.]
-			'''
-	}
-
-	AlcoholicsCodex: {
-		DisplayName: Alcoholic's Codex
-		Tooltip:
-			'''
-			{$Mods.UnofficialLuiAFKDLC.Items.Scroll.CalamityMod.AlcoholicsCodexResilient.Tooltip}
-			[c/FF4500:Current sprite is placeholder—drink responsibly!]
-			'''
-	}
-
-	AlcoholicsCodexResilient: {
-		DisplayName: Alcoholic's Codex (Resilient)
-		Tooltip:
-			'''
-			Defense now blocks 10% more damage.
-			(60% in Classic, 85% in Expert, and 110% in Master)
-			[c/4682B4:Right Click to change candle buff.]
-			[c/00CED1:Stand your ground with the resilience of tempered resolve.]
-			'''
-	}
-
-	AlcoholicsCodexSpiteful: {
-		DisplayName: Alcoholic's Codex (Spiteful)
-		Tooltip:
-			'''
-			You now deal 1.04x damage to enemies.
-			The extra 0.04x damage bypasses enemy defense and damage reduction.
-			[c/4682B4:Right Click to change candle buff.]
-			[c/8B0000:Unleash a spiteful power that cuts through all resistance.]
-			'''
-	}
-
-	AlcoholicsCodexVigorous: {
-		DisplayName: Alcoholic's Codex (Vigorous)
-		Tooltip:
-			'''
-			You regenerate 0.4% of your maximum health per second.
-			This regeneration is at full power even while moving 
-			and bypasses Revengeance Mode caps.
-			[c/4682B4:Right Click to change candle buff.]
-			[c/32CD32:Embrace the vitality of ceaseless recovery.]
-			'''
-	}
-
-	AlcoholicsCodexWeightless: {
-		DisplayName: Alcoholic's Codex (Weightless)
-		Tooltip:
-			'''
-			You gain 10% increased movement speed, wing time, and acceleration.
-			[c/4682B4:Right Click to change candle buff.]
-			[c/ADD8E6:Soar effortlessly, defying the burdens of gravity.]
+			[i:UnofficialLuiAFKDLC/UnlimitedAnechoicCoating] - Reduces creatures' ability to detect you in the abyss.
+			[i:UnofficialLuiAFKDLC/UnlimitedSulphuric] - Reduces the effects of the sulphuric waters.
+			[i:UnofficialLuiAFKDLC/UnlimitedOmniscience] - Highlights creatures, enemy projectiles, danger sources, and treasures.
 			'''
 	}
 
 	ScrollOfInfiniteAscent: {
 		DisplayName: Scroll of Celestial Ascent
-		Tooltip:
+		Tooltip: A scroll that grants all Ascent-related powers from Calamity Mod.
+		HoldShiftTooltip:
 			'''
-			Boosts flight time, jump speed, and grants immunity to fall damage.
-			[c/FFD700:'Fly higher, jump farther, and fall safely—]
-			[c/FFD700:perfect for those who dare to touch the skies.']
-			[c/87CEEB:Ascend to new heights with celestial ease.]
+			[i:UnofficialLuiAFKDLC/UnlimitedSoaring] - Increases flight time and horizontal flight speed by 10%.
+			[i:UnofficialLuiAFKDLC/UnlimitedBounding] - Increases jump speed by 5%, extra jump height and damage resistance.
+			[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - Grants immunity to fall damage.
 			'''
 	}
 
 	ScrollOfCalamity: {
 		DisplayName: Scroll Of Calamity
-		Tooltip:
+		Tooltip: The ultimate Calamity scroll, combining every scroll and rare power into one.
+		HoldShiftTooltip:
 			'''
-			You gain the power of Calamity, allowing you to traverse the abyss, 
-			increase mobility, and more.
-			[c/B22222:Unleash the destructive potential of the calamity,]
-			[c/B22222:harnessing chaos to reshape your destiny.]
+			[i:UnofficialLuiAFKDLC/ScrollOfDepths] - Grants Depth utilities: detection reduction, hazard highlighting and protection from sulphuric waters.
+			[i:UnofficialLuiAFKDLC/ScrollOfAstral] - Grants Astral utilities: gravity normalization and astral injection effects for aerial/space traversal.
+			[i:UnofficialLuiAFKDLC/ScrollOfInfiniteAscent] - Grants Infinite Ascent powers: improved soaring, bounding and calcium boosting effects.
+			[i:UnofficialLuiAFKDLC/ScrollOfEffigies] - Grants Effigy Stand powers: passive stat/utility modifiers from effigy stands.
+			[i:UnofficialLuiAFKDLC/ScrollOfCandles] - Grants Alcoholics Codex candle effects: Resilient, Spiteful, Vigorous and Weightless.
+			[i:UnofficialLuiAFKDLC/ScrollOfCalamityFlasks] - Grants Flask effects such as Crumbling, Brimstone Flames and Holy Flames.
+			[i:UnofficialLuiAFKDLC/FermentedBook] - A fermented tome that enhances alchemical knowledge and potion-related bonuses.
+			[i:UnofficialLuiAFKDLC/UnlimitedBloodfin] - Grants the Bloodfin effect: strong regeneration when health is low.
+			[i:UnofficialLuiAFKDLC/UnlimitedBaguettePower] - Grants extra Red Wine benefits.
+			[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - Grants life recovery/benefits under sunlight.
+			[i:UnofficialLuiAFKDLC/UnlimitedShadow] - Grants stealth/velocity bonuses while cloaked.
+			[i:UnofficialLuiAFKDLC/UnlimitedTesla] - Grants electrical effects around the player.
+			[i:UnofficialLuiAFKDLC/UnlimitedMushy] - Grants defense/life regen + grows mushroom on grass.
+			[i:UnofficialLuiAFKDLC/UnlimitedChi] - Grants damage reduction & extra life regen for your team.
 			'''
 	}
 
 	ScrollOfAstral: {
 		DisplayName: Scroll Of The Astral
-		Tooltip:
+		Tooltip: A scroll that grants all Astral-related powers.
+		HoldShiftTooltip:
 			'''
-			Empowers mana regeneration and stabilizes gravity.
-			[c/9400D3:Feel the equilibrium of astral forces as they]
-			[c/9400D3:align your energies and lighten your steps.]
+			[i:UnofficialLuiAFKDLC/UnlimitedGravityNormalizer] - Defies space gravity & blocks Distorted
+			[i:UnofficialLuiAFKDLC/UnlimitedAstralInjection] - Rapid mana regen but causes Mana Sickness.
 			'''
 	}
 
@@ -117,92 +77,151 @@ CalamityMod: {
 		DisplayName: Fermented Book
 		Tooltip:
 			'''
-			Grants the effects of all alcoholic brews.
-			[c/FF9900:Embrace the fermented path—boost your stats,]
-			[c/FF9900:but beware the creeping haze of intoxication.]
+			An ancient tome infused with fermented spirits, granting the power of countless drinks.
+			[c/d6ae82:'Did you know? Ancient civilizations like the Sumerians-]
+			[c/d6ae82:documented beer recipes over 5,000 years ago.']
+			'''
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/BloodyMaryPower] - Increases damage during Blood Moon, but reduces life regen & defense.
+			[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - Grants life regen, movement & flight time tweaks, but makes you floaty.
+			[i:UnofficialLuiAFKDLC/CinnamonRollPower] - Increased mana regen, tweaks to fire-based debuffs damage, but reduces defense.
+			[i:UnofficialLuiAFKDLC/EverclearPower] - Increased damage, but reduces life regen & defense.
+			[i:UnofficialLuiAFKDLC/EvergreenGinPower] - Grants tweaks to sickness & water-related debuffs damage.
+			[i:UnofficialLuiAFKDLC/FireballPower] - Increases all fire-based debuff, but reduces life regen.
+			[i:UnofficialLuiAFKDLC/GrapeBeerPower] - Reduces defense.
+			[i:UnofficialLuiAFKDLC/MargaritaPower] - Halves harmful debuffs duration, but reduces life regen & defense.
+			[i:UnofficialLuiAFKDLC/MoonshinePower] - Increases defense and damage reduction, but reduces life regen.
+			[i:UnofficialLuiAFKDLC/MoscowMulePower] - Increases damage, knockback & critical strike.
+			[i:UnofficialLuiAFKDLC/OldFashionedPower] - Multiplies all accessory and set bonuses damage, but reduces damage.
+			[i:UnofficialLuiAFKDLC/PurpleHazePower] - Increased damage and immune time, but reduces defense.
+			[i:UnofficialLuiAFKDLC/RedWinePower] - Reduces life regen.
+			[i:UnofficialLuiAFKDLC/RumPower] - Increases life regen and movement speed, but reduces defense.
+			[i:UnofficialLuiAFKDLC/ScrewdriverPower] - Increases piercing projectile damage, but reduces life regen.
+			[i:UnofficialLuiAFKDLC/StarBeamRyePower] - Increases max mana, magic damage & reduces mana usage, but reduces life regen & defense.
+			[i:UnofficialLuiAFKDLC/TequilaPower] - Increased knockback, critical & defense during Daytime, but reduces life regen.
+			[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - Increased knockback, critical & defense during Daytime, but reduces life regen.
+			[i:UnofficialLuiAFKDLC/VodkaPower] - Increases damage and critical strike, but reduces life regen & defense.
+			[i:UnofficialLuiAFKDLC/WhiskeyPower] - Increases damage, knockback, critical strike, but reduces defense.
+			[i:UnofficialLuiAFKDLC/WhiteWinePower] - Increased magic damage, but reduces life regen & defense.
+			[c/B00BA5:Only 3 alcohols can be activated at once, choose your combinations wisely.]
+			'''
+	}
 
-			Only 3 alcohol effects can be active at a time
+	ScrollOfCalamityFlasks: {
+		DisplayName: Scroll Of Calamity Flasks
+		Tooltip: A scroll that grants all Calamity Flask powers.
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/UnlimitedCrumbling] - Melee, whip & rogue attacks inflict Crumbling.
+			[i:UnofficialLuiAFKDLC/UnlimitedBrimstone] - Melee, whip & rogue attacks inflict Brimstone Flames.
+			[i:UnofficialLuiAFKDLC/UnlimitedHolyFlames] - Melee, whip & rogue attacks inflict Holy Flames.
+			'''
+	}
 
-			Did you know? Ancient civilizations like the Sumerians
-			documented beer recipes over 5,000 years ago.
+	ScrollOfCandles: {
+		DisplayName: Scroll of Alcoholic's Codex
+		Tooltip: A scroll that grants all Alcoholics Codex powers.
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexResilient] - Defense now blocks 10% more damage
+			        (60% in Classic, 85% in Expert, and 110% in Master).
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexSpiteful] - Player deals 1.07x more damage to all enemies
+			        The extra 0.07x bypasses enemy defense and damage reduction
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexVigorous] - Regenerates 0.4% of your max health per second
+			        Regeneration remains at full power while moving
+			        Bypasses Revengeance Mode caps.
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexWeightless] - 10% increased movement speed, wing time, and acceleration.
+			'''
+	}
 
+	ScrollOfCalamitySpawnBlocks: {
+		DisplayName: Globe of Population Control
+		Tooltip: A scroll that grants all Calamity Spawn Block powers.
+		HoldShiftTooltip:
+			'''
+			[i:CalamityMod/VoodooDemonVoodooDoll] - Prevents Voodoo Demons from spawning.
+			[i:CalamityMod/AntiCystOintment] - Prevents Perforator Cysts from spawning.
+			[i:CalamityMod/AntiTumorOintment] - Prevents Hive Cysts from spawning.
+			[i:CalamityMod/BleachBall] - Prevents the Aquatic Scourge from spawning.
+			[i:CalamityMod/SirenproofEarMuffs] - Prevents Anahita from spawning.
+			[i:CalamityMod/BrokenWaterFilter] - Prevents Acid Rain from spawning.
 			'''
 	}
 }
 
 AlchemistNPCLite: {
 	WorldWarperScroll: {
-		DisplayName: World Warper Scroll {0}
+		DisplayName: Ellie's Adventure Book {0}
 		Tooltip:
 			'''
-			{0}
-			Left Click to switch per modes.
-			[c/00CED1:A versatile tool to bend space and time.]
+			[DEST]
+			[i:UnofficialLuiAFKDLC/WorldWarper] [c/A9A9A9:A mystical tome that obeys your will; right click to change its modes.]
 			'''
 		None:
 			'''
-			Use Item to change to the first mode.
-			[c/87CEEB:A blank slate, awaiting your command.]
+			Use this item to unlock its first mode.
+			[c/87CEEB:A blank slate, ready to chart new journeys.]
 			'''
 		Beach:
 			'''
-			Left Click Teleports you to the Left Beach.
-			Right Click Teleports you to the Right Beach.
-			[c/1E90FF:Feel the ocean breeze as you warp to the coast.]
+			[i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter] - [c/d67916:Step onto golden sands and feel the tide calling.]
+			[c/1E90FF:Let the ocean breeze guide your warp to the shore.]
 			'''
 		BeachName: Beach
 		Dungeon:
 			'''
-			Left/Right Click Teleports you to the Dungeon Entrance
-			[c/8B0000:Confront the mysteries of forgotten corridors.]
+			[i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter] - [c/d67916:Descend into shadowed corridors of mystery.]
+			[c/6e5f56:Face forgotten traps and hidden dangers awaiting brave souls.]
 			'''
 		DungeonName: Dungeon
 		Jungle:
 			'''
-			Left Click Teleports you to the Jungle.
-			Right Click to teleport to the closest Mahogany Tree.
-			[c/228B22:Embrace the lush wilderness and its secrets.]
+			[i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter] - [c/d67916:Click left to vanish into the heart of the Jungle.]
+			[c/228B22:Click right to reach the towering Mahogany Tree and its secrets.]
 			'''
-		JungleName: Jungle
+		JungleName: Jungle & Mahogany Warp
 		Ocean:
 			'''
-			Left Click Teleports you to the Left Latest Block.
-			Right Click Teleports you to the Right Latest Block.
-			[c/4682B4:Explore the vast depths of the ocean's edges.]
+			[i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter] - [c/d67916:Traverse between two coastal horizons.]
+			[c/4682B4:Feel the depths of the ocean call as you explore the edge of the waves.]
 			'''
 		OceanName: Ocean
 		Temple:
 			'''
-			Left/Right Click Teleports you to the Lihzahrd Altar.
-			[c/DAA520:Unveil the ancient powers hidden within the temple.]
+			[i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter] - [c/d67916:Walk the sacred path of ancient temples.]
+			[c/DAA520:Unveil forgotten powers and relics hidden within its halls.]
 			'''
 		TempleName: Temple
 		Underworld:
 			'''
-			Left Click Teleports you to the Left Side.
-			Right Click Teleports you to the Right Side.
-			[c/FF4500:Dive into the fiery depths and claim your destiny.]
+			[i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter] - [c/d67916:Warp across molten landscapes of fire and ash.]
+			[c/954d4d:Dare to descend and claim your fate amidst blazing depths.]
 			'''
 		UnderworldName: Underworld
 	}
 
 	ScrollOfMinerAlchemist: {
 		DisplayName: Scroll of the Luminous Excavator
-		Tooltip:
+		Tooltip: A scroll that grants all miner-related powers from Alchemist NPC Lite.
+		HoldShiftTooltip:
 			'''
-			Boosts mining speed, empowers traps, and illuminates your path.
-			[c/FFD700:Explore safely and swiftly with this shining scroll.]
-			[c/32CD32:A miner's best companion in the depths.]
+			[i:UnofficialLuiAFKDLC/UnlimitedExcavation] - Expands your Mining Area from a single block to 3x3.
+			[i:UnofficialLuiAFKDLC/UnlimitedSunshine] - Greatly increases light radius.
+			[i:UnofficialLuiAFKDLC/UnlimitedTrapper] - Empowers all traps.
 			'''
 	}
 
 	ScrollOfWarriorAlchemist: {
 		DisplayName: Scroll of Fortitude and Shadows
-		Tooltip:
+		Tooltip: A scroll that grants all warrior-related powers from Alchemist NPC Lite.
+		HoldShiftTooltip:
 			'''
-			Increases your ability to dodge and enhances defense.
-			[c/8B0000:Harness the strength of a warrior and the cunning of shadows.]
-			[c/4682B4:Stand unyielding in the face of your foes.]
+			[i:UnofficialLuiAFKDLC/UnlimitedBlurring] - Grants a buff that activates Shadow Dodge.
+			[i:UnofficialLuiAFKDLC/UnlimitedFortitude] - Grants Immunity to Knockback.
+			[i:UnofficialLuiAFKDLC/UnlimitedNinja] - Grants the ability to dodge attacks.
+			[i:UnofficialLuiAFKDLC/UnlimitedInvincibility] - Increases length of invincibility after taking damage.
+			[i:UnofficialLuiAFKDLC/UnlimitedTitanSkin] - Grants Immunity to some debuffs.
 			'''
 	}
 
@@ -230,4 +249,46 @@ AlchemistNPCLite: {
 		DisplayName: World Warper Underworld
 		Tooltip: ""
 	}
+
+	ScrollOfAlchemist: {
+		DisplayName: Gregg's Elixir
+		Tooltip:
+			'''
+			A powerful elixir that combines all Alchemist NPC Lite Powers.
+			Gregg's Favorite
+			'''
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/ScrollOfMinerAlchemist] - Grants Excavation, Sunshine, and Trapper.
+			[i:UnofficialLuiAFKDLC/ScrollOfWarriorAlchemist] - Grants Blurring, Fortitude, Ninja, Invincibility, and Titan Skin.
+			[i:UnofficialLuiAFKDLC/UnlimitedDiscord] - Grants you the power of Discord before defeating Moon Lord / Perfect Discord after defeating Moon Lord.
+			[i:UnofficialLuiAFKDLC/UnlimitedGreaterDangersense] - Grants Greater Dangersense.
+			[i:UnofficialLuiAFKDLC/UnlimitedNaturesBlessing] - Grants Nature Blessing.
+			'''
+	}
+}
+
+DisplayName: Scroll
+Tooltip: ""
+
+WarTotem: {
+	DisplayName: War Totem
+	Tooltip:
+		'''
+		A totem that calls all foreign forces to invade
+		Allows you to control the status of all invasions
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/FrostLegionEnable] - Allows you to toggle Frost Legion
+		[i:miningcracks_take_on_luiafk/GoblinArmyEnable] - Allows you to toggle Goblin Army
+		[i:miningcracks_take_on_luiafk/MartianMadnessEnable] - Allows you to toggle Martian Madness
+		[i:miningcracks_take_on_luiafk/PirateEnable] - Allows you to toggle Pirate Invasion
+		[i:miningcracks_take_on_luiafk/BloodMoonEnable] - Allows you to toggle Blood Moon
+		[i:miningcracks_take_on_luiafk/FrostMoonEnable] - Allows you to toggle Frost Moon
+		[i:miningcracks_take_on_luiafk/PumpkinMoonEnable] - Allows you to toggle Pumpkin Moon
+		[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - Allows you to toggle Solar Eclipse
+		[i:UnofficialLuiAFKDLC/SlimyTear] - Allows you to toggle Slime Rain
+		[i:CalamityMod/CausticTear] - Allows you to toggle Acid Rain
+		'''
 }

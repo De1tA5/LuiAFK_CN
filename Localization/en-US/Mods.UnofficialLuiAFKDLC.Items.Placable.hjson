@@ -1,20 +1,10 @@
 AncientScrollCrafter: {
-	DisplayName: Calamitas' Arcane Scriptorium
-	Tooltip:
+	DisplayName: Witch's Arcane Scriptorium
+	Tooltip: "[i:UnofficialLuiAFKDLC/AncientScrollCrafter] - [c/9c6f22:A Powerful Scriptorium that allows you to craft high quality scrolls.]"
+	HoldShiftTooltip:
 		'''
-		Crafted by the skilled hands of Calamitas herself to meticulously transcribe the 
-		most potent spells of her arcane arsenal, ensuring their enduring power through 
-		the ages.
-		'It is finally in my hands!'
-
-		Legend whispers of Calamitas, the formidable sorceress who wielded this very 
-		crafter to pen incantations that bent reality itself. Each scroll imbued with 
-		cosmic energies, etched with glyphs that shimmer in the faintest light, holding 
-		secrets of astral dimensions and forbidden magic.
-
-		The crafter, a relic of ancient times, resonates with the essence of its creator, 
-		a testament to her mastery over the arcane arts and her pursuit of limitless 
-		knowledge. Those who possess it are drawn into the mystique of its origins, 
-		forever connected to the legacy of Calamitas.
+		[i:UnofficialLuiAFKDLC/Scroll] - [c/86111d:Crafted by the skilled hands of Calamitas herself to meticulously transcribe the-]
+		[c/86111d:most potent spells of her arcane arsenal, ensuring their enduring power through the ages.]
+		[c/74706e:"It is finally on my hands" she whispered with a crazy smile, and began to write...]
 		'''
 }

@@ -1,97 +1,89 @@
 UnlimitedSlurperPole: {
 	DisplayName: Arcane Slurper Pole
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/20B2AA:Crafted by an ancient fisherman of legend, this pole requires]
-		[c/20B2AA:no bait and can fish in the most hazardous of environments,]
-		[c/20B2AA:including lava.] [c/883829:Its line, imbued with magical resilience,]
-		[c/883829:never breaks, ensuring endless fishing adventures.]
+		[i:UnofficialLuiAFKDLC/UnlimitedSlurperPole] - [c/4d3946:Crafted by an ancient fisherman of legend, this pole requires]
+		[c/4d3946:no bait and can fish in the most hazardous of environments,]
 		'''
 }
 
 UnlimitedTheDevourerofCods: {
 	DisplayName: Oblivion's Grasp
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/4B0082:Infused with the essence of The Devourer of Gods, this rod]
-		[c/4B0082:grants the power to fish in lava without bait.] [c/9954b0:Its line,]
-		[c/9954b0:anchored by the force of oblivion itself, never breaks,]
-		[c/9954b0:mirroring the unyielding might of the cosmic devourer.]
+		[i:UnofficialLuiAFKDLC/UnlimitedTheDevourerofCods] - [c/4c4f85:Infused with the essence of The Devourer of Gods, this rod]
+		[c/4c4f85:grants the power to fish in lava without bait.]
 		'''
 }
 
 UnlimitedVerstaltiteFishingRod: {
 	DisplayName: Frostbite Rod
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/00BFFF:Fashioned from rare Cryonic, this rod grants increased]
-		[c/00BFFF:fishing power in the Snow biome.] [c/5187a1:It requires no bait and]
-		[c/5187a1:boasts a line that never snaps, no matter the size of the catch,]
-		[c/5187a1:making it an angler's dream tool.]
+		[i:UnofficialLuiAFKDLC/UnlimitedVerstaltiteFishingRod] - [c/4575a4:Fashioned from rare Cryonic, this rod grants increased]
+		[c/4575a4:fishing power in the tundra.]
 		'''
 }
 
 UnlimitedWulfrumRod: {
 	DisplayName: Wulfrum Spooler
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/1E90FF:This rod, infused with Wulfrum essence, requires no bait]
-		[c/1E90FF:and ensures your line never breaks.] [c/678964:Its sturdy construction]
-		[c/678964:is unmatched, providing reliable performance in any waters.]
+		[i:UnofficialLuiAFKDLC/UnlimitedWulfrumRod] - [c/2d855f:This rod, infused with Wulfrum essence, requires no bait]
+		[c/2d855f:and ensures your line never breaks.]
 		'''
 }
 
 UnlimitedEarlyBloomRod: {
 	DisplayName: Verdant Bloom Rod
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/32CD32:Crafted during the early bloom of spring, this rod needs]
-		[c/32CD32:no bait and features a line that never snaps.] [c/22b14c:Promising]
-		[c/22b14c:a lifetime of fishing adventures without equipment failures,]
-		[c/22b14c:it's a symbol of nature's enduring bounty.]
+		[i:UnofficialLuiAFKDLC/UnlimitedEarlyBloomRod] - [c/895130:Crafted during the early bloom of spring, this rod needs]
+		[c/895130:no bait and features a line that never snaps.]
 		'''
 }
 
 UnlimitedFeralDoubleRod: {
 	DisplayName: Feral Claw Rod
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/8B4513:Forged from the claws of a feral beast, this double rod]
-		[c/8B4513:requires no bait and features an unbreakable line.] [c/95b121:Its]
-		[c/95b121:primal nature ensures reliability in the wildest fishing]
-		[c/95b121:grounds, tapping into the raw forces of the wilderness.]
+		[i:UnofficialLuiAFKDLC/UnlimitedFeralDoubleRod] - [c/1f631f:Forged from the claws of a feral beast, this double rod]
+		[c/1f631f:requires no bait and features an unbreakable line.]
 		'''
 }
 
 UnlimitedHeronRod: {
 	DisplayName: Skyward Heron Rod
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/87CEEB:Named after the elegant heron, this rod needs no bait]
+		[i:UnofficialLuiAFKDLC/UnlimitedHeronRod] - [c/87CEEB:Named after the elegant heron, this rod needs no bait]
 		[c/87CEEB:and excels in Space, granting increased fishing power.]
-		[c/87CEEB:Its line is as celestial as its namesake, never faltering]
-		[c/87CEEB:under any condition, embodying the grace of the heavens.]
 		'''
 }
 
 UnlimitedNavyFishingRod: {
 	DisplayName: Admiral's Rod
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/4682B4:A rod favored by the navy for its durability and performance,]
-		[c/4682B4:requiring no bait and featuring a line that never breaks.]
-		[c/4682B4:It's a sailor's best companion on endless voyages, designed]
-		[c/4682B4:for the harshest seas and the longest journeys.]
+		[i:UnofficialLuiAFKDLC/UnlimitedNavyFishingRod] - [c/4a6160:A rod favored by the navy for its durability and performance,]
+		[c/4a6160:requiring no bait and featuring a line that never breaks.]
 		'''
 }
 
 UnlimitedRiftReeler: {
 	DisplayName: Dimensional Reeler
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:Infinite casts, infinite catches.]"
+	HoldShiftTooltip:
 		'''
-		[c/9400D3:This rod, capable of fishing in the rifts between dimensions]
-		[c/9400D3:and even in lava, requires no bait.] [c/FF6347:Its line, anchored by]
-		[c/FF6347:interdimensional energies, never breaks, making it a tool]
-		[c/FF6347:of choice for dimensional anglers seeking the unknown.]
+		[i:UnofficialLuiAFKDLC/UnlimitedRiftReeler] - [c/7d3a3a:This rod, capable of fishing in the rifts between dimensions]
+		[c/7d3a3a:and even in lava, requires no bait.]
 		'''
 }

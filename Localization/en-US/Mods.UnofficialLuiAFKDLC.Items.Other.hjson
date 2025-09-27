@@ -1,29 +1,31 @@
 CalamityMod: {
 	UnlimitedSkynamite: {
 		DisplayName: Graviton Annihilation Device
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/UnlimitedSkynamite] - Infinite supply of gravity-defying explosives."
+		HoldShiftTooltip:
 			'''
-			Launches an infinite supply of gravity-defying explosives into the fray.
-			[c/FFD700:Harness the power of gravitational anomalies to obliterate your foes with unstoppable force.]
-			[c/00FF7F:'Mastery of physics defied, chaos unleashed at your command.']
+			[i:CalamityMod/Skynamite] - [c/9d7554:Harness the power of gravitational anomalies to obliterate your foes with unstoppable force.]
+			[c/7efbff:'Mastery of physics defied, chaos unleashed at your command.']
 			'''
 	}
 
 	UnlimitedStarStruckWater: {
 		DisplayName: Starfall Aquifer
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/UnlimitedStarStruckWater] - Limitless star-essence water to transform your environment.."
+		HoldShiftTooltip:
 			'''
-			Imbues water with the limitless essence of the stars, transforming all it touches.
-			[c/1E90FF:Unleash the celestial tides, where each drop contains the boundless energy of the cosmos.]
-			[c/ADD8E6:'Does infinity truly manifest through every drop, or is it merely a reflection of the void?']
+			Imbues water with the limitless essence of [i:CalamityMod/StarStruckWater], transforming all it touches.
+			[c/854573:Unleash the celestial tides, where each drop contains the boundless energy of the cosmos.]
+			[c/bd4254:'Does infinity truly manifest through every drop, or is it merely a reflection of the void?']
 			'''
 	}
 
 	UnlimitedWulfrumDiggingTurtles: {
 		DisplayName: Wulfrum Demolition Engine
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/UnlimitedWulfrumDiggingTurtles] - Endless Wulfrum demolition engines."
+		HoldShiftTooltip:
 			'''
-			Unleashes an unending stream of Wulfrum Demolition Engines, tirelessly tearing through terrain.
+			Unleashes an unending stream of [i:CalamityMod/WulfrumDiggingTurtle], tirelessly tearing through terrain.
 			Right Click to instantly detonate all engines in emergencies.
 			[c/FF4500:Engage an endless wave of destruction, turning the earth itself into dust.]
 			[c/FF6347:'Deploying infinite demolition, with the power to reshape the world in your image.']
@@ -32,23 +34,24 @@ CalamityMod: {
 
 	XerocWish: {
 		DisplayName: Spatial Xeroc's Essence
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/XerocWish] -  Limitless teleportation without cooldown."
+		HoldShiftTooltip:
 			'''
 			A mysterious orb infused with the essence of Xeroc, the celestial wanderer.
 			Grants limitless teleportation without cooldown, bending spacetime to every explorer's whim.
-			Uses same Keybind as Normality Relocator.
-			[c/9370DB:Master the art of spatial manipulation, moving freely through the fabric of reality.]
-			[c/BA55D3:'Wield the cosmic essence of Xeroc, transcending the boundaries of time and space.']
+			[i:CalamityMod/NormalityRelocator] - Uses same Keybind as Normality Relocator.
+			[c/e9341f:Master the art of spatial manipulation, moving freely through the fabric of reality.]
+			[c/19226e:'Wield the cosmic essence of Xeroc, transcending the boundaries of time and space.']
 			'''
 	}
 
 	BucketOfCausticTears: {
 		DisplayName: Bucket of Caustic Tears
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/BucketOfCausticTears] - Toggles on/off the Acid Rain."
+		HoldShiftTooltip:
 			'''
-			Toggle the Acid Rain.
-			[c/228B22:Unleash a relentless downpour of acidic torment upon your foes.]
-			[c/32CD32:'Though it is not a bottomless acid bucket, it holds enough to drown the world in suffering.']
+			[c/85b431:Unleash a relentless downpour of acidic torment upon your foes.]
+			[c/52556b:'Though it is not a bottomless acid bucket, it holds enough to drown the world in suffering.']
 			'''
 	}
 }

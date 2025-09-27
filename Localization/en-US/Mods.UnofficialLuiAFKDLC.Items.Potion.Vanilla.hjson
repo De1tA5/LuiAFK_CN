@@ -1,34 +1,53 @@
 UnlimitedVenom: {
 	DisplayName: Unlimited Venom
-	Tooltip: Melee, Whip, and Rogue attacks inflict Venom.
+	Tooltip: "{$BuffDescription.WeaponImbueVenom}"
 }
 
 UnlimitedCursedFlames: {
 	DisplayName: Unlimited Cursed Flames
-	Tooltip: Melee, Whip, and Rogue attacks inflict Cursed Inferno.
+	Tooltip: "{$BuffDescription.WeaponImbueCursedFlames}"
 }
 
 UnlimitedFire: {
 	DisplayName: Unlimited Fire
-	Tooltip: Melee, Whip, and Rogue attacks inflict On Fire!.
+	Tooltip: "{$BuffDescription.WeaponImbueFire}"
 }
 
 UnlimitedGold: {
 	DisplayName: Unlimited Gold
-	Tooltip: Melee, Whip, and Rogue attacks inflict Midas.
+	Tooltip: "{$BuffDescription.WeaponImbueGold}"
 }
 
 UnlimitedNanites: {
 	DisplayName: Unlimited Nanites
-	Tooltip: Melee, Whip, and Rogue attacks inflict Confused.
+	Tooltip: "{$BuffDescription.WeaponImbueNanites}"
 }
 
 UnlimitedParty: {
 	DisplayName: Unlimited Party
-	Tooltip: Melee, Whip, and Rogue attacks sometimes release confetti explosions on hit.
+	Tooltip: "{$BuffDescription.WeaponImbueConfetti}"
 }
 
 UnlimitedPoison: {
 	DisplayName: Unlimited Poison
-	Tooltip: Melee, Whip, and Rogue attacks inflict Poisoned.
+	Tooltip: "{$BuffDescription.WeaponImbuePoison}"
+}
+
+ScrollOfFlasks: {
+	DisplayName: Scroll of Flasks
+	Tooltip:
+		'''
+		A scroll that grants all Vanilla Flask powers.
+		Only 1 flask effect can be activated at the same time
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:UnofficialLuiAFKDLC/UnlimitedVenom] - {$BuffDescription.WeaponImbueVenom}
+		[i:UnofficialLuiAFKDLC/UnlimitedCursedFlames] - {$BuffDescription.WeaponImbueCursedFlames}
+		[i:UnofficialLuiAFKDLC/UnlimitedFire] - {$BuffDescription.WeaponImbueFire}
+		[i:UnofficialLuiAFKDLC/UnlimitedGold] - {$BuffDescription.WeaponImbueGold}
+		[i:UnofficialLuiAFKDLC/UnlimitedNanites] - {$BuffDescription.WeaponImbueNanites}
+		[i:UnofficialLuiAFKDLC/UnlimitedParty] - {$BuffDescription.WeaponImbueConfetti}
+		[i:UnofficialLuiAFKDLC/UnlimitedPoison] - {$BuffDescription.WeaponImbuePoison}
+		'''
 }

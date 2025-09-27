@@ -1,0 +1,14 @@
+AstralStand: {
+	DisplayName: Astral Stand
+	Tooltip: Gain immunity to space's low gravity
+}
+
+HallowStand: {
+	DisplayName: Hallow Stand
+	Tooltip:
+		'''
+		Increased damage, crit, and movement speed by 25%,
+		defense by 20, damage rediction by 8%, and health by 20%
+		But also gets a permanent chaos state
+		'''
+}

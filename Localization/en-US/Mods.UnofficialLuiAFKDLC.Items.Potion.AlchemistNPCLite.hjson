@@ -5,9 +5,6 @@ UnlimitedBeachTeleporter: {
 		Left Click Teleports you to the Left Beach
 		Right Click Teleports you to the Right Beach
 		[c/FFC300:'Sugar, Oh, honey, honey']
-		[c/B00BA5:This device harnesses the power of the ocean's pull,] 
-		[c/B00BA5:allowing you to warp between beaches with ease. Legends say it was] 
-		[c/B00BA5:created by a sailor who wished to be in two places at once.]
 		'''
 }
 
@@ -16,10 +13,7 @@ UnlimitedDungeonTeleporter: {
 	Tooltip:
 		'''
 		Teleports you to the Dungeon Entrance
-		[c/FFC300:'Shrieking skulls will shock your soul!']
-		[c/B00BA5:Forged in the depths of the dungeon itself, this teleporter holds] 
-		[c/B00BA5:the essence of the undead, allowing you to traverse directly to the] 
-		[c/B00BA5:dungeon entrance with a single thought.]
+		[c/FF4500:'Shrieking skulls will shock your soul!']
 		'''
 }
 
@@ -29,10 +23,7 @@ UnlimitedJungleTeleporter: {
 		'''
 		Teleports you to the Jungle
 		Right Click to teleport to the closest Mahogany Tree
-		[c/FFC300:'Mahogany Sticks? What is that?']
-		[c/B00BA5:Infused with the spirit of the jungle, this teleporter connects] 
-		[c/B00BA5:to the heart of the wild, guiding you to its dense, verdant core] 
-		[c/B00BA5:or the nearest ancient mahogany tree.]
+		[c/32CD32:'Mahogany Sticks? What is that?']
 		'''
 }
 
@@ -42,10 +33,7 @@ UnlimitedOceanTeleporter: {
 		'''
 		Left Click Teleports you to the Left Latest Block
 		Right Click Teleports you to the Right Latest Block
-		[c/FFC300:'Ocean man, take me by the hand, Lead me to the land that you understand']
-		[c/B00BA5:This ancient artifact taps into the ocean's currents, letting] 
-		[c/B00BA5:you navigate to its furthest reaches with a simple click.] 
-		[c/B00BA5:Used by explorers lost at sea.]
+		[c/1E90FF:'Ocean man, take me by the hand, Lead me to the land that you understand']
 		'''
 }
 
@@ -54,10 +42,7 @@ UnlimitedTempleTeleporter: {
 	Tooltip:
 		'''
 		Teleports you to the Lihzahrd Altar
-		[c/FFC300:'It's like I have the temple in my hands!']
-		[c/B00BA5:Created by the Lihzahrd priests, this teleporter brings you] 
-		[c/B00BA5:straight to the heart of their sacred temple. Only those] 
-		[c/B00BA5:worthy of its power can wield it.]
+		[c/9370DB:'It's like I have the temple in my hands!']
 		'''
 }
 
@@ -67,10 +52,7 @@ UnlimitedUnderworldTeleporter: {
 		'''
 		Left Click Teleports you to the Left Side
 		Right Click Teleports you to the Right Side
-		[c/FFC300:'The Only Thing They Fear... Is You!']
-		[c/B00BA5:This device channels the fiery energy of the underworld,] 
-		[c/B00BA5:allowing its bearer to traverse the hellish landscape with ease.] 
-		[c/B00BA5:Used by ancient warriors to combat demonic forces.]
+		[c/FF0000:'The Only Thing They Fear... Is You!']
 		'''
 }
 
@@ -80,22 +62,12 @@ UnlimitedSunshine: {
 		'''
 		Increases light radius greatly
 		[c/FFC300:'Hyperlight']
-		[c/B00BA5:An artifact that radiates a blinding light, said to have been] 
-		[c/B00BA5:created by the sun god himself. It turns night into day for] 
-		[c/B00BA5:those who carry it.]
 		'''
 }
 
 UnlimitedFortitude: {
 	DisplayName: Fortitude Shield
-	Tooltip:
-		'''
-		Grants immunity to knockback
-		[c/FFC300:'You won't pass!']
-		[c/B00BA5:A shield imbued with the essence of resilience, granting its] 
-		[c/B00BA5:wielder unyielding strength against any force. Used by the] 
-		[c/B00BA5:ancient guardians of the realm.]
-		'''
+	Tooltip: Grants immunity to Knockback
 }
 
 UnlimitedExcavation: {
@@ -106,9 +78,6 @@ UnlimitedExcavation: {
 		Right click on item to convert to drill
 		Right click on buff to change radius between single tile and 3x3 area
 		[c/FFC300:'Gravedigger's Shovel on steroids']
-		[c/B00BA5:This enchanted tool, once wielded by legendary miners, allows] 
-		[c/B00BA5:the user to dig with unparalleled efficiency. Perfect for] 
-		[c/B00BA5:unearthing hidden treasures.]
 		'''
 }
 
@@ -116,24 +85,18 @@ UnlimitedBlurring: {
 	DisplayName: Blurring Cloak
 	Tooltip:
 		'''
-		Grants a buff that activates Shadow Dodge]
+		Grants a buff that activates Shadow Dodge
 		for 10 seconds after a 30-second cooldown
-		[c/FFC300:'Titanium power']
-		[c/B00BA5:A cloak woven from the shadows, granting its wearer the ability] 
-		[c/B00BA5:to dodge attacks like a phantom. Used by the most elusive assassins.]
 		'''
 }
 
 WilliamsBirthdayCake: {
 	DisplayName: Magic Birthday Cake
-	Tooltip:
+	Tooltip: Grants special effects of almost all stations simultaneously
+	HoldShiftTooltip:
 		'''
-		Grants special effects of almost all stations simultaneously
-		This includes Campfires, Lamps, Bast's Statue, Sharpening Station, Ammo Box, Crystal Ball, Slice of Cake, and Bewitching Table.
-		[c/FFC300:By some unimaginable magic, it will never be consumed]
-		[c/B00BA5:Crafted using the magic of multiple stations, this cake provides the combined] 
-		[c/B00BA5:benefits of each. A celebratory gift from the wizard] 
-		[c/B00BA5:William on his birthday.]
+		(Campfires, Lamps, Bast's Statue, Sharpening Station, Ammo Box, Crystal Ball, Slice of Cake, and Bewitching Table.)
+		[c/FFC300:'A celebratory gift from the wizard William on his birthday.']
 		'''
 }
 
@@ -141,10 +104,8 @@ UnlimitedTrapper: {
 	DisplayName: Trapper's Delight
 	Tooltip:
 		'''
-		Expoweres all traps
-		[c/B00BA5:This charm boosts the potency of all traps, making them] 
-		[c/B00BA5:unleash their full potential. Crafted by a master trapper] 
-		[c/B00BA5:who sought to defend his homeland.]
+		Traps are empowered
+		[c/B0B0B0:'And is he having trouble with bears? ♫']
 		'''
 }
 
@@ -154,9 +115,7 @@ UnlimitedNinja: {
 		'''
 		Increases damage and critical chance by 5%
 		Gives a chance to dodge attacks and allow the ability to climb walls
-		[c/B00BA5:An elixir brewed by ancient ninjas, granting agility and stealth.] 
-		[c/B00BA5:Its secrets have been passed down through generations of warriors.]
-		[c/B00BA5:NON CALAMITY BUFF POTION]
+		[c/AAAAAA:'Stealth level over 9000']
 		'''
 }
 
@@ -165,9 +124,45 @@ UnlimitedInvincibility: {
 	Tooltip:
 		'''
 		Increase lenght of invincibility after taking damage
-		[c/B00BA5:This powerful elixir enhances your natural invincibility after] 
-		[c/B00BA5:taking a hit, allowing you to withstand the fiercest of battles.] 
-		[c/B00BA5:Used by legendary heroes.]
-		[c/B00BA5:NON CALAMITY BUFF POTION]
+		[c/FFC300:'Sorry, I asked for Translucent...']
+		'''
+}
+
+UnlimitedNaturesBlessing: {
+	DisplayName: Unlimited Natures Blessing
+	Tooltip:
+		'''
+		Grants Dryad's Blessing buff
+		[c/228B22:'Mother Nature is proud of you!']
+		'''
+}
+
+UnlimitedTitanSkin: {
+	DisplayName: Unlimited Titan Skin
+	Tooltip: Grants immunity to some debuffs
+	HoldShiftTooltip:
+		'''
+		(On Fire!, Frostburn, Cursed Flame, Chilled, Frozen, & Ichor)
+		[c/AAAAAA:Immunity to Cursed Flame and Ichor works only after defeating the Twins]
+		'''
+}
+
+UnlimitedGreaterDangersense: {
+	DisplayName: Unlimited Greater Dangersense
+	Tooltip:
+		'''
+		Grants Greater Dangersense buff (light up enemy projectiles)
+		Some transparent projectiles may become less visible (f.e. Moon Lord's) so use with care
+		This effect is global for all players
+		[c/AAAAAA:'This skull means- DANGER!']
+		'''
+}
+
+UnlimitedDiscord: {
+	DisplayName: Unlimited Discord
+	Tooltip:
+		'''
+		Grants you the power of Discord before defeating Moon Lord
+		Grants you the power of Perfect Discord after defeating Moon Lord
 		'''
 }

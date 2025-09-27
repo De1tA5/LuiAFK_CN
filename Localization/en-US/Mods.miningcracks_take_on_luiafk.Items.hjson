@@ -1,0 +1,114 @@
+EventsEnabler: {
+	Tooltip:
+		'''
+		Right-click me to open LuiAFK-style event panel
+		Can toggle Halloween, X-Mas, Rain and Sandstorm
+		Place in inventory for LuiAFK DLC-style toggles
+		'''
+	PowerEffectHint: True
+}
+
+HalloweenEnable: {
+	Tooltip: Place in inventory for LuiAFK DLC-style toggle for Halloween
+	PowerEffectHint: True
+}
+
+HalloweenXmasEnable: {
+	Tooltip: Place in inventory for LuiAFK DLC-style toggles for Halloween and X-Mas
+	PowerEffectHint: True
+}
+
+RainEnable: {
+	Tooltip:
+		'''
+		Use this item to start or end rain
+		Place in inventory for LuiAFK DLC-style toggle for rain
+		'''
+	PowerEffectHint: True
+}
+
+SandstormEnable: {
+	Tooltip:
+		'''
+		Use this item to start or end sandstorm
+		Place in inventory for LuiAFK DLC-style toggle for sandstorm
+		'''
+	PowerEffectHint: True
+}
+
+XMasEnable: {
+	Tooltip: Place in inventory for LuiAFK DLC-style toggle for X-Mas
+	PowerEffectHint: True
+}
+
+BloodMoonEnable: {
+	Tooltip:
+		'''
+		Use this item to start or end Blood Moon during the night
+		Place in inventory for LuiAFK DLC-style toggle for Blood Moon
+		'''
+	PowerEffectHint: True
+}
+
+FrostLegionEnable: {
+	Tooltip:
+		'''
+		Use this item to start Frost Legion instantly
+		Place in inventory for LuiAFK DLC-style toggle for Frost Legion
+		'''
+	PowerEffectHint: True
+}
+
+FrostMoonEnable: {
+	Tooltip:
+		'''
+		Use this item to start Frost Moon during the night
+		Place in inventory for LuiAFK DLC-style toggle for Frost Moon
+		'''
+	PowerEffectHint: True
+}
+
+GoblinArmyEnable: {
+	Tooltip:
+		'''
+		Use this item to start Goblin Army instantly
+		Place in inventory for LuiAFK DLC-style toggle for Goblin Army
+		'''
+	PowerEffectHint: True
+}
+
+MartianMadnessEnable: {
+	Tooltip:
+		'''
+		Use this item to start Martian Madness instantly
+		Place in inventory for LuiAFK DLC-style toggle for Martian Madness
+		'''
+	PowerEffectHint: True
+}
+
+PirateEnable: {
+	Tooltip:
+		'''
+		Use this item to start Pirate Invasion instantly
+		Place in inventory for LuiAFK DLC-style toggle for Pirate Invasion
+		'''
+	PowerEffectHint: True
+}
+
+PumpkinMoonEnable: {
+	Tooltip:
+		'''
+		Use this item to start Pumpkin Moon during the night
+		Place in inventory for LuiAFK DLC-style toggle for Pumpkin Moon
+		'''
+	PowerEffectHint: True
+}
+
+SolarEclipseEnable: {
+	Tooltip:
+		'''
+		Use this item to start Solar Eclipse during the day
+		Place in inventory for LuiAFK DLC-style toggle for Solar Eclipse
+		'''
+	PowerEffectHint: True
+}

@@ -1,71 +1,75 @@
 EndlessBloodfireQuiver: {
-	DisplayName: Endless Bloodfire Quiver
-	Tooltip:
+	DisplayName: Bloodfire Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBloodfireQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/DC143C:High-velocity arrows with a blood-soaked tip]
-		[c/DC143C:Firing these arrows will drain your health]
-		[c/DC143C:Accelerates your natural life regen and heals you on hit]
-		[c/DC143C:'Arrows ablaze with eternal flames, unceasing in their infernal wrath upon foes']
+		[i:CalamityMod/BloodfireArrow] - [c/9a2a47:High-velocity arrows with a blood-soaked tip which drains your health]
+		[c/9a2a47:Accelerates your natural life regen and heals you on hit]
+		[c/b44e3c:'Arrows ablaze with eternal flames, unceasing in their infernal wrath upon foes']
 		'''
 }
 
 EndlessCinderQuiver: {
-	DisplayName: Endless Cinder Quiver
-	Tooltip:
+	DisplayName: Cinder Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessCinderQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/FF4500:Explosive arrows that burst into weak]
-		[c/FF4500:flaming shards that inflict Brimstone Flames]
-		[c/FF4500:'Arrows ignited with perpetual flames, erupting in relentless bursts of fiery destruction.']
+		[i:CalamityMod/CinderArrow] - [c/61605b:Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames]
+		[c/61605b:'Arrows ignited with perpetual flames, erupting in relentless bursts of fiery destruction.']
 		'''
 }
 
 EndlessElysianQuiver: {
-	DisplayName: Endless Elysian Quiver
-	Tooltip:
+	DisplayName: Elysian Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessElysianQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/FFD700:Arrows carrying profaned energy]
-		[c/FFD700:Summons purifying light from above and below on impact]
-		[c/FFD700:'Arrows of celestial light, endlessly piercing darkness with starlit brilliance']
+		[i:CalamityMod/ElysianArrow] - [c/b05e1f:Summons purifying light from above and below on impact]
+		[c/b05e1f:'Arrows of celestial light, endlessly piercing darkness with starlit brilliance']
 		'''
 }
 
 EndlessIcicleQuiver: {
-	DisplayName: Endless Icicle Quiver
-	Tooltip:
+	DisplayName: Icicle Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessIcicleQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/00BFFF:Ice arrows with an enchanted tip]
-		[c/00BFFF:These arrows quickly freeze into falling icicles that deal increased damage]
-		[c/00BFFF:Hitting enemies or tiles before being frozen causes the arrow to fly upwards]
-		[c/00BFFF:'Arrows of icy determination, perpetually freezing targets with frostbitten precision']
+		[i:CalamityMod/IcicleArrow] - [c/5187a1:Ice arrows with an enchanted tip]
+		[c/5187a1:These arrows quickly freeze into falling icicles that deal increased damage]
+		[c/5187a1:Hitting enemies or tiles before being frozen causes the arrow to fly upwards]
+		[c/5187a1:'Arrows of icy determination, perpetually freezing targets with frostbitten precision']
 		'''
 }
 
 EndlessSproutingQuiver: {
-	DisplayName: Endless Sprouting Quiver
-	Tooltip:
+	DisplayName: Sprouting Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessSproutingQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/228B22:Fires an energy arrow that quickly splits into two arrows]
-		[c/228B22:These arrows ignore 8 points of defense]
-		[c/228B22:'Woven with eternal nature's essence, guided unerringly towards their destined target']
+		[i:CalamityMod/SproutingArrow] - [c/95b121:Fires an energy arrow that quickly splits into two arrows]
+		[c/147876:These arrows ignore 8 points of defense]
+		[c/ce5640:'Woven with eternal nature's essence, guided unerringly towards their destined target']
 		'''
 }
 
 EndlessVanquisherQuiver: {
-	DisplayName: Endless Vanquisher Quiver
-	Tooltip:
+	DisplayName: Vanquisher Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessVanquisherQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/FF6347:Powerful arrows forged with cosmic steel]
-		[c/FF6347:Pierces through tiles and homes in on enemies]
-		[c/FF6347:'Empowered by boundless arcane energy, capable of conquering even the mightiest foes.']
+		[i:CalamityMod/VanquisherArrow] - [c/462978:Powerful arrows forged with cosmic steel]
+		[c/462978:Pierces through tiles and homes in on enemies]
+		[c/462978:'Empowered by boundless arcane energy, capable of conquering even the mightiest foes.']
 		'''
 }
 
 EndlessVeriumQuiver: {
-	DisplayName: Endless Verium Quiver
-	Tooltip:
+	DisplayName: Verium Quiver
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessVeriumQuiver] - [c/b44e3c:This quiver defies exhaustion...]"
+	HoldShiftTooltip:
 		'''
-		[c/9370DB:Marks enemies on hit, dealing extra damage after a short time]
-		[c/9370DB:This damage stacks based on how many bolts hit the enemy]
-		[c/9370DB:'Infused with infinite celestial power, they strike with unyielding precision, capable of defeating a Storm Weaver.']
+		[i:CalamityMod/VeriumBolt] - [c/7e6cb1:Marks enemies on hit, dealing extra damage after a short time]
+		[c/7e6cb1:This damage stacks based on how many bolts hit the enemy]
+		[c/7e6cb1:'Infused with infinite celestial power, they strike with unyielding precision, capable of defeating a Storm Weaver.']
 		'''
 }

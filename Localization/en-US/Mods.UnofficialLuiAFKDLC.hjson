@@ -43,12 +43,12 @@ Buffs: {
 
 	FakeGnomeBuff: {
 		DisplayName: Gnome
-		Description: Increase your luck
+		Description: Luck increased - You've been Gnomed!
 	}
 
 	FakeLadybugBuff: {
-		DisplayName: Fake Ladybug Buff
-		Description: Increase your luck
+		DisplayName: Ladybug
+		Description: Luck increased - So, being a ladybug automatically makes me a girl! Is that it, flyboy?
 	}
 }
 
@@ -58,13 +58,13 @@ Configs: {
 		Headers.Unlimited_Items: Unlimited Items
 
 		worksInPlayerBanks: {
-			Label: Unlimited Powers working inside the Piggy Bank
-			Tooltip: ""
+			Label: Unlimited Powers working inside banks
+			Tooltip: "[c/00ffdd:Powers working while stored inside ] [i:PiggyBank] [i:Safe] [i:DefendersForge]"
 		}
 	}
 
 	UnofficialLuiAFKDLCClientConfig: {
-		DisplayName: Unofficial Lui A F K D L C Client Config
+		DisplayName: LuiAFK DLC Client Config
 
 		ItemDisabledTooltip: {
 			Label: Item Disabled Tooltip
@@ -87,26 +87,47 @@ FishingRod: {
 	Quests1: Throws an extra line for every {0} fishing {^0:quest;quests} completed.
 }
 
+CommonTooltips: {
+	PiggyWork: "[c/7a7a7a:Works inside] : [i:PiggyBank] [i:Safe] [i:DefendersForge]"
+	CheckPanel: Press <[c/dc810d:[KEY]]> for buff management.
+	HoldShiftHint: "[c/9d9d9d:Press <SHIFT> for more information.]"
+}
+
 UI: {
 	/* Tab titles */
-	PowerEffect: Power Effects
-	Spawn: Spawns
+	PowerEffect: Buff Effects
+	Spawn: Environment
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] enabled)"
-	GroupAlcohol: Alcohol
-	GroupFlask: Flask
-	GroupCandle: Candle
-	GroupModdedBuff: Modded Buff
+	GroupAlcohol: Alcohol Drinks
+	GroupFlask: Weapon Imbue
+	GroupCandle: Candle Effects
+	GroupModdedBuff: Utility Modded Buffs
 	GroupOffensive: Offensive
 	GroupDefensive: Defensive
-	GroupBuff: Buff
-	GroupSpawnRate: Spawn Rate
-	GroupSpawnBlock: Spawn Block
+	GroupBuff: Passive
+	GroupSpawnRate: Mob Rate
+	GroupSpawnBlock: Entity Control
+	GroupWorldEvent: World Events
+	GroupFightEvent: Invasions
 	/* Toggle Text */
 	BuffOn: Buff enabled. Left click to toggle.
 	BuffOff: Buff disabled. Left click to toggle.
+	BuffCooldown: Will be ready in {0} seconds.
 	VisualOn: Visual enabled. Right click to toggle.
 	VisualOff: Visual disabled. Right click to toggle.
-	SpawnBlockOn: Currently enabled. Left click to toggle.
-	SpawnBlockOff: Currently disabled. Left click to toggle.
+	ItemOn: Currently enabled. Left click to toggle.
+	ItemOff: Currently disabled. Left click to toggle.
+	ItemGray: Currently enabled, but not activated. Left click to toggle.
+	ItemCooldown: Invasion will be activated in {0} seconds. Left click to cancel.
+	LockEnabled: Automatically activate whenever possible. Right click to unlock.
+	LockDisabled: Automatically deactivate whenever possible. Right click to unlock.
+	LockOff: Status can be changed by natural or external reasons. Right click to lock.
+}
+
+Broadcasts: {
+	InvasionStartFailed: Can't start {0}. Some prerequisites are not satified.
+	InvasionStartSoon: "{0} will start soon."
+	InvasionStarted: "{0} is happening!"
+	InvasionEnded: "{0} has been cancelled."
 }

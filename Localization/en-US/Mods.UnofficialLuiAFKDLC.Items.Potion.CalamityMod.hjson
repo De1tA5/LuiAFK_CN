@@ -3,9 +3,8 @@ UnlimitedAnechoicCoating: {
 	Tooltip:
 		'''
 		Reduces creatures' ability to detect you in the abyss
-		'It's too silent...'
-		Forged by whispering voices in the depths, this coating absorbs sound
 		Cloaking its wearer in eerie silence.
+		[c/AAAAAA:'It's too silent...']
 		'''
 }
 
@@ -14,10 +13,8 @@ UnlimitedBloodfin: {
 	Tooltip:
 		'''
 		Grants a buff that boosts life regen
-		The life regen boost is stronger if below 75% health
-		'Do you think I can just eat this?'
-		Distilled from the essence of voracious sea creatures, the Bloodfin Elixir
 		Empowers its drinker with accelerated healing, vital in times of peril.
+		[c/974133:'I refuse to eat this.']
 		'''
 }
 
@@ -25,10 +22,8 @@ UnlimitedBounding: {
 	DisplayName: Leaping Essence
 	Tooltip:
 		'''
-		Grants 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height
-		'Run, little jumper'
-		Extracted from the spirits of nimble forest dwellers, this essence enhances agility,
-		Allowing its bearer to bound effortlessly across any terrain.
+		Grants extra jump height & speed + 25 extra block fall damage
+		[c/FFA500:'You can reach great heights, in fact you can soar']
 		'''
 }
 
@@ -37,9 +32,7 @@ UnlimitedCalcium: {
 	Tooltip:
 		'''
 		Grants immunity to fall damage
-		'Approved by: Bone Lee'
-		Crafted from rare calcified deposits, the Bone Ward shields its wearer from
-		the perils of gravity, endorsed by the legendary Bone Lee himself.
+		[c/77685a:'Approved by: Bone Lee']
 		'''
 }
 
@@ -47,11 +40,8 @@ UnlimitedOddMushroom: {
 	DisplayName: Flickering Mirage
 	Tooltip:
 		'''
-		Causes you to see many fake, vibrant copies of all nearby entities
-		[c/C4232C:These visual effects may be nauseating or otherwise bad for some]
-		'Trippy and Weird'
-		Harvested from elusive fungi in enchanted groves, the Flickering Mirage induces
-		mesmerizing illusions, confusing both friend and foe.
+		Creates multiple vibrant illusions of nearby entities
+		[c/BA55D3:'Trippy and Weird']
 		'''
 }
 
@@ -59,11 +49,8 @@ UnlimitedOmniscience: {
 	DisplayName: Omniscient Gaze
 	Tooltip:
 		'''
-		Highlights nearby creatures, enemy projectiles,
-		danger sources, and treasure
-		'I always feel like somebody's watching me'
-		Crafted by arcane seers, the Omniscient Gaze grants its bearer unparalleled
-		awareness, revealing hidden dangers and untold treasures.
+		Highlights creatures, projectiles, dangers & treasure
+		[c/AAAAAA:'I always feel like somebody's watching me']
 		'''
 	BuffDescription: Highlights nearby enemy projectiles
 }
@@ -72,11 +59,9 @@ UnlimitedPhotosynthesis: {
 	DisplayName: Sunbloom Respite
 	Tooltip:
 		'''
-		You regen life quickly while not moving, this effect is five times as strong during daytime
+		Regen life quickly when idle, stronger in daytime
 		Dropped hearts heal more HP
-		'You found me!'
-		Infused with the essence of solar blooms, the Sunbloom Respite rejuvenates
-		its wielder under the sun's gaze, healing wounds and replenishing vitality.
+		[c/FFD700:Infused with solar essence, rejuvenates vitality]
 		'''
 }
 
@@ -84,13 +69,9 @@ UnlimitedShadow: {
 	DisplayName: Umbral Veil
 	Tooltip:
 		'''
-		Turns the player into a shadow with glowing eyes
+		Turns player into shadow with glowing eyes, increasing stealth regeneration.
 		Rogue weapons spawn projectiles on hit
-		8% increased stealth generation
-		Visual effects can be disabled with the Stealth Invisibility config
-		'Similar to the (Vanish) button in WoW!'
-		Enveloped in the Umbral Veil, the wearer melds with the shadows,
-		Striking unseen and harnessing the darkness to empower rogue arts.
+		[c/AAAAAA:'Similar to the (Vanish) button in WoW!']
 		'''
 }
 
@@ -100,8 +81,6 @@ BloodyMaryPower: {
 		'''
 		10% increased damage and movement speed during a Blood Moon
 		Reduces life regen by 2 HP/s and defense by 4%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Crafted by the Crimson Alchemist during the Blood Moon, this elixir grants power at a heavy cost.]
 		[c/B00BA5:Extra spicy... and bloody!]
 		'''
 }
@@ -112,8 +91,6 @@ CaribbeanRumPower: {
 		'''
 		Increases life regen by 1 HP/s, movement speed by 10% and wing flight time by 20%
 		Makes you floaty and reduces defense by 10%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Once prized by pirates, this rum's potent blend boosts regeneration and agility but leaves you vulnerable.]
 		[c/B00BA5:Why is the rum gone?]
 		'''
 }
@@ -124,8 +101,6 @@ CinnamonRollPower: {
 		'''
 		Increases mana regeneration rate and multiplies all fire-based debuff damage by 1.5x
 		Reduces defense by 10%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A favorite among mages, this whiskey blend enhances mana and fire magic but leaves you defenseless.]
 		[c/B00BA5:A great-tasting cinnamon whiskey with a touch of cream soda.]
 		'''
 }
@@ -136,8 +111,6 @@ EverclearPower: {
 		'''
 		25% increased damage
 		Reduces life regen by 5 HP/s and defense by 30%
-		Counts as 2 alcohols for Alcohol Poisoning
-		[c/FFD700:The strongest brew known, used by warriors seeking unmatched power, at great personal risk.]
 		[c/B00BA5:This is the most potent booze I have, be careful with it.]
 		'''
 }
@@ -148,8 +121,6 @@ EvergreenGinPower: {
 		'''
 		Multiplies all sickness and water-related debuff damage by 1.25x
 		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Distilled from forest essences, this gin enhances nature's wrath but weakens the drinker's vitality.]
 		[c/B00BA5:It tastes like a Christmas tree, if you can imagine that.]
 		'''
 }
@@ -160,8 +131,6 @@ FabsolVodkaPower: {
 		'''
 		8% increased damage, but lowers defense by 5%
 		Increases immune time after being struck
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Favored by refined palates, this vodka boosts damage and resilience, crafted for the discerning adventurer.]
 		[c/B00BA5:This magical liquor is highly sought by those with a refined palate.]
 		'''
 }
@@ -172,8 +141,6 @@ FireballPower: {
 		'''
 		Multiplies all fire-based debuff damage by 1.25x
 		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Beloved by pyromancers, this cinnamon whiskey intensifies fire magic while sapping your strength.]
 		[c/B00BA5:A great-tasting cinnamon whiskey.]
 		'''
 }
@@ -183,8 +150,6 @@ GrapeBeerPower: {
 	Tooltip:
 		'''
 		Reduces defense by 3% for 15 seconds
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A notorious drink with a foul taste, only the bravest dare try it, often to their regret.]
 		[c/B00BA5:This crap is abhorrent, but you might like it.]
 		'''
 }
@@ -195,8 +160,6 @@ MargaritaPower: {
 		'''
 		Halves the duration of most harmful debuffs
 		Reduces defense by 6% and life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Renowned for its refreshing taste, it halves harmful debuffs but significantly reduces your defenses.]
 		[c/B00BA5:One of the best drinks ever created, enjoy it while it lasts.]
 		'''
 }
@@ -207,8 +170,6 @@ MoonshinePower: {
 		'''
 		Increases defense by 10 and damage reduction by 3%
 		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A strong drink known for bolstering defense and damage reduction, favored by the resilient.]
 		[c/B00BA5:This stuff is pretty strong, but I'm sure you can handle it.]
 		'''
 }
@@ -219,8 +180,6 @@ MoscowMulePower: {
 		'''
 		Increases damage by 9%, knockback by 50% and critical strike chance by 3%
 		Reduces life regen by 2 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A drink for the bold, boosting offensive capabilities while significantly reducing life regeneration.]
 		[c/B00BA5:I once heard the copper mug can be toxic and I told 'em, 'listen, dummy, I'm already poisoning myself!]
 		'''
 }
@@ -231,8 +190,6 @@ OldFashionedPower: {
 		'''
 		Multiplies all accessory and set bonus damage by 1.5x
 		Decreases all damage by 25%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:An ancient favorite, this drink enhances accessory and set bonus damage at the cost of overall strength.]
 		[c/B00BA5:An old favorite of mine.]
 		'''
 }
@@ -242,8 +199,6 @@ RedWinePower: {
 	Tooltip:
 		'''
 		Reduces life regen by 0.5 HP/s for 15 seconds
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A drink too dry for many, it offers minor debuffs but is often underestimated for its potency.]
 		[c/B00BA5:Too dry for my taste.']
 		'''
 }
@@ -254,8 +209,6 @@ RumPower: {
 		'''
 		Increases life regen by 1 HP/s and movement speed by 10%
 		Reduces defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Sweet and potent, this rum is loved for its regenerative properties and speed boost, despite its drawbacks.]
 		[c/B00BA5:Sweet and potent, just how I like it.]
 		'''
 }
@@ -266,8 +219,6 @@ ScrewdriverPower: {
 		'''
 		Multiplies piercing projectile damage by 1.05x
 		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A favored cocktail that enhances piercing damage, though it comes with a cost to your vitality.]
 		[c/B00BA5:Do you have a screw loose?]
 		'''
 }
@@ -279,9 +230,7 @@ StarBeamRyePower: {
 		Increases max mana by 50, magic damage by 8%,
 		and reduces mana usage by 10%
 		Reduces defense by 6% and life regen by 1 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Made from mysterious ingredients, this rye boosts magical prowess, rumored to contain cosmic energies.]
-		[c/B00BA5:Made from some stuff I found near the Astral Meteor crash site. Don't worry, it's safe, trust me...]
+		[c/B00BA5:Don't worry, it's safe, trust me...]
 		'''
 }
 
@@ -291,8 +240,6 @@ TequilaPower: {
 		'''
 		Increases knockback by 10%, crit chance by 4% and defense by 5 during daytime
 		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Perfect for daytime adventures, this tequila enhances defensive and offensive stats during the day.]
 		[c/B00BA5:Great for mixing up daytime drinks.]
 		'''
 }
@@ -303,9 +250,7 @@ TequilaSunrisePower: {
 		'''
 		Increases knockback by 20%, crit chance by 8% and defense by 10 during daytime
 		Reduces life regen by 1 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:The ultimate daytime drink, offering significant boosts to various stats but at a high health cost.]
-		[c/B00BA5:The greatest daytime drink I've ever had.]
+		[c/B00BA5:♪ See me in my rum, fly straight, balla proof ♪]
 		'''
 }
 
@@ -315,8 +260,6 @@ VodkaPower: {
 		'''
 		Increases damage by 6% and critical strike chance by 2%
 		Reduces life regen by 0.5 HP/s and defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A versatile drink, this vodka is essential for creating powerful mixed drinks and boosting combat effectiveness.]
 		[c/B00BA5:The number one alcohol for creating great mixed drinks.]
 		'''
 }
@@ -327,8 +270,6 @@ WhiskeyPower: {
 		'''
 		Increases damage by 4%, knockback by 20% and critical strike chance by 2%
 		Reduces defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:Known for its warming burn, this whiskey enhances damage and knockback, favored by many warriors.]
 		[c/B00BA5:The burning sensation makes it tastier.]
 		'''
 }
@@ -339,8 +280,6 @@ WhiteWinePower: {
 		'''
 		Increases magic damage by 8%
 		Reduces defense by 6% and life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		[c/FFD700:A drink of choice for many mages, it boosts magical damage but comes with notable defensive penalties.]
 		[c/B00BA5:I drank a full barrel of this stuff once in one night, I couldn't remember who I was the next day.]
 		'''
 }
@@ -351,7 +290,6 @@ PurpleHazePower: {
 		'''
 		8% increased damage, but lowers defense by 5%
 		Increases immune time after being struck
-		Drinking more than 3 different alcohols might not end well with your liver
 		'''
 }
 
@@ -359,45 +297,27 @@ UnlimitedCeaselessHunger: {
 	DisplayName: Omnipotent Devourer
 	Tooltip:
 		'''
-		[c/800080:A dark power that consumes all, driven by an ancient]
-		[c/800080:hunger from the deepest abyss.] Legend speaks of an
-		[c/4B0082:entity that once wielded this power to erase worlds.]
-		[c/9400D3:Its insatiable appetite devours even the light, leaving]
-		[c/9400D3:nothing but void in its wake.]
+		Hold Item to Loot Everything
+		[c/4f4545:A dark power that consumes all, driven by an ancient hunger]
 		'''
 }
 
 UnlimitedSoaring: {
 	DisplayName: Aetheric Ascendance
-	Tooltip:
-		'''
-		[c/87CEEB:Harness the winds of the heavens, increasing flight]
-		[c/87CEEB:by 10%. It is said that those who master this art]
-		[c/4682B4:can touch the stars themselves.] [c/1E90FF:Many have sought]
-		[c/1E90FF:this gift, but only those with a pure heart and clear]
-		[c/1E90FF:mind have truly ascended.]
-		'''
+	Tooltip: Harness the winds of the heavens, increasing flight by 10%.
 }
 
 UnlimitedSulphuric: {
 	DisplayName: Corrosive Resilience
-	Tooltip:
-		'''
-		[c/32CD32:Channel the toxic tides, reducing the effects of]
-		[c/32CD32:sulphuric waters.] [c/228B22:Once used by alchemists to endure]
-		[c/228B22:the deadliest of poisons.] [c/006400:This resilience comes at a]
-		[c/006400:cost, as prolonged exposure can corrupt the soul.]
-		'''
+	Tooltip: Channel the toxic tides, reducing the effects of sulphuric waters.
 }
 
 UnlimitedTesla: {
 	DisplayName: Stormcaller's Aura
 	Tooltip:
 		'''
-		[c/FFD700:Unleash an aura of Tesla energy, striking enemies]
-		[c/FFD700:with the fury of a storm.] [c/FFA500:Its creator was rumored]
-		[c/FFA500:to have stolen the power of lightning itself.] [c/FF8C00:Use with]
-		[c/FF8C00:caution, as this power is known to have unpredictable effects.]
+		Unleash an aura of Tesla energy, striking enemies with the fury of a storm.
+		[c/61423b:'Nikola would be proud. Edison, not so much.']
 		'''
 }
 
@@ -405,10 +325,8 @@ UnlimitedZen: {
 	DisplayName: Tranquil Harmonics
 	Tooltip:
 		'''
-		[c/ADD8E6:Reduce enemy spawns dramatically, calming the]
-		[c/ADD8E6:battlefield.] [c/5F9EA0:Ancient monks believed this harmony]
-		[c/5F9EA0:could silence even the fiercest wars.] [c/4682B4:But beware,]
-		[c/4682B4:for in total tranquility, one may lose touch with reality.]
+		Reduce enemy spawns dramatically, calming the battleflield.
+		[c/2a786f:'Channeling pure Bob Ross vibes into your soul.']
 		'''
 }
 
@@ -416,10 +334,8 @@ UnlimitedZerg: {
 	DisplayName: Swarm Instinct
 	Tooltip:
 		'''
-		[c/FF4500:Summon a relentless swarm, vastly increasing enemy]
-		[c/FF4500:spawn rates.] [c/B22222:Inspired by the primal instincts of]
-		[c/B22222:the wild, where numbers mean survival.] [c/8B0000:Those who]
-		[c/8B0000:harness this power often find themselves consumed by it.]
+		Summon a relentless swarm, vastly increasing enemy spawn rates.
+		[c/a3553e:'Even as the world burns, a dog sips coffee somewhere']
 		'''
 }
 
@@ -427,9 +343,8 @@ BaguettePower: {
 	DisplayName: Baguette Power
 	Tooltip:
 		'''
-		[c/FFE4B5:Red Wine heals 250 HP, but reduce life regen by 2 HP/s.]
-		[c/FCE391:'je suis Monte'] [c/DAA520:This ancient French remedy was]
-		[c/DAA520:believed to give strength, though at a cost to one's vitality.]
+		Red Wine heals 250 HP, but reduce life regen by 2 HP/s.]
+		[c/FCE391:'je suis Monte']
 		'''
 }
 
@@ -438,9 +353,9 @@ Candle: {
 		DisplayName: Chaos Spirit
 		Tooltip:
 			'''
-			[c/FF4500:Massively increase spawn rate.] [c/B22222:Once lit,]
-			[c/B22222:this candle draws forth chaos itself, inviting turmoil]
-			[c/B22222:and confusion into the world.]
+			Massively increase spawn rate.
+			[c/666060:Once lit, this candle draws forth chaos itself.]
+			[c/FF4500:"And then things got out of hand..."]
 			'''
 	}
 
@@ -448,9 +363,9 @@ Candle: {
 		DisplayName: Tranquility Spirit
 		Tooltip:
 			'''
-			[c/87CEEB:No longer enemies.] [c/4682B4:This candle was used by]
-			[c/4682B4:ancient sages to bring peace and silence, creating an]
-			[c/4682B4:unbreakable aura of calm.]
+			No longer enemies.
+			[c/666060:This candle was used by ancient sages to bring peace and silence.]
+			[c/90EE90:"Shhh... nobody's gonna attack you now. It's fine."]
 			'''
 	}
 }
@@ -472,12 +387,7 @@ UnlimitedHolyFlames: {
 	Tooltip:
 		'''
 		Melee, Whip, and Rogue attacks inflict Holy Flames.
-		[c/FFD700:Purify your enemies with divine fire, leaving nothing]
-		[c/FFD700:but ash and smoldering remains in your wake.]
-		[c/FFA07A:Let the holy flames cleanse the wicked and burn away]
-		[c/FFA07A:the darkness that festers in their souls.]
-		[c/FF4500:Forged in the celestial fires, these flames are sent]
-		[c/FF4500:to smite those who defy the sacred light of the heavens.]
+		[c/FFD700:Purify your enemies with divine fire]
 		'''
 }
 
@@ -486,12 +396,7 @@ UnlimitedCrumbling: {
 	Tooltip:
 		'''
 		Melee, Whip, and Rogue attacks inflict Crumbling on enemies.
-		[c/A52A2A:Every blow weakens your foes, reducing them to dust and] 
-		[c/808080:rubble, rendering them powerless.]
-		[c/808080:Watch as their strength crumbles away like ancient] 
-		[c/808080:ruins eroded by the relentless passage of time.]
-		[c/8B4513:This power is said to be the touch of an ancient force,] 
-		[c/8B4513:breaking down the strongest defenses with ease.]
+		[c/A52A2A:Every blow weakens your foes, reducing them to dust]
 		'''
 }
 
@@ -500,12 +405,7 @@ UnlimitedBrimstone: {
 	Tooltip:
 		'''
 		Melee, Whip, and Rogue attacks inflict Lava Lily Flames.
-		[c/FF4500:Embrace the scorching bloom of the Lava Lily, igniting]
-		[c/FF4500:the air with petals of molten fire.]
-		[c/8B0000:Enemies wilt under the relentless heat of these flames,]
-		[c/8B0000:yet their beauty conceals a danger to your very mind.]
-		[c/FF6347:Born from the fiery depths, the Lava Lily's flames]
-		[c/FF6347:carry the essence of a world bathed in eternal magma.]
+		[c/FF4500:Embrace the scorching bloom of the Lava Lily]
 		'''
 }
 
@@ -513,14 +413,9 @@ UnlimitedAstralInjection: {
 	DisplayName: Astral Overdose
 	Tooltip:
 		'''
-		Gives mana sickness, but you regenerate 
-		mana extremely quickly even while moving or casting spells.
-		[c/FFD700:Harness the boundless energies of the cosmos, but be]
-		[c/FFD700:prepared to endure the intense backlash of this arcane power.]
-		[c/B00BA5:Experience an overwhelming rush of mana, a powerful gift]
-		[c/B00BA5:from the stars that exacts a toll on your very essence.]
-		[c/9400D3:Infusing yourself with cosmic energy comes at a cost,]
-		[c/9400D3:leaving you in a state of celestial disarray and discomfort.]
+		Gives mana sickness
+		Regenerates Mana extremely quickly even while moving or casting spells.
+		[c/FFD700:Harness the boundless energies of the cosmos]
 		'''
 }
 
@@ -528,10 +423,8 @@ UnlimitedGravityNormalizer: {
 	DisplayName: Moonwalker's Grace
 	Tooltip:
 		'''
-		Disables the low gravity of space and grants immunity 
-		to the distorted debuff, allowing perfect cosmic balance.
-		[c/ADD8E6:Feel the tranquility of lunar grace as you]
-		[c/ADD8E6:navigate the heavens with stability and ease.]
+		Disables the low gravity of space and grants immunity to the distorted debuff 
+		[c/ADD8E6:Feel the tranquility of lunar grace as you navigate the heavens with stability and ease.]
 		'''
 }
 
@@ -541,8 +434,7 @@ DecayStand: {
 		'''
 		Grants underwater breathing
 		Does not function in the Abyss
-
-		An ancient relic once used by deep-sea pilgrims to explore drowned ruins
+		[c/AAAAAA:'An ancient relic once used by deep-sea pilgrims to explore drowned ruins']
 		'''
 }
 
@@ -553,7 +445,7 @@ CrimsonStand: {
 		Increases damage by 15% and defense by 10
 		Reduces maximum health by 10%
 
-		Said to pulse with the lifeblood of a forgotten god of war
+		[c/AAAAAA:'Said to pulse with the lifeblood of a forgotten god of war']
 		'''
 }
 
@@ -563,8 +455,7 @@ CorruptionStand: {
 		'''
 		Increases movement speed and critical strike chance by 10%
 		Reduces damage reduction by 5%
-
-		Whispers of madness echo from within its rotted core
+		[c/AAAAAA:'Whispers of madness echo from within its rotted core']
 		'''
 }
 
@@ -618,5 +509,26 @@ UnlimitedBaguettePower: {
 		'''
 		Red Wine heals 250 HP, but reduces life regen by 2 HP/s
 		Doesn't grants Minor improvements to all stats.
+		[c/d6ae82:A touch of sophistication in every sip]
+		'''
+}
+
+UnlimitedMushy: {
+	DisplayName: Crabulon's Infection
+	Tooltip:
+		'''
+		You grow mushroom on the grass beneath you
+		Increases defense by 6 and grants 1 HP/s life regen
+		[c/24759e:Mushroom magic underfoot]
+		'''
+}
+
+UnlimitedChi: {
+	DisplayName: Blissful Embrace
+	Tooltip:
+		'''
+		Provides 4% damage reduction after not being hit for 5 seconds, this is removed when you are hit
+		+1 HP/s life regen for you and everyone on your team
+		[c/FF69B4:A gentle embrace of vitality]
 		'''
 }

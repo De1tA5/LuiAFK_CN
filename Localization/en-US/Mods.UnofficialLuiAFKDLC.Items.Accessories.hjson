@@ -1,32 +1,31 @@
 ArchitectHeavyEquipment: {
-	DisplayName: Legendary Architect's Regalia
-	Tooltip:
+	DisplayName: Architect's Regalia
+	Tooltip: "[i:UnofficialLuiAFKDLC/ArchitectHeavyEquipment] - [c/d9a53f:A Powerful Helmet worn by - LuiAFK DLC Devs - for multiple building stats.]"
+	HoldShiftTooltip:
 		'''
-		[c/FF4500:A legendary helm forged in the depths of the underworld, resonating with the essence of creation itself. Its power manifests in:]
-
-		[c/FF6347:- Massively increased tool, painting, tile, and wall speed.]
-		[c/FF7F50:- Massively increases block placement & tool range]
-		[c/FF8C00:- Incredibly increases pickup range for items]
-		[c/FFA07A:- Automatically paints or coats placed objects]
-		[c/FA8072:- Hold Up to reach higher]
-		[c/FF6F61:- Enemies behind you are struck by high-knockback hardlight quills]
-		[c/FF4500:- 15% increased damage reduction and +18 defense while underground or in the underworld]
-
-		[c/FF6347:Wielded by ??????, a master architect known for his unparalleled craftsmanship and]
-		[c/FF7F50:ingenuity. He used the helm to reshape landscapes and cities until his fateful]
-		[c/FF8C00:encounter with the Supreme Calamitas. In a battle of epic proportions, ?????? fought]
-		[c/FA8072:valiantly but succumbed, his spirit forever tied to the helm. Now, those who wear it]
-		[c/FF6F61:channel his expertise and determination in their quest for greatness.]
+		[i:miningcracks_take_on_luiafk/ToolTime] - Increases tool, painting, tile and wall placement speed.
+		[i:HandOfCreation] - Combines multiple building utilities [i:PortableStool] - Hold Up to Reach Higher.
+		[i:CalamityMod/MarniteRepulsionShield] - Provides +4 defense, increases hardlight quills damage.
+		Grants [i:CalamityMod/MarniteArchitectHeadgear] & [i:CalamityMod/MarniteArchitectToga] Marnite Lift, + Increases block placement speed & tool range while mounted.
+		[i:CalamityMod/ArchaicPowder] - Grants +15 damage reduction & 10 defense while underground or in the underworld.
 		'''
 }
 
 MaximumUnlimitedMana: {
-	DisplayName: Maximum Unlimited Mana
+	DisplayName: Brutal's Mana Pendant
 	Tooltip:
 		'''
-		[c/00BFFF:Unlimited mana.]
-		[c/1E90FF:Magic damage increased by 20%]
-		[c/4169E1:Magic crit increased by 20%]
+		[c/00BFFF:The ultimate mana accessory with unlimited mana.]
+		Decreases Defense by -6% & Life Regen by -3 HP/s.
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory] - Huge Magic Damage Penalty .
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory1] - Medium Magic Damage Penalty.
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory2] - Lesser Magic Damage Penalty.
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory3] - Grants Unlimited Mana.
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory4] - Increases magic damage & crit to 5%
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory5] - Increases magic damage & crit to 10%
 		'''
 }
 
@@ -34,13 +33,13 @@ EnchantedSupremeFishingBundle: {
 	DisplayName: Enchanted Supreme Fishing Bundle
 	Tooltip:
 		'''
-		[c/8A2BE2:A legendary collection of enchanted fishing tools, perfected for the ultimate angler, Its power manifests in:]
-
-		[c/7B68EE:- Increases fishing skill by 110%]
-		[c/6A5ACD:- Fishing line will never break and decreases chance of bait consumption]
-		[c/483D8B:- Increases chance to catch crates]
-		[c/4169E1:- Allows fishing in lava]
-		[c/0000FF:- Grants Sonar potion effect]
-		[c/00008B:- Greatly increases chance of catching potion ingredient fish]
+		[c/8A2BE2:The ultimate fishing bundle, Increases Fishing Power by +100.]
+		[c/7B68EE:Perfected for the ultimate angler]
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:CalamityMod/EnchantedPearl] - Slightly Improves fishing power and bite rate by +10.
+		[i:CalamityMod/SupremeBaitTackleBoxFishingStation] - Greatly Improves fishing power and bite rate by +80.
+		[i:CalamityMod/AlluringBait] - Better chances of catching potion ingredient fish and bite rate by +30.
 		'''
 }

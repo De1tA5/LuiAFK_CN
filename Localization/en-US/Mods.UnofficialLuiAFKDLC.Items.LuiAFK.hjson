@@ -1,0 +1,149 @@
+UltimateBattler.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UltimateBattler] - Provides the Ultimate Battler
+	{$UnlimitedBattler.HoldShiftTooltip}
+	'''
+UltimatePeaceful.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UltimatePeaceful] - Provides the Ultimate Peaceful
+	{$UnlimitedPeaceful.HoldShiftTooltip}
+	[i:miningcracks_take_on_luiafk/UnlimitedSunflower] - {$BuffDescription.Sunflower}
+	'''
+UnlimitedArena.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedHoneyBuff] - {$BuffDescription.Honey}
+	[i:miningcracks_take_on_luiafk/UnlimitedStarinaBottle] - {$BuffDescription.StarInBottle}
+	[i:miningcracks_take_on_luiafk/UnlimitedCampfire] - {$BuffDescription.Campfire}
+	[i:miningcracks_take_on_luiafk/UnlimitedHeartLantern] - {$BuffDescription.HeartLamp}
+	[i:miningcracks_take_on_luiafk/UnlimitedBastStatue] - {$BuffDescription.CatBast}
+	'''
+UnlimitedBasics.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedIronskin] - {$BuffDescription.Ironskin}
+	[i:miningcracks_take_on_luiafk/UnlimitedSwiftness] - {$BuffDescription.Swiftness}
+	[i:miningcracks_take_on_luiafk/UnlimitedRegeneration] - {$BuffDescription.Regeneration}
+	[i:miningcracks_take_on_luiafk/UnlimitedWellFed] - {$BuffDescription.WellFed}
+	'''
+UnlimitedBattler.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedBattle] - {$BuffDescription.Battle}
+	[i:miningcracks_take_on_luiafk/UnlimitedWaterCandle] - {$BuffDescription.WaterCandle}
+	'''
+UnlimitedCombat.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedBasics] - Provides Ironskin, Swiftness, Regeneration and Well Fed powers
+	[i:miningcracks_take_on_luiafk/UnlimitedDamage] - Provides Rage, Wrath, Summoning, Titan, Thorns and Inferno powers
+	[i:miningcracks_take_on_luiafk/UnlimitedDefense] - Provides Heartreach, Lifeforce, Warmth and Endurance powers
+	[i:miningcracks_take_on_luiafk/UnlimitedMagic] - Provides Magic Power and Mana Regeneration powers
+	[i:miningcracks_take_on_luiafk/UnlimitedMelee] - Provides Tipsy and all vanilla Flask powers
+	[i:miningcracks_take_on_luiafk/UnlimitedRange] - Provides Ammo Reservation and Archery powers
+	[i:miningcracks_take_on_luiafk/UnlimitedStation] - Provides Clairvoyance, Ammo Box, Sharpened, Bewitched, Sugar Dash and Strategist powers
+	[i:miningcracks_take_on_luiafk/UnlimitedArena] - Provides Honey, Star in a Bottle, Cozy Fire, Heart Lamp and Bast powers
+	'''
+UnlimitedDamage.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedRage] - {$BuffDescription.Rage}
+	[i:miningcracks_take_on_luiafk/UnlimitedWrath] - {$BuffDescription.Wrath}
+	[i:miningcracks_take_on_luiafk/UnlimitedSummoning] - {$BuffDescription.Summoning}
+	[i:miningcracks_take_on_luiafk/UnlimitedTitan] - {$BuffDescription.Titan}
+	[i:miningcracks_take_on_luiafk/UnlimitedThorns] - {$BuffDescription.Thorns}
+	[i:miningcracks_take_on_luiafk/UnlimitedInferno] - {$BuffDescription.Inferno}
+	'''
+UnlimitedDanger.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedDangersense] - {$BuffDescription.Dangersense}
+	[i:miningcracks_take_on_luiafk/UnlimitedHunter] - {$BuffDescription.Hunter}
+	[i:miningcracks_take_on_luiafk/UnlimitedBiomeSight] - {$BuffDescription.BiomeSight}
+	'''
+UnlimitedDefense.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedHeartreach] - {$BuffDescription.Heartreach}
+	[i:miningcracks_take_on_luiafk/UnlimitedLifeforce] - {$BuffDescription.Lifeforce}
+	[i:miningcracks_take_on_luiafk/UnlimitedWarmth] - {$BuffDescription.Warmth}
+	[i:miningcracks_take_on_luiafk/UnlimitedEndurance] - {$BuffDescription.Endurance}
+	'''
+UnlimitedEverything.HoldShiftTooltip:
+	'''
+	{$UnlimitedExplorer.HoldShiftTooltip}
+	{$UnlimitedCombat.HoldShiftTooltip}
+	[i:miningcracks_take_on_luiafk/UnlimitedFishing] - Provides Fishing, Sonar and Crates power
+	[i:miningcracks_take_on_luiafk/UnlimitedFlight] - Provides Feather Fall and Gravitation power
+	[i:miningcracks_take_on_luiafk/UnlimitedInvisibility] - {$BuffDescription.Invisibility}
+	[i:miningcracks_take_on_luiafk/UltimateBattler] - Provides the Ultimate Battler and increases spawn rate
+	[i:miningcracks_take_on_luiafk/UltimatePeaceful] - Provides the Ultimate Peaceful and decreases spawn rate
+	[i:miningcracks_take_on_luiafk/UnlimitedLucky] - Increases luck
+	'''
+UnlimitedExplorer.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedDanger] - Provides Dangersense, Hunter and Biome Sight power
+	[i:miningcracks_take_on_luiafk/UnlimitedGathering] - Provides Spelunker, NightOwl, ObsidianSkin, Mining and Shine power
+	[i:miningcracks_take_on_luiafk/UnlimitedSwimming] - Provides Gills, WaterWalking and Flipper power
+	[i:miningcracks_take_on_luiafk/UnlimitedBuilder] - {$BuffDescription.Builder}
+	'''
+UnlimitedFishing.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedFishingPotion] - {$BuffDescription.Fishing}
+	[i:miningcracks_take_on_luiafk/UnlimitedSonar] - {$BuffDescription.Sonar}
+	[i:miningcracks_take_on_luiafk/UnlimitedCrates] - {$BuffDescription.Crate}
+	'''
+UnlimitedFlight.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedFeatherfall] - {$BuffDescription.Featherfall}
+	[i:miningcracks_take_on_luiafk/UnlimitedGravitation] - {$BuffDescription.Gravitation}
+	'''
+UnlimitedGathering.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedSpelunker] - {$BuffDescription.Spelunker}
+	[i:miningcracks_take_on_luiafk/UnlimitedNightOwl] - {$BuffDescription.NightOwl}
+	[i:miningcracks_take_on_luiafk/UnlimitedObsidianSkin] - {$BuffDescription.ObsidianSkin}
+	[i:miningcracks_take_on_luiafk/UnlimitedMining] - {$BuffDescription.Mining}
+	[i:miningcracks_take_on_luiafk/UnlimitedShine] - {$BuffDescription.Shine}
+	'''
+UnlimitedLucky.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedLuck] - {$BuffDescription.Lucky}
+	[i:miningcracks_take_on_luiafk/UnlimitedGnome] - {$Buffs.FakeGnomeBuff.Description}
+	[i:miningcracks_take_on_luiafk/UnlimitedLadybug] - {$Buffs.FakeLadybugBuff.Description}
+	[i:miningcracks_take_on_luiafk/UnlimitedTorches] - You have unlimited torches
+	'''
+UnlimitedMagic.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedMagicPower] - {$BuffDescription.MagicPower}
+	[i:miningcracks_take_on_luiafk/UnlimitedManaRegeneration] - {$BuffDescription.ManaRegeneration}
+	'''
+UnlimitedMelee.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedTipsy] - {$BuffDescription.Tipsy}
+	[i:miningcracks_take_on_luiafk/UnlimitedIchor] - {$BuffDescription.WeaponImbueIchor}
+	{$Items.Potion.Vanilla.ScrollOfFlasks.HoldShiftTooltip}
+	'''
+UnlimitedPeaceful.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedCalming] - {$BuffDescription.Calm}
+	[i:miningcracks_take_on_luiafk/UnlimitedPeaceCandle] - {$BuffDescription.PeaceCandle}
+	'''
+UnlimitedRange.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedAmmoReservation] - {$BuffDescription.AmmoReservation}
+	[i:miningcracks_take_on_luiafk/UnlimitedArchery] - {$BuffDescription.Archery}
+	'''
+UnlimitedStation.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedCrystalBall] - {$BuffDescription.Clairvoyance}
+	[i:miningcracks_take_on_luiafk/UnlimitedAmmoBox] - {$BuffDescription.AmmoBox}
+	[i:miningcracks_take_on_luiafk/UnlimitedSharpeningStation] - {$BuffDescription.Sharpened}
+	[i:miningcracks_take_on_luiafk/UnlimitedBewitchingTable] - {$BuffDescription.Bewitched}
+	[i:miningcracks_take_on_luiafk/UnlimitedSliceCake] - {$BuffDescription.SugarRush}
+	[i:miningcracks_take_on_luiafk/UnlimitedWarTable] - {$BuffDescription.WarTable}
+	'''
+UnlimitedSwimming.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedGills] - {$BuffDescription.Gills}
+	[i:miningcracks_take_on_luiafk/UnlimitedWaterWalking] - {$BuffDescription.WaterWalking}
+	[i:miningcracks_take_on_luiafk/UnlimitedFlipper] - {$BuffDescription.Flipper}
+	'''
+Paper.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/Paper] - [c/a77e58:Delicate paper made from plant fibers & cobwebs, serving as a powerful ingredient for scroll crafting.]
+	[c/6f665e:Essential for aspiring mages and alchemists seeking secrets long lost.]
+	'''

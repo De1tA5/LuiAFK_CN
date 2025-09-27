@@ -13,38 +13,53 @@ Tools: {
 BossSummon: {
 	OldDukeSummon: {
 		DisplayName: Relic of the Abyssal Leviathan
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/OldDukeSummon] - [c/2E8B57:Can only be used in the Sulphurous Sea]"
+		HoldShiftTooltip:
 			'''
-			[c/00FF00:Right-click to call forth the beast]
-			[c/00FF00:'No fishing rod required']
+			[c/00FF00:Use This to call forth the ancient leviathan]
+			[c/00FF00:'A cursed relic from the deepest trenches, its awakening will drown all who dare face it']
 			'''
 	}
 
 	NuclearTerrorSummon: {
 		DisplayName: Core of Nuclear Devastation
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/NuclearTerrorSummon] - [c/2E8B57:Can only be used in the Sulphurous Sea]"
+		HoldShiftTooltip:
 			'''
-			[c/FF4500:Right-click to unleash destruction]
-			[c/FF4500:'A relic of irradiated nightmares']
+			[c/7d614d:Use this to unleash apocalyptic radiation]
+			[c/7d614d:'A core forged from irradiated nightmares, its fury consumes all life in a blinding flash']
 			'''
 	}
 
 	MaulerSummon: {
 		DisplayName: Totem of the Oceanic Predator
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/MaulerSummon] - [c/2E8B57:Can only be used in the Sulphurous Sea]"
+		HoldShiftTooltip:
 			'''
-			[c/4682B4:Right-click to awaken the predator]
-			[c/4682B4:'Forged from the heart of a radioactive storm']
+			[c/7d614d:Use this to awaken the storm-born predator]
+			[c/7d614d:'Born from the heart of a radioactive tempest, it hunts with relentless fury']
 			'''
 	}
 
 	CragmawMireSummon: {
 		DisplayName: Idol of the Swamp Colossus
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/CragmawMireSummon] - [c/2E8B57:Can only be used in the Sulphurous Sea]"
+		HoldShiftTooltip:
 			'''
-			[c/2E8B57:Right-click to summon the swamp beast]
-			[c/2E8B57:'The bog trembles as it awakens']
+			[c/2E8B57:Use this to summon the swamp colossus]
+			[c/2E8B57:'Its steps make the bog quake, a monstrous force risen from the depths of the marsh']
 			'''
+	}
+}
+
+SpawnBlock: {
+	CalamityMod: {
+		VoodooDemonVoodooDoll.Tooltip: Toggle this item to prevent voodoo demons from spawning near you
+		AntiCystOintment.Tooltip: Toggle this item to prevent hive cysts from spawning near you
+		AntiTumorOintment.Tooltip: Toggle this item to prevent hive tumors from spawning near you
+		BleachBall.Tooltip: Toggle this item to prevent Aquatic Scourge from spawning
+		SirenproofEarMuffs.Tooltip: Toggle this item to prevent Anahita from spawning
+		BrokenWaterFilter.Tooltip: Toggle this item to prevent Acid Rain from occurring
 	}
 }
 
@@ -70,13 +85,17 @@ CityKeys: {
 
 RogueScarf: {
 	DisplayName: Bandit’s Mantle
-	Tooltip:
+	Tooltip: "[c/a678b5:'Used to be worn by the Bandit to gather goods for her shop]"
+	HoldShiftTooltip:
 		'''
-		[c/800080:-Bandit’s Mantle-]
-		[c/800080:Shroud yourself in shadows]
-		[c/800080:'A true rogue’s companion']
+		[c/845e36:She roamed from village to village beneath the twilight, her mantle hiding countless treasures.]
+		[c/845e36:One fateful evening, as storm-winds rose and a roaring vortex tore across the sands,]
+		[c/845e36:the gale ripped the mantle from her neck and carried it into the desert.]
+		[c/797979:Long lost to shifting dunes, it was later unearthed by a mysterious figure known as "DM".]
 		'''
 }
+
+UnlimitedThrownName: Endless {0}
 
 Potion: {
 	"": {
@@ -92,15 +111,30 @@ DebugPotion: {
 	Tooltip: ""
 }
 
-UnlimitedThrownName: Endless {0}
+WorldWarper: {
+	Tooltip: ""
+	DisplayName: World Warper
+}
 
-SpawnBlock: {
-	CalamityMod: {
-		VoodooDemonVoodooDoll.Tooltip: Toggle this item to prevent voodoo demons from spawning near you
-		AntiCystOintment.Tooltip: Toggle this item to prevent hive cysts from spawning near you
-		AntiTumorOintment.Tooltip: Toggle this item to prevent hive tumors from spawning near you
-		BleachBall.Tooltip: Toggle this item to prevent Aquatic Scourge from spawning
-		SirenproofEarMuffs.Tooltip: Toggle this item to prevent Anahita from spawning
-		BrokenWaterFilter.Tooltip: Toggle this item to prevent Acid Rain from occurring
-	}
+PartyPopper: {
+	DisplayName: Party Popper
+	Tooltip:
+		'''
+		Provides you the power to toggle party event
+		Party ends naturally when night arrives if unlocked
+		'''
+}
+
+HangLantern: {
+	DisplayName: Hang Lantern
+	Tooltip:
+		'''
+		Provides you the power to toggle lantern night event
+		Lantern night ends naturally when night arrives if unlocked
+		'''
+}
+
+SlimyTear: {
+	DisplayName: Slimy Tear
+	Tooltip: Provides you the power to toggle slime rain fight event
 }

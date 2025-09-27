@@ -1,0 +1,149 @@
+miningcracks_take_on_luiafk: {
+	HalloweenWorldEvent: {
+		DisplayName: Halloween
+		Description: Toggle Halloween world event if possible
+	}
+
+	XMasWorldEvent: {
+		DisplayName: XMas
+		Description: Toggle XMas world event if possible
+	}
+
+	RainWorldEvent: {
+		DisplayName: Rain
+		Description: Toggle Rain world event if possible
+	}
+
+	SandstormWorldEvent: {
+		DisplayName: Sandstorm
+		Description:
+			'''
+			Toggle Sandstorm world event if possible
+			Sandstorm can't be activated if certain weather prerequisites are not satisfied
+			'''
+	}
+
+	BloodMoonInvasion: {
+		DisplayName: Blood Moon
+		Description:
+			'''
+			Toggle Blood Moon during the night
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	FrostLegion: {
+		DisplayName: Frost Legion
+		Description:
+			'''
+			Toggle Frost Legion
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	FrostMoonInvasion: {
+		DisplayName: Frost Moon
+		Description:
+			'''
+			Toggle Frost Moon during the night
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	GoblinInvasion: {
+		DisplayName: Goblin Army
+		Description:
+			'''
+			Toggle Goblin Army
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	MartianInvasion: {
+		DisplayName: Martian Madness
+		Description:
+			'''
+			Toggle Martian Madness
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	PirateInvasion: {
+		DisplayName: Pirate Invasion
+		Description:
+			'''
+			Toggle Pirate Invasion
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	PumpkinMoonInvasion: {
+		DisplayName: Pumpkin Moon
+		Description:
+			'''
+			Toggle Pumpkin Moon during the night
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+
+	SolarInvasion: {
+		DisplayName: Eclipse
+		Description:
+			'''
+			Toggle Eclipse during the day
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+}
+
+Terraria: {
+	PartyWorldEvent: {
+		DisplayName: Party
+		Description:
+			'''
+			Toggle party world event if possible
+			Can be turned on even in nights or without enough NPCs
+			Party ends naturally when night arrives if unlocked
+			'''
+	}
+
+	LanternNightWorldEvent: {
+		DisplayName: Lantern Night
+		Description:
+			'''
+			Toggle lantern night world event if possible
+			Can be turned on even during days
+			Lantern night ends naturally when dawn arrives if unlocked
+			'''
+	}
+
+	SlimeRainInvasion: {
+		DisplayName: Slime Rain
+		Description:
+			'''
+			Toggle Slime Rain
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+}
+
+CalamityMod: {
+	AcidRainInvasion: {
+		DisplayName: Acid Rain
+		Description:
+			'''
+			Toggle Acid Rain
+			Only one invasion can happen at a time
+			The invasion will start 5 seconds after enabling
+			'''
+	}
+}
