@@ -73,7 +73,7 @@ Configs: {
 	}
 }
 
-"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 切换菜单
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 管理菜单
 
 Projectiles: {
 	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: 来自无限挖掘钻头的弹幕
@@ -84,29 +84,50 @@ FishingRod: {
 	RequireBait: 需要鱼饵
 	Bait: 鱼饵
 	Power: 渔力
-	Quests1: 每完成 {0} 次钓鱼任务 {^0:quest;quests} ,就会抛出一条额外的鱼线
+	Quests1: 每完成 {0} 次钓鱼任务,就会抛出一条额外的鱼线
+}
+
+CommonTooltips: {
+	PiggyWork: "[c/7a7a7a:在：] [i:PiggyBank] [i:Safe] [i:DefendersForge] [c/7a7a7a:中也生效]"
+	CheckPanel: 按下 <[c/dc810d:[KEY]]> 打开管理面板
+	HoldShiftHint: "[c/9d9d9d:按下 <SHIFT> 查看更多信息]"
 }
 
 UI: {
 	/* Tab titles */
-	PowerEffect: 无限之力
-	Spawn: 怪物生成
+	PowerEffect: 增益效果
+	Spawn: 环境
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] 已启用)"
 	GroupAlcohol: 酒类
-	GroupFlask: 药剂
-	GroupCandle: 蜡烛
+	GroupFlask: 武器灌注
+	GroupCandle: 蜡烛效果
 	GroupModdedBuff: 模组Buff
 	GroupOffensive: 攻击类
 	GroupDefensive: 防御类
 	GroupBuff: 其他Buff
 	GroupSpawnRate: 刷怪率
-	GroupSpawnBlock: 刷怪阻隔
+	GroupSpawnBlock: 生成控制
+	GroupWorldEvent: 事件
+	GroupFightEvent: 入侵
 	/* Toggle Text */
-	BuffOn: 已启用增益(左键点击切换)
-	BuffOff: 已禁用增益(左键点击切换)
-	VisualOn: 已启用视觉效果(右键点击切换)
-	VisualOff: 已禁用视觉效果(右键点击切换)
-	SpawnBlockOn: 已启用(左键点击切换)
-	SpawnBlockOff: 已禁用(左键点击切换)
+	BuffOn: 已启用增益 (左键点击切换)
+	BuffOff: 已禁用增益 (左键点击切换)
+	BuffCooldown: 将在{0}秒后开始.
+	VisualOn: 已启用视觉效果 (右键点击切换)
+	VisualOff: 已禁用视觉效果 (右键点击切换)
+	ItemOn: 已启用 (左键点击切换)
+	ItemOff: 已禁用 (左键点击切换)
+	ItemGray: 已启用，但未发生 (左键点击切换)
+	ItemCooldown: 入侵事件将在{0}秒后发生 (左键点击取消)
+	LockEnabled: 每当条件允许时会自动发生 (右键点击解锁)
+	LockDisabled: 每当条件允许时会自动关闭 (右键点击解锁)
+	LockOff: 状态可能因自然或外部原因而改变 (右键点击锁定)
+}
+
+Broadcasts: {
+	InvasionStartFailed: 无法启动{0}，可能是某些条件未被满足
+	InvasionStartSoon: "{0} 即将开始。"
+	InvasionStarted: "{0} 正在发生。"
+	InvasionEnded: "{0} 已被取消。"
 }

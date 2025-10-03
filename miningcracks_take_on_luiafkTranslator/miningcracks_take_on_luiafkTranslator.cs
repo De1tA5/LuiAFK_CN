@@ -66,6 +66,30 @@ namespace LuiAFKRebornCN.miningcracks_take_on_luiafkTranslator
 				#endregion miningcracks_take_on_luiafk.Images.Items.Placeables.Collection.TreeHarvester
 
 
+				#region miningcracks_take_on_luiafk.Images.Items.EventEnable.RainEnable
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Images.Items.EventEnable.RainEnable", "RainOff", new ()
+				{
+					{"开始下雨","Rain disabled."},
+				});
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Images.Items.EventEnable.RainEnable", "RainOn", new ()
+				{
+					{"停止下雨","Rain enabled."},
+				});
+				#endregion miningcracks_take_on_luiafk.Images.Items.EventEnable.RainEnable
+
+
+				#region miningcracks_take_on_luiafk.Images.Items.EventEnable.SandstormEnable
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Images.Items.EventEnable.SandstormEnable", "SandstormOff", new ()
+				{
+					{"沙尘暴 已停止","Sandstorm disabled."},
+				});
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Images.Items.EventEnable.SandstormEnable", "SandstormOn", new ()
+				{
+					{"沙尘暴 已开始","Sandstorm Enabled."},
+				});
+				#endregion miningcracks_take_on_luiafk.Images.Items.EventEnable.SandstormEnable
+
+
 				#region miningcracks_take_on_luiafk.Images.Items.AutoBuilders.GroundFiller
 				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Images.Items.AutoBuilders.GroundFiller", "UseItem", new ()
 				{
@@ -74,6 +98,26 @@ namespace LuiAFKRebornCN.miningcracks_take_on_luiafkTranslator
 					{"填充下方&清空上方——留下地牢、丛林神庙、地下沙漠的背景墙","Fill below and clear above. Leaves Dungeon, Underground Desert, and Temple walls in place."},
 				});
 				#endregion miningcracks_take_on_luiafk.Images.Items.AutoBuilders.GroundFiller
+
+
+				#region miningcracks_take_on_luiafk.Utility.Events
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Utility.Events", "SandstormOff", new ()
+				{
+					{"沙尘暴 已停止","Sandstorm disabled."},
+				});
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Utility.Events", "SandstormOn", new ()
+				{
+					{"沙尘暴 已开始","Sandstorm enabled."},
+				});
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Utility.Events", "RainOff", new ()
+				{
+					{"停止下雨","Rain disabled."},
+				});
+				TranslatorLoad.LocalizeByTypeFullName("miningcracks_take_on_luiafk.Utility.Events", "RainOn", new ()
+				{
+					{"开始下雨","Rain enabled."},
+				});
+				#endregion miningcracks_take_on_luiafk.Utility.Events
 
 
 				#region miningcracks_take_on_luiafk.Utility.TileChecks
@@ -122,6 +166,10 @@ namespace LuiAFKRebornCN.miningcracks_take_on_luiafkTranslator
 					{"黄","Yellow"},
 					{"致动器","Actuator"},
 					{"钢丝钳","Cutter"},
+					{"雨","Rain"},
+					{"沙尘暴/暴风雪","Sandstorm/Blizzard"},
+					{"万圣节","Halloween"},
+					{"圣诞节","Christmas"},
 					{"石板\n与平台不兼容！","Stone Slab\nDoes not work with platforms!"},
 					{"灰砖\n与平台不兼容！","Gray Brick\nDoes not work with platforms!"},
 					{"木材","Wood"},

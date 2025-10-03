@@ -1,0 +1,114 @@
+EventsEnabler: {
+	Tooltip:
+		'''
+		右键使用打开基本菜单
+		可切换万圣节、圣诞节、雨和沙尘暴
+		放置于物品栏时，可以打开管理菜单
+		'''
+	PowerEffectHint: True
+}
+
+HalloweenEnable: {
+	Tooltip: 放置于物品栏时，可以打开管理菜单开始万圣节
+	PowerEffectHint: True
+}
+
+HalloweenXmasEnable: {
+	Tooltip: 放置于物品栏时，可以打开管理菜单开始万圣节和圣诞节
+	PowerEffectHint: True
+}
+
+RainEnable: {
+	Tooltip:
+		'''
+		开始或结束降雨
+		放置于物品栏时，可以打开管理菜单召唤雨
+		'''
+	PowerEffectHint: True
+}
+
+SandstormEnable: {
+	Tooltip:
+		'''
+		开始或结束沙尘暴
+		放置于物品栏时，可以打开管理菜单召唤沙尘暴
+		'''
+	PowerEffectHint: True
+}
+
+XMasEnable: {
+	Tooltip: 放置于物品栏时，可以打开管理菜单开始圣诞节
+	PowerEffectHint: True
+}
+
+BloodMoonEnable: {
+	Tooltip:
+		'''
+		在夜晚开始或结束血夜
+		放置于物品栏时，可以打开管理菜单召唤血月
+		'''
+	PowerEffectHint: True
+}
+
+FrostLegionEnable: {
+	Tooltip:
+		'''
+		跳过等待立刻开始雪人军团
+		放置于物品栏时，可以打开管理菜单召唤雪人军团
+		'''
+	PowerEffectHint: True
+}
+
+FrostMoonEnable: {
+	Tooltip:
+		'''
+		在夜晚开始或结束霜月
+		放置于物品栏时，可以打开管理菜单召唤霜月
+		'''
+	PowerEffectHint: True
+}
+
+GoblinArmyEnable: {
+	Tooltip:
+		'''
+		跳过等待立刻开始哥布林军队
+		放置于物品栏时，可以打开管理菜单召唤哥布林军队
+		'''
+	PowerEffectHint: True
+}
+
+MartianMadnessEnable: {
+	Tooltip:
+		'''
+		跳过等待立刻开始火星暴乱
+		放置于物品栏时，可以打开管理菜单召唤火星暴乱
+		'''
+	PowerEffectHint: True
+}
+
+PirateEnable: {
+	Tooltip:
+		'''
+		跳过等待立刻开始海盗入侵
+		放置于物品栏时，可以打开管理菜单召唤海盗入侵
+		'''
+	PowerEffectHint: True
+}
+
+PumpkinMoonEnable: {
+	Tooltip:
+		'''
+		在夜晚开始或结束南瓜月
+		放置于物品栏时，可以打开管理菜单召唤南瓜月
+		'''
+	PowerEffectHint: True
+}
+
+SolarEclipseEnable: {
+	Tooltip:
+		'''
+		在白天开始或结束日食
+		放置于物品栏时，可以打开管理菜单召唤日食
+		'''
+	PowerEffectHint: True
+}

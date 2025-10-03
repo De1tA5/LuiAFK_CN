@@ -1,34 +1,53 @@
 UnlimitedVenom: {
-	DisplayName: 无限毒液药剂
-	Tooltip: 近战、鞭子和盗贼攻击会造成酸性毒液
+	DisplayName: 毒液力量
+	Tooltip: "{$BuffDescription.WeaponImbueVenom}"
 }
 
 UnlimitedCursedFlames: {
-	DisplayName: 无限诅咒焰药剂
-	Tooltip: 近战、鞭子和盗贼攻击会造成诅咒狱火
+	DisplayName: 诅咒焰力量
+	Tooltip: "{$BuffDescription.WeaponImbueCursedFlames}"
 }
 
 UnlimitedFire: {
-	DisplayName: 无限烈火药剂
-	Tooltip: 近战、鞭子和盗贼攻击会造成着火了！
+	DisplayName: 烈火力量
+	Tooltip: "{$BuffDescription.WeaponImbueFire}"
 }
 
 UnlimitedGold: {
-	DisplayName: 无限金药剂
-	Tooltip: 近战、鞭子和盗贼攻击会造成麦达斯
+	DisplayName: 金力量
+	Tooltip: "{$BuffDescription.WeaponImbueGold}"
 }
 
 UnlimitedNanites: {
-	DisplayName: 无限纳米机器人药剂
-	Tooltip: 近战、鞭子和盗贼攻击会造成困惑
+	DisplayName: 纳米机器人力量
+	Tooltip: "{$BuffDescription.WeaponImbueNanites}"
 }
 
 UnlimitedParty: {
-	DisplayName: 无限派对药剂
-	Tooltip: 近战、鞭子和盗贼攻击会喷洒彩纸
+	DisplayName: 派对力量
+	Tooltip: "{$BuffDescription.WeaponImbueConfetti}"
 }
 
 UnlimitedPoison: {
-	DisplayName: 无限毒药药剂
-	Tooltip: 近战、鞭子和盗贼攻击会造成中毒
+	DisplayName: 毒药力量
+	Tooltip: "{$BuffDescription.WeaponImbuePoison}"
+}
+
+ScrollOfFlasks: {
+	DisplayName: 药剂卷轴
+	Tooltip:
+		'''
+		拥有所有原版药剂力量的卷轴
+		只允许1种药剂被同时启用
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:UnofficialLuiAFKDLC/UnlimitedVenom] - {$BuffDescription.WeaponImbueVenom}
+		[i:UnofficialLuiAFKDLC/UnlimitedCursedFlames] - {$BuffDescription.WeaponImbueCursedFlames}
+		[i:UnofficialLuiAFKDLC/UnlimitedFire] - {$BuffDescription.WeaponImbueFire}
+		[i:UnofficialLuiAFKDLC/UnlimitedGold] - {$BuffDescription.WeaponImbueGold}
+		[i:UnofficialLuiAFKDLC/UnlimitedNanites] - {$BuffDescription.WeaponImbueNanites}
+		[i:UnofficialLuiAFKDLC/UnlimitedParty] - {$BuffDescription.WeaponImbueConfetti}
+		[i:UnofficialLuiAFKDLC/UnlimitedPoison] - {$BuffDescription.WeaponImbuePoison}
+		'''
 }

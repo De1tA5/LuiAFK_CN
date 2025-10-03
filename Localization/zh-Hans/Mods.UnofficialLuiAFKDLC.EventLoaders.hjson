@@ -1,0 +1,149 @@
+miningcracks_take_on_luiafk: {
+	HalloweenWorldEvent: {
+		DisplayName: 万圣节
+		Description: 条件若允许，可切换万圣节事件
+	}
+
+	XMasWorldEvent: {
+		DisplayName: 圣诞节
+		Description: 条件若允许，可切换圣诞节事件
+	}
+
+	RainWorldEvent: {
+		DisplayName: 雨
+		Description: 条件若允许，可切换雨事件
+	}
+
+	SandstormWorldEvent: {
+		DisplayName: 沙尘暴
+		Description:
+			'''
+			条件若允许，可切换沙尘暴
+			如果某种天气条件未满足，则无法激活沙尘暴
+			'''
+	}
+
+	BloodMoonInvasion: {
+		DisplayName: 血月
+		Description:
+			'''
+			在夜晚切换血月
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	FrostLegion: {
+		DisplayName: 雪人军团
+		Description:
+			'''
+			切换雪人军团
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	FrostMoonInvasion: {
+		DisplayName: 霜月
+		Description:
+			'''
+			在夜晚切换霜月
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	GoblinInvasion: {
+		DisplayName: 哥布林军队
+		Description:
+			'''
+			切换哥布林军队
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	MartianInvasion: {
+		DisplayName: 火星暴乱
+		Description:
+			'''
+			切换火星暴乱
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	PirateInvasion: {
+		DisplayName: 海盗入侵
+		Description:
+			'''
+			切换海盗入侵
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	PumpkinMoonInvasion: {
+		DisplayName: 南瓜月
+		Description:
+			'''
+			在夜晚切换南瓜月
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+
+	SolarInvasion: {
+		DisplayName: 日食
+		Description:
+			'''
+			在白天切换日食
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+}
+
+Terraria: {
+	PartyWorldEvent: {
+		DisplayName: 派对
+		Description:
+			'''
+			条件若允许，切换派对事件
+			即便在夜晚或城镇NPC不够也能启用
+			如果未锁定，派对会在夜晚自然结束
+			'''
+	}
+
+	LanternNightWorldEvent: {
+		DisplayName: 灯笼夜
+		Description:
+			'''
+			条件若允许，切换灯笼夜事件
+			即便在白天也能启用
+			如果未锁定，灯笼夜会在凌晨自然结束
+			'''
+	}
+
+	SlimeRainInvasion: {
+		DisplayName: 史莱姆雨
+		Description:
+			'''
+			切换史莱姆雨
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+}
+
+CalamityMod: {
+	AcidRainInvasion: {
+		DisplayName: 酸雨
+		Description:
+			'''
+			切换酸雨
+			在同一时间只允许一种入侵事件发生
+			入侵事件将在启动5秒后发生
+			'''
+	}
+}

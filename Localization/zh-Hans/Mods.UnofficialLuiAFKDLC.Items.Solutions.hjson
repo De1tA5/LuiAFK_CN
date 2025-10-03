@@ -8,6 +8,6 @@ UnlimitedAstralSolution: {
 }
 
 UnlimitedCyanSolution: {
-	DisplayName: Unlimited Cyan Solution
-	Tooltip: Never run out of Cyan Solution
+	DisplayName: 浓缩{$Mods.Clamity.Items.Ammo.Solution.CyanSolution.DisplayName}
+	Tooltip: 永远用不完的{$Mods.Clamity.Items.Ammo.Solution.CyanSolution.DisplayName}
 }

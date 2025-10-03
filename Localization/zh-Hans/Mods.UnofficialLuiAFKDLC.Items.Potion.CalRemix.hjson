@@ -1,0 +1,14 @@
+AstralStand: {
+	DisplayName: 天体恒星图腾
+	Tooltip: 免疫太空低重力
+}
+
+HallowStand: {
+	DisplayName: 焕光天使神像
+	Tooltip:
+		'''
+		增加25%伤害、暴击率和移动速度
+		防御力增加20,，伤害减免增加8%，最大生命值增加20%
+		但周围玩家永久处于混乱状态
+		'''
+}

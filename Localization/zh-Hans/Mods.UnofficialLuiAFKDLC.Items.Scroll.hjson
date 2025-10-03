@@ -3,109 +3,73 @@ CalamityMod: {
 		DisplayName: 雕像卷轴
 		Tooltip:
 			'''
-			处于物品栏中，周围的玩家获得血腥雕像、腐化雕像和腐朽雕像的增益
-			[c/FF6347:“这真的是纸吗？”]
-			[c/8B0000:用腐朽与黑暗的力量强化盟友]
-			[c/8B0000:引导那被污染大地的精华]
+			拥有所有雕像力量的卷轴
+			[c/FF6347:“话说这真的是纸吗？！”]
 			'''
-		CalRemixTooltip:
+		HoldShiftTooltip:
 			'''
-			处于物品栏中，周围的玩家获得血腥雕像、腐化雕像
-			星幻雕像、神圣雕像和腐朽雕像的增益
-			[c/FFD700:现在作为神像的真正守护者]
-			[c/FFD700:你的存在以无限宇宙之力激励着他人]
+			[i:UnofficialLuiAFKDLC/CorruptionStand] - 提高10%移动速度和暴击率提高，但是失去5%伤害减免
+			[i:UnofficialLuiAFKDLC/CrimsonStand] - 增加15%伤害和10点防御，但是减少10%最大生命值
+			[i:UnofficialLuiAFKDLC/DecayStand] - 可以在水下呼吸，但此效果在深渊中不起作用
+			'''
+		HoldShiftTooltipCalRemix:
+			'''
+			[i:UnofficialLuiAFKDLC/AstralStand] - 获得星幻雕像的力量
+			[i:UnofficialLuiAFKDLC/HallowStand] - 获得神圣雕像的力量
 			'''
 	}
 
 	ScrollOfDepths: {
 		DisplayName: 深渊卷轴
-		Tooltip:
+		Tooltip: 拥有深渊相关力量的卷轴
+		HoldShiftTooltip:
 			'''
-			现在你可以随心所欲地在深渊里遨游
-			[c/1E90FF:感受卷轴带来的慰藉]
-			[c/1E90FF:保护你免受来自深渊的重压]
-			'''
-	}
-
-	AlcoholicsCodex: {
-		DisplayName: 嗜酒者秘烛
-		Tooltip:
-			'''
-			{$Mods.UnofficialLuiAFKDLC.Items.Scroll.CalamityMod.AlcoholicsCodexResilient.Tooltip}
-			[c/FF4500:当前贴图只是占位符]
-			'''
-	}
-
-	AlcoholicsCodexResilient: {
-		DisplayName: 嗜酒者秘烛 （恢复）
-		Tooltip:
-			'''
-			防御能够额外抵挡10%伤害
-			（即经典模式下防御能抵挡60%伤害，专家模式下85%，大师模式下110%）
-			[c/4682B4:右键点击改变蜡烛增益]
-			[c/00CED1:以坚定的决心坚守阵地]
-			'''
-	}
-
-	AlcoholicsCodexSpiteful: {
-		DisplayName: 嗜酒者秘烛 （恶念）
-		Tooltip:
-			'''
-			对附近的敌人造成1.07倍伤害
-			这额外的0.07倍伤害无视敌人的防御和伤害减免效果
-			[c/4682B4:右键点击改变蜡烛增益]
-			[c/8B0000:释放恶念之力突破一切抵抗]
-			'''
-	}
-
-	AlcoholicsCodexVigorous: {
-		DisplayName: 嗜酒者秘烛 （活力）
-		Tooltip:
-			'''
-			每秒恢复最大生命值0.4%的生命值
-			即使在移动时亦是如此，并且不受复仇模式的生命再生上限影响
-			[c/4682B4:右键点击改变蜡烛增益]
-			[c/32CD32:拥抱永不停息复苏的生命力]
-			'''
-	}
-
-	AlcoholicsCodexWeightless: {
-		DisplayName: 嗜酒者秘烛 （失重）
-		Tooltip:
-			'''
-			获得10%移动速度、飞行时间和加速度加成
-			[c/4682B4:右键点击改变蜡烛增益]
-			[c/ADD8E6:翱翔于天际，突破重力的束缚]
+			[i:UnofficialLuiAFKDLC/UnlimitedAnechoicCoating] - 降低深渊生物侦测到你的可能性
+			[i:UnofficialLuiAFKDLC/UnlimitedSulphuric] - 减少硫磺海的海水对你的影响
+			[i:UnofficialLuiAFKDLC/UnlimitedOmniscience] - 高亮显示附近生命，矿石，宝物，危险和敌方弹幕
 			'''
 	}
 
 	ScrollOfInfiniteAscent: {
 		DisplayName: 升天卷轴
-		Tooltip:
+		Tooltip: 拥有所有来自灾厄飞升相关力量的卷轴
+		HoldShiftTooltip:
 			'''
-			增加飞行时间、跳跃速度并免疫摔落伤害
-			[c/FFD700:“飞得更高，跳得更远，安全坠落——非常适合那些敢于触摸天空的人”]
-			[c/87CEEB:超凡之力登临新高]
+			[i:UnofficialLuiAFKDLC/UnlimitedSoaring] - 增加10%飞行时间和水平飞行速度
+			[i:UnofficialLuiAFKDLC/UnlimitedBounding] - 增加5%跳跃速度、25格摔落伤害抗性和跳跃高度
+			[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - 免疫摔落伤害
 			'''
 	}
 
 	ScrollOfCalamity: {
 		DisplayName: 灾厄卷轴
-		Tooltip:
+		Tooltip: 终极灾厄卷轴，将所有卷轴与稀有力量凝聚为一体
+		HoldShiftTooltip:
 			'''
-			获得灾厄之力，能够穿越深渊，提高机动性等等
-			[c/B22222:释放灾厄中的破坏潜能]
-			[c/B22222:驾驭混沌之力重塑命运]
+			[i:UnofficialLuiAFKDLC/ScrollOfDepths] - [i:UnofficialLuiAFKDLC/UnlimitedAnechoicCoating]降低被侦测的概率 [i:UnofficialLuiAFKDLC/UnlimitedOmniscience]高亮显示大部分物体 [i:UnofficialLuiAFKDLC/UnlimitedSulphuric]免受硫磺海水的影响
+			[i:UnofficialLuiAFKDLC/ScrollOfAstral] - [i:UnofficialLuiAFKDLC/UnlimitedGravityNormalizer]重力正常化 [i:UnofficialLuiAFKDLC/UnlimitedAstralInjection]魔力加速再生
+			[i:UnofficialLuiAFKDLC/ScrollOfInfiniteAscent] - [i:UnofficialLuiAFKDLC/UnlimitedSoaring]增强飞行能力 [i:UnofficialLuiAFKDLC/UnlimitedBounding]跳跃强化 [i:UnofficialLuiAFKDLC/UnlimitedCalcium]骨头加固
+			[i:UnofficialLuiAFKDLC/ScrollOfEffigies] - 雕像卷轴： 雕像提供被动属性加成与功能性增益
+			[i:UnofficialLuiAFKDLC/ScrollOfCandles] - 嗜酒秘典卷轴： [i:CalamityMod/ResilientCandle]恢复 [i:CalamityMod/SpitefulCandle]恶念 [i:CalamityMod/VigorousCandle]活力 [i:CalamityMod/WeightlessCandle]失重
+			[i:UnofficialLuiAFKDLC/ScrollOfCalamityFlasks] -  获得药剂效果： [i:UnofficialLuiAFKDLC/UnlimitedCrumbling]粉碎 [i:UnofficialLuiAFKDLC/UnlimitedBrimstone]硫磺火 [i:UnofficialLuiAFKDLC/UnlimitedHolyFlames]神圣之火
+			[i:UnofficialLuiAFKDLC/FermentedBook] - 一本有关发酵的巨著，能够提升炼金术知识及药水相关增益
+			[i:UnofficialLuiAFKDLC/UnlimitedBloodfin] - 血鳍灵药： 低血量时大幅提升生命恢复速度
+			[i:UnofficialLuiAFKDLC/UnlimitedBaguettePower] - 提供额外的红酒增益
+			[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - 增加生命恢复速度且在白天强化该效果
+			[i:UnofficialLuiAFKDLC/UnlimitedShadow] - 盗贼武器在击中敌人时会生成弹幕并增加潜行值恢复速度
+			[i:UnofficialLuiAFKDLC/UnlimitedTesla] - 在你周围召唤电击并减速敌人的电场
+			[i:UnofficialLuiAFKDLC/UnlimitedMushy] - 增加防御力和生命恢复速度并能让草上生长蘑菇
+			[i:UnofficialLuiAFKDLC/UnlimitedChi] - 获得伤害减免并为你的队伍提供生命再生
 			'''
 	}
 
 	ScrollOfAstral: {
 		DisplayName: 星幻卷轴
-		Tooltip:
+		Tooltip: 拥有星幻相关力量的卷轴
+		HoldShiftTooltip:
 			'''
-			强化魔力恢复速度并稳定重力
-			[c/9400D3:感受星界力量的平衡]
-			[c/9400D3:协调你的内在能量，使步伐更为轻盈]
+			[i:UnofficialLuiAFKDLC/UnlimitedGravityNormalizer] - 不受太空低重力环境的影响并免疫扭曲减益
+			[i:UnofficialLuiAFKDLC/UnlimitedAstralInjection] - 大幅增加魔力恢复速度但是会造成魔力病
 			'''
 	}
 
@@ -113,15 +77,75 @@ CalamityMod: {
 		DisplayName: 酒酿之书
 		Tooltip:
 			'''
-			获得所有酒类的效果
-			[c/FF9900:拥抱发酵之路————能提升你的属性]
-			[c/FF9900:但小心醉意迷雾的侵蚀]
 
-			只允许3种酒类被同时启用
+			[c/d6ae82:你知道吗？ 像苏美尔人这样的古代文明]
+			[c/d6ae82:在 5000 多年前就记录了啤酒配方]
+			'''
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/BloodyMaryPower] - 在血月增加伤害和移动速度，但会降低生命回复和防御力
+			[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - 增加生命回复、移动速度和飞行时间，但使你飘飘若仙并降低防御力
+			[i:UnofficialLuiAFKDLC/CinnamonRollPower] - 增加魔力回复并强化所有火系减益，但会降低你的防御力
+			[i:UnofficialLuiAFKDLC/EverclearPower] - 获得伤害加成，但是降低生命回复和防御力
+			[i:UnofficialLuiAFKDLC/EvergreenGinPower] - 强化所有疫病和水系减益，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/FireballPower] - 强化所有火系减益，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/GrapeBeerPower] - 降低防御力
+			[i:UnofficialLuiAFKDLC/MargaritaPower] - 减半大多数减益的持续时间，但会降低生命回复和防御力
+			[i:UnofficialLuiAFKDLC/MoonshinePower] - 增加防御力和伤害减免，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/MoscowMulePower] - 增加伤害、击退和暴击率，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/OldFashionedPower] - 强化饰品和套装奖励所造成伤害，但会降低所有伤害
+			[i:UnofficialLuiAFKDLC/PurpleHazePower] - 增加伤害并延长受伤后无敌时间，但会降低防御力
+			[i:UnofficialLuiAFKDLC/RedWinePower] - 降低生命回复
+			[i:UnofficialLuiAFKDLC/RumPower] - 增加生命回复和移动速度，但会降低防御力
+			[i:UnofficialLuiAFKDLC/ScrewdriverPower] - 强化穿透类弹幕的伤害，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/StarBeamRyePower] - 增加最大魔力值、魔法伤害并降低魔力消耗，但会降低生命回复和防御力
+			[i:UnofficialLuiAFKDLC/TequilaPower] - 在白天时增加击退、暴击率和防御力，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - 在白天时大幅增加击退、暴击率和防御力，但会降低生命回复
+			[i:UnofficialLuiAFKDLC/VodkaPower] - 增加伤害和暴力率，但会降低生命回复和防御力
+			[i:UnofficialLuiAFKDLC/WhiskeyPower] - 增加伤害、击退和暴力率，但会降低防御力
+			[i:UnofficialLuiAFKDLC/WhiteWinePower] - 增加魔法伤害，但会降低生命回复和防御力
+			[c/B00BA5:只允许3种酒类被同时启用，你的选择最好明智点]
+			'''
+	}
 
-			你知道吗？ 像苏美尔人这样的古代文明
-			在 5000 多年前就记录了啤酒配方
+	ScrollOfCalamityFlasks: {
+		DisplayName: 灾厄药剂卷轴
+		Tooltip: 拥有所有来自灾厄药剂力量的卷轴
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/UnlimitedCrumbling] - {$Mods.CalamityMod.Buffs.WeaponImbueCrumbling.Description}
+			[i:UnofficialLuiAFKDLC/UnlimitedBrimstone] - {$Mods.CalamityMod.Buffs.WeaponImbueBrimstone.Description}
+			[i:UnofficialLuiAFKDLC/UnlimitedHolyFlames] - {$Mods.CalamityMod.Buffs.WeaponImbueHolyFlames.Description}
+			'''
+	}
 
+	ScrollOfCandles: {
+		DisplayName: 嗜酒秘典卷轴
+		Tooltip: 拥有所有嗜酒秘典的卷轴
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexResilient] - 防御能够额外抵挡10%伤害
+			        （即经典模式下防御能抵挡60%伤害，专家模式下85%，大师模式下110%）
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexSpiteful] - 对附近的敌人造成1.07倍伤害
+			        这额外的0.07倍伤害无视敌人的防御和伤害减免效果
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexVigorous] - 每秒恢复最大生命值0.4%的生命值
+			        即便是在移动时亦是如此
+			        并且不受复仇模式的生命再生上限影响
+			[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexWeightless] - 获得10%移动速度、飞行时间和加速度加成
+			'''
+	}
+
+	ScrollOfCalamitySpawnBlocks: {
+		DisplayName: 种群控制球
+		Tooltip: 拥有所有来自灾厄阻止生成物品力量的卷轴
+		HoldShiftTooltip:
+			'''
+			[i:CalamityMod/VoodooDemonVoodooDoll] - 可使巫毒恶魔不再生成
+			[i:CalamityMod/AntiCystOintment] - 可使血肉囊不再生成
+			[i:CalamityMod/AntiTumorOintment] - 可使腐化肿瘤不再生成
+			[i:CalamityMod/BleachBall] - 可使渊海灾虫不再自然生成
+			[i:CalamityMod/SirenproofEarMuffs] - 可使阿娜希塔不再生成
+			[i:CalamityMod/BrokenWaterFilter] - 可使酸雨事件不再自然生成
 			'''
 	}
 }
@@ -131,74 +155,73 @@ AlchemistNPCLite: {
 		DisplayName: 世界传送卷轴 {0}
 		Tooltip:
 			'''
-			{0}
-			右键点击卷轴以更改模式
-			[c/00CED1:一种弯曲空间和时间的多功能工具]
+			[DEST]
+			[i:UnofficialLuiAFKDLC/WorldWarper] [c/A9A9A9:一部神秘著作遵从你的意志，右键点击卷轴以更改模式]
 			'''
 		None:
 			'''
-			使用卷轴更改为第一种模式
-			[c/87CEEB:一张白纸，等待你的命令]
+			使用卷轴解锁它的第一种模式
+			[c/87CEEB:一张白纸，准备好开启新的旅程]
 			'''
 		Beach:
 			'''
-			左键使用传送至左边的沙滩
-			右键使用传送至右边的沙滩
-			[c/1E90FF:在瞬间传送到海岸时，感受那海风拂面]
+			[i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter] - [c/d67916:走向金色的沙滩，感受潮水的召唤]
+			[c/1E90FF:让海风引导你传送到那海岸]
 			'''
 		BeachName: 沙滩
 		Dungeon:
 			'''
-			左/右键使用传送至地牢入口
-			[c/8B0000:走向那被遗忘的神秘走廊]
+			[i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter] - [c/d67916:深入那幽暗神秘的长廊]
+			[c/6e5f56:面对那些正在等待勇敢灵魂的，遗忘的陷阱和潜伏的危险]
 			'''
 		DungeonName: 地牢
 		Jungle:
 			'''
-			左键使用传送至丛林
-			右键使用传送至最近的红木
-			[c/228B22:拥抱葱郁的荒野和它的秘密]
+			[i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter] - [c/d67916:左键使用传送至丛林之心]
+			[c/228B22:右键使用传送至高耸的红木并探寻它的秘密]
 			'''
 		JungleName: 丛林
 		Ocean:
 			'''
-			左键使用传送至左边最近的珊瑚块
-			右键使用传送至右边最近的珊瑚块
-			[c/4682B4:探索海洋边缘深处的宽广]
+			[i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter] - [c/d67916:穿越两个海岸线]
+			[c/4682B4:探索海岸边缘时感受海洋的召唤]
 			'''
 		OceanName: 海洋
 		Temple:
 			'''
-			左/右键使用传送至神庙祭坛
-			[c/DAA520:揭开那藏于神庙中的古老力量]
+			[i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter] - [c/d67916:走向那通往远古神庙的神圣之路]
+			[c/DAA520:揭开大厅中的遗忘力量与神秘遗物]
 			'''
 		TempleName: 丛林神庙
 		Underworld:
 			'''
-			左键使用传送至左边最近的地狱废墟
-			右键使用传送至右边最近的地狱废墟
-			[c/FF4500:跃入火焰深处并掌握命运之章]
+			[i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter] - [c/d67916:传送至熔火与灰烬之奇观]
+			[c/954d4d:敢于深入炽热深处，直面你的命运]
 			'''
 		UnderworldName: 地狱
 	}
 
 	ScrollOfMinerAlchemist: {
 		DisplayName: 流光挖掘卷轴
-		Tooltip:
+		Tooltip: 拥有所有来自炼金师挖掘相关力量的卷轴
+		HoldShiftTooltip:
 			'''
-			提高挖掘速度，避开陷阱，照亮你的道路
-			[c/FFD700:用这闪亮的卷轴安全快速地探索]
-			[c/32CD32:矿工在深处最好的伙伴]
+			[i:UnofficialLuiAFKDLC/UnlimitedExcavation] - 将你1格的挖掘范围扩展至3x3
+			[i:UnofficialLuiAFKDLC/UnlimitedSunshine] - 极大幅增加光照范围
+			[i:UnofficialLuiAFKDLC/UnlimitedTrapper] - 增强所有陷阱
 			'''
 	}
 
 	ScrollOfWarriorAlchemist: {
 		DisplayName: 刚毅阴影卷轴
-		Tooltip:
+		Tooltip: 拥有所有来自炼金师战斗相关力量的卷轴
+		HoldShiftTooltip:
 			'''
-			提高闪避和防御能力
-			[c/8B0000:驾驭战士之力，兼具暗影之灵巧]
-			[c/4682B4:坚定不移地面对你的敌人]
+			[i:UnofficialLuiAFKDLC/UnlimitedBlurring] - 获得能激活“神圣庇护”的增益
+			[i:UnofficialLuiAFKDLC/UnlimitedFortitude] - 免疫击退
+			[i:UnofficialLuiAFKDLC/UnlimitedNinja] - 使你有能力闪避攻击
+			[i:UnofficialLuiAFKDLC/UnlimitedInvincibility] - 延长受伤后的无敌帧
+			[i:UnofficialLuiAFKDLC/UnlimitedTitanSkin] - 免疫部分减益
 			'''
 	}
 
@@ -226,4 +249,50 @@ AlchemistNPCLite: {
 		DisplayName: World Warper Underworld
 		Tooltip: ""
 	}
+
+	ScrollOfAlchemist: {
+		DisplayName: 炼金秘药
+		Tooltip:
+			'''
+			强大的秘药蕴含所有来自炼金师的力量
+			炼金师的最爱
+			'''
+		HoldShiftTooltip:
+			'''
+			[i:UnofficialLuiAFKDLC/ScrollOfMinerAlchemist] - [i:AlchemistNPCLite/ExcavationPotion]挖掘 [i:AlchemistNPCLite/SunshinePotion]阳光 [i:AlchemistNPCLite/TrapsPotion]陷阱
+			[i:UnofficialLuiAFKDLC/ScrollOfWarriorAlchemist] - [i:AlchemistNPCLite/BlurringPotion]模糊 [i:AlchemistNPCLite/FortitudePotion]刚毅 [i:AlchemistNPCLite/NinjaPotion]忍者 [i:AlchemistNPCLite/InvincibilityPotion]无敌 [i:AlchemistNPCLite/TitanSkinPotion]泰坦皮肤
+			[i:UnofficialLuiAFKDLC/UnlimitedDiscord] - 在击败月亮领主前后分别获得[i:1326]混沌传送杖和[i:5335]和谐传送杖的能力
+			[i:UnofficialLuiAFKDLC/UnlimitedGreaterDangersense] - [i:AlchemistNPCLite/GreaterDangersensePotion]强化危险感
+			[i:UnofficialLuiAFKDLC/UnlimitedNaturesBlessing] - [i:AlchemistNPCLite/NatureBlessingPotion]自然赐福
+			'''
+	}
+}
+
+DisplayName: 卷轴
+Tooltip: 
+	'''
+	用于至尊灾厄的奥术撰卷桌的动画
+	还有你不该看见的
+	'''
+
+WarTotem: {
+	DisplayName: 战争图腾
+	Tooltip:
+		'''
+		能够召唤所有外部势力入侵的图腾
+		允许你控制所有入侵事件
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/FrostLegionEnable] - 允许你切换 雪人军团
+		[i:miningcracks_take_on_luiafk/GoblinArmyEnable] - 允许你切换 哥布林军队
+		[i:miningcracks_take_on_luiafk/MartianMadnessEnable] - 允许你切换 火星暴乱
+		[i:miningcracks_take_on_luiafk/PirateEnable] - 允许你切换 海盗入侵
+		[i:miningcracks_take_on_luiafk/BloodMoonEnable] - 允许你切换 血月
+		[i:miningcracks_take_on_luiafk/FrostMoonEnable] - 允许你切换 霜月
+		[i:miningcracks_take_on_luiafk/PumpkinMoonEnable] - 允许你切换 南瓜月
+		[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - 允许你切换 日食
+		[i:UnofficialLuiAFKDLC/SlimyTear] - 允许你切换 史莱姆雨
+		[i:CalamityMod/CausticTear] - 允许你切换 酸雨
+		'''
 }

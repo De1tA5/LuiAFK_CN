@@ -1,46 +1,45 @@
 ArchitectHeavyEquipment: {
-	DisplayName: 传奇建筑师之证
-	Tooltip:
+	DisplayName: 建筑师圣徽
+	Tooltip: "[i:UnofficialLuiAFKDLC/ArchitectHeavyEquipment] - [c/d9a53f:一个强大的头盔被—LuiAFK DLC 的开发者们所佩戴—提供众多建筑属性强化]"
+	HoldShiftTooltip:
 		'''
-		[c/FF4500:在世界深处锻造的传奇头盔，与创造的本质产生共鸣，其具有如下权能:]
-
-		[c/FF6347:- 大幅提高使用工具、涂漆、放置物块和墙壁速度.]
-		[c/FF7F50:- 大幅增加物块放置和工具使用的范围]
-		[c/FF8C00:- 大幅增加物品拾取范围]
-		[c/FFA07A:- 自动给放置物涂漆或涂料]
-		[c/FA8072:- 按住向上键可以够到更高的地方]
-		[c/FF6F61:- 你背后的敌人会被高击退力的强光针刺攻击]
-		[c/FF4500:- 处于地下或地狱时增加15%伤害减免和18点防御]
-
-		[c/FF6347:曾被？？？？？？所使用，他是一位以无与伦比的工艺和独创性而闻名的建筑大师]
-		[c/FF7F50:他用这顶头盔重塑了山水和城市的风景，直到命运般的遇到了至尊女巫——灾厄]
-		[c/FF8C00:在这场史诗般的战斗中，？？？？？？他英勇奋战]
-		[c/FA8072:但最终他还是落败了，而他的灵魂永远地留在了头盔当中]
-		[c/FF6F61:如今，佩戴头盔的人借助他的专长与决心，用于追求更为伟大的目标]
+		[i:miningcracks_take_on_luiafk/ToolTime] - 大幅提高使用工具、涂漆、放置物块和墙壁速度
+		[i:HandOfCreation] - 获得原版建筑饰品效果 [i:PortableStool] - 按住 向上 键可以够到更高的地方
+		[i:CalamityMod/MarniteRepulsionShield] - 提供4点防御，增加强光针刺的伤害
+		获得 [i:CalamityMod/MarniteArchitectHeadgear] & [i:CalamityMod/MarniteArchitectToga] 的合成岩悬浮平台，并在骑乘时，提升物块放置速度和工具使用的范围
+		[i:CalamityMod/ArchaicPowder] - 处于地下或地狱时增加15%伤害减免和10点防御
 		'''
 }
 
 MaximumUnlimitedMana: {
-	DisplayName: 究极无限魔力
+	DisplayName: 暴君魔力吊坠
 	Tooltip:
 		'''
-		[c/00BFFF:无限魔力]
-		[c/1E90FF:增加20%魔法伤害]
-		[c/4169E1:增加20%魔法暴击]
+		[c/00BFFF:蕴含无尽魔力的究极魔力饰品]
+		减少6%防御和3点生命恢复速度
+		'''
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory] - 大幅降低魔法伤害
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory1] - 中幅降低魔法伤害
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory2] - 小幅降低魔法伤害
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory3] - 获得无限魔力
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory4] - 增加5%魔法伤害和暴击率
+		[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory5] - 增加10%魔法伤害和暴击率
 		'''
 }
 
 EnchantedSupremeFishingBundle: {
-	DisplayName: 究极附魔渔具包
+	DisplayName: 至尊附魔渔具包
 	Tooltip:
 		'''
-		[c/8A2BE2:一套传奇的魔法捕鱼工具，专为终极垂钓者而设计，其具有如下权能:]
-
-		[c/7B68EE:- 增加110点渔力]
-		[c/6A5ACD:- 钓鱼线永远都不会断，降低鱼饵消耗率]
-		[c/483D8B:- 增加钓到宝匣的几率]
-		[c/4169E1:- 可以在熔岩中钓鱼]
-		[c/0000FF:- 使你获得声呐药水的效果]
-		[c/00008B:- 大幅增加钓到药水素材鱼的概率]
+		[c/8A2BE2:究极渔具包—增加100点渔力]
+		[c/7B68EE:为顶级钓鱼者打造的完美装备]
+		'''
+		HoldShiftTooltip:
+		'''
+		[i:CalamityMod/EnchantedPearl] - 略微提升渔力—增加10点渔力
+		[i:CalamityMod/SupremeBaitTackleBoxFishingStation] - 大幅提升渔力—增加80点渔力
+		[i:CalamityMod/AlluringBait] - 增加30点渔力，并大幅度增加捕获药水材料鱼的概率
 		'''
 }

@@ -1,0 +1,4 @@
+CausticTear: {
+	AppendedTooltip: 放置于物品栏时，可以打开管理菜单召唤酸雨
+	PowerEffectHint: True
+}

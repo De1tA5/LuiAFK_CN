@@ -1,0 +1,149 @@
+UltimateBattler.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UltimateBattler] - 极限战争！
+	{$UnlimitedBattler.HoldShiftTooltip}
+	'''
+UltimatePeaceful.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UltimatePeaceful] - 极限和平！
+	{$UnlimitedPeaceful.HoldShiftTooltip}
+	[i:miningcracks_take_on_luiafk/UnlimitedSunflower] - {$BuffDescription.Sunflower}
+	'''
+UnlimitedArena.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedHoneyBuff] - {$BuffDescription.Honey}
+	[i:miningcracks_take_on_luiafk/UnlimitedStarinaBottle] - {$BuffDescription.StarInBottle}
+	[i:miningcracks_take_on_luiafk/UnlimitedCampfire] - {$BuffDescription.Campfire}
+	[i:miningcracks_take_on_luiafk/UnlimitedHeartLantern] - {$BuffDescription.HeartLamp}
+	[i:miningcracks_take_on_luiafk/UnlimitedBastStatue] - {$BuffDescription.CatBast}
+	'''
+UnlimitedBasics.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedIronskin] - {$BuffDescription.Ironskin}
+	[i:miningcracks_take_on_luiafk/UnlimitedSwiftness] - {$BuffDescription.Swiftness}
+	[i:miningcracks_take_on_luiafk/UnlimitedRegeneration] - {$BuffDescription.Regeneration}
+	[i:miningcracks_take_on_luiafk/UnlimitedWellFed] - {$BuffDescription.WellFed}
+	'''
+UnlimitedBattler.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedBattle] - {$BuffDescription.Battle}
+	[i:miningcracks_take_on_luiafk/UnlimitedWaterCandle] - {$BuffDescription.WaterCandle}
+	'''
+UnlimitedCombat.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedBasics] - [i:292]铁皮 [i:290]迅捷 [i:289]再生 [i:4022]酒足饭饱
+	[i:miningcracks_take_on_luiafk/UnlimitedDamage] - [i:2347]暴怒 [i:2349]怒气 [i:2328]召唤 [i:2326]泰坦 [i:301]荆棘 [i:2348]炼狱
+	[i:miningcracks_take_on_luiafk/UnlimitedDefense] - [i:2323]拾心 [i:2345]生命力 [i:2359]温暖 [i:2346]耐力
+	[i:miningcracks_take_on_luiafk/UnlimitedMagic] - [i:294]魔能 [i:293]魔力再生
+	[i:miningcracks_take_on_luiafk/UnlimitedMelee] - [i:2266]踉跄 [i:UnofficialLuiAFKDLC/ScrollOfFlasks]所有药剂
+	[i:miningcracks_take_on_luiafk/UnlimitedRange] - [i:2344]弹药储备 [i:303]箭术
+	[i:miningcracks_take_on_luiafk/UnlimitedStation] - [i:487]灵视 [i:2177]弹药箱 [i:3198]锋利 [i:2999]着魔 [i:3750]糖果冲刺 [i:3814]战略家
+	[i:miningcracks_take_on_luiafk/UnlimitedArena] - [i:1134]蜂蜜 [i:1431]星星瓶 [i:966]温馨之火 [i:1859]心灯 [i:4276]巴斯特防御
+	'''
+UnlimitedDamage.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedRage] - {$BuffDescription.Rage}
+	[i:miningcracks_take_on_luiafk/UnlimitedWrath] - {$BuffDescription.Wrath}
+	[i:miningcracks_take_on_luiafk/UnlimitedSummoning] - {$BuffDescription.Summoning}
+	[i:miningcracks_take_on_luiafk/UnlimitedTitan] - {$BuffDescription.Titan}
+	[i:miningcracks_take_on_luiafk/UnlimitedThorns] - {$BuffDescription.Thorns}
+	[i:miningcracks_take_on_luiafk/UnlimitedInferno] - {$BuffDescription.Inferno}
+	'''
+UnlimitedDanger.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedDangersense] - {$BuffDescription.Dangersense}
+	[i:miningcracks_take_on_luiafk/UnlimitedHunter] - {$BuffDescription.Hunter}
+	[i:miningcracks_take_on_luiafk/UnlimitedBiomeSight] - {$BuffDescription.BiomeSight}
+	'''
+UnlimitedDefense.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedHeartreach] - {$BuffDescription.Heartreach}
+	[i:miningcracks_take_on_luiafk/UnlimitedLifeforce] - {$BuffDescription.Lifeforce}
+	[i:miningcracks_take_on_luiafk/UnlimitedWarmth] - {$BuffDescription.Warmth}
+	[i:miningcracks_take_on_luiafk/UnlimitedEndurance] - {$BuffDescription.Endurance}
+	'''
+UnlimitedEverything.HoldShiftTooltip:
+	'''
+	{$UnlimitedExplorer.HoldShiftTooltip}
+	{$UnlimitedCombat.HoldShiftTooltip}
+	[i:miningcracks_take_on_luiafk/UnlimitedFishing] - [i:2354]钓鱼 [i:2355]声纳 [i:2356]宝匣
+	[i:miningcracks_take_on_luiafk/UnlimitedFlight] - [i:295]羽落 [i:305]重力
+	[i:miningcracks_take_on_luiafk/UnlimitedInvisibility] - [i:297]{$BuffDescription.Invisibility}
+	[i:miningcracks_take_on_luiafk/UltimateBattler] - [C/FED64E:极限战争！] 增加刷怪率
+	[i:miningcracks_take_on_luiafk/UltimatePeaceful] - [C/FED64E:极限和平！] 降低刷怪率
+	[i:miningcracks_take_on_luiafk/UnlimitedLucky] - 提高运气
+	'''
+UnlimitedExplorer.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedDanger] - [i:2329]危险感 [i:304]猎人 [i:5211]生物群系视觉
+	[i:miningcracks_take_on_luiafk/UnlimitedGathering] - [i:296]洞穴探险 [i:299]夜猫子 [i:288]黑曜石皮肤 [i:2322]挖矿 [i:298]光芒
+	[i:miningcracks_take_on_luiafk/UnlimitedSwimming] - [i:291]鱼鳃 [i:302]水上漂 [i:2327]脚蹼
+	[i:miningcracks_take_on_luiafk/UnlimitedBuilder] - [i:2325]{$BuffDescription.Builder}
+	'''
+UnlimitedFishing.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedFishingPotion] - {$BuffDescription.Fishing}
+	[i:miningcracks_take_on_luiafk/UnlimitedSonar] - {$BuffDescription.Sonar}
+	[i:miningcracks_take_on_luiafk/UnlimitedCrates] - {$BuffDescription.Crate}
+	'''
+UnlimitedFlight.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedFeatherfall] - {$BuffDescription.Featherfall}
+	[i:miningcracks_take_on_luiafk/UnlimitedGravitation] - {$BuffDescription.Gravitation}
+	'''
+UnlimitedGathering.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedSpelunker] - {$BuffDescription.Spelunker}
+	[i:miningcracks_take_on_luiafk/UnlimitedNightOwl] - {$BuffDescription.NightOwl}
+	[i:miningcracks_take_on_luiafk/UnlimitedObsidianSkin] - {$BuffDescription.ObsidianSkin}
+	[i:miningcracks_take_on_luiafk/UnlimitedMining] - {$BuffDescription.Mining}
+	[i:miningcracks_take_on_luiafk/UnlimitedShine] - {$BuffDescription.Shine}
+	'''
+UnlimitedLucky.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedLuck] - {$BuffDescription.Lucky}
+	[i:miningcracks_take_on_luiafk/UnlimitedGnome] - {$Buffs.FakeGnomeBuff.Description}
+	[i:miningcracks_take_on_luiafk/UnlimitedLadybug] - {$Buffs.FakeLadybugBuff.Description}
+	[i:miningcracks_take_on_luiafk/UnlimitedTorches] - 永远用不完普通火把
+	'''
+UnlimitedMagic.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedMagicPower] - {$BuffDescription.MagicPower}
+	[i:miningcracks_take_on_luiafk/UnlimitedManaRegeneration] - {$BuffDescription.ManaRegeneration}
+	'''
+UnlimitedMelee.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedTipsy] - {$BuffDescription.Tipsy}
+	[i:miningcracks_take_on_luiafk/UnlimitedIchor] - {$BuffDescription.WeaponImbueIchor}
+	{$Items.Potion.Vanilla.ScrollOfFlasks.HoldShiftTooltip}
+	'''
+UnlimitedPeaceful.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedCalming] - {$BuffDescription.Calm}
+	[i:miningcracks_take_on_luiafk/UnlimitedPeaceCandle] - {$BuffDescription.PeaceCandle}
+	'''
+UnlimitedRange.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedAmmoReservation] - {$BuffDescription.AmmoReservation}
+	[i:miningcracks_take_on_luiafk/UnlimitedArchery] - {$BuffDescription.Archery}
+	'''
+UnlimitedStation.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedCrystalBall] - {$BuffDescription.Clairvoyance}
+	[i:miningcracks_take_on_luiafk/UnlimitedAmmoBox] - {$BuffDescription.AmmoBox}
+	[i:miningcracks_take_on_luiafk/UnlimitedSharpeningStation] - {$BuffDescription.Sharpened}
+	[i:miningcracks_take_on_luiafk/UnlimitedBewitchingTable] - {$BuffDescription.Bewitched}
+	[i:miningcracks_take_on_luiafk/UnlimitedSliceCake] - {$BuffDescription.SugarRush}
+	[i:miningcracks_take_on_luiafk/UnlimitedWarTable] - {$BuffDescription.WarTable}
+	'''
+UnlimitedSwimming.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/UnlimitedGills] - {$BuffDescription.Gills}
+	[i:miningcracks_take_on_luiafk/UnlimitedWaterWalking] - {$BuffDescription.WaterWalking}
+	[i:miningcracks_take_on_luiafk/UnlimitedFlipper] - {$BuffDescription.Flipper}
+	'''
+Paper.HoldShiftTooltip:
+	'''
+	[i:miningcracks_take_on_luiafk/Paper] - [c/a77e58:由植物纤维和蜘蛛网制成的精致纸张，是制作卷轴的有力材料]
+	[c/6f665e:对于渴望寻求失传奥秘的魔法学徒和炼金术士而言，它是不可或缺的原料]
+	'''

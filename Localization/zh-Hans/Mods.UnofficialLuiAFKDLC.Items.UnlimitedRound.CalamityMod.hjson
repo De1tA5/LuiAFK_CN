@@ -1,145 +1,133 @@
 EndlessBloodfirePouch: {
-	DisplayName: 地狱子弹袋
-	Tooltip:
+	DisplayName: 无限血炎弹袋
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBloodfirePouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		可以穿过物块，并在命中时加快你的自然生命再生
-		基于你当前的生命再生与自然生命再生造成额外伤害
-		此伤害上限为35
-		[c/FF4500:感受那燃烧着的地狱之力流过你的血管]
-		[c/8B0000:“燃汝之血，焚汝之敌”]
+		[i:CalamityMod/BloodfireBullet] - [c/9a2a47:可以穿过物块，并在命中时加快你的自然生命再生]
+		[c/9a2a47:基于你当前的生命再生与自然生命再生造成额外伤害]
+		[c/9a2a47:此伤害上限为35]
+		[c/9a2a47:“燃汝之血，焚汝之敌”]
 		'''
 }
 
 EndlessBubonicPouch: {
-	DisplayName: 瘟疫携带者弹袋
-	Tooltip:
+	DisplayName: 无限鼠疫弹袋
+	Tooltip:  "[i:UnofficialLuiAFKDLC/EndlessBubonicPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		命中时散播瘟疫
-		无视敌人10%防御
-		[c/6B8E23:瘟疫降临于你的敌人，使他们腐烂溃败]
-		[c/556B2F:“未见其来，身却已腐”]
+		[i:CalamityMod/BubonicRound] - [c/33634b:命中时散播瘟疫，无视敌人10%防御]
+		[c/33634b:“未见其来，身已腐溃”]
 		'''
 }
 
 EndlessDryadPouch: {
-	DisplayName: 自然之怒弹袋
-	Tooltip:
+	DisplayName: 无限树妖之泪弹袋
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessDryadPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		撞击时分裂出无视敌怪防御的追踪自然碎片
-		[c/32CD32:顺其自然，让那碎片寻觅并毁灭]
-		[c/228B22:“自然之怒，隐于众片”]
+		[i:CalamityMod/DryadsTear] - [c/95b121:撞击时分裂出无视敌怪防御的追踪自然碎片]
+		[c/95b121:顺其自然之法，任凭碎片寻觅并毁灭]
+		[c/95b121:“自然之怒，隐于众片”]
 		'''
 }
 
 EndlessFlashPouch: {
 	DisplayName: 无限眩晕弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessFlashPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		发射大范围震荡冲击，击中敌人时会造成短暂的困惑减益
-		[c/FFD700:让你的敌人失明和困惑，让他们感到茫然和脆弱]
-		[c/ADFF2F:“光影渐逝，一片狼藉”]
+		[i:CalamityMod/FlashRound] - [c/75818b:发射大范围震荡冲击，击中敌人时会造成短暂的困惑减益]
+		[c/75818b:使你的敌人失明和困惑，让他们感到茫然和脆弱]
+		[c/75818b:“光影渐逝，一片狼藉”]
 		'''
 }
 
 EndlessGodSlayerPouch: {
 	DisplayName: 无限弑神弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessGodSlayerPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		具有无限穿透能力的重型弹药，其威力足以撕裂时空
-		在击中一名敌人后，如果击中墙壁或在飞行一段时间后，
-		会扭曲时空并从玩家后方加速射出，在命中时产生爆炸
-		[c/8A2BE2:以弑神之力撕裂现实的结构]
-		[c/4B0082:“时空屈首，始既为终”]
+		[i:CalamityMod/GodSlayerSlug] - [c/9954b0:具有无限穿透能力的重型弹药，其威力足以撕裂时空]
+		[c/9954b0:在击中一名敌人后，如果击中墙壁或在飞行一段时间后]
+		[c/9954b0:则会扭曲时空并从玩家后方加速射出，在命中时产生爆炸]
+		[c/9954b0:“时空屈首，始既为终”]
 		'''
 }
 
 EndlessHailstormPouch: {
 	DisplayName: 无限冰雹风暴弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHailstormPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		灌注了强力冰魔法的子弹
-		这些子弹发射后速度会快速衰减
-		暴击会引发霜爆，造成额外伤害并冻结普通敌怪
-		[c/00BFFF:释放一场冰风暴，冻结你的敌人]
-		[c/4682B4:“寒冷刺骨，更渗其髓”]
+		[i:CalamityMod/HailstormBullet] - [c/2c596c:灌注了强力冰魔法的子弹]
+		[c/2c596c:这些子弹发射后速度会快速衰减]
+		[c/2c596c:暴击会引发霜爆，造成额外伤害并冻结普通敌怪]
+		[c/2c596c:“寒冷刺骨，更渗其髓”]
 		'''
 }
 
 EndlessHallowPointPouch: {
 	DisplayName: 无限神圣空尖弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHallowPointPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		神圣耀光命中时造成6点额外伤害
-		如果弹药被特殊枪械转化，则此效果不生效。
-		[c/FFD700:闪耀着英勇之力的子弹照亮黑暗]
-		[c/FF6347:“光引其射，耀其准心”]
+		[i:CalamityMod/HallowPointRound] - [c/968564:神圣耀光命中时造成6点额外伤害]
+		[c/968564:如果弹药被特殊枪械转化，则此效果不生效]
+		[c/968564:“弹乘微光，耀指所瞄”]
 		'''
 }
 
 EndlessHolyPouch: {
 	DisplayName: 无限圣火弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHolyPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		会爆炸的神圣子弹
-		子弹出膛之时爆炸尤为猛烈
-		[c/FFB6C1:用神圣之火净化黑暗。]
+		[i:CalamityMod/HolyFireBullet] - [c/FFA07A:会爆炸的神圣子弹]
+		[c/FFA07A:子弹出膛之时爆炸尤为猛烈]
 		[c/FFA07A:“净化爆破为正义宣言！”]
 		'''
 }
 
 EndlessHyperiusPouch: {
 	DisplayName: 无限海伯里斯弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHyperiusPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		强大的彩色子弹
-		子弹撞击时分裂出闪烁的色彩漩涡
-		[c/9370DB:用充满活力的火力照亮你的敌人。]
-		[c/FF1493:“一场充满色彩与破坏的壮观景象！”]
+		[i:CalamityMod/HyperiusBullet] - [c/da69e9:强大的彩色子弹]
+		[c/da69e9:子弹撞击时分裂出闪烁的色彩漩涡]
+		[c/da69e9:“一场色彩与破坏交织的表演！”]
 		'''
 }
 
 EndlessMarksmanPouch: {
 	DisplayName: 无限神射手弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessMarksmanPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		一种精心制作的子弹，可以在半空中的钱币上反弹
-		这允许其他枪械可以利用神枪手柯尔特或迈达斯统帅抛出的硬币
-		[c/32CD32:每一发精心瞄准的射击都准确无误]
-		[c/FF69B4:“用金币来增强你的火力！”]
-		'''
-}
-
-EndlessMortarRound: {
-	DisplayName: 无限Standard Mortar Round
-	Tooltip:
-		'''
-		High-explosive rounds causing 25 damage.
-		Destroy tiles with every blast.
-		[c/FF8C00:Demolish your surroundings with force.]
-		[c/FF4500:'Prepare for explosive consequences!']
+		[i:CalamityMod/MarksmanRound] - [c/8a6c2b:专为精度所打造的弹药]
+		[c/8a6c2b:可以在半空中的钱币上反弹施展更巧妙战术]
+		[c/8a6c2b:“抛弃你的财富，让金钱决定你的伤害”]
 		'''
 }
 
 EndlessRubberMortarPouch: {
 	DisplayName: 无限橡胶迫击炮弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessRubberMortarPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		专用高爆弹，爆炸范围大
-		每次反弹时都会摧毁物块
-		可由普通枪械使用
-		[c/FFD700:每次反弹都会引发混乱]
-		[c/FF6347:“弹跳子弹，威力十足”]
+		[i:CalamityMod/RubberMortarRound] - [c/9c3f71:专用高爆弹]
+		[c/9c3f71:爆炸范围大且在每次反弹时都会摧毁物块]
+		[c/9c3f71:“弹跳子弹威力爆炸！”]
 		'''
 }
 
 EndlessMortarPouch: {
 	DisplayName: 无限迫击炮弹袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessMortarPouch] - [c/b44e3c:无底的子弹袋……]"
+	HoldShiftTooltip:
 		'''
-		专用高爆弹，爆炸范围大
-		会摧毁物块
-		可由普通枪械使用
-		[c/FF8C00:强行拆除周围环境]
-		[c/FF4500:“准备好迎接爆炸的结果！”]
+		[i:CalamityMod/MortarRound] - [c/6d5e80:高爆子弹造成25点伤害]
+		[c/6d5e80:每次爆炸都会摧毁物块]
+		[c/6d5e80:“准备好迎接爆炸般的结果！”]
 		'''
 }

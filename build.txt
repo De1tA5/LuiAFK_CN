@@ -1,8 +1,8 @@
 displayName = LuiAFKReborn汉化1.4.4
 author = Beyond&三杯伍迪
-version = 1.3.4.0
+version = 1.3.4.1
 modReferences = miningcracks_take_on_luiafk
-weakReferences= UnofficialLuiAFKDLC,LuiAFKHealer
+weakReferences = UnofficialLuiAFKDLC,LuiAFKHealer
 side = Client
 translationMod = true
 sortBefore = miningcracks_take_on_luiafk,UnofficialLuiAFKDLC,LuiAFKHealer

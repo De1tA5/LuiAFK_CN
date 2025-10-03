@@ -13,38 +13,53 @@ Tools: {
 BossSummon: {
 	OldDukeSummon: {
 		DisplayName: 深渊巨兽之遗物
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/OldDukeSummon] - [c/2E8B57:只能在硫磺海使用]"
+		HoldShiftTooltip:
 			'''
 			[c/00FF00:召唤“硫海遗爵”]
-			[c/00FF00:“不需要钓鱼竿”]
+			[c/00FF00:“来自深渊最深处的诅咒遗物，它所唤醒之物将吞没所有敢于直面它的人”]
 			'''
 	}
 
 	NuclearTerrorSummon: {
-		DisplayName: 核灾变核心
-		Tooltip:
+		DisplayName: 核灾灭之心
+		Tooltip: "[i:UnofficialLuiAFKDLC/NuclearTerrorSummon] - [c/2E8B57:只能在硫磺海使用]"
+		HoldShiftTooltip:
 			'''
-			[c/FF4500:召唤“辐核骇兽”]
-			[c/FF4500:“存有辐射噩梦的遗物”]
+			[c/7d614d:召唤“辐核骇兽”]
+			[c/7d614d:“由辐射梦魇所锻造的核心，它所激怒之物将用耀眼的光束吞噬一切生物”]
 			'''
 	}
 
 	MaulerSummon: {
-		DisplayName: 海洋掠食者图腾
-		Tooltip:
+		DisplayName: 深海掠食者图腾
+		Tooltip: "[i:UnofficialLuiAFKDLC/MaulerSummon] - [c/2E8B57:只能在硫磺海使用]"
+		HoldShiftTooltip:
 			'''
-			[c/4682B4:召唤“渊海狂鲨”]
-			[c/4682B4:“于放射性风暴的中心锻造而成”]
+			[c/7d614d:召唤“渊海狂鲨”]
+			[c/7d614d:“它诞生于辐射风暴的中心，将以无休止的愤怒狩猎一切”]
 			'''
 	}
 
 	CragmawMireSummon: {
 		DisplayName: 沼泽巨人圣像
-		Tooltip:
+		Tooltip: "[i:UnofficialLuiAFKDLC/CragmawMireSummon] - [c/2E8B57:只能在硫磺海使用]"
+			HoldShiftTooltip:
 			'''
 			[c/2E8B57:召唤“峭咽潭”]
-			[c/2E8B57:“在它苏醒时沼泽将颤抖”]
+			[c/2E8B57:“源于池沼深处的怪力，它的每一步都令沼泽颤抖”]
 			'''
+	}
+}
+
+SpawnBlock: {
+	CalamityMod: {
+		VoodooDemonVoodooDoll.Tooltip: 切换此物品状态，可以阻止巫毒恶魔在你附近生成
+		AntiCystOintment.Tooltip: 切换此物品状态，可以阻止血肉囊在你附近生成
+		AntiTumorOintment.Tooltip: 切换此物品状态，可以阻止腐化肿瘤在你附近生成
+		BleachBall.Tooltip: 切换此物品状态，可以使渊海灾虫不再自然生成
+		SirenproofEarMuffs.Tooltip: 切换此物品状态，可以使阿娜希塔不再生成
+		BrokenWaterFilter.Tooltip: 切换此物品状态，可以使酸雨不再自然生成
 	}
 }
 
@@ -70,13 +85,17 @@ CityKeys: {
 
 RogueScarf: {
 	DisplayName: 强盗的斗篷
-	Tooltip:
+	Tooltip: "[c/a678b5:“曾被强盗穿戴用来给她的商店积攒商品”]"
+	HoldShiftTooltip:
 		'''
-		[c/800080:-强盗的斗篷-]
-		[c/800080:遁于阴影之下]
-		[c/800080:'“一个真正盗贼的伙伴”]
+		[c/845e36:黄昏之时她穿梭于村庄间，无数珍宝净藏于斗篷之下]
+		[c/845e36:直到既定的命运之夜，狂啸的涡流席卷沙海]
+		[c/845e36:狂风从扯下她颈间斗篷，将其拖入沙漠深处]
+		[c/797979:掩埋于流沙下许久，终于一个叫“DM”的神秘人让它重现天日]
 		'''
 }
+
+UnlimitedThrownName: 无限{0}
 
 Potion: {
 	"": {
@@ -88,19 +107,34 @@ Potion: {
 }
 
 DebugPotion: {
-	DisplayName: Debug 药水
-	Tooltip: 你不应该拿到的
+	DisplayName: Debug药水
+	Tooltip: "你不该拿到的"
 }
 
-UnlimitedThrownName: 无限{0}
+WorldWarper: {
+	Tooltip: ""
+	DisplayName: World Warper
+}
 
-SpawnBlock: {
-	CalamityMod: {
-		VoodooDemonVoodooDoll.Tooltip: 切换此物品状态，可以阻止巫毒恶魔在你附近生成
-		AntiCystOintment.Tooltip: 切换此物品状态，可以阻止血肉囊在你附近生成
-		AntiTumorOintment.Tooltip: 切换此物品状态，可以阻止腐化肿瘤在你附近生成
-		BleachBall.Tooltip: 切换此物品状态，可以使渊海灾虫不再自然生成
-		SirenproofEarMuffs.Tooltip: 切换此物品状态，可以使阿娜希塔不再生成
-		BrokenWaterFilter.Tooltip: 切换此物品状态，可以使酸雨不再自然生成
-	}
+PartyPopper: {
+	DisplayName: 派对拉炮
+	Tooltip:
+		'''
+		使你获得能够切换派对事件的能力
+		如果未锁定，派对会在夜晚自然结束
+		'''
+}
+
+HangLantern: {
+	DisplayName: 悬挂灯笼
+	Tooltip:
+		'''
+		使你获得能够切换灯笼夜事件的能力
+		如果未锁定，灯笼夜会在凌晨自然结束
+		'''
+}
+
+SlimyTear: {
+	DisplayName: 史莱姆之泪
+	Tooltip: 使你获得能够切换史莱姆雨入侵事件的能力
 }

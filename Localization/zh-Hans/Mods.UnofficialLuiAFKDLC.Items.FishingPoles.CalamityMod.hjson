@@ -1,100 +1,89 @@
 UnlimitedSlurperPole: {
 	DisplayName: 奥术饮食者钓竿
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/20B2AA:由上古时代传说中的渔夫打造]
-		[c/20B2AA:鱼竿不消耗鱼饵，可以在最危险的环境中捕鱼]
-		[c/20B2AA:包括在熔岩里] 
-		[c/883829:它的鱼线充满了神奇的韧性]
-		[c/883829:永远不会断裂，确保无尽的钓鱼冒险]
+		[i:UnofficialLuiAFKDLC/UnlimitedSlurperPole] - [c/4d3946:由远古时代的传说渔夫所打造]
+		[c/4d3946:鱼竿不需要鱼饵，且可在最危险的环境中钓鱼]
 		'''
 }
 
 UnlimitedTheDevourerofCods: {
 	DisplayName: 虚空之获
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/4B0082:蕴含着神明吞噬者的精华]
-		[c/4B0082:鱼竿可以在熔岩里钓鱼且不消耗鱼饵] 
-		[c/9954b0:鱼线被遗忘的力量所固定，永远不会断裂]
-		[c/9954b0:映射出宇宙吞噬者无与伦比的力量]
+		[i:UnofficialLuiAFKDLC/UnlimitedTheDevourerofCods] - [c/4c4f85:注入了神明吞噬者的精华]
+		[c/4c4f85:鱼竿具有在岩浆里钓鱼的能力且不需要鱼饵]
 		'''
 }
 
 UnlimitedVerstaltiteFishingRod: {
 	DisplayName: 霜寒钓竿
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/00BFFF:由稀有的寒元矿制成]
-		[c/00BFFF:处于雪原生物群系时增加渔力] 
-		[c/5187a1:鱼竿不消耗鱼饵，拥有一条永远不会断裂的鱼线]
-		[c/5187a1:无论钓到的东西有多大都不会断，使其成为垂钓者梦想中的工具]
+		[i:UnofficialLuiAFKDLC/UnlimitedVerstaltiteFishingRod] - [c/4575a4:由稀有的寒元矿制成]
+		[c/4575a4:处于雪原生物群系时增加渔力]
 		'''
 }
 
 UnlimitedWulfrumRod: {
 	DisplayName: 钨钢卷线器
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/1E90FF:充满钨钢精华的钓竿，不消耗鱼饵]
-		[c/1E90FF:保证你的鱼线永远不会断裂]  
-		[c/678964:其结构坚固无出其右]
-		[c/678964:在任何水域都能提供可靠的性能]
+		[i:UnofficialLuiAFKDLC/UnlimitedWulfrumRod] - [c/2d855f:这个钓竿被注入钨钢精华]
+		[c/2d855f:不需要鱼饵且能保证你的鱼线永远不会断]
 		'''
 }
 
 UnlimitedEarlyBloomRod: {
 	DisplayName: 绽翠钓竿
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/32CD32:于春初绽之时精心打造]
-		[c/32CD32:鱼竿不消耗鱼饵，拥有一条永远不会断裂的鱼线] 
-		[c/22b14c:承诺终身无设备问题的钓鱼冒险]
-		[c/22b14c:大自然永恒慷慨的象征]
+		[i:UnofficialLuiAFKDLC/UnlimitedEarlyBloomRod] - [c/895130:于春日初绽之时所打造]
+		[c/895130:鱼竿不需要鱼饵，拥有一条永远不会断的鱼线]
 		'''
 }
 
 UnlimitedFeralDoubleRod: {
 	DisplayName: 野性利爪钓竿
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/8B4513:由野兽的利爪打造而成]
-		[c/8B4513:双头竿不消耗鱼饵，拥有一条永远不会断裂的鱼线] 
-		[c/95b121:它的原始性确保在最荒凉的渔场中也能可靠使用]
-		[c/95b121:能借助荒野的原始力量]
+		[i:UnofficialLuiAFKDLC/UnlimitedFeralDoubleRod] - [c/1f631f:由狂野野兽的利爪锻造而成]
+		[c/1f631f:双头竿不需要鱼饵，具备一条不会断裂的预先]
 		'''
 }
 
 UnlimitedHeronRod: {
 	DisplayName: 游天白鹭钓竿
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/87CEEB:以优雅的白鹭命名]
-		[c/87CEEB:处于太空时增加渔力]
-		[c/87CEEB:鱼竿不消耗鱼饵]
-		[c/87CEEB:它的鱼线和它的名字一样神圣，未曾断裂]
-		[c/87CEEB:无论处于何种环境，都彰显着天穹的优雅]
+		[i:UnofficialLuiAFKDLC/UnlimitedHeronRod] - [c/87CEEB:以优雅的白鹭命名]
+		[c/87CEEB:鱼竿不需要鱼饵且处于太空时更为优秀—增加渔力]
 		'''
 }
 
 UnlimitedNavyFishingRod: {
 	DisplayName: 海军上将钓竿
-	Tooltip:
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+	HoldShiftTooltip:
 		'''
-		[c/4682B4:因其耐用性和性能而受到海军青睐的鱼竿]
-		[c/4682B4:鱼竿不消耗鱼饵，且鱼线永远不会断裂]
-		[c/4682B4:它是水手在无尽航行中最好的伴侣]
-		[c/4682B4:专为最恶劣的海洋和最长的旅程而设计]
+		[i:UnofficialLuiAFKDLC/UnlimitedNavyFishingRod] - [c/4a6160:因其耐用性和优秀的性能而受到海军青睐的鱼竿]
+		[c/4a6160:鱼竿不需要鱼饵，且鱼线永远不会断裂]
 		'''
 }
 
 UnlimitedRiftReeler: {
-	DisplayName: 维度取鱼者
-	Tooltip:
+	DisplayName: 维隙捕鱼者
+	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
+		HoldShiftTooltip:
 		'''
-		[c/9400D3:这根鱼竿能在两个维度的缝隙中钓鱼]
-		[c/9400D3:甚至在熔岩里，且不消耗鱼饵] 
-		[c/FF6347:它的鱼线由跨维度能量所固定，永远不会断裂 ]
-		[c/FF6347:使其成为寻求未知的维度垂钓者的首选工具]
+		[i:UnofficialLuiAFKDLC/UnlimitedRiftReeler] - [c/7d3a3a:这个鱼竿能在两个维度的缝隙中钓鱼]
+		[c/7d3a3a:甚至在岩浆里，且不需要鱼饵]
 		'''
 }

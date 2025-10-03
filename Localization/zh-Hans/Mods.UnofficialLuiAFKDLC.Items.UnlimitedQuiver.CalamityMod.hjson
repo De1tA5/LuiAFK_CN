@@ -1,71 +1,75 @@
 EndlessBloodfireQuiver: {
 	DisplayName: 无限血炎箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBloodfireQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/DC143C:尖端浸透鲜血的高速箭矢]
-		[c/DC143C:射出这些箭矢会消耗你的生命值]
-		[c/DC143C:命中时加快自然生命再生并为你回复生命值]
-		[c/DC143C:“燃烧着永恒火焰的箭矢, 未曾停下对敌人宣泄地狱般的怒火”]
+		[i:CalamityMod/BloodfireArrow] - [c/9a2a47:尖端浸血的高速箭矢将会消耗你的生命值]
+		[c/9a2a47:命中时加快自然生命再生并为你回复生命值]
+		[c/b44e3c:“燃烧着永恒火焰的箭矢, 对敌人宣泄永不停息如同地狱般的怒火”]
 		'''
 }
 
 EndlessCinderQuiver: {
 	DisplayName: 无限余烬箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessCinderQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/FF4500:爆裂出燃烧碎片的爆炸性箭矢]
-		[c/FF4500:燃烧碎片会施加硫磺火减益]
-		[c/FF4500:“被永恒之火点燃的箭矢，不断释放出猛烈的破环力”]
+		[i:CalamityMod/CinderArrow] - [c/61605b:能够爆裂出燃烧碎片的爆炸性箭矢，燃烧碎片会施加硫磺火减益]
+		[c/61605b:“被永恒之火点燃的箭矢，如烈焰般无尽爆发摧毁一切”]
 		'''
 }
 
 EndlessElysianQuiver: {
 	DisplayName: 无限极乐箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessElysianQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/FFD700:携带亵渎能量的箭矢]
-		[c/FFD700:撞击时从上方和下方召唤净化之光]
-		[c/FFD700:“天光之箭，闪耀着星光无休止地穿透黑暗”]
+		[i:CalamityMod/ElysianArrow] - [c/b05e1f:撞击时从上方和下方召唤净化之光]
+		[c/b05e1f:“天光之箭星耀闪烁，无止境地贯穿黑暗”]
 		'''
 }
 
 EndlessIcicleQuiver: {
 	DisplayName: 无限冰锥箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessIcicleQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/00BFFF:拥有附魔箭头的冰箭]
-		[c/00BFFF:这些箭会迅速冻结转化为坠落的冰锥，造成更高伤害]
-		[c/00BFFF:在箭矢冻结前击中敌怪或物块会使其向上飞行]
-		[c/00BFFF:“蕴含冰冷决心之箭，以寒疮般的精确永远冻结目标”]
+		[i:CalamityMod/IcicleArrow] - [c/5187a1:拥有附魔箭头的冰箭]
+		[c/5187a1:这些箭会迅速冻结转化为坠落的冰锥，造成更高伤害]
+		[c/5187a1:在箭矢冻结前击中敌怪或物块会使其向上飞行]
+		[c/5187a1:“蕴含着寒冰决心的箭矢，以冰冻般精确永远冻结目标”]
 		'''
 }
 
 EndlessSproutingQuiver: {
 	DisplayName: 无限春芽箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessSproutingQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/228B22:射出一支迅速一分为二的能量箭矢]
-		[c/228B22:这些箭矢无视8点防御]
-		[c/228B22:“永恒的自然精华编织而成，无误地引向既定的目标”]
+		[i:CalamityMod/SproutingArrow] - [c/95b121:射出一支迅速一分为二的能量箭矢]
+		[c/147876:这些箭矢无视8点防御]
+		[c/ce5640:“永存的自然精华所编织而成，无误地引向既定的目标”]
 		'''
 }
 
 EndlessVanquisherQuiver: {
 	DisplayName: 无限征戮箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessVanquisherQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/FF6347:由寰宇之钢打造的强力箭矢]
-		[c/FF6347:可以穿过物块并能追踪敌怪]
-		[c/FF6347:“蕴含着无尽的神秘能量，能够征服最强大的敌人”]
+		[i:CalamityMod/VanquisherArrow] - [c/462978:由寰宇之钢打造的强力箭矢]
+		[c/462978:可以穿过物块并能追踪敌怪]
+		[c/462978:“蕴含着无尽的神秘能量，足以征服最强大的敌人”]
 		'''
 }
 
 EndlessVeriumQuiver: {
 	DisplayName: 无限钫箭袋
-	Tooltip:
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessVeriumQuiver] - [c/b44e3c:永不耗尽的箭袋……]"
+	HoldShiftTooltip:
 		'''
-		[c/9370DB:命中时标记敌人，短时间后造成额外伤害]
-		[c/9370DB:此伤害随命中箭矢数量增加而逐步叠加]
-		[c/9370DB:“它们被注入无限的神力，以坚定无误的精确打击，能够击败风暴编织者”]
+		[i:CalamityMod/VeriumBolt] - [c/7e6cb1:命中时标记敌人，短时间后造成额外伤害]
+		[c/7e6cb1:此伤害随命中箭矢数量增加而逐步叠加]
+		[c/7e6cb1:“被注入无限的神力的箭矢，能造成精准无误的必定打击，足以击败风暴编织者”]
 		'''
 }
