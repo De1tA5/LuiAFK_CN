@@ -52,28 +52,7 @@ Buffs: {
 	}
 }
 
-Configs: {
-	SettingsConfigServer: {
-		DisplayName: Settings Config Server
-		Headers.Unlimited_Items: Unlimited Items
-
-		worksInPlayerBanks: {
-			Label: Unlimited Powers working inside banks
-			Tooltip: "[c/00ffdd:Powers working while stored inside ] [i:PiggyBank] [i:Safe] [i:DefendersForge]"
-		}
-	}
-
-	UnofficialLuiAFKDLCClientConfig: {
-		DisplayName: LuiAFK DLC Client Config
-
-		ItemDisabledTooltip: {
-			Label: Item Disabled Tooltip
-			Tooltip: ""
-		}
-	}
-}
-
-"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": Menu Toggler
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": Toggle Effect Manager
 
 Projectiles: {
 	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: Unlimited Excavation Drill Form Projectile
@@ -89,14 +68,22 @@ FishingRod: {
 
 CommonTooltips: {
 	PiggyWork: "[c/7a7a7a:Works inside] : [i:PiggyBank] [i:Safe] [i:DefendersForge]"
-	CheckPanel: Press <[c/dc810d:[KEY]]> for buff management.
+	CheckPanel: Press <[c/dc810d:[KEY]]> for effect management.
 	HoldShiftHint: "[c/9d9d9d:Press <SHIFT> for more information.]"
 }
 
 UI: {
+	/* Button tooltip */
+	ConfigsButtonTooltip:
+		'''
+		Jump to the mod config menu of this panel.
+		Currently configurable options:
+		- Cooldown duration for some groups
+		'''
 	/* Tab titles */
-	PowerEffect: Buff Effects
-	Spawn: Environment
+	Buff: Buff Effects
+	Environment: Environment
+	Teleport: Teleport
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] enabled)"
 	GroupAlcohol: Alcohol Drinks
@@ -110,19 +97,35 @@ UI: {
 	GroupSpawnBlock: Entity Control
 	GroupWorldEvent: World Events
 	GroupFightEvent: Invasions
+	GroupTimeControl: Time
+	GroupDestination: World Destinations
+	GroupPersonalDestination: Personal Destinations
+	GroupFriend: Friends
+	/* Group Hints */
+	GroupCollapsedHint: Left click to expand.
+	GroupExpandedHint: Left click to collapse.
 	/* Toggle Text */
 	BuffOn: Buff enabled. Left click to toggle.
 	BuffOff: Buff disabled. Left click to toggle.
-	BuffCooldown: Will be ready in {0} seconds.
+	BuffCooldown: Will be ready in {0} second(s).
 	VisualOn: Visual enabled. Right click to toggle.
 	VisualOff: Visual disabled. Right click to toggle.
 	ItemOn: Currently enabled. Left click to toggle.
 	ItemOff: Currently disabled. Left click to toggle.
 	ItemGray: Currently enabled, but not activated. Left click to toggle.
-	ItemCooldown: Invasion will be activated in {0} seconds. Left click to cancel.
+	TimeJumpHint: Time will be changed {0} second(s) after clicking.
+	InvasionHint: Invasion will start {0} second(s) after enabling.
+	InvasionCooldown: Invasion will be activated in {0} second(s). Left click to cancel.
+	FriendTeleport: Left click to teleport to this player.
+	PlayerMissing: This player is offline, if you keep seeing this, please refresh the panel.
+	PlayerDead: Cannot teleport to dead players.
+	PlayerOtherTeam: Cannot teleport to players on other teams.
+	TeleportHint: Teleport will happen {0} second(s) after clicking.
+	TeleportCooldown: You will be teleported in {0} second(s). Left or right click to cancel.
 	LockEnabled: Automatically activate whenever possible. Right click to unlock.
 	LockDisabled: Automatically deactivate whenever possible. Right click to unlock.
 	LockOff: Status can be changed by natural or external reasons. Right click to lock.
+	BlockedByBoss: Time can't be controled when a boss is alive.
 }
 
 Broadcasts: {
@@ -130,4 +133,26 @@ Broadcasts: {
 	InvasionStartSoon: "{0} will start soon."
 	InvasionStarted: "{0} is happening!"
 	InvasionEnded: "{0} has been cancelled."
+	NotAvailablePlayer: Can't teleport to player {0}.
+	NotAvailableDestination: Can't teleport to {0}.
 }
+
+DestinationHints:
+	'''
+	Dungeon Entrance
+	Right Ocean
+	Left Ocean
+	Right Beach
+	Left Beach
+	Obsidian Ruined House
+	Brimstone Crag or Ash Forest
+	Lihzahrd Altar
+	Jungle Temple Gate
+	Vernal Pass or Jungle
+	Mahogany Tree 
+	Forsaken Archive
+	Spawn Point
+	Home
+	your Last Death Point, maybe you haven't died since you entered this world
+	your Potion of Return entrance, you can drink Potion of Return or travel to other destinations to create one
+	'''

@@ -59,7 +59,12 @@ SpawnBlock: {
 		AntiTumorOintment.Tooltip: Toggle this item to prevent hive tumors from spawning near you
 		BleachBall.Tooltip: Toggle this item to prevent Aquatic Scourge from spawning
 		SirenproofEarMuffs.Tooltip: Toggle this item to prevent Anahita from spawning
-		BrokenWaterFilter.Tooltip: Toggle this item to prevent Acid Rain from occurring
+		BrokenWaterFilter.Tooltip: Toggle this item to prevent Acid Rain from naturally occurring
+		FUCKYOUCALAMITY:
+			'''
+			[c/ff0000:Calamity-style spawn block item has been deprecated and Right Click does nothing.]
+			Open LuiAFK-DLC's panel -> Environment tab to manage spawn blocking options.
+			'''
 	}
 }
 
@@ -137,4 +142,23 @@ HangLantern: {
 SlimyTear: {
 	DisplayName: Slimy Tear
 	Tooltip: Provides you the power to toggle slime rain fight event
+}
+
+// these are fake items used as UI in tooltip intergration
+// they have no actual use or obtaining methods in-game
+FakeItems: {
+	BedIcon: {
+		DisplayName: Bed Icon
+		Tooltip: ""
+	}
+
+	DeathIcon: {
+		DisplayName: Death Icon
+		Tooltip: ""
+	}
+
+	SpawnIcon: {
+		DisplayName: Spawn Icon
+		Tooltip: ""
+	}
 }

@@ -1,0 +1,117 @@
+SettingsConfigServer: {
+	DisplayName: General Server Configs
+	Headers.Unlimited_Items: Unlimited Items
+
+	worksInPlayerBanks: {
+		Label: Unlimited Powers working inside banks
+		Tooltip:
+			'''
+			[c/00ffdd:Powers working while stored inside ] [i:PiggyBank] [i:Safe] [i:DefendersForge] [i:VoidVault]
+			Some powers may not be disabled properly inside banks if you have Fargowiltas' Mutant mod on.
+			'''
+	}
+
+	LegacyRecipes: {
+		Label: Legacy Recipes
+		Tooltip:
+			'''
+			Recipes won't contain blood or blood orb
+			Paper recipe will only contain bamboo block
+			'''
+	}
+}
+
+UnofficialLuiAFKDLCClientConfig: {
+	DisplayName: General Client Configs
+
+	ItemDisabledTooltip: {
+		Label: Item Disabled Tooltip
+		Tooltip: This config is a WIP
+	}
+
+	DisableLuiAFKKeybindHint: {
+		Label: Disable LuiAFK Keybind Hint
+		Tooltip: Removes the LuiAFK keybind messages on entering world
+	}
+}
+
+BuffPanelConfig: {
+	DisplayName: Buff Control Panel Configs
+
+	FlaskActivateCooldown: {
+		Label: Flask Activate Cooldown (sec)
+		Tooltip:
+			'''
+			Flasks will be activated after this cooldown.
+			This setting is shared across all players.
+			'''
+	}
+
+	CandleActivateCooldown: {
+		Label: Candle Activate Cooldown (sec)
+		Tooltip:
+			'''
+			Candles will be activated after this cooldown.
+			This setting is shared across all players.
+			'''
+	}
+
+	Headers.Cooldown: Cooldowns
+}
+
+EnvironmentPanelConfig: {
+	DisplayName: Environment Panel Configs
+
+	FightEventActivateCooldown: {
+		Label: Fight Event Activate Cooldown (sec)
+		Tooltip:
+			'''
+			You can cancel the Fight Event during the cooldown.
+			This setting is independent of other players.
+			'''
+	}
+
+	TimeControlActivateCooldown: {
+		Label: Time Control Activate Cooldown (sec)
+		Tooltip:
+			'''
+			You can cancel the Time Control during the cooldown.
+			This setting is independent of other players.
+			'''
+	}
+
+	Headers.Cooldown: Cooldowns
+}
+
+TeleportPanelConfig: {
+	DisplayName: Teleport Panel Configs
+
+	DestinationTeleportCooldown: {
+		Label: Destination Teleport Cooldown (sec)
+		Tooltip:
+			'''
+			You can cancel the teleport during the cooldown.
+			This setting is independent of other players.
+			'''
+	}
+
+	PersonalDestinationTeleportCooldown: {
+		Label: Personal Destination Teleport Cooldown (sec)
+		Tooltip:
+			'''
+			You can cancel the teleport during the cooldown.
+			This setting is independent of other players.
+			'''
+	}
+
+	FriendTeleportCooldown: {
+		Label: Friend Teleport Cooldown (sec)
+		Tooltip:
+			'''
+			You can cancel the teleport during the cooldown.
+			This setting is independent of other players.
+			'''
+	}
+
+	Headers.Cooldown: Cooldowns
+}

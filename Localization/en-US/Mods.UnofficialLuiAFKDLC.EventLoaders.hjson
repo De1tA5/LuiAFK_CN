@@ -29,7 +29,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Blood Moon during the night
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -39,7 +38,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Frost Legion
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -49,7 +47,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Frost Moon during the night
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -59,7 +56,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Goblin Army
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -69,7 +65,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Martian Madness
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -79,7 +74,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Pirate Invasion
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -89,7 +83,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Pumpkin Moon during the night
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 
@@ -99,7 +92,6 @@ miningcracks_take_on_luiafk: {
 			'''
 			Toggle Eclipse during the day
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 }
@@ -131,7 +123,6 @@ Terraria: {
 			'''
 			Toggle Slime Rain
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 }
@@ -143,7 +134,6 @@ CalamityMod: {
 			'''
 			Toggle Acid Rain
 			Only one invasion can happen at a time
-			The invasion will start 5 seconds after enabling
 			'''
 	}
 }

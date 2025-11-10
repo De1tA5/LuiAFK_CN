@@ -60,6 +60,8 @@ CalamityMod: {
 			[i:UnofficialLuiAFKDLC/UnlimitedTesla] - Grants electrical effects around the player.
 			[i:UnofficialLuiAFKDLC/UnlimitedMushy] - Grants defense/life regen + grows mushroom on grass.
 			[i:UnofficialLuiAFKDLC/UnlimitedChi] - Grants damage reduction & extra life regen for your team.
+			[i:UnofficialLuiAFKDLC/UnlimitedChaosCandle] - Grants you the power to further increase enemy spawn rate and max spawns.
+			[i:UnofficialLuiAFKDLC/UnlimitedTranquilityCandle] - Grants you the power to further reduce enemy spawn rate and max spawns.
 			'''
 	}
 
@@ -109,7 +111,7 @@ CalamityMod: {
 	}
 
 	ScrollOfCalamityFlasks: {
-		DisplayName: Scroll Of Calamity Flasks
+		DisplayName: Sacred Shatterflame Scroll
 		Tooltip: A scroll that grants all Calamity Flask powers.
 		HoldShiftTooltip:
 			'''
@@ -156,49 +158,80 @@ AlchemistNPCLite: {
 		Tooltip:
 			'''
 			[DEST]
-			[i:UnofficialLuiAFKDLC/WorldWarper] [c/A9A9A9:A mystical tome that obeys your will; right click to change its modes.]
+			[i:UnofficialLuiAFKDLC/WorldWarper] [c/A9A9A9:A mystical tome waiting to be read.]
 			'''
 		None:
 			'''
-			Use this item to unlock its first mode.
-			[c/87CEEB:A blank slate, ready to chart new journeys.]
+			Unseal the first chapter of your journey.
+			[c/87CEEB:A blank page, awaiting tales of exploration and wonder.]
 			'''
 		Beach:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter] - [c/d67916:Step onto golden sands and feel the tide calling.]
-			[c/1E90FF:Let the ocean breeze guide your warp to the shore.]
+			[i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter] - [c/d67916:Feel the tide’s whisper as you walk through shores.] - [i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter]
+			[c/7d7618:Dip your feet in the border sands… the waves might sneak up on you!]
 			'''
-		BeachName: Beach
+		BeachName: Beach Sheet
 		Dungeon:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter] - [c/d67916:Descend into shadowed corridors of mystery.]
-			[c/6e5f56:Face forgotten traps and hidden dangers awaiting brave souls.]
+			[i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter] - [c/d67916:Descend into shadowed corridors brimming with secrets.] - [i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter]
+			[c/6e5f56:Left-Click | Step into the Dungeon Entrance]
+			[c/586c9e:Right-Click | Venture into the Forsaken Archive]
 			'''
-		DungeonName: Dungeon
+		DungeonName: Dungeon Sheet
 		Jungle:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter] - [c/d67916:Click left to vanish into the heart of the Jungle.]
-			[c/228B22:Click right to reach the towering Mahogany Tree and its secrets.]
+			[i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter] - [c/d67916:Venture deep into the verdant heart of the wild.] - [i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter]
+			[c/476d0b:Left-Click | Ascend atop the majestic Great Mahogany Tree]
+			[c/734144:Right-Click | Sneak through the hidden Vernal Pass]
 			'''
-		JungleName: Jungle & Mahogany Warp
+		JungleName: Jungle Sheet
 		Ocean:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter] - [c/d67916:Traverse between two coastal horizons.]
-			[c/4682B4:Feel the depths of the ocean call as you explore the edge of the waves.]
+			[i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter] - [c/d67916:Traverse between the horizons of endless waters.] - [i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter]
+			[c/2b6a9c:Snack on the world border sand… and dig in unexpectedly.]
 			'''
-		OceanName: Ocean
+		OceanName: Ocean Sheet
 		Temple:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter] - [c/d67916:Walk the sacred path of ancient temples.]
-			[c/DAA520:Unveil forgotten powers and relics hidden within its halls.]
+			[i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter] - [c/d67916:Walk the sacred stones of ancient temples.] - [i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter]
+			[c/8c4a21:Step through to reach the Lihzahrd Altar or Temple Entrance]
 			'''
-		TempleName: Temple
+		TempleName: Lihzahrd Sheet
 		Underworld:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter] - [c/d67916:Warp across molten landscapes of fire and ash.]
-			[c/954d4d:Dare to descend and claim your fate amidst blazing depths.]
+			[i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter] - [c/d67916:Plunge into the blazing depths below.] - [i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter]
+			[c/953d26:Left-Click | Explore the Underworld itself]
+			[c/644f79:Right-Click | Journey to the Brimstone Crags]
 			'''
-		UnderworldName: Underworld
+		UnderworldName: Nether Sheet
+		Home:
+			'''
+			[i:UnofficialLuiAFKDLC/SpawnIcon] - [c/d67916:Unseal the first chapter of your journey.] - [i:UnofficialLuiAFKDLC/BedIcon]
+			[c/518b51:Left-Click | Arrive at the very heart of your World]
+			[c/5c6298:Right-Click | Reappear in the comfort of your Bed]
+			'''
+		HomeName: Home Sheet
+		Death:
+			'''
+			[i:UnofficialLuiAFKDLC/DeathIcon] - [c/d67916:Trace your footsteps through echoes of fate.] - [i:UnofficialLuiAFKDLC/DeathIcon]
+			[c/615c57:Left-Click | Teleports to your last Death Point]
+			[c/A9A9A9:Inactive if death haven't catched you up]
+			'''
+		DeathName: Death Sheet
+		Return:
+			'''
+			[c/d67916:Trace your footsteps through echoes of fate.]
+			[c/6a55a0:Left-Click | Returns to Portal Exit]
+			[c/A9A9A9:Inactive if no portal has been set]
+			'''
+		ReturnName: Return Sheet
+		Random:
+			'''
+			[c/d67916:Embrace the uncertainty of the unknown.]
+			[c/6e5f56:Step to a random location across the world]
+			[c/A9A9A9:Destinations are a mystery yet to unfold]
+			'''
+		RandomName: Random Location
 	}
 
 	ScrollOfMinerAlchemist: {
@@ -223,31 +256,6 @@ AlchemistNPCLite: {
 			[i:UnofficialLuiAFKDLC/UnlimitedInvincibility] - Increases length of invincibility after taking damage.
 			[i:UnofficialLuiAFKDLC/UnlimitedTitanSkin] - Grants Immunity to some debuffs.
 			'''
-	}
-
-	WorldWarperBeach: {
-		DisplayName: World Warper Beach
-		Tooltip: ""
-	}
-
-	WorldWarperDungeon: {
-		DisplayName: World Warper Dungeon
-		Tooltip: ""
-	}
-
-	WorldWarperJungle: {
-		DisplayName: World Warper Jungle
-		Tooltip: ""
-	}
-
-	WorldWarperTemple: {
-		DisplayName: World Warper Temple
-		Tooltip: ""
-	}
-
-	WorldWarperUnderworld: {
-		DisplayName: World Warper Underworld
-		Tooltip: ""
 	}
 
 	ScrollOfAlchemist: {
@@ -289,6 +297,6 @@ WarTotem: {
 		[i:miningcracks_take_on_luiafk/PumpkinMoonEnable] - Allows you to toggle Pumpkin Moon
 		[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - Allows you to toggle Solar Eclipse
 		[i:UnofficialLuiAFKDLC/SlimyTear] - Allows you to toggle Slime Rain
-		[i:CalamityMod/CausticTear] - Allows you to toggle Acid Rain
 		'''
+	HoldShiftTooltipCalamityMod: "[i:CalamityMod/CausticTear] - Allows you to toggle Acid Rain"
 }

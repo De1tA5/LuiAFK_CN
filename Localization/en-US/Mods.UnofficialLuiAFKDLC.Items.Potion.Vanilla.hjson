@@ -51,3 +51,8 @@ ScrollOfFlasks: {
 		[i:UnofficialLuiAFKDLC/UnlimitedPoison] - {$BuffDescription.WeaponImbuePoison}
 		'''
 }
+
+BattleEffect.BuffDescription: Increase spawn rate and max spawns by 150%
+CalmEffect.BuffDescription: Decrease spawn rate and max spawns by 10%
+WaterCandleEffect.BuffDescription: Increase spawn rate and max spawns by 300%
+PeaceCandleEffect.BuffDescription: Decrease spawn rate and max spawns by 20%

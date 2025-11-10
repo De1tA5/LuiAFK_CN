@@ -1,0 +1,55 @@
+ArcanePower: {
+	Tooltip: Causes magic and radiant damage to periodically generate collectable mini-stars
+	DisplayName: Arcane Power
+}
+
+AquaPower: {
+	DisplayName: Aqua Power
+	Tooltip: Grants uninhibited water movement
+}
+
+ArtilleryPower: {
+	DisplayName: Artillery Power
+	Tooltip: Increases your max number of sentries
+}
+
+AssassinPower: {
+	DisplayName: Assassin Power
+	Tooltip: Your first throwing attack when out of combat will crit for 4x damage
+}
+
+BloodPower: {
+	DisplayName: Blood Power
+	Tooltip: Increases your mining and movement speed by 15%
+}
+
+BouncingFlamePower: {
+	DisplayName: Bouncing Flame Power
+	Tooltip: Causes your flaming debuffs to spread among nearby enemies
+}
+
+CactusFruitPower: {
+	DisplayName: Cactus Fruit Power
+	Tooltip: Grants immunity to status effect debuffs upon consumption
+}
+
+ConflagrationPower: {
+	DisplayName: Conflagration Power
+	Tooltip: Increases your damage by 15%, but causes damage overtime
+}
+
+FrenzyPower: {
+	DisplayName: Frenzy Power
+	Tooltip: Increases your attack speed by 8%
+}
+
+KineticPower: {
+	DisplayName: Kinetic Power
+	Tooltip: Allows you to double tap to dash
+}
+
+WarmongerPower: {
+	DisplayName: Warmonger Power
+	Tooltip: Increases enemy spawn rates
+	BuffDescription: Increases enemy spawn rate and max spawns by 300%
+}

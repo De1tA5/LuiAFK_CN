@@ -1,0 +1,19 @@
+JumpDawn: {
+	DisplayName: Dawn
+	Description: Jump to dawn (4:30 AM)
+}
+
+JumpNoon: {
+	DisplayName: Noon
+	Description: Jump to noon (12:00 PM)
+}
+
+JumpDusk: {
+	DisplayName: Dusk
+	Description: Jump to dusk (7:30 PM)
+}
+
+JumpMidnight: {
+	DisplayName: Midnight
+	Description: Jump to midnight (12:00 AM)
+}

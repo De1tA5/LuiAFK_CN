@@ -141,7 +141,7 @@ FireballPower: {
 		'''
 		Multiplies all fire-based debuff damage by 1.25x
 		Reduces life regen by 0.5 HP/s
-		[c/B00BA5:A great-tasting cinnamon whiskey.]
+		[c/B00BA5:The burning sensation makes it tastier.]
 		'''
 }
 
@@ -250,7 +250,7 @@ TequilaSunrisePower: {
 		'''
 		Increases knockback by 20%, crit chance by 8% and defense by 10 during daytime
 		Reduces life regen by 1 HP/s
-		[c/B00BA5:♪ See me in my rum, fly straight, balla proof ♪]
+		[c/B00BA5:Makes people more attractive during daytime.]
 		'''
 }
 
@@ -270,8 +270,9 @@ WhiskeyPower: {
 		'''
 		Increases damage by 4%, knockback by 20% and critical strike chance by 2%
 		Reduces defense by 5%
-		[c/B00BA5:The burning sensation makes it tastier.]
+		[c/B00BA5:ALCOHOL IS NOT THE ANSWER]
 		'''
+	HoldShiftTooltip: But if you drink enough you might at least forget the question
 }
 
 WhiteWinePower: {
@@ -300,6 +301,7 @@ UnlimitedCeaselessHunger: {
 		Hold Item to Loot Everything
 		[c/4f4545:A dark power that consumes all, driven by an ancient hunger]
 		'''
+	PowerEffectHint: False
 }
 
 UnlimitedSoaring: {
@@ -328,6 +330,7 @@ UnlimitedZen: {
 		Reduce enemy spawns dramatically, calming the battleflield.
 		[c/2a786f:'Channeling pure Bob Ross vibes into your soul.']
 		'''
+	BuffDescription: Reduce enemy spawn rate and max spawns by 50%
 }
 
 UnlimitedZerg: {
@@ -337,6 +340,7 @@ UnlimitedZerg: {
 		Summon a relentless swarm, vastly increasing enemy spawn rates.
 		[c/a3553e:'Even as the world burns, a dog sips coffee somewhere']
 		'''
+	BuffDescription: Increase enemy spawn rate and max spawns by 500%
 }
 
 BaguettePower: {
@@ -357,6 +361,7 @@ Candle: {
 			[c/666060:Once lit, this candle draws forth chaos itself.]
 			[c/FF4500:"And then things got out of hand..."]
 			'''
+		BuffDescription: Increases enemy spawn rate and max spawns by 1000%
 	}
 
 	UnlimitedTranquilityCandle: {
@@ -367,6 +372,7 @@ Candle: {
 			[c/666060:This candle was used by ancient sages to bring peace and silence.]
 			[c/90EE90:"Shhh... nobody's gonna attack you now. It's fine."]
 			'''
+		BuffDescription: Reduces enemy spawn rate and max spawns by 67%
 	}
 }
 
