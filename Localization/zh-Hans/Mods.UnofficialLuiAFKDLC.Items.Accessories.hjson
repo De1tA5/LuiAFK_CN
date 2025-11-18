@@ -36,7 +36,7 @@ EnchantedSupremeFishingBundle: {
 		[c/8A2BE2:究极渔具包—增加100点渔力]
 		[c/7B68EE:为顶级钓鱼者打造的完美装备]
 		'''
-		HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
 		[i:CalamityMod/EnchantedPearl] - 略微提升渔力—增加10点渔力
 		[i:CalamityMod/SupremeBaitTackleBoxFishingStation] - 大幅提升渔力—增加80点渔力

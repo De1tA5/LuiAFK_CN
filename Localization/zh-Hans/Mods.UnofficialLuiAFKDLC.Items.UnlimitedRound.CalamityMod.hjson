@@ -12,7 +12,7 @@ EndlessBloodfirePouch: {
 
 EndlessBubonicPouch: {
 	DisplayName: 无限鼠疫弹袋
-	Tooltip:  "[i:UnofficialLuiAFKDLC/EndlessBubonicPouch] - [c/b44e3c:无底的子弹袋……]"
+	Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBubonicPouch] - [c/b44e3c:无底的子弹袋……]"
 	HoldShiftTooltip:
 		'''
 		[i:CalamityMod/BubonicRound] - [c/33634b:命中时散播瘟疫，无视敌人10%防御]

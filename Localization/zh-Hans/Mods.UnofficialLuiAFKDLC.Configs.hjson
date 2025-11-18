@@ -1,0 +1,116 @@
+SettingsConfigServer: {
+	DisplayName: 服务器设置
+	Headers.Unlimited_Items: 无限物品
+
+	worksInPlayerBanks: {
+		Label: 无限物品会在个人存储中生效
+		Tooltip:
+			'''
+			[c/00ffdd:无限物品会在以下个人存储中生效] [i:PiggyBank] [i:Safe] [i:DefendersForge] [i:VoidVault]
+			如果你安装了Fargowiltas'Mutant（Fargo突变）模组
+			那么某些无限物品可能没法在个人存储中被正确禁用
+			'''
+	}
+
+	LegacyRecipes: {
+		Label: 旧配方
+		Tooltip:
+			'''
+			合成配方不包含 [C/00E5FF:瑟银：]血 或 [C/AB1B1B:灾厄：]血珠
+			纸张配方只包含竹块
+			'''
+	}
+}
+
+UnofficialLuiAFKDLCClientConfig: {
+	DisplayName: 客户端设置
+
+	ItemDisabledTooltip: {
+		Label: 禁用物品提示栏
+		Tooltip: 此配置正在开发中
+	}
+
+	DisableLuiAFKKeybindHint: {
+		Label: 禁用LuiAFK按键提示
+		Tooltip: 进入世界时移除LuiAFK按键提示信息
+	}
+}
+
+BuffPanelConfig: {
+	DisplayName: Buff控制面板设置
+
+	FlaskActivateCooldown: {
+		Label: 药剂激活冷却时间（秒）
+		Tooltip:
+			'''
+			药剂将在此冷却时间后激活
+			此设置在所有玩家之间共享
+			'''
+	}
+
+	CandleActivateCooldown: {
+		Label: 蜡烛激活冷却时间（秒）
+		Tooltip:
+			'''
+			蜡烛将在此冷却时间后激活
+			此设置在所有玩家之间共享
+			'''
+	}
+
+	Headers.Cooldown: 冷却时间
+}
+
+EnvironmentPanelConfig: {
+	DisplayName: 环境面板设置
+	FightEventActivateCooldown: {
+		Label: 战斗事件激活冷却时间（秒）
+		Tooltip:
+			'''
+			你可以在冷却时间内取消战斗事件
+			此设置独立于其他玩家
+			'''
+	}
+
+	TimeControlActivateCooldown: {
+		Label: 时间控制激活冷却时间（秒）
+		Tooltip:
+			'''
+			你可以在冷却时间内取消对时间调整
+			此设置独立于其他玩家
+			'''
+	}
+
+	Headers.Cooldown: 冷却时间
+}
+
+TeleportPanelConfig: {
+	DisplayName: 传送面板设置
+	DestinationTeleportCooldown: {
+		Label: 目的地传送冷却时间（秒）
+		Tooltip:
+			'''
+			你可以在冷却时间内取消传送
+			此设置独立于其他玩家
+			'''
+	}
+
+	PersonalDestinationTeleportCooldown: {
+		Label: 个人目的地传送冷却时间（秒）
+		Tooltip:
+			'''
+			你可以在冷却时间内取消传送
+			此设置独立于其他玩家
+			'''
+	}
+
+	FriendTeleportCooldown: {
+		Label: 好友传送冷却时间（秒）
+		Tooltip:
+			'''
+			你可以在冷却时间内取消传送
+			此设置独立于其他玩家
+			'''
+	}
+
+	Headers.Cooldown: 冷却时间
+}

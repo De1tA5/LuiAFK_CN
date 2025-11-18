@@ -52,28 +52,7 @@ Buffs: {
 	}
 }
 
-Configs: {
-	SettingsConfigServer: {
-		DisplayName: 服务器设置
-		Headers.Unlimited_Items: 无限物品
-
-		worksInPlayerBanks: {
-			Label: 无限物品会在猪猪存钱罐中生效
-			Tooltip: ""
-		}
-	}
-
-	UnofficialLuiAFKDLCClientConfig: {
-		DisplayName: 客户端设置
-
-		ItemDisabledTooltip: {
-			Label: 禁用物品提示栏
-			Tooltip: ""
-		}
-	}
-}
-
-"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 管理菜单
+"Keybinds.UnofficialLuiAFKDLC Potion Enabling.DisplayName": 管理面板
 
 Projectiles: {
 	Typeless.UnlimitedExcavationDrillFormProjectile.DisplayName: 来自无限挖掘钻头的弹幕
@@ -94,9 +73,17 @@ CommonTooltips: {
 }
 
 UI: {
+	/* Button tooltip */
+	ConfigsButtonTooltip:
+		'''
+		跳转到此面板的模组配置选项
+		目前可选配置选项：
+		- 某些物品组的冷却时间
+		'''
 	/* Tab titles */
-	PowerEffect: 增益效果
-	Spawn: 环境
+	Buff: 增益效果
+	Environment: 环境
+	Teleport: 传送
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] 已启用)"
 	GroupAlcohol: 酒类
@@ -110,6 +97,13 @@ UI: {
 	GroupSpawnBlock: 生成控制
 	GroupWorldEvent: 事件
 	GroupFightEvent: 入侵
+	GroupTimeControl: 时间
+	GroupDestination: 世界目的地
+	GroupPersonalDestination: 个人目的地
+	GroupFriend: 队友
+	/* Group Hints */
+	GroupCollapsedHint: 左键点击展开
+	GroupExpandedHint: 左键点击折叠
 	/* Toggle Text */
 	BuffOn: 已启用增益 (左键点击切换)
 	BuffOff: 已禁用增益 (左键点击切换)
@@ -119,10 +113,19 @@ UI: {
 	ItemOn: 已启用 (左键点击切换)
 	ItemOff: 已禁用 (左键点击切换)
 	ItemGray: 已启用，但未发生 (左键点击切换)
-	ItemCooldown: 入侵事件将在{0}秒后发生 (左键点击取消)
+	TimeJumpHint: 时间将在{0}秒后改变
+	InvasionHint: 启动后，入侵将在{0}秒后开始
+	InvasionCooldown: 入侵将在{0}秒后开始 (左键点击取消)
+	FriendTeleport: 左键点击，传送到该玩家
+	PlayerMissing: 该玩家已离线，如果你一直看到此消息，请刷新面板
+	PlayerDead: 无法传送到已死亡的玩家
+	PlayerOtherTeam: 无法传送到其他队伍的玩家
+	TeleportHint: 传送将在{0}秒后发生
+	TeleportCooldown: 传送将在{0}秒后发生 (左键或右键点击取消)
 	LockEnabled: 每当条件允许时会自动发生 (右键点击解锁)
 	LockDisabled: 每当条件允许时会自动关闭 (右键点击解锁)
 	LockOff: 状态可能因自然或外部原因而改变 (右键点击锁定)
+	BlockedByBoss: Boss存活时无法切换时间
 }
 
 Broadcasts: {
@@ -130,4 +133,26 @@ Broadcasts: {
 	InvasionStartSoon: "{0} 即将开始。"
 	InvasionStarted: "{0} 正在发生。"
 	InvasionEnded: "{0} 已被取消。"
+	NotAvailablePlayer: 无法传送到玩家 {0}。
+	NotAvailableDestination: 无法传送到 {0}。
 }
+
+DestinationHints:
+	'''
+	地牢入口
+	右侧海洋
+	左侧海洋
+	右侧沙滩
+	左侧沙滩
+	黑曜石废墟建筑
+	硫火之崖 或 灰烬森林
+	丛林蜥蜴祭坛
+	丛林神庙大门
+	常春回廊 或 丛林
+	红木树
+	废弃档案室
+	出生点
+	家
+	上一次死亡点，当然有可能你自进入此世界从未死亡
+	返回药水入口，你可以使用返回药水或前往其他目的地以创建一个
+	'''

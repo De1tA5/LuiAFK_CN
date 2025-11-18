@@ -1,0 +1,55 @@
+ArcanePower: {
+	Tooltip: 使魔法和光辉伤害定期生成可收集的小星星
+	DisplayName: 奥术之力
+}
+
+AquaPower: {
+	DisplayName: 潜水之力
+	Tooltip: 提供不受限的水中移动力
+}
+
+ArtilleryPower: {
+	DisplayName: 集火之力
+	Tooltip: 哨兵数量上限增加1
+}
+
+AssassinPower: {
+	DisplayName: 刺客之力
+	Tooltip: 脱战后的首次投掷攻击必定暴击并造成4倍伤害
+}
+
+BloodPower: {
+	DisplayName: 堕血之力
+	Tooltip: 增加15%挖矿和移动速度
+}
+
+BouncingFlamePower: {
+	DisplayName: 窜火之力
+	Tooltip: 使你的火焰减益在附近敌怪间散播
+}
+
+CactusFruitPower: {
+	DisplayName: 仙人掌果之力
+	Tooltip: 免疫状态效果减益
+}
+
+ConflagrationPower: {
+	DisplayName: 燃炎之力
+	Tooltip: 增加15%伤害但随时间受到伤害
+}
+
+FrenzyPower: {
+	DisplayName: 狂怒之力
+	Tooltip: 攻击速度增加8%
+}
+
+KineticPower: {
+	DisplayName: 动能之力
+	Tooltip: 允许你双击冲刺
+}
+
+WarmongerPower: {
+	DisplayName: 好战之力
+	Tooltip: 显著增加敌怪生成率
+	BuffDescription: 提高 300%敌怪刷新率和最大刷新量
+}

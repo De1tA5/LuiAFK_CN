@@ -1,0 +1,19 @@
+JumpDawn: {
+	DisplayName: 黎明
+	Description: 时间跳转到黎明 （上午 4:30）
+}
+
+JumpNoon: {
+	DisplayName: 正午
+	Description: 时间跳转到正午 （上午 12:00）
+}
+
+JumpDusk: {
+	DisplayName: 黄昏
+	Description: 时间跳转到黄昏 （下午 7:30）
+}
+
+JumpMidnight: {
+	DisplayName: 午夜
+	Description: 时间跳转到午夜 （下午 12:00）
+}

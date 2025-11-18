@@ -60,6 +60,8 @@ CalamityMod: {
 			[i:UnofficialLuiAFKDLC/UnlimitedTesla] - 在你周围召唤电击并减速敌人的电场
 			[i:UnofficialLuiAFKDLC/UnlimitedMushy] - 增加防御力和生命恢复速度并能让草上生长蘑菇
 			[i:UnofficialLuiAFKDLC/UnlimitedChi] - 获得伤害减免并为你的队伍提供生命再生
+			[i:UnofficialLuiAFKDLC/UnlimitedChaosCandle] - 赋予你[C/F53333:大幅提高]敌怪刷新率和最大刷新量的能力
+			[i:UnofficialLuiAFKDLC/UnlimitedTranquilityCandle] - 赋予你[C/34F65F:大幅降低]敌怪刷新率和最大刷新量的能力
 			'''
 	}
 
@@ -109,7 +111,7 @@ CalamityMod: {
 	}
 
 	ScrollOfCalamityFlasks: {
-		DisplayName: 灾厄药剂卷轴
+		DisplayName: 神圣碎焰卷轴
 		Tooltip: 拥有所有来自灾厄药剂力量的卷轴
 		HoldShiftTooltip:
 			'''
@@ -152,53 +154,84 @@ CalamityMod: {
 
 AlchemistNPCLite: {
 	WorldWarperScroll: {
-		DisplayName: 世界传送卷轴 {0}
+		DisplayName: 冒险之书 {0}
 		Tooltip:
 			'''
 			[DEST]
-			[i:UnofficialLuiAFKDLC/WorldWarper] [c/A9A9A9:一部神秘著作遵从你的意志，右键点击卷轴以更改模式]
+			[i:UnofficialLuiAFKDLC/WorldWarper] [c/A9A9A9:一部神秘著作待你一览]
 			'''
 		None:
 			'''
-			使用卷轴解锁它的第一种模式
-			[c/87CEEB:一张白纸，准备好开启新的旅程]
+			揭开你旅程的第一章
+			[c/87CEEB:一页空白，等待着探索与奇迹的篇章]
 			'''
 		Beach:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter] - [c/d67916:走向金色的沙滩，感受潮水的召唤]
-			[c/1E90FF:让海风引导你传送到那海岸]
+			[i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter] - [c/d67916:漫步海岸，聆听潮水的低语] - [i:UnofficialLuiAFKDLC/UnlimitedBeachTeleporter]
+			[c/7d7618:将双脚伸入沙滩……当心那偷袭的海浪！]
 			'''
 		BeachName: 沙滩
 		Dungeon:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter] - [c/d67916:深入那幽暗神秘的长廊]
-			[c/6e5f56:面对那些正在等待勇敢灵魂的，遗忘的陷阱和潜伏的危险]
+			[i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter] - [c/d67916:深入那幽暗神秘的长廊] - [i:UnofficialLuiAFKDLC/UnlimitedDungeonTeleporter]
+			[c/6e5f56:左键点击 | 步入地牢入口]
+			[c/586c9e:右键点击 | 深入废弃档案室]
 			'''
 		DungeonName: 地牢
 		Jungle:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter] - [c/d67916:左键使用传送至丛林之心]
-			[c/228B22:右键使用传送至高耸的红木并探寻它的秘密]
+			[i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter] - [c/d67916:深入那葱郁荒野的核心地带] - [i:UnofficialLuiAFKDLC/UnlimitedJungleTeleporter]
+			[c/476d0b:左键点击 | 登上雄伟的大红木树顶]
+			[c/734144:右键点击 | 穿过隐秘的常春回廊]
 			'''
 		JungleName: 丛林
 		Ocean:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter] - [c/d67916:穿越两个海岸线]
-			[c/4682B4:探索海岸边缘时感受海洋的召唤]
+			[i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter] - [c/d67916:穿越于无尽水域的地平线之间] - [i:UnofficialLuiAFKDLC/UnlimitedOceanTeleporter]
+			[c/2b6a9c:尝尝世界边界的沙地……再冷不丁一头扎进去]
 			'''
 		OceanName: 海洋
 		Temple:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter] - [c/d67916:走向那通往远古神庙的神圣之路]
-			[c/DAA520:揭开大厅中的遗忘力量与神秘遗物]
+			[i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter] - [c/d67916:行走在远古神庙的神圣石板上] - [i:UnofficialLuiAFKDLC/UnlimitedTempleTeleporter]
+			[c/8c4a21:穿过以抵达丛林蜥蜴祭坛或丛林神庙入口]
 			'''
 		TempleName: 丛林神庙
 		Underworld:
 			'''
-			[i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter] - [c/d67916:传送至熔火与灰烬之奇观]
-			[c/954d4d:敢于深入炽热深处，直面你的命运]
+			[i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter] - [c/d67916:纵身跃入下方那炽热的深渊] - [i:UnofficialLuiAFKDLC/UnlimitedUnderworldTeleporter]
+			[c/953d26:左键点击 | 探索地狱本身]
+			[c/644f79:右键点击 | 前往硫火之崖]
 			'''
 		UnderworldName: 地狱
+		Home:
+			'''
+			[i:UnofficialLuiAFKDLC/SpawnIcon] - [c/d67916:揭开你旅程的第一章] - [i:UnofficialLuiAFKDLC/BedIcon]
+			[c/518b51:左键点击 | 到达你世界的中心]
+			[c/5c6298:右键点击 | 在舒服的床上醒来]
+			'''
+		HomeName: 家
+		Death:
+			'''
+			[i:UnofficialLuiAFKDLC/DeathIcon] - [c/d67916:在命运的回响中追溯你的足迹] - [i:UnofficialLuiAFKDLC/DeathIcon]
+			[c/615c57:左键点击 | 传送到你最后的死亡地点]
+			[c/A9A9A9:如果死亡尚未追上你则无效]
+			'''
+		DeathName: 死亡
+		Return:
+			'''
+			[c/d67916:在命运的回响中追溯你的足迹]
+			[c/6a55a0:左键点击 | 返回到传送门出口]
+			[c/A9A9A9:如果尚未设置传送门则无效]
+			'''
+		ReturnName: 返回
+		Random:
+			'''
+			[c/d67916:迎接不曾明确的未知]
+			[c/6e5f56:随机传送至世界各个位置]
+			[c/A9A9A9:目的地是一个尚未揭晓的谜团]
+			'''
+		RandomName: 随机
 	}
 
 	ScrollOfMinerAlchemist: {
@@ -225,31 +258,6 @@ AlchemistNPCLite: {
 			'''
 	}
 
-	WorldWarperBeach: {
-		DisplayName: World Warper Beach
-		Tooltip: ""
-	}
-
-	WorldWarperDungeon: {
-		DisplayName: World Warper Dungeon
-		Tooltip: ""
-	}
-
-	WorldWarperJungle: {
-		DisplayName: World Warper Jungle
-		Tooltip: ""
-	}
-
-	WorldWarperTemple: {
-		DisplayName: World Warper Temple
-		Tooltip: ""
-	}
-
-	WorldWarperUnderworld: {
-		DisplayName: World Warper Underworld
-		Tooltip: ""
-	}
-
 	ScrollOfAlchemist: {
 		DisplayName: 炼金秘药
 		Tooltip:
@@ -269,7 +277,7 @@ AlchemistNPCLite: {
 }
 
 DisplayName: 卷轴
-Tooltip: 
+Tooltip:
 	'''
 	用于至尊灾厄的奥术撰卷桌的动画
 	还有你不该看见的
@@ -293,6 +301,6 @@ WarTotem: {
 		[i:miningcracks_take_on_luiafk/PumpkinMoonEnable] - 允许你切换 南瓜月
 		[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - 允许你切换 日食
 		[i:UnofficialLuiAFKDLC/SlimyTear] - 允许你切换 史莱姆雨
-		[i:CalamityMod/CausticTear] - 允许你切换 酸雨
 		'''
+	HoldShiftTooltipCalamityMod: "[i:CalamityMod/CausticTear] - 允许你切换 酸雨"
 }

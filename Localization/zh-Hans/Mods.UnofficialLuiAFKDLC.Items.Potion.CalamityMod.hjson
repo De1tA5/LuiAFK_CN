@@ -143,7 +143,7 @@ FireballPower: {
 		'''
 		所有火系减益的伤害倍率乘以1.25
 		降低0.5HP/s生命再生
-		[c/B00BA5:清爽可口的肉桂威士忌酒]
+		[c/B00BA5:灼烧般的辣劲使其更加可口]
 		'''
 }
 
@@ -252,7 +252,7 @@ TequilaSunrisePower: {
 		'''
 		在白天时增加20%击退、8%暴击率和10点防御
 		降低1HP/s生命再生
-		[c/B00BA5:我尝过的最棒的日间饮品]
+		[c/B00BA5:使人在白天更有魅力]
 		'''
 }
 
@@ -272,8 +272,9 @@ WhiskeyPower: {
 		'''
 		增加4%伤害、20%击退和2%暴击率
 		降低5%防御
-		[c/B00BA5:那种燃烧的错觉让其美味更甚！]
+		[c/B00BA5:喝酒解决不了问题！！！]
 		'''
+	HoldShiftTooltip: 但是如果你喝的够了，至少能把问题忘掉
 }
 
 WhiteWinePower: {
@@ -302,6 +303,7 @@ UnlimitedCeaselessHunger: {
 		持有时，吸引一切战利品
 		[c/4f4545:受亘古饥渴驱使着，吞噬万物的黑暗之力] 
 		'''
+	PowerEffectHint: False
 }
 
 UnlimitedSoaring: {
@@ -330,6 +332,7 @@ UnlimitedZen: {
 		大幅降低敌怪生成率，足以平息战场
 		[c/2a786f:“引导鲍勃·罗斯那份治愈力抵达你的灵魂深处”]
 		'''
+	BuffDescription: 降低 50%敌怪刷新率和最大刷新量
 }
 
 UnlimitedZerg: {
@@ -339,6 +342,7 @@ UnlimitedZerg: {
 		召唤无尽的虫潮，大幅提高敌怪生成率
 		[c/a3553e:“即使世界燃烧，仍有一个人在某处啜饮咖啡”]
 		'''
+	BuffDescription: 提高 500%敌怪刷新率和最大刷新量
 }
 
 BaguettePower: {
@@ -359,6 +363,7 @@ Candle: {
 			[c/666060:一旦被点燃，这根蜡烛就会引出混沌本质]
 			[c/FF4500:“然后事情就失控了……”]
 			'''
+		BuffDescription: 提高 1000%敌怪刷新率和最大刷新量
 	}
 
 	UnlimitedTranquilityCandle: {
@@ -369,6 +374,7 @@ Candle: {
 			[c/666060:这根蜡烛曾被古代智者用于带来平静与安宁]
 			[c/90EE90:“嘘……现在没人会攻击你了，没事的”]
 			'''
+		BuffDescription: 降低 67%敌怪刷新率和最大刷新量
 	}
 }
 

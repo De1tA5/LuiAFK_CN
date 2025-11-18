@@ -81,7 +81,7 @@ UnlimitedNavyFishingRod: {
 UnlimitedRiftReeler: {
 	DisplayName: 维隙捕鱼者
 	Tooltip: "[i:TinCan] - [c/665e4a:无限抛竿，无尽捕获]"
-		HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
 		[i:UnofficialLuiAFKDLC/UnlimitedRiftReeler] - [c/7d3a3a:这个鱼竿能在两个维度的缝隙中钓鱼]
 		[c/7d3a3a:甚至在岩浆里，且不需要鱼饵]

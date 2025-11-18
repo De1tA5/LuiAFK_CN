@@ -44,7 +44,7 @@ BossSummon: {
 	CragmawMireSummon: {
 		DisplayName: 沼泽巨人圣像
 		Tooltip: "[i:UnofficialLuiAFKDLC/CragmawMireSummon] - [c/2E8B57:只能在硫磺海使用]"
-			HoldShiftTooltip:
+		HoldShiftTooltip:
 			'''
 			[c/2E8B57:召唤“峭咽潭”]
 			[c/2E8B57:“源于池沼深处的怪力，它的每一步都令沼泽颤抖”]
@@ -60,6 +60,11 @@ SpawnBlock: {
 		BleachBall.Tooltip: 切换此物品状态，可以使渊海灾虫不再自然生成
 		SirenproofEarMuffs.Tooltip: 切换此物品状态，可以使阿娜希塔不再生成
 		BrokenWaterFilter.Tooltip: 切换此物品状态，可以使酸雨不再自然生成
+		FUCKYOUCALAMITY:
+			'''
+			[c/ff0000:灾厄形式阻止生成物品已弃用且右键点击无效]
+			打开LuiAFK-DLC的面板 -> 环境界面 以管理阻止生成选项
+			'''
 	}
 }
 
@@ -108,7 +113,7 @@ Potion: {
 
 DebugPotion: {
 	DisplayName: Debug药水
-	Tooltip: "你不该拿到的"
+	Tooltip: 你不该拿到的
 }
 
 WorldWarper: {
@@ -137,4 +142,23 @@ HangLantern: {
 SlimyTear: {
 	DisplayName: 史莱姆之泪
 	Tooltip: 使你获得能够切换史莱姆雨入侵事件的能力
+}
+
+// 假物品用于UI和物品工具提示
+// 在游戏中无法使用无法获取
+FakeItems: {
+	BedIcon: {
+		DisplayName: 床图标
+		Tooltip: 你不该看到的
+	}
+
+	DeathIcon: {
+		DisplayName: 死亡图标
+		Tooltip: 你不该看到的
+	}
+
+	SpawnIcon: {
+		DisplayName: 出生点图标
+		Tooltip: 你不该看到的
+	}
 }
