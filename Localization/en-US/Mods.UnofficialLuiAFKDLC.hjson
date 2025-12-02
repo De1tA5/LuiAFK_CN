@@ -69,7 +69,7 @@ FishingRod: {
 CommonTooltips: {
 	PiggyWork: "[c/7a7a7a:Works inside] : [i:PiggyBank] [i:Safe] [i:DefendersForge]"
 	CheckPanel: Press <[c/dc810d:[KEY]]> for effect management.
-	HoldShiftHint: "[c/9d9d9d:Press <SHIFT> for more information.]"
+	HoldShiftHint: "[c/7a7a7a:Press <SHIFT> for more information.]"
 }
 
 UI: {
@@ -86,6 +86,7 @@ UI: {
 	Teleport: Teleport
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] enabled)"
+	ChecklistModeTitleTemplate: Unobtained ([CUR]/[MAX] to find)
 	GroupAlcohol: Alcohol Drinks
 	GroupFlask: Weapon Imbue
 	GroupCandle: Candle Effects
@@ -110,6 +111,10 @@ UI: {
 	BuffCooldown: Will be ready in {0} second(s).
 	VisualOn: Visual enabled. Right click to toggle.
 	VisualOff: Visual disabled. Right click to toggle.
+	UnlockHint: "[c/e94a4a:You haven't obtained this effect.]"
+	UnlockHint2a: "[c/dc810d:Having the effect item in your inventory will grant it.]"
+	UnlockHint2b: "[c/dc810d:Having the effect item in your inventory or personal storages will grant it.]"
+	TargetItemHint: "[c/7a7a7a:Hold shift to see the basic item that provides this effect.]"
 	ItemOn: Currently enabled. Left click to toggle.
 	ItemOff: Currently disabled. Left click to toggle.
 	ItemGray: Currently enabled, but not activated. Left click to toggle.
@@ -117,19 +122,29 @@ UI: {
 	InvasionHint: Invasion will start {0} second(s) after enabling.
 	InvasionCooldown: Invasion will be activated in {0} second(s). Left click to cancel.
 	FriendTeleport: Left click to teleport to this player.
-	PlayerMissing: This player is offline, if you keep seeing this, please refresh the panel.
-	PlayerDead: Cannot teleport to dead players.
-	PlayerOtherTeam: Cannot teleport to players on other teams.
+	PlayerMissing: "[c/e94a4a:This player is offline, if you keep seeing this, please refresh the panel.]"
+	PlayerDead: "[c/e94a4a:Cannot teleport to dead players.]"
+	PlayerOtherTeam: "[c/e94a4a:Cannot teleport to players on other teams.]"
 	TeleportHint: Teleport will happen {0} second(s) after clicking.
 	TeleportCooldown: You will be teleported in {0} second(s). Left or right click to cancel.
 	LockEnabled: Automatically activate whenever possible. Right click to unlock.
 	LockDisabled: Automatically deactivate whenever possible. Right click to unlock.
 	LockOff: Status can be changed by natural or external reasons. Right click to lock.
-	BlockedByBoss: Time can't be controled when a boss is alive.
+	BlockedByBoss: "[c/e94a4a:Time can't be controled when a boss is alive.]"
+	ChecklistModeEnabledTooltip:
+		'''
+		Checklist Mode: show all existing effects.
+		Left click to switch mode.
+		'''
+	ChecklistModeDisabledTooltip:
+		'''
+		Progress Mode: only show effects you have.
+		Left click to switch mode.
+		'''
 }
 
 Broadcasts: {
-	InvasionStartFailed: Can't start {0}. Some prerequisites are not satified.
+	InvasionStartFailed: "[c/e94a4a:Can't start {0}. Some prerequisites are not satified.]"
 	InvasionStartSoon: "{0} will start soon."
 	InvasionStarted: "{0} is happening!"
 	InvasionEnded: "{0} has been cancelled."

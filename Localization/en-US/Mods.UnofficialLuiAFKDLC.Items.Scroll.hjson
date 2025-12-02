@@ -215,14 +215,14 @@ AlchemistNPCLite: {
 			'''
 			[i:UnofficialLuiAFKDLC/DeathIcon] - [c/d67916:Trace your footsteps through echoes of fate.] - [i:UnofficialLuiAFKDLC/DeathIcon]
 			[c/615c57:Left-Click | Teleports to your last Death Point]
-			[c/A9A9A9:Inactive if death haven't catched you up]
+			[c/FFA9A9:Inactive if death haven't catched you up]
 			'''
 		DeathName: Death Sheet
 		Return:
 			'''
 			[c/d67916:Trace your footsteps through echoes of fate.]
 			[c/6a55a0:Left-Click | Returns to Portal Exit]
-			[c/A9A9A9:Inactive if no portal has been set]
+			[c/FFA9A9:Inactive if no portal has been set]
 			'''
 		ReturnName: Return Sheet
 		Random:
@@ -272,6 +272,23 @@ AlchemistNPCLite: {
 			[i:UnofficialLuiAFKDLC/UnlimitedDiscord] - Grants you the power of Discord before defeating Moon Lord / Perfect Discord after defeating Moon Lord.
 			[i:UnofficialLuiAFKDLC/UnlimitedGreaterDangersense] - Grants Greater Dangersense.
 			[i:UnofficialLuiAFKDLC/UnlimitedNaturesBlessing] - Grants Nature Blessing.
+			'''
+	}
+
+	WilliamsBirthdayCake: {
+		DisplayName: Magic Birthday Cake
+		Tooltip: Grants special effects of almost all stations simultaneously
+		HoldShiftTooltip:
+			'''
+			[i:miningcracks_take_on_luiafk/UnlimitedCampfire] - {$BuffDescription.Campfire}
+			[i:miningcracks_take_on_luiafk/UnlimitedHeartLantern] - {$BuffDescription.HeartLamp}
+			[i:miningcracks_take_on_luiafk/UnlimitedBastStatue] - {$BuffDescription.CatBast}
+			[i:miningcracks_take_on_luiafk/UnlimitedSharpeningStation] - {$BuffDescription.Sharpened}
+			[i:miningcracks_take_on_luiafk/UnlimitedAmmoBox] - {$BuffDescription.AmmoBox}
+			[i:miningcracks_take_on_luiafk/UnlimitedCrystalBall] - {$BuffDescription.Clairvoyance}
+			[i:miningcracks_take_on_luiafk/UnlimitedSliceCake] - {$BuffDescription.SugarRush}
+			[i:miningcracks_take_on_luiafk/UnlimitedBewitchingTable] - {$BuffDescription.Bewitched}
+			[c/FFC300:'A celebratory gift from the wizard William on his birthday.']
 			'''
 	}
 }

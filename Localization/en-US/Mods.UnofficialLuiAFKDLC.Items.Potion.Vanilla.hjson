@@ -52,7 +52,7 @@ ScrollOfFlasks: {
 		'''
 }
 
-BattleEffect.BuffDescription: Increase spawn rate and max spawns by 150%
-CalmEffect.BuffDescription: Decrease spawn rate and max spawns by 10%
-WaterCandleEffect.BuffDescription: Increase spawn rate and max spawns by 300%
-PeaceCandleEffect.BuffDescription: Decrease spawn rate and max spawns by 20%
+BattlePowerEffect.BuffDescription: Increase spawn rate and max spawns by 150%
+CalmingPowerEffect.BuffDescription: Decrease spawn rate and max spawns by 10%
+WaterCandlePowerEffect.BuffDescription: Increase spawn rate and max spawns by 300%
+PeaceCandlePowerEffect.BuffDescription: Decrease spawn rate and max spawns by 20%

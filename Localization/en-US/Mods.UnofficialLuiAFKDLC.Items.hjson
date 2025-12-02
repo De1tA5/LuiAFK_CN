@@ -63,7 +63,7 @@ SpawnBlock: {
 		FUCKYOUCALAMITY:
 			'''
 			[c/ff0000:Calamity-style spawn block item has been deprecated and Right Click does nothing.]
-			Open LuiAFK-DLC's panel -> Environment tab to manage spawn blocking options.
+			Open LuiAFK-DLC effect manager -> Environment tab to manage spawn blocking options.
 			'''
 	}
 }

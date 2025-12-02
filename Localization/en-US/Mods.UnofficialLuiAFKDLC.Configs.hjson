@@ -33,6 +33,11 @@ UnofficialLuiAFKDLCClientConfig: {
 		Label: Disable LuiAFK Keybind Hint
 		Tooltip: Removes the LuiAFK keybind messages on entering world
 	}
+
+	ChecklistMode: {
+		Label: Checklist Mode
+		Tooltip: ""
+	}
 }
 
 BuffPanelConfig: {

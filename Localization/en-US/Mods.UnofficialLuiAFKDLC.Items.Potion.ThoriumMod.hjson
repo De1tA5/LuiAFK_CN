@@ -51,5 +51,5 @@ KineticPower: {
 WarmongerPower: {
 	DisplayName: Warmonger Power
 	Tooltip: Increases enemy spawn rates
-	BuffDescription: Increases enemy spawn rate and max spawns by 300%
+	BuffDescription: Increases enemy spawn rate and max spawns by 500%
 }

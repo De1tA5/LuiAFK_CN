@@ -90,16 +90,6 @@ UnlimitedBlurring: {
 		'''
 }
 
-WilliamsBirthdayCake: {
-	DisplayName: Magic Birthday Cake
-	Tooltip: Grants special effects of almost all stations simultaneously
-	HoldShiftTooltip:
-		'''
-		(Campfires, Lamps, Bast's Statue, Sharpening Station, Ammo Box, Crystal Ball, Slice of Cake, and Bewitching Table.)
-		[c/FFC300:'A celebratory gift from the wizard William on his birthday.']
-		'''
-}
-
 UnlimitedTrapper: {
 	DisplayName: Trapper's Delight
 	Tooltip:
