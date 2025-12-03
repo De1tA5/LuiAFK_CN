@@ -52,7 +52,7 @@ ScrollOfFlasks: {
 		'''
 }
 
-BattleEffect.BuffDescription: 提高 150%敌怪刷新率和最大刷新量
-CalmEffect.BuffDescription: 降低 10%敌怪刷新率和最大刷新量
-WaterCandleEffect.BuffDescription: 提高 300%敌怪刷新率和最大刷新量
-PeaceCandleEffect.BuffDescription: 降低 20%敌怪刷新率和最大刷新量
+BattlePowerEffect.BuffDescription: 提高 150%敌怪刷新率和最大刷新量
+CalmingPowerEffect.BuffDescription: 降低 10%敌怪刷新率和最大刷新量
+WaterCandlePowerEffect.BuffDescription: 提高 300%敌怪刷新率和最大刷新量
+PeaceCandlePowerEffect.BuffDescription: 降低 20%敌怪刷新率和最大刷新量

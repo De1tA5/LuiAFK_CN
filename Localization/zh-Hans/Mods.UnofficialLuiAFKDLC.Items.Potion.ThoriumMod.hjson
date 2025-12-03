@@ -51,5 +51,5 @@ KineticPower: {
 WarmongerPower: {
 	DisplayName: 好战之力
 	Tooltip: 显著增加敌怪生成率
-	BuffDescription: 提高 300%敌怪刷新率和最大刷新量
+	BuffDescription: 提高 500%敌怪刷新率和最大刷新量
 }

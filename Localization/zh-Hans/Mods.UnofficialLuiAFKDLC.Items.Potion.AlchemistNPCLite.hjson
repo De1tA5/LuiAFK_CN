@@ -94,16 +94,6 @@ UnlimitedBlurring: {
 		'''
 }
 
-WilliamsBirthdayCake: {
-	DisplayName: 魔法生日蛋糕
-	Tooltip: 获得所有增益站的效果
-	HoldShiftTooltip:
-		'''
-		包括篝火、红心灯笼、巴斯特雕像、利器站、弹药箱、水晶球、蛋糕块和施法桌
-		[c/FFC300:“这是威廉巫师在他生日时所赠送的庆祝礼物”]
-		'''
-}
-
 UnlimitedTrapper: {
 	DisplayName: 捕猎者之悦
 	Tooltip:

@@ -34,6 +34,11 @@ UnofficialLuiAFKDLCClientConfig: {
 		Label: 禁用LuiAFK按键提示
 		Tooltip: 进入世界时移除LuiAFK按键提示信息
 	}
+	
+	ChecklistMode: {
+		Label: 清单模式
+		Tooltip: ""
+	}
 }
 
 BuffPanelConfig: {
@@ -62,6 +67,7 @@ BuffPanelConfig: {
 
 EnvironmentPanelConfig: {
 	DisplayName: 环境面板设置
+
 	FightEventActivateCooldown: {
 		Label: 战斗事件激活冷却时间（秒）
 		Tooltip:
@@ -85,6 +91,7 @@ EnvironmentPanelConfig: {
 
 TeleportPanelConfig: {
 	DisplayName: 传送面板设置
+	
 	DestinationTeleportCooldown: {
 		Label: 目的地传送冷却时间（秒）
 		Tooltip:

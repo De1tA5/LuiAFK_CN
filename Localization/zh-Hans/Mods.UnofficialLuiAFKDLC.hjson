@@ -69,7 +69,7 @@ FishingRod: {
 CommonTooltips: {
 	PiggyWork: "[c/7a7a7a:在：] [i:PiggyBank] [i:Safe] [i:DefendersForge] [c/7a7a7a:中也生效]"
 	CheckPanel: 按下 <[c/dc810d:[KEY]]> 打开管理面板
-	HoldShiftHint: "[c/9d9d9d:按下 <SHIFT> 查看更多信息]"
+	HoldShiftHint: "[c/7a7a7a:按下 <SHIFT> 查看更多信息]"
 }
 
 UI: {
@@ -86,6 +86,7 @@ UI: {
 	Teleport: 传送
 	/* Group titles */
 	PowerToggleTitleTemplate: "[TITLE] ([CUR]/[MAX] 已启用)"
+	ChecklistModeTitleTemplate: 未获得 ([CUR]/[MAX] 待发现)
 	GroupAlcohol: 酒类
 	GroupFlask: 武器灌注
 	GroupCandle: 蜡烛效果
@@ -110,6 +111,10 @@ UI: {
 	BuffCooldown: 将在{0}秒后开始.
 	VisualOn: 已启用视觉效果 (右键点击切换)
 	VisualOff: 已禁用视觉效果 (右键点击切换)
+	UnlockHint: "[c/e94a4a:你还未获得该效果]"
+	UnlockHint2a: "[c/dc810d:在你的物品栏中拥有该效果物品就会获得对应效果]"
+	UnlockHint2b: "[c/dc810d:在你的物品栏或个人储存中拥有该效果物品就会获得对应效果]"
+	TargetItemHint: "[c/7a7a7a:按住 shift 查看提供效果的基础物品]"
 	ItemOn: 已启用 (左键点击切换)
 	ItemOff: 已禁用 (左键点击切换)
 	ItemGray: 已启用，但未发生 (左键点击切换)
@@ -117,19 +122,29 @@ UI: {
 	InvasionHint: 启动后，入侵将在{0}秒后开始
 	InvasionCooldown: 入侵将在{0}秒后开始 (左键点击取消)
 	FriendTeleport: 左键点击，传送到该玩家
-	PlayerMissing: 该玩家已离线，如果你一直看到此消息，请刷新面板
-	PlayerDead: 无法传送到已死亡的玩家
-	PlayerOtherTeam: 无法传送到其他队伍的玩家
+	PlayerMissing: "[c/e94a4a:该玩家已离线，如果你一直看到此消息，请刷新面板]"
+	PlayerDead: "[c/e94a4a:无法传送到已死亡的玩家]"
+	PlayerOtherTeam: "[c/e94a4a:无法传送到其他队伍的玩家]"
 	TeleportHint: 传送将在{0}秒后发生
 	TeleportCooldown: 传送将在{0}秒后发生 (左键或右键点击取消)
 	LockEnabled: 每当条件允许时会自动发生 (右键点击解锁)
 	LockDisabled: 每当条件允许时会自动关闭 (右键点击解锁)
 	LockOff: 状态可能因自然或外部原因而改变 (右键点击锁定)
-	BlockedByBoss: Boss存活时无法切换时间
+	BlockedByBoss: "[c/e94a4a:Boss存活时无法切换时间]"
+	ChecklistModeEnabledTooltip:
+		'''
+		清单模式：显示所有存在的效果
+		左键点击切换模式
+		'''
+	ChecklistModeDisabledTooltip:
+		'''
+		进度模式：只显示你拥有的效果
+		左键点击切换模式
+		'''
 }
 
 Broadcasts: {
-	InvasionStartFailed: 无法启动{0}，可能是某些条件未被满足
+	InvasionStartFailed: "[c/e94a4a:无法启动{0}，可能是某些条件未被满足]"
 	InvasionStartSoon: "{0} 即将开始。"
 	InvasionStarted: "{0} 正在发生。"
 	InvasionEnded: "{0} 已被取消。"

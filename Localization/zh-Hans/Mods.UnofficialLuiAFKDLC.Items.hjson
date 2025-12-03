@@ -117,8 +117,12 @@ DebugPotion: {
 }
 
 WorldWarper: {
-	Tooltip: ""
-	DisplayName: World Warper
+	Tooltip:
+		'''
+		用于冒险之书的动画
+		你不该拿到的
+		'''
+	DisplayName: 世界传送器
 }
 
 PartyPopper: {

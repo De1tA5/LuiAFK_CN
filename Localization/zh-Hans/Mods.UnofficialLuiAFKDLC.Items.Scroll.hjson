@@ -215,14 +215,14 @@ AlchemistNPCLite: {
 			'''
 			[i:UnofficialLuiAFKDLC/DeathIcon] - [c/d67916:在命运的回响中追溯你的足迹] - [i:UnofficialLuiAFKDLC/DeathIcon]
 			[c/615c57:左键点击 | 传送到你最后的死亡地点]
-			[c/A9A9A9:如果死亡尚未追上你则无效]
+			[c/FFA9A9:如果死亡尚未追上你则无效]
 			'''
 		DeathName: 死亡
 		Return:
 			'''
 			[c/d67916:在命运的回响中追溯你的足迹]
 			[c/6a55a0:左键点击 | 返回到传送门出口]
-			[c/A9A9A9:如果尚未设置传送门则无效]
+			[c/FFA9A9:如果尚未设置传送门则无效]
 			'''
 		ReturnName: 返回
 		Random:
@@ -272,6 +272,23 @@ AlchemistNPCLite: {
 			[i:UnofficialLuiAFKDLC/UnlimitedDiscord] - 在击败月亮领主前后分别获得[i:1326]混沌传送杖和[i:5335]和谐传送杖的能力
 			[i:UnofficialLuiAFKDLC/UnlimitedGreaterDangersense] - [i:AlchemistNPCLite/GreaterDangersensePotion]强化危险感
 			[i:UnofficialLuiAFKDLC/UnlimitedNaturesBlessing] - [i:AlchemistNPCLite/NatureBlessingPotion]自然赐福
+			'''
+	}
+
+	WilliamsBirthdayCake: {
+		DisplayName: 魔法生日蛋糕
+		Tooltip: 同时获得几乎所有增益站的特殊效果
+		HoldShiftTooltip:
+			'''
+			[i:miningcracks_take_on_luiafk/UnlimitedCampfire] - {$BuffDescription.Campfire}
+			[i:miningcracks_take_on_luiafk/UnlimitedHeartLantern] - {$BuffDescription.HeartLamp}
+			[i:miningcracks_take_on_luiafk/UnlimitedBastStatue] - {$BuffDescription.CatBast}
+			[i:miningcracks_take_on_luiafk/UnlimitedSharpeningStation] - {$BuffDescription.Sharpened}
+			[i:miningcracks_take_on_luiafk/UnlimitedAmmoBox] - {$BuffDescription.AmmoBox}
+			[i:miningcracks_take_on_luiafk/UnlimitedCrystalBall] - {$BuffDescription.Clairvoyance}
+			[i:miningcracks_take_on_luiafk/UnlimitedSliceCake] - {$BuffDescription.SugarRush}
+			[i:miningcracks_take_on_luiafk/UnlimitedBewitchingTable] - {$BuffDescription.Bewitched}
+			[c/FFC300:“这是在他生日时巫师威廉赠送的庆祝礼物”]
 			'''
 	}
 }
