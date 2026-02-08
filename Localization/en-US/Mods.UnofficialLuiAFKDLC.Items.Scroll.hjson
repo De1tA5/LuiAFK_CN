@@ -36,8 +36,8 @@ CalamityMod: {
 		HoldShiftTooltip:
 			'''
 			[i:UnofficialLuiAFKDLC/UnlimitedSoaring] - Increases flight time and horizontal flight speed by 10%.
-			[i:UnofficialLuiAFKDLC/UnlimitedBounding] - Increases jump speed by 5%, extra jump height and damage resistance.
-			[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - Grants immunity to fall damage.
+			[i:UnofficialLuiAFKDLC/UnlimitedBounding] - Increases jump speed by 5% jump height by 20%.
+			[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - Grants 50% resistance to knockback.
 			'''
 	}
 
@@ -55,7 +55,7 @@ CalamityMod: {
 			[i:UnofficialLuiAFKDLC/FermentedBook] - A fermented tome that enhances alchemical knowledge and potion-related bonuses.
 			[i:UnofficialLuiAFKDLC/UnlimitedBloodfin] - Grants the Bloodfin effect: strong regeneration when health is low.
 			[i:UnofficialLuiAFKDLC/UnlimitedBaguettePower] - Grants extra Red Wine benefits.
-			[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - Grants life recovery/benefits under sunlight.
+			[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - Dropped hearts heal more HP.
 			[i:UnofficialLuiAFKDLC/UnlimitedShadow] - Grants stealth/velocity bonuses while cloaked.
 			[i:UnofficialLuiAFKDLC/UnlimitedTesla] - Grants electrical effects around the player.
 			[i:UnofficialLuiAFKDLC/UnlimitedMushy] - Grants defense/life regen + grows mushroom on grass.
@@ -85,27 +85,28 @@ CalamityMod: {
 			'''
 		HoldShiftTooltip:
 			'''
-			[i:UnofficialLuiAFKDLC/BloodyMaryPower] - Increases damage during Blood Moon, but reduces life regen & defense.
-			[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - Grants life regen, movement & flight time tweaks, but makes you floaty.
-			[i:UnofficialLuiAFKDLC/CinnamonRollPower] - Increased mana regen, tweaks to fire-based debuffs damage, but reduces defense.
-			[i:UnofficialLuiAFKDLC/EverclearPower] - Increased damage, but reduces life regen & defense.
-			[i:UnofficialLuiAFKDLC/EvergreenGinPower] - Grants tweaks to sickness & water-related debuffs damage.
-			[i:UnofficialLuiAFKDLC/FireballPower] - Increases all fire-based debuff, but reduces life regen.
-			[i:UnofficialLuiAFKDLC/GrapeBeerPower] - Reduces defense.
-			[i:UnofficialLuiAFKDLC/MargaritaPower] - Halves harmful debuffs duration, but reduces life regen & defense.
-			[i:UnofficialLuiAFKDLC/MoonshinePower] - Increases defense and damage reduction, but reduces life regen.
-			[i:UnofficialLuiAFKDLC/MoscowMulePower] - Increases damage, knockback & critical strike.
-			[i:UnofficialLuiAFKDLC/OldFashionedPower] - Multiplies all accessory and set bonuses damage, but reduces damage.
-			[i:UnofficialLuiAFKDLC/PurpleHazePower] - Increased damage and immune time, but reduces defense.
-			[i:UnofficialLuiAFKDLC/RedWinePower] - Reduces life regen.
-			[i:UnofficialLuiAFKDLC/RumPower] - Increases life regen and movement speed, but reduces defense.
-			[i:UnofficialLuiAFKDLC/ScrewdriverPower] - Increases piercing projectile damage, but reduces life regen.
-			[i:UnofficialLuiAFKDLC/StarBeamRyePower] - Increases max mana, magic damage & reduces mana usage, but reduces life regen & defense.
-			[i:UnofficialLuiAFKDLC/TequilaPower] - Increased knockback, critical & defense during Daytime, but reduces life regen.
-			[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - Increased knockback, critical & defense during Daytime, but reduces life regen.
-			[i:UnofficialLuiAFKDLC/VodkaPower] - Increases damage and critical strike, but reduces life regen & defense.
-			[i:UnofficialLuiAFKDLC/WhiskeyPower] - Increases damage, knockback, critical strike, but reduces defense.
-			[i:UnofficialLuiAFKDLC/WhiteWinePower] - Increased magic damage, but reduces life regen & defense.
+			[i:UnofficialLuiAFKDLC/BloodyMaryPower] - {$Mods.CalamityMod.Buffs.BloodyMaryBuff.Description}.
+			[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - {$Mods.CalamityMod.Buffs.CaribbeanRumBuff.Description}.
+			[i:UnofficialLuiAFKDLC/CinnamonRollPower] - {$Mods.CalamityMod.Buffs.CinnamonRollBuff.Description}.
+			[i:UnofficialLuiAFKDLC/EverclearPower] - {$Mods.CalamityMod.Buffs.EverclearBuff.Description}.
+			[i:UnofficialLuiAFKDLC/EvergreenGinPower] - {$Mods.CalamityMod.Buffs.EvergreenGinBuff.Description}.
+			[i:UnofficialLuiAFKDLC/FireballPower] - {$Mods.CalamityMod.Buffs.FireballBuff.Description}.
+			[i:UnofficialLuiAFKDLC/GrapeBeerPower] - {$Mods.CalamityMod.Buffs.GrapeBeerBuff.Description}.
+			[i:UnofficialLuiAFKDLC/ManhattanPower] - {$Mods.CalamityMod.Buffs.ManhattanBuff.Description}.
+			[i:UnofficialLuiAFKDLC/MargaritaPower] - {$Mods.CalamityMod.Buffs.MargaritaBuff.Description}.
+			[i:UnofficialLuiAFKDLC/MoonshinePower] - {$Mods.CalamityMod.Buffs.MoonshineBuff.Description}.
+			[i:UnofficialLuiAFKDLC/MoscowMulePower] - {$Mods.CalamityMod.Buffs.MoscowMuleBuff.Description}.
+			[i:UnofficialLuiAFKDLC/OldFashionedPower] - {$Mods.CalamityMod.Buffs.OldFashionedBuff.Description}.
+			[i:UnofficialLuiAFKDLC/PurpleHazePower] - {$Mods.CalamityMod.Buffs.PurpleHazeBuff.Description}.
+			[i:UnofficialLuiAFKDLC/RedWinePower] - {$Mods.CalamityMod.Buffs.RedWineBuff.Description}.
+			[i:UnofficialLuiAFKDLC/RumPower] - {$Mods.CalamityMod.Buffs.RumBuff.Description}.
+			[i:UnofficialLuiAFKDLC/ScrewdriverPower] - {$Mods.CalamityMod.Buffs.ScrewdriverBuff.Description}.
+			[i:UnofficialLuiAFKDLC/StarBeamRyePower] - {$Mods.CalamityMod.Buffs.StarBeamRyeBuff.Description}.
+			[i:UnofficialLuiAFKDLC/TequilaPower] - {$Mods.CalamityMod.Buffs.TequilaBuff.Description}.
+			[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - {$Mods.CalamityMod.Buffs.TequilaSunriseBuff.Description}.
+			[i:UnofficialLuiAFKDLC/VodkaPower] - {$Mods.CalamityMod.Buffs.VodkaBuff.Description}.
+			[i:UnofficialLuiAFKDLC/WhiskeyPower] - {$Mods.CalamityMod.Buffs.WhiskeyBuff.Description}.
+			[i:UnofficialLuiAFKDLC/WhiteWinePower] - {$Mods.CalamityMod.Buffs.WhiteWineBuff.Description}.
 			[c/B00BA5:Only 3 alcohols can be activated at once, choose your combinations wisely.]
 			'''
 	}

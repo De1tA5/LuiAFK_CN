@@ -22,7 +22,7 @@ UnlimitedBounding: {
 	DisplayName: Leaping Essence
 	Tooltip:
 		'''
-		Grants extra jump height & speed + 25 extra block fall damage
+		Grants extra jump height & speed
 		[c/FFA500:'You can reach great heights, in fact you can soar']
 		'''
 }
@@ -31,7 +31,7 @@ UnlimitedCalcium: {
 	DisplayName: Bone Ward
 	Tooltip:
 		'''
-		Grants immunity to fall damage
+		Grants resistance to knockback
 		[c/77685a:'Approved by: Bone Lee']
 		'''
 }
@@ -59,7 +59,6 @@ UnlimitedPhotosynthesis: {
 	DisplayName: Sunbloom Respite
 	Tooltip:
 		'''
-		Regen life quickly when idle, stronger in daytime
 		Dropped hearts heal more HP
 		[c/FFD700:Infused with solar essence, rejuvenates vitality]
 		'''
@@ -79,8 +78,8 @@ BloodyMaryPower: {
 	DisplayName: Crimson Alchemist's Bloody Mary
 	Tooltip:
 		'''
-		10% increased damage and movement speed during a Blood Moon
-		Reduces life regen by 2 HP/s and defense by 4%
+		Increases enemy spawn rates by 7x
+		Greatly reduces piercing weapon effectiveness
 		[c/B00BA5:Extra spicy... and bloody!]
 		'''
 }
@@ -89,8 +88,8 @@ CaribbeanRumPower: {
 	DisplayName: Pirate's Caribbean Rum
 	Tooltip:
 		'''
-		Increases life regen by 1 HP/s, movement speed by 10% and wing flight time by 20%
-		Makes you floaty and reduces defense by 10%
+		Increases move speed by 25%
+		Reduces your gravity by 50%
 		[c/B00BA5:Why is the rum gone?]
 		'''
 }
@@ -99,8 +98,8 @@ CinnamonRollPower: {
 	DisplayName: Mage's Cinnamon Roll
 	Tooltip:
 		'''
-		Increases mana regeneration rate and multiplies all fire-based debuff damage by 1.5x
-		Reduces defense by 10%
+		Greatly increases dash speed
+		Greatly reduces dash distance
 		[c/B00BA5:A great-tasting cinnamon whiskey with a touch of cream soda.]
 		'''
 }
@@ -119,8 +118,8 @@ EvergreenGinPower: {
 	DisplayName: Forest Essence Gin
 	Tooltip:
 		'''
-		Multiplies all sickness and water-related debuff damage by 1.25x
-		Reduces life regen by 0.5 HP/s
+		50% increased Water and Sickness debuff damage
+		50% decreased Electric and Heat debuff damage
 		[c/B00BA5:It tastes like a Christmas tree, if you can imagine that.]
 		'''
 }
@@ -139,8 +138,8 @@ FireballPower: {
 	DisplayName: Pyromancer's Fireball
 	Tooltip:
 		'''
-		Multiplies all fire-based debuff damage by 1.25x
-		Reduces life regen by 0.5 HP/s
+		50% increased Heat debuff damage
+		50% decreased Sickness debuff damage
 		[c/B00BA5:The burning sensation makes it tastier.]
 		'''
 }
@@ -149,8 +148,18 @@ GrapeBeerPower: {
 	DisplayName: Cursed Grape Beer
 	Tooltip:
 		'''
-		Reduces defense by 3% for 15 seconds
+		Bullets, Arrows, Darts, and Rockets gain homing
+		75% reduced critical strike damage
 		[c/B00BA5:This crap is abhorrent, but you might like it.]
+		'''
+}
+
+ManhattanPower: {
+	DisplayName: Icy Manhattan
+	Tooltip:
+		'''
+		50% increased Cold debuff damage
+		50% decreased Water debuff damage
 		'''
 }
 
@@ -158,8 +167,8 @@ MargaritaPower: {
 	DisplayName: Refreshing Margarita
 	Tooltip:
 		'''
-		Halves the duration of most harmful debuffs
-		Reduces defense by 6% and life regen by 0.5 HP/s
+		Halves duration of harmful debuffs you receive
+		Reduces damage of debuffs you inflict by 50%
 		[c/B00BA5:One of the best drinks ever created, enjoy it while it lasts.]
 		'''
 }
@@ -168,8 +177,9 @@ MoonshinePower: {
 	DisplayName: Resilient Moonshine
 	Tooltip:
 		'''
-		Increases defense by 10 and damage reduction by 3%
-		Reduces life regen by 0.5 HP/s
+		Increases maximum health by 33%
+		Attacks always take at least half your defense worth of defense damage
+		Defense damage takes twice as long to recover
 		[c/B00BA5:This stuff is pretty strong, but I'm sure you can handle it.]
 		'''
 }
@@ -178,8 +188,8 @@ MoscowMulePower: {
 	DisplayName: Bold Moscow Mule
 	Tooltip:
 		'''
-		Increases damage by 9%, knockback by 50% and critical strike chance by 3%
-		Reduces life regen by 2 HP/s
+		50% increased knockback, all attacks inflict heavy knockback
+		Reduces the effectiveness of piercing weapons
 		[c/B00BA5:I once heard the copper mug can be toxic and I told 'em, 'listen, dummy, I'm already poisoning myself!]
 		'''
 }
@@ -188,8 +198,8 @@ OldFashionedPower: {
 	DisplayName: Ancient Old Fashioned
 	Tooltip:
 		'''
-		Multiplies all accessory and set bonus damage by 1.5x
-		Decreases all damage by 25%
+		Multiplies most non-weapon, non-debuff damage by 1.5x
+		Decreases all weapon damage by 25%
 		[c/B00BA5:An old favorite of mine.]
 		'''
 }
@@ -198,7 +208,8 @@ RedWinePower: {
 	DisplayName: Dry Red Wine
 	Tooltip:
 		'''
-		Reduces life regen by 0.5 HP/s for 15 seconds
+		10% increased vertical speed
+		25% reduced flight time
 		[c/B00BA5:Too dry for my taste.']
 		'''
 }
@@ -207,8 +218,8 @@ RumPower: {
 	DisplayName: Sweet Rum
 	Tooltip:
 		'''
-		Increases life regen by 1 HP/s and movement speed by 10%
-		Reduces defense by 5%
+		15% increased non-minion summon damage
+		15% decreased minion damage
 		[c/B00BA5:Sweet and potent, just how I like it.]
 		'''
 }
@@ -217,8 +228,8 @@ ScrewdriverPower: {
 	DisplayName: Sharp Screwdriver
 	Tooltip:
 		'''
-		Multiplies piercing projectile damage by 1.05x
-		Reduces life regen by 0.5 HP/s
+		Greatly increases tile and wall placement range and speed
+		Greatly reduces damage dealt
 		[c/B00BA5:Do you have a screw loose?]
 		'''
 }
@@ -227,9 +238,10 @@ StarBeamRyePower: {
 	DisplayName: Cosmic Star Beam Rye
 	Tooltip:
 		'''
-		Increases max mana by 50, magic damage by 8%,
-		and reduces mana usage by 10%
-		Reduces defense by 6% and life regen by 1 HP/s
+		Disables natural mana regeneration
+		Mana regenerates at a fixed rate, even while using an item
+		Magic weapons deal increased damage based on how quickly they consume mana
+		This does not work while inflicted with Mana Sickness
 		[c/B00BA5:Don't worry, it's safe, trust me...]
 		'''
 }
@@ -238,8 +250,8 @@ TequilaPower: {
 	DisplayName: Daylight Tequila
 	Tooltip:
 		'''
-		Increases knockback by 10%, crit chance by 4% and defense by 5 during daytime
-		Reduces life regen by 0.5 HP/s
+		50% increased Electric debuff damage
+		50% decreased Cold debuff damage
 		[c/B00BA5:Great for mixing up daytime drinks.]
 		'''
 }
@@ -248,18 +260,24 @@ TequilaSunrisePower: {
 	DisplayName: Sunrise Tequila
 	Tooltip:
 		'''
-		Increases knockback by 20%, crit chance by 8% and defense by 10 during daytime
-		Reduces life regen by 1 HP/s
+		Greatly increases natural life regeneration after suffering a damaging debuff
+		50% increased damage taken from debuffs
 		[c/B00BA5:Makes people more attractive during daytime.]
 		'''
 }
+
+TipsyPower.AlternateTooltip:
+	'''
+	Increases melee weapon scale by 15%, but decreases melee speed by 10%
+	[c/B00BA5:Larger strides, slower steps.]
+	'''
 
 VodkaPower: {
 	DisplayName: Versatile Vodka
 	Tooltip:
 		'''
-		Increases damage by 6% and critical strike chance by 2%
-		Reduces life regen by 0.5 HP/s and defense by 5%
+		50% increased Typeless debuff damage
+		50% decreased elemental debuff damage
 		[c/B00BA5:The number one alcohol for creating great mixed drinks.]
 		'''
 }
@@ -268,8 +286,10 @@ WhiskeyPower: {
 	DisplayName: Warrior's Whiskey
 	Tooltip:
 		'''
-		Increases damage by 4%, knockback by 20% and critical strike chance by 2%
-		Reduces defense by 5%
+		Provides between -15% and 15% damage to the held weapon's class
+		Each class tracks this boost individually
+		This boost lowers the longer you hold weapons of the same class, taking 10 seconds to fully decay
+		This boost recharges when holding weapons of a different class, taking 5 seconds to fully recharge
 		[c/B00BA5:ALCOHOL IS NOT THE ANSWER]
 		'''
 	HoldShiftTooltip: But if you drink enough you might at least forget the question
@@ -279,19 +299,15 @@ WhiteWinePower: {
 	DisplayName: Mystic White Wine
 	Tooltip:
 		'''
-		Increases magic damage by 8%
-		Reduces defense by 6% and life regen by 0.5 HP/s
+		You regain flight time the closer you are to an enemy
+		50% reduced flight time
 		[c/B00BA5:I drank a full barrel of this stuff once in one night, I couldn't remember who I was the next day.]
 		'''
 }
 
 PurpleHazePower: {
 	DisplayName: Purple Haze Power
-	Tooltip:
-		'''
-		8% increased damage, but lowers defense by 5%
-		Increases immune time after being struck
-		'''
+	Tooltip: For 5 seconds after a stealth strike, all damage increased by 25%, but stealth strike damage reduced by 25%
 }
 
 UnlimitedCeaselessHunger: {

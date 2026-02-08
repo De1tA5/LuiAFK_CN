@@ -62,6 +62,15 @@ BuffPanelConfig: {
 	}
 
 	Headers.Cooldown: Cooldowns
+
+	EffigyActivateCooldown: {
+		Label: Effigy Activate Cooldown (sec)
+		Tooltip:
+			'''
+			Effigies will be activated after this cooldown.
+			This setting is shared across all players.
+			'''
+	}
 }
 
 EnvironmentPanelConfig: {

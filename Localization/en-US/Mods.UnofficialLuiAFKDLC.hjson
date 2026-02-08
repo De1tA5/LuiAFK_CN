@@ -90,6 +90,7 @@ UI: {
 	GroupAlcohol: Alcohol Drinks
 	GroupFlask: Weapon Imbue
 	GroupCandle: Candle Effects
+	GroupEffigy: Effigy Effects
 	GroupModdedBuff: Utility Modded Buffs
 	GroupOffensive: Offensive
 	GroupDefensive: Defensive
