@@ -36,8 +36,8 @@ CalamityMod: {
 		HoldShiftTooltip:
 			'''
 			[i:UnofficialLuiAFKDLC/UnlimitedSoaring] - 增加10%飞行时间和水平飞行速度
-			[i:UnofficialLuiAFKDLC/UnlimitedBounding] - 增加5%跳跃速度、25格摔落伤害抗性和跳跃高度
-			[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - 免疫摔落伤害
+			[i:UnofficialLuiAFKDLC/UnlimitedBounding] - 增加5%跳跃速度和20%跳跃高度
+			[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - 获得50%击退抗性
 			'''
 	}
 
@@ -55,9 +55,8 @@ CalamityMod: {
 			[i:UnofficialLuiAFKDLC/FermentedBook] - 一本有关发酵的巨著，能够提升炼金术知识及药水相关增益
 			[i:UnofficialLuiAFKDLC/UnlimitedBloodfin] - 血鳍灵药： 低血量时大幅提升生命恢复速度
 			[i:UnofficialLuiAFKDLC/UnlimitedBaguettePower] - 提供额外的红酒增益
-			[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - 增加生命恢复速度且在白天强化该效果
+			[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - 掉落的红心会回复更多生命值
 			[i:UnofficialLuiAFKDLC/UnlimitedShadow] - 盗贼武器在击中敌人时会生成弹幕并增加潜行值恢复速度
-			[i:UnofficialLuiAFKDLC/UnlimitedTesla] - 在你周围召唤电击并减速敌人的电场
 			[i:UnofficialLuiAFKDLC/UnlimitedMushy] - 增加防御力和生命恢复速度并能让草上生长蘑菇
 			[i:UnofficialLuiAFKDLC/UnlimitedChi] - 获得伤害减免并为你的队伍提供生命再生
 			[i:UnofficialLuiAFKDLC/UnlimitedChaosCandle] - 赋予你[C/F53333:大幅提高]敌怪刷新率和最大刷新量的能力
@@ -85,27 +84,28 @@ CalamityMod: {
 			'''
 		HoldShiftTooltip:
 			'''
-			[i:UnofficialLuiAFKDLC/BloodyMaryPower] - 在血月增加伤害和移动速度，但会降低生命回复和防御力
-			[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - 增加生命回复、移动速度和飞行时间，但使你飘飘若仙并降低防御力
-			[i:UnofficialLuiAFKDLC/CinnamonRollPower] - 增加魔力回复并强化所有火系减益，但会降低你的防御力
-			[i:UnofficialLuiAFKDLC/EverclearPower] - 获得伤害加成，但是降低生命回复和防御力
-			[i:UnofficialLuiAFKDLC/EvergreenGinPower] - 强化所有疫病和水系减益，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/FireballPower] - 强化所有火系减益，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/GrapeBeerPower] - 降低防御力
-			[i:UnofficialLuiAFKDLC/MargaritaPower] - 减半大多数减益的持续时间，但会降低生命回复和防御力
-			[i:UnofficialLuiAFKDLC/MoonshinePower] - 增加防御力和伤害减免，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/MoscowMulePower] - 增加伤害、击退和暴击率，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/OldFashionedPower] - 强化饰品和套装奖励所造成伤害，但会降低所有伤害
-			[i:UnofficialLuiAFKDLC/PurpleHazePower] - 增加伤害并延长受伤后无敌时间，但会降低防御力
-			[i:UnofficialLuiAFKDLC/RedWinePower] - 降低生命回复
-			[i:UnofficialLuiAFKDLC/RumPower] - 增加生命回复和移动速度，但会降低防御力
-			[i:UnofficialLuiAFKDLC/ScrewdriverPower] - 强化穿透类弹幕的伤害，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/StarBeamRyePower] - 增加最大魔力值、魔法伤害并降低魔力消耗，但会降低生命回复和防御力
-			[i:UnofficialLuiAFKDLC/TequilaPower] - 在白天时增加击退、暴击率和防御力，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - 在白天时大幅增加击退、暴击率和防御力，但会降低生命回复
-			[i:UnofficialLuiAFKDLC/VodkaPower] - 增加伤害和暴力率，但会降低生命回复和防御力
-			[i:UnofficialLuiAFKDLC/WhiskeyPower] - 增加伤害、击退和暴力率，但会降低防御力
-			[i:UnofficialLuiAFKDLC/WhiteWinePower] - 增加魔法伤害，但会降低生命回复和防御力
+			[i:UnofficialLuiAFKDLC/BloodyMaryPower] - {$Mods.CalamityMod.Buffs.BloodyMaryBuff.Description}.
+			[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - {$Mods.CalamityMod.Buffs.CaribbeanRumBuff.Description}.
+			[i:UnofficialLuiAFKDLC/CinnamonRollPower] - {$Mods.CalamityMod.Buffs.CinnamonRollBuff.Description}.
+			[i:UnofficialLuiAFKDLC/EverclearPower] - {$Mods.CalamityMod.Buffs.EverclearBuff.Description}.
+			[i:UnofficialLuiAFKDLC/EvergreenGinPower] - {$Mods.CalamityMod.Buffs.EvergreenGinBuff.Description}.
+			[i:UnofficialLuiAFKDLC/FireballPower] - {$Mods.CalamityMod.Buffs.FireballBuff.Description}.
+			[i:UnofficialLuiAFKDLC/GrapeBeerPower] - {$Mods.CalamityMod.Buffs.GrapeBeerBuff.Description}.
+			[i:UnofficialLuiAFKDLC/ManhattanPower] - {$Mods.CalamityMod.Buffs.ManhattanBuff.Description}.
+			[i:UnofficialLuiAFKDLC/MargaritaPower] - {$Mods.CalamityMod.Buffs.MargaritaBuff.Description}.
+			[i:UnofficialLuiAFKDLC/MoonshinePower] - {$Mods.CalamityMod.Buffs.MoonshineBuff.Description}.
+			[i:UnofficialLuiAFKDLC/MoscowMulePower] - {$Mods.CalamityMod.Buffs.MoscowMuleBuff.Description}.
+			[i:UnofficialLuiAFKDLC/OldFashionedPower] - {$Mods.CalamityMod.Buffs.OldFashionedBuff.Description}.
+			[i:UnofficialLuiAFKDLC/PurpleHazePower] - {$Mods.CalamityMod.Buffs.PurpleHazeBuff.Description}.
+			[i:UnofficialLuiAFKDLC/RedWinePower] - {$Mods.CalamityMod.Buffs.RedWineBuff.Description}.
+			[i:UnofficialLuiAFKDLC/RumPower] - {$Mods.CalamityMod.Buffs.RumBuff.Description}.
+			[i:UnofficialLuiAFKDLC/ScrewdriverPower] - {$Mods.CalamityMod.Buffs.ScrewdriverBuff.Description}.
+			[i:UnofficialLuiAFKDLC/StarBeamRyePower] - {$Mods.CalamityMod.Buffs.StarBeamRyeBuff.Description}.
+			[i:UnofficialLuiAFKDLC/TequilaPower] - {$Mods.CalamityMod.Buffs.TequilaBuff.Description}.
+			[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - {$Mods.CalamityMod.Buffs.TequilaSunriseBuff.Description}.
+			[i:UnofficialLuiAFKDLC/VodkaPower] - {$Mods.CalamityMod.Buffs.VodkaBuff.Description}.
+			[i:UnofficialLuiAFKDLC/WhiskeyPower] - {$Mods.CalamityMod.Buffs.WhiskeyBuff.Description}.
+			[i:UnofficialLuiAFKDLC/WhiteWinePower] - {$Mods.CalamityMod.Buffs.WhiteWineBuff.Description}.
 			[c/B00BA5:只允许3种酒类被同时启用，你的选择最好明智点]
 			'''
 	}

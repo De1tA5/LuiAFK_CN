@@ -90,6 +90,7 @@ UI: {
 	GroupAlcohol: 酒类
 	GroupFlask: 武器灌注
 	GroupCandle: 蜡烛效果
+	GroupEffigy: 雕像效果
 	GroupModdedBuff: 模组Buff
 	GroupOffensive: 攻击类
 	GroupDefensive: 防御类
