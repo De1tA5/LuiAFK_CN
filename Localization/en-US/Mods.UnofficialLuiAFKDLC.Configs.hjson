@@ -85,11 +85,11 @@ EnvironmentPanelConfig: {
 			'''
 	}
 
-	TimeControlActivateCooldown: {
-		Label: Time Control Activate Cooldown (sec)
+	TimeJumpActivateCooldown: {
+		Label: Time Jump Activate Cooldown (sec)
 		Tooltip:
 			'''
-			You can cancel the Time Control during the cooldown.
+			You can cancel the Time Jump during the cooldown.
 			This setting is independent of other players.
 			'''
 	}

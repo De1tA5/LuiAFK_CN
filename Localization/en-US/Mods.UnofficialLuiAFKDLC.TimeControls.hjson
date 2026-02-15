@@ -17,3 +17,30 @@ JumpMidnight: {
 	DisplayName: Midnight
 	Description: Jump to midnight (12:00 AM)
 }
+
+TimeFreeze: {
+	DisplayName: Time Freeze
+	Description:
+		'''
+		Freeze the time indefinitely
+		This power works the same as Journey mode time freeze
+		'''
+}
+
+TimeFaster2: {
+	DisplayName: Time x24
+	Description:
+		'''
+		Speed up time by 24 times
+		This is the same speed as sleeping in a bed
+		'''
+}
+
+TimeFaster3: {
+	DisplayName: Time x120
+	Description:
+		'''
+		Speed up time by 120 times
+		This is the same speed as [i:CalamityMod/Cosmolight] Cosmolight
+		'''
+}

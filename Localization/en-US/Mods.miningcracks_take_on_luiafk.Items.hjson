@@ -1,7 +1,7 @@
 EventsEnabler: {
-	Tooltip:
+	AlternateTooltip:
 		'''
-		Right-click me to open LuiAFK-style event panel
+		Right-click to open LuiAFK-style event panel
 		Can toggle Halloween, X-Mas, Rain and Sandstorm
 		Place in inventory for LuiAFK DLC-style toggles
 		LuiAFK DLC-style toggles contain Lantern Night and Party additionally
@@ -10,17 +10,17 @@ EventsEnabler: {
 }
 
 HalloweenEnable: {
-	Tooltip: Place in inventory for LuiAFK DLC-style toggle for Halloween
+	AlternateTooltip: Place in inventory for LuiAFK DLC-style toggle for Halloween
 	PowerEffectHint: True
 }
 
 HalloweenXmasEnable: {
-	Tooltip: Place in inventory for LuiAFK DLC-style toggles for Halloween and X-Mas
+	AlternateTooltip: Place in inventory for LuiAFK DLC-style toggles for Halloween and X-Mas
 	PowerEffectHint: True
 }
 
 RainEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start or end rain
 		Place in inventory for LuiAFK DLC-style toggle for rain
@@ -29,7 +29,7 @@ RainEnable: {
 }
 
 SandstormEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start or end sandstorm
 		Place in inventory for LuiAFK DLC-style toggle for sandstorm
@@ -38,12 +38,12 @@ SandstormEnable: {
 }
 
 XMasEnable: {
-	Tooltip: Place in inventory for LuiAFK DLC-style toggle for X-Mas
+	AlternateTooltip: Place in inventory for LuiAFK DLC-style toggle for X-Mas
 	PowerEffectHint: True
 }
 
 BloodMoonEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start or end Blood Moon during the night
 		Place in inventory for LuiAFK DLC-style toggle for Blood Moon
@@ -52,7 +52,7 @@ BloodMoonEnable: {
 }
 
 FrostLegionEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Frost Legion instantly
 		Place in inventory for LuiAFK DLC-style toggle for Frost Legion
@@ -61,7 +61,7 @@ FrostLegionEnable: {
 }
 
 FrostMoonEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Frost Moon during the night
 		Place in inventory for LuiAFK DLC-style toggle for Frost Moon
@@ -70,7 +70,7 @@ FrostMoonEnable: {
 }
 
 GoblinArmyEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Goblin Army instantly
 		Place in inventory for LuiAFK DLC-style toggle for Goblin Army
@@ -79,7 +79,7 @@ GoblinArmyEnable: {
 }
 
 MartianMadnessEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Martian Madness instantly
 		Place in inventory for LuiAFK DLC-style toggle for Martian Madness
@@ -88,7 +88,7 @@ MartianMadnessEnable: {
 }
 
 PirateEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Pirate Invasion instantly
 		Place in inventory for LuiAFK DLC-style toggle for Pirate Invasion
@@ -97,7 +97,7 @@ PirateEnable: {
 }
 
 PumpkinMoonEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Pumpkin Moon during the night
 		Place in inventory for LuiAFK DLC-style toggle for Pumpkin Moon
@@ -106,7 +106,7 @@ PumpkinMoonEnable: {
 }
 
 SolarEclipseEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to start Solar Eclipse during the day
 		Place in inventory for LuiAFK DLC-style toggle for Solar Eclipse
@@ -115,7 +115,7 @@ SolarEclipseEnable: {
 }
 
 TimeChanger: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		Use this item to jump to the next dawn or dusk
 		Place in inventory for LuiAFK DLC-style time jumpers to dawn, noon, dusk and midnight
@@ -187,29 +187,44 @@ UnlimitedDefense.HoldShiftTooltip:
 	[i:miningcracks_take_on_luiafk/UnlimitedWarmth] - {$BuffDescription.Warmth}
 	[i:miningcracks_take_on_luiafk/UnlimitedEndurance] - {$BuffDescription.Endurance}
 	'''
-UnlimitedTravel.HoldShiftTooltip:
-	'''
-	[i:miningcracks_take_on_luiafk/UnlimitedWormhole] - Allows you to teleport to a friend via Effect Manager
-	[i:miningcracks_take_on_luiafk/UnlimitedReturn] - Allows you to teleport to your bed or world spawn point via Effect Manager
-	       Allows you to teleport to your last death point via Effect Manager
-	       All teleports inside Effect Manager create a return portal
-	'''
-UnlimitedTeleportation.HoldShiftTooltip:
-	'''
-	[i:miningcracks_take_on_luiafk/UnlimitedTeleportation] - Allows you to teleport to a random location via Effect Manager
-	       All teleports inside Effect Manager create a return portal
-	'''
-UnlimitedWormhole.HoldShiftTooltip:
-	'''
-	[i:miningcracks_take_on_luiafk/UnlimitedWormhole] - Allows you to teleport to a friend via Effect Manager
-	       All teleports inside Effect Manager create a return portal
-	'''
-UnlimitedReturn.HoldShiftTooltip:
-	'''
-	[i:miningcracks_take_on_luiafk/UnlimitedReturn] - Allows you to teleport to your bed or world spawn point via Effect Manager
-	       Allows you to teleport to your last death point via Effect Manager
-	       All teleports inside Effect Manager create a return portal
-	'''
+
+UnlimitedTravel: {
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/UnlimitedWormhole] - Allows you to teleport to a friend via Effect Manager
+		[i:miningcracks_take_on_luiafk/UnlimitedReturn] - Allows you to teleport to your bed or world spawn point via Effect Manager
+		       Allows you to teleport to your last death point via Effect Manager
+		       Allows all teleports inside Effect Manager to create a return portal
+		'''
+	AlternateTooltip:
+		'''
+		Never miss your friends again.
+		Press <[c/1dc2d1:[RECALL]]> to teleport you to your spawn point.
+		Press <[c/1dc2d1:[RETURN]]> to teleport you to the exit of your return portal.
+		'''
+	HasHotkey: True
+}
+
+UnlimitedTeleportation.HoldShiftTooltip: "[i:miningcracks_take_on_luiafk/UnlimitedTeleportation] - Allows you to teleport to a random location via Effect Manager"
+UnlimitedWormhole.HoldShiftTooltip: "[i:miningcracks_take_on_luiafk/UnlimitedWormhole] - Allows you to teleport to a friend via Effect Manager"
+
+UnlimitedRecall: {
+	HoldShiftTooltip: "[i:miningcracks_take_on_luiafk/UnlimitedRecall] - Allows you to teleport to your bed or world spawn point via Effect Manager"
+	AlternateTooltip: Press <[c/1dc2d1:[RECALL]]> to teleport you to your spawn point.
+	HasHotkey: True
+}
+
+UnlimitedReturn: {
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/UnlimitedReturn] - Allows you to teleport to your bed or world spawn point via Effect Manager
+		       Allows you to teleport to your last death point via Effect Manager
+		       Allows all teleports inside Effect Manager to create a return portal
+		'''
+	AlternateTooltip: Press <[c/1dc2d1:[RETURN]]> to teleport you to the exit of your return portal.
+	HasHotkey: True
+}
+
 UnlimitedEverything.HoldShiftTooltip:
 	'''
 	{$UnlimitedExplorer.HoldShiftTooltip}
@@ -291,6 +306,11 @@ UnlimitedSwimming.HoldShiftTooltip:
 	[i:miningcracks_take_on_luiafk/UnlimitedGills] - {$BuffDescription.Gills}
 	[i:miningcracks_take_on_luiafk/UnlimitedWaterWalking] - {$BuffDescription.WaterWalking}
 	[i:miningcracks_take_on_luiafk/UnlimitedFlipper] - {$BuffDescription.Flipper}
+	'''
+UnlimitedTipsy.AlternateTooltipCalamityMod:
+	'''
+	Increases melee weapon scale by 15%, but decreases melee speed by 10%
+	[c/B00BA5:Larger strides, slower steps.]
 	'''
 Paper.HoldShiftTooltip:
 	'''

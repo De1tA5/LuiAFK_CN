@@ -316,5 +316,5 @@ WarTotem: {
 		[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - Allows you to toggle Solar Eclipse
 		[i:UnofficialLuiAFKDLC/SlimyTear] - Allows you to toggle Slime Rain
 		'''
-	HoldShiftTooltipCalamityMod: "[i:CalamityMod/CausticTear] - Allows you to toggle Acid Rain"
+	HoldShiftTooltipCalamityMod: "[i:UnofficialLuiAFKDLC/CausticCloud] - Allows you to toggle Acid Rain"
 }

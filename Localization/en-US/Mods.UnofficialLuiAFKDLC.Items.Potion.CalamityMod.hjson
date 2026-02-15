@@ -238,10 +238,8 @@ StarBeamRyePower: {
 	DisplayName: Cosmic Star Beam Rye
 	Tooltip:
 		'''
-		Disables natural mana regeneration
-		Mana regenerates at a fixed rate, even while using an item
-		Magic weapons deal increased damage based on how quickly they consume mana
-		This does not work while inflicted with Mana Sickness
+		Increases Mana regeneration, even while using an item
+		Magic weapons deal 0.9x damage
 		[c/B00BA5:Don't worry, it's safe, trust me...]
 		'''
 }
@@ -265,12 +263,6 @@ TequilaSunrisePower: {
 		[c/B00BA5:Makes people more attractive during daytime.]
 		'''
 }
-
-TipsyPower.AlternateTooltip:
-	'''
-	Increases melee weapon scale by 15%, but decreases melee speed by 10%
-	[c/B00BA5:Larger strides, slower steps.]
-	'''
 
 VodkaPower: {
 	DisplayName: Versatile Vodka

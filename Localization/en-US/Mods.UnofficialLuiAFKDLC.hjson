@@ -68,8 +68,9 @@ FishingRod: {
 
 CommonTooltips: {
 	PiggyWork: "[c/7a7a7a:Works inside] : [i:PiggyBank] [i:Safe] [i:DefendersForge]"
-	CheckPanel: Press <[c/dc810d:[KEY]]> for effect management.
+	CheckPanel: Press <[c/dc810d:[PANEL]]> for effect management.
 	HoldShiftHint: "[c/7a7a7a:Press <SHIFT> for more information.]"
+	MissingKeybind: <[c/7a7a7a:None]>
 }
 
 UI: {
@@ -99,7 +100,8 @@ UI: {
 	GroupSpawnBlock: Entity Control
 	GroupWorldEvent: World Events
 	GroupFightEvent: Invasions
-	GroupTimeControl: Time
+	GroupTimeJump: Time Jump
+	GroupTimeSpeed: Time Speed
 	GroupDestination: World Destinations
 	GroupPersonalDestination: Personal Destinations
 	GroupFriend: Friends

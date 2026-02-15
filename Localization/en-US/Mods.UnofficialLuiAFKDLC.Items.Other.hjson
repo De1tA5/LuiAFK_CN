@@ -44,14 +44,4 @@ CalamityMod: {
 			[c/19226e:'Wield the cosmic essence of Xeroc, transcending the boundaries of time and space.']
 			'''
 	}
-
-	BucketOfCausticTears: {
-		DisplayName: Bucket of Caustic Tears
-		Tooltip: "[i:UnofficialLuiAFKDLC/BucketOfCausticTears] - Toggles on/off the Acid Rain."
-		HoldShiftTooltip:
-			'''
-			[c/85b431:Unleash a relentless downpour of acidic torment upon your foes.]
-			[c/52556b:'Though it is not a bottomless acid bucket, it holds enough to drown the world in suffering.']
-			'''
-	}
 }

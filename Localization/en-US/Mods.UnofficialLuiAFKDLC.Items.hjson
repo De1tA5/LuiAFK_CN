@@ -162,3 +162,21 @@ FakeItems: {
 		Tooltip: ""
 	}
 }
+
+CausticCloud: {
+	DisplayName: Caustic Cloud
+	Tooltip:
+		'''
+		Provides you the power to toggle Acid Rain fight event
+		Acid Rain requires rain to be active and ends naturally when rain stops if unlocked
+		'''
+}
+
+TimeController: {
+	DisplayName: Time Controller
+	Tooltip:
+		'''
+		Grants you the power to jump to dawn, noon, dusk or midnight
+		Grants you the power to freeze or speed up time
+		'''
+}
