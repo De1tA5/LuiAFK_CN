@@ -44,14 +44,4 @@ CalamityMod: {
 			[c/19226e:“握旧神之伟力，越时空之界线”]
 			'''
 	}
-
-	BucketOfCausticTears: {
-		DisplayName: 桶装酸泪
-		Tooltip: "[i:UnofficialLuiAFKDLC/BucketOfCausticTears] - 切换启用/禁用酸雨事件"
-		HoldShiftTooltip:
-			'''
-			[c/85b431:向你的敌人释加无情的酸性折磨]
-			[c/52556b:“虽然这不是一个无底酸液桶，但也足以让世界淹没于痛苦中”]
-			'''
-	}
 }

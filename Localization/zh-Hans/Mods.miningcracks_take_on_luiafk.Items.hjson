@@ -1,124 +1,124 @@
 EventsEnabler: {
-	Tooltip:
+	AlternateTooltip:
 		'''
-		右键使用打开基本菜单
+		右键使用打开基本面板
 		可切换万圣节、圣诞节、雨和沙尘暴
-		放置于物品栏时，可以打开管理菜单
-		管理菜单中包含灯笼夜和派对
+		放置于物品栏时，可以打开管理面板
+		管理面板中包含灯笼夜和派对
 		'''
 	PowerEffectHint: True
 }
 
 HalloweenEnable: {
-	Tooltip:  放置于物品栏时，可以打开管理菜单开始万圣节
+	AlternateTooltip:  放置于物品栏时，可以打开管理面板开始万圣节
 	PowerEffectHint: True
 }
 
 HalloweenXmasEnable: {
-	Tooltip: 放置于物品栏时，可以打开管理菜单开始万圣节和圣诞节
+	AlternateTooltip: 放置于物品栏时，可以打开管理面板开始万圣节和圣诞节
 	PowerEffectHint: True
 }
 
 RainEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		开始或结束降雨
-		放置于物品栏时，可以打开管理菜单召唤雨
+		放置于物品栏时，可以打开管理面板召唤雨
 		'''
 	PowerEffectHint: True
 }
 
 SandstormEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		开始或结束沙尘暴
-		放置于物品栏时，可以打开管理菜单召唤沙尘暴
+		放置于物品栏时，可以打开管理面板召唤沙尘暴
 		'''
 	PowerEffectHint: True
 }
 
 XMasEnable: {
-	Tooltip: 放置于物品栏时，可以打开管理菜单开始圣诞节
+	AlternateTooltip: 放置于物品栏时，可以打开管理面板开始圣诞节
 	PowerEffectHint: True
 }
 
 BloodMoonEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		在夜晚开始或结束血夜
-		放置于物品栏时，可以打开管理菜单召唤血月
+		放置于物品栏时，可以打开管理面板召唤血月
 		'''
 	PowerEffectHint: True
 }
 
 FrostLegionEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		跳过等待立刻开始雪人军团
-		放置于物品栏时，可以打开管理菜单召唤雪人军团
+		放置于物品栏时，可以打开管理面板召唤雪人军团
 		'''
 	PowerEffectHint: True
 }
 
 FrostMoonEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		在夜晚开始或结束霜月
-		放置于物品栏时，可以打开管理菜单召唤霜月
+		放置于物品栏时，可以打开管理面板召唤霜月
 		'''
 	PowerEffectHint: True
 }
 
 GoblinArmyEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		跳过等待立刻开始哥布林军队
-		放置于物品栏时，可以打开管理菜单召唤哥布林军队
+		放置于物品栏时，可以打开管理面板召唤哥布林军队
 		'''
 	PowerEffectHint: True
 }
 
 MartianMadnessEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		跳过等待立刻开始火星暴乱
-		放置于物品栏时，可以打开管理菜单召唤火星暴乱
+		放置于物品栏时，可以打开管理面板召唤火星暴乱
 		'''
 	PowerEffectHint: True
 }
 
 PirateEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		跳过等待立刻开始海盗入侵
-		放置于物品栏时，可以打开管理菜单召唤海盗入侵
+		放置于物品栏时，可以打开管理面板召唤海盗入侵
 		'''
 	PowerEffectHint: True
 }
 
 PumpkinMoonEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		在夜晚开始或结束南瓜月
-		放置于物品栏时，可以打开管理菜单召唤南瓜月
+		放置于物品栏时，可以打开管理面板召唤南瓜月
 		'''
 	PowerEffectHint: True
 }
 
 SolarEclipseEnable: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		在白天开始或结束日食
-		放置于物品栏时，可以打开管理菜单召唤日食
+		放置于物品栏时，可以打开管理面板召唤日食
 		'''
 	PowerEffectHint: True
 }
 
 TimeChanger: {
-	Tooltip:
+	AlternateTooltip:
 		'''
 		时间跳跃至黎明或黄昏
-		放置于物品栏时，可以打开管理菜单切换时间为黎明、正午、黄昏和午夜
+		放置于物品栏时，可以打开管理面板切换时间为黎明、正午、黄昏和午夜
 		'''
 	PowerEffectHint: True
 }
@@ -187,6 +187,44 @@ UnlimitedDefense.HoldShiftTooltip:
 	[i:miningcracks_take_on_luiafk/UnlimitedWarmth] - {$BuffDescription.Warmth}
 	[i:miningcracks_take_on_luiafk/UnlimitedEndurance] - {$BuffDescription.Endurance}
 	'''
+
+UnlimitedTravel: {
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/UnlimitedWormhole] - 允许你通过管理面板传送你至朋友
+		[i:miningcracks_take_on_luiafk/UnlimitedReturn] - 允许你通过管理面板将你传送至你的床或世界生成点
+		       允许你通过管理面板将你传送至最后死亡点
+		       允许管理面板内所有传送均可以创建返回传送门
+		'''
+	AlternateTooltip:
+		'''
+		再也不会和你的朋友走失了
+		按下<[c/1dc2d1:[RECALL]]>传送你至出生点
+		按下<[c/1dc2d1:[RETURN]]>传送你至返回的传送门
+		'''
+	HasHotkey: True
+}
+
+UnlimitedTeleportation.HoldShiftTooltip: "[i:miningcracks_take_on_luiafk/UnlimitedTeleportation] - 允许你通过管理面板将你传送至随机位置"
+UnlimitedWormhole.HoldShiftTooltip: "[i:miningcracks_take_on_luiafk/UnlimitedWormhole] - 允许你通过管理面板传送你至朋友"
+
+UnlimitedRecall: {
+	HoldShiftTooltip: "[i:miningcracks_take_on_luiafk/UnlimitedRecall] - 允许你通过管理面板将你传送至你的床或世界生成点"
+	AlternateTooltip: 按下<[c/1dc2d1:[RECALL]]>传送你至出生点
+	HasHotkey: True
+}
+
+UnlimitedReturn: {
+	HoldShiftTooltip:
+		'''
+		[i:miningcracks_take_on_luiafk/UnlimitedReturn] - 允许你通过管理面板将你传送至你的床或世界生成点
+		       允许你通过管理面板将你传送至最后死亡点
+		       允许管理面板内所有传送均可以创建返回传送门
+		'''
+	AlternateTooltip: 按下<[c/1dc2d1:[RETURN]]>传送你至返回传送门
+	HasHotkey: True
+}
+
 UnlimitedEverything.HoldShiftTooltip:
 	'''
 	{$UnlimitedExplorer.HoldShiftTooltip}
@@ -229,8 +267,8 @@ UnlimitedGathering.HoldShiftTooltip:
 UnlimitedLucky.HoldShiftTooltip:
 	'''
 	[i:miningcracks_take_on_luiafk/UnlimitedLuck] - {$BuffDescription.Lucky}
-	[i:miningcracks_take_on_luiafk/UnlimitedGnome] - {$Buffs.FakeGnomeBuff.Description}
-	[i:miningcracks_take_on_luiafk/UnlimitedLadybug] - {$Buffs.FakeLadybugBuff.Description}
+	[i:miningcracks_take_on_luiafk/UnlimitedGnome] - {$Mods.UnofficialLuiAFKDLC.Buffs.FakeGnomeBuff.Description}
+	[i:miningcracks_take_on_luiafk/UnlimitedLadybug] - {$Mods.UnofficialLuiAFKDLC.Buffs.FakeLadybugBuff.Description}
 	[i:miningcracks_take_on_luiafk/UnlimitedTorches] - 永远用不完的火把运气
 	'''
 UnlimitedMagic.HoldShiftTooltip:
@@ -268,6 +306,11 @@ UnlimitedSwimming.HoldShiftTooltip:
 	[i:miningcracks_take_on_luiafk/UnlimitedGills] - {$BuffDescription.Gills}
 	[i:miningcracks_take_on_luiafk/UnlimitedWaterWalking] - {$BuffDescription.WaterWalking}
 	[i:miningcracks_take_on_luiafk/UnlimitedFlipper] - {$BuffDescription.Flipper}
+	'''
+UnlimitedTipsy.AlternateTooltipCalamityMod:
+	'''
+	增加15%近战武器尺寸，但降低10%近战速度
+	[c/B00BA5:迈大步，慢点走]
 	'''
 Paper.HoldShiftTooltip:
 	'''

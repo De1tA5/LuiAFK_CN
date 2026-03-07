@@ -166,3 +166,21 @@ FakeItems: {
 		Tooltip: 你不该看到的
 	}
 }
+
+CausticCloud: {
+	DisplayName: 酸蚀雨云
+	Tooltip:
+		'''
+		使你获得能够切换酸雨事件的能力
+		若已解锁酸雨事件，则酸雨需要下雨且会在雨停时自然结束
+		'''
+}
+
+TimeController: {
+	DisplayName: 时间操纵器
+	Tooltip:
+		'''
+		使你获得时间跳跃至黎明、正午、黄昏或午夜的能力
+		使你获得冻结时间或加速时间的能力
+		'''
+}

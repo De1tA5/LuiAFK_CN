@@ -68,8 +68,9 @@ FishingRod: {
 
 CommonTooltips: {
 	PiggyWork: "[c/7a7a7a:在：] [i:PiggyBank] [i:Safe] [i:DefendersForge] [c/7a7a7a:中也生效]"
-	CheckPanel: 按下 <[c/dc810d:[KEY]]> 打开管理面板
+	CheckPanel: 按下 <[c/dc810d:[PANEL]]> 打开管理面板
 	HoldShiftHint: "[c/7a7a7a:按下 <SHIFT> 查看更多信息]"
+	MissingKeybind: <[c/7a7a7a:未绑定]>
 }
 
 UI: {
@@ -99,7 +100,8 @@ UI: {
 	GroupSpawnBlock: 生成控制
 	GroupWorldEvent: 事件
 	GroupFightEvent: 入侵
-	GroupTimeControl: 时间
+	GroupTimeJump: 时间跳跃
+	GroupTimeSpeed: 时间流速
 	GroupDestination: 世界目的地
 	GroupPersonalDestination: 个人目的地
 	GroupFriend: 队友

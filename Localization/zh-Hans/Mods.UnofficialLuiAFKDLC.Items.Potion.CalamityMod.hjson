@@ -240,10 +240,8 @@ StarBeamRyePower: {
 	DisplayName: 宇宙星界黑麦威士忌
 	Tooltip:
 		'''
-		禁用自然魔力再生
-		即便是在使用物品，魔力也以固定的速率再生
-		魔法武器造成的伤害会基于其消耗魔力的速度增加
-		受魔力疾病影响时不生效
+		增加魔力再生，即使在使用物品时也是如此
+		魔法武器的伤害乘0.9
 		[c/B00BA5:哈哈别担心，它很安全，相信我……]
 		'''
 }
@@ -267,12 +265,6 @@ TequilaSunrisePower: {
 		[c/B00BA5:使人在白天更有魅力]
 		'''
 }
-
-TipsyPower.AlternateTooltip:
-	'''
-	增加15%近战武器尺寸，但降低10%近战速度
-	[c/B00BA5:迈大步，慢点走]
-	'''
 
 VodkaPower: {
 	DisplayName: 万能伏特加

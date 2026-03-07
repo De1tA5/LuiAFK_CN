@@ -17,3 +17,30 @@ JumpMidnight: {
 	DisplayName: 午夜
 	Description: 时间跳转到午夜 （下午 12:00）
 }
+
+TimeFreeze: {
+	DisplayName: 时间冻结
+	Description:
+		'''
+		永久冻结时间
+		运行模式和旅行模式的时间冻结效果相同
+		'''
+}
+
+TimeFaster2: {
+	DisplayName: 时间流速 x24
+	Description:
+		'''
+		时间流速加快至24倍
+		和在床上睡觉的时间流速相同
+		'''
+}
+
+TimeFaster3: {
+	DisplayName: 时间流速 x120
+	Description:
+		'''
+		时间流速加快至120倍
+		和[i:CalamityMod/Cosmolight]宇宙之光的时间流速相同
+		'''
+}

@@ -81,16 +81,16 @@ EnvironmentPanelConfig: {
 		Label: 战斗事件激活冷却时间（秒）
 		Tooltip:
 			'''
-			你可以在冷却时间内取消战斗事件
+			你可以在冷却时间内取消此次战斗事件
 			此设置独立于其他玩家
 			'''
 	}
 
-	TimeControlActivateCooldown: {
-		Label: 时间控制激活冷却时间（秒）
+	TimeJumpActivateCooldown: {
+		Label: 时间跳跃激活冷却时间（秒）
 		Tooltip:
 			'''
-			你可以在冷却时间内取消对时间调整
+			你可以在冷却时间内取消此次时间跳跃
 			此设置独立于其他玩家
 			'''
 	}
@@ -100,12 +100,12 @@ EnvironmentPanelConfig: {
 
 TeleportPanelConfig: {
 	DisplayName: 传送面板设置
-	
+
 	DestinationTeleportCooldown: {
 		Label: 目的地传送冷却时间（秒）
 		Tooltip:
 			'''
-			你可以在冷却时间内取消传送
+			你可以在冷却时间内取消此次传送
 			此设置独立于其他玩家
 			'''
 	}
@@ -114,7 +114,7 @@ TeleportPanelConfig: {
 		Label: 个人目的地传送冷却时间（秒）
 		Tooltip:
 			'''
-			你可以在冷却时间内取消传送
+			你可以在冷却时间内取消此次传送
 			此设置独立于其他玩家
 			'''
 	}
@@ -123,7 +123,7 @@ TeleportPanelConfig: {
 		Label: 好友传送冷却时间（秒）
 		Tooltip:
 			'''
-			你可以在冷却时间内取消传送
+			你可以在冷却时间内取消此次传送
 			此设置独立于其他玩家
 			'''
 	}

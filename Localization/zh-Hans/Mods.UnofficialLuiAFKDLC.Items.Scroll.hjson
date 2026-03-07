@@ -4,7 +4,7 @@ CalamityMod: {
 		Tooltip:
 			'''
 			拥有所有雕像力量的卷轴
-			[c/FF6347:“话说这真的是纸吗？！”]
+			[c/FF6347:“话说这真的是纸做的吗？！”]
 			'''
 		HoldShiftTooltip:
 			'''
@@ -319,5 +319,5 @@ WarTotem: {
 		[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - 允许你切换 日食
 		[i:UnofficialLuiAFKDLC/SlimyTear] - 允许你切换 史莱姆雨
 		'''
-	HoldShiftTooltipCalamityMod: "[i:CalamityMod/CausticTear] - 允许你切换 酸雨"
+	HoldShiftTooltipCalamityMod: "[i:UnofficialLuiAFKDLC/CausticCloud] - 允许你切换 酸雨"
 }
