@@ -38,6 +38,16 @@ UnofficialLuiAFKDLCClientConfig: {
 		Label: Checklist Mode
 		Tooltip: ""
 	}
+
+	EffectManagerLeft: {
+		Label: Effect Manager Left Edge
+		Tooltip: Displayed as ratio in screen
+	}
+
+	EffectManagerTop: {
+		Label: Effect Manager Top Edge
+		Tooltip: Displayed as ratio in screen
+	}
 }
 
 BuffPanelConfig: {
