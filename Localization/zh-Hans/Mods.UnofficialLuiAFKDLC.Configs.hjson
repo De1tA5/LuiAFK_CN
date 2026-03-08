@@ -39,6 +39,24 @@ UnofficialLuiAFKDLCClientConfig: {
 		Label: 清单模式
 		Tooltip: ""
 	}
+
+	EffectManagerLeft: {
+		Label: 管理面板左边距位置
+		Tooltip:
+			''' 
+			在屏幕上显示位置的比例
+			数值越小，面板越靠左
+			'''
+	}
+
+	EffectManagerTop: {
+		Label: 管理面板上边距位置
+		Tooltip:
+			''' 
+			在屏幕上显示位置的比例
+			数值越小，面板越靠上
+			'''
+	}
 }
 
 BuffPanelConfig: {
